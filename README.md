@@ -6,7 +6,7 @@ The completed server will aim to have the game fully operational, including mult
 
 It should be noted that this is a rewrite of my first attempt
 
-The uploaded code will NOT have game assets from Sega's servers. There will be an asset scraper in the tools folder eventually.
+The uploaded code will NOT have game assets from Sega's servers. There is an asset scraper however.
 
 ## Instructions
 Make sure you have nodejs installed (https://nodejs.org/en/download/).
@@ -24,7 +24,7 @@ Run <code>npm run server</code> to run the server.
 Run <code>npm run proxy</code> to run the proxy. Please note that for some reason it tends to ignore the port and use it's own. So make sure to run it AFTER starting the server to make sure that the game server's port isnt used. The port it uses will be displayed in the terminal window.
 
 # If you use an Android phone:
-Install the modded APK onto your phone (available in the releases zip).
+Install the modded APK onto your phone (available in the releases zip soon).
 
 Make sure your phone is on the same network as your pc (or whatever is hosting the proxy and game server).
 

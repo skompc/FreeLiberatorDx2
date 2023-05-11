@@ -8,6 +8,7 @@ const fs = require("fs");
 const { GetUrl } = require("./socialsv/common/GetUrl.do");
 const { LoadInfo } = require("./socialsv/LoadInfo.do");
 const { Title } = require("./socialsv/Title.do");
+const { RegistAccount } = require("./socialsv/RegistAccount.do");
 
 // Asset Server
 const server = http.createServer((req, res) => {
@@ -46,3 +47,5 @@ app.get("/socialsv/common/GetUrl.do", (req, res) => GetUrl(req, res));
 app.get("/socialsv/LoadInfo.do", (req, res) => LoadInfo(req, res));
 
 app.get("/socialsv/Title.do", (req, res) => Title(req, res));
+
+app.get("/socialsv/RegistAccount.do", (req, res) => RegistAccount(req, res));
