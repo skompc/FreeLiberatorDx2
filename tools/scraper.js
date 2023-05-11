@@ -38,13 +38,17 @@ async function downloadFile(dir, baseUrl, filename) {
   for (const line of lines) {
     const words = line.trim().split(' ');
     const firstWord = words[0];
-    const url = baseUrl + "assets/" + firstWord;
-    const response = await axios.get(url, { responseType: 'arraybuffer' });
-    const fileContents = response.data;
     const filePath = path.join(dir, `assets/${firstWord}`);
 
-    fs.writeFileSync(filePath, fileContents);
-    console.log(`Downloaded ${url} to ${filePath}`);
+    if (fs.existsSync(filePath)) {
+      console.log(`${filePath} already exists, skipping download`);
+    } else {
+      const url = baseUrl + "assets/" + firstWord;
+      const response = await axios.get(url, { responseType: 'arraybuffer' });
+      const fileContents = response.data;
+      fs.writeFileSync(filePath, fileContents);
+      console.log(`Downloaded ${url} to ${filePath}`);
+    }
   }
 }
 
