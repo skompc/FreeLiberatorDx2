@@ -33,21 +33,25 @@ async function downloadFile(dir, baseUrl, filename) {
   fs.writeFileSync(filePath0, data);
   console.log(`Downloaded ${filename} to ${filePath0}`);
 
-  const lines = data.replace(/\t/g, ' ').trim().split('\n');
+  const lines = data.replace(/\t/g, '|').trim().split('\n');
   lines.shift();
   for (const line of lines) {
-    const words = line.trim().split(' ');
+    const words = line.trim().split('|');
     const firstWord = words[0];
     const filePath = path.join(dir, `assets/${firstWord}`);
 
     if (fs.existsSync(filePath)) {
       console.log(`${filePath} already exists, skipping download`);
     } else {
-      const url = baseUrl + "assets/" + firstWord;
-      const response = await axios.get(url, { responseType: 'arraybuffer' });
-      const fileContents = response.data;
-      fs.writeFileSync(filePath, fileContents);
-      console.log(`Downloaded ${url} to ${filePath}`);
+        if (firstWord != "[EOF]"){
+        const url = baseUrl + "assets/" + firstWord;
+        const response = await axios.get(url, { responseType: 'arraybuffer' });
+        const fileContents = response.data;
+        fs.writeFileSync(filePath, fileContents);
+        console.log(`Downloaded ${url} to ${filePath}`);
+      } else {
+        console.log("Done downloading all files!")
+      }
     }
   }
 }
