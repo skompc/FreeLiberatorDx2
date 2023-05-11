@@ -1,6 +1,6 @@
 This is my WIP private server for Shin Megami Tensei:Dx2
 
-Follow along on my dev journey at [insert youtube link here when done]!
+Follow along on my dev journey at https://www.youtube.com/watch?v=yyznmOjwHMI&list=PLV4ay6xrx8nRm06QnXDBUYqTn3Xk_-wdr
 
 The completed server will aim to have the game fully operational, including multiplayer components
 
