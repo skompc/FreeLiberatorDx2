@@ -11,6 +11,8 @@ The uploaded code will NOT have game assets from Sega's servers. There will be a
 ## Instructions
 Make sure you have nodejs installed (https://nodejs.org/en/download/).
 
+Also make sure you have ADB installed (google it).
+
 Run <code>git clone https://github.com/skompc/FreeLiberatorDx2.git</code> to copy this repo to your pc.
 
 Run <code>npm install</code> to install dependencies.
@@ -37,7 +39,7 @@ Run the game!
 # If you use an android emulator:
 Install the modded apk onto the emulator (methods vary)
     
-Run "adb devices" (available in the releases)
+Run "adb devices"
 
 It should return something like:
 
@@ -54,7 +56,7 @@ For example, if my PC is on IP 192.168.0.136 and my proxy is on port 8001, then 
 
 Visit <code>cert.pem/certs/index.html</code> and click download.
 
-Install the certificate through your phone's settings as a CA certificat (google it).
+Install the certificate through your emulator's settings as a CA certificate (google it).
 
 Run the game!
 
