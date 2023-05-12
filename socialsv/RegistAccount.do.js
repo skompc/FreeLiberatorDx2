@@ -19,18 +19,28 @@ function RegistAccount(req, res) {
     uuid = "0";
 
 
-    var data = fs.readFileSync("./json/RegistAccount.json");
+    //var data = fs.readFileSync("./json/RegistAccount.json");
 
     const dir = `./data/players/${uuid}/`;
-    fs.mkdir(dir, { recursive: true }, (err) => {
-        if (err) {
-            console.error(`Error creating directory: ${err.message}`);
-          } else {
-            console.log(`Created directory: ${dir}`);
-          }
-        });
+    fs.mkdirSync(dir, { recursive: true });
 
-fs.writeFile("data/players/" + uuid + "/player.json", data, err => {
+    const files = ['./json/base/basedata_version.json', './json/base/igt_list.json', './json/base/rand_names.json', "./json/RegistAccount.json"];
+    let jsonData = [];
+    
+    files.forEach(file => {
+        const data = fs.readFileSync(file, 'utf8');
+        jsonData.push(JSON.parse(data));
+    });
+
+    jsonData.push({friend_id:fid,ek:accid,usr_id:fid});
+
+    const transformedData = jsonData.reduce((acc, curr) => {
+        return { ...acc, ...curr };
+      }, {});
+    
+    const combinedData = JSON.stringify(transformedData, null, 4);
+
+fs.writeFile("data/players/" + uuid + "/player.json", combinedData, err => {
   if (err) {
     throw err
   }

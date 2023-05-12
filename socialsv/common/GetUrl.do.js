@@ -1,12 +1,25 @@
 // Require FS
 const fs = require("fs");
+const bundle = "6.1.0.eCicDWAd8mc6"
 
 function GetUrl(req, res) {
-    fs.readFile('json/GetUrl.json', function (err, data) {
-        res.status(200).write(data);
-        res.end();
-        if (err) throw err;
-      });
+  const files = ['./json/GetUrl.json'];
+  let jsonData = [];
+  
+  files.forEach(file => {
+      const data = fs.readFileSync(file, 'utf8');
+      jsonData.push(JSON.parse(data));
+  });
+
+  jsonData.push({asset_bundle_version: bundle});
+
+  const transformedData = jsonData.reduce((acc, curr) => {
+      return { ...acc, ...curr };
+    }, {});
+  
+  const combinedData = JSON.stringify(transformedData, null, 4);
+
+  res.json(transformedData);
 }
 
 module.exports = { GetUrl };
