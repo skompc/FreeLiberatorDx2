@@ -9,6 +9,8 @@ const { GetUrl } = require("./socialsv/common/GetUrl.do");
 const { LoadInfo } = require("./socialsv/LoadInfo.do");
 const { Title } = require("./socialsv/Title.do");
 const { RegistAccount } = require("./socialsv/RegistAccount.do");
+const { GetBaseData } = require("./socialsv/GetBaseData.do");
+const { Login } = require("./socialsv/Login.do");
 
 // Asset Server
 const server = http.createServer((req, res) => {
@@ -43,9 +45,8 @@ console.log(`Game Server running on port ${PORT}`);
 
 //endpoints
 app.get("/socialsv/common/GetUrl.do", (req, res) => GetUrl(req, res));
-
 app.get("/socialsv/LoadInfo.do", (req, res) => LoadInfo(req, res));
-
 app.get("/socialsv/Title.do", (req, res) => Title(req, res));
-
 app.get("/socialsv/RegistAccount.do", (req, res) => RegistAccount(req, res));
+app.get("/socialsv/GetBaseData.do", (req, res) => GetBaseData(req, res));
+app.get("/socialsv/Login.do", (req, res) => Login(req, res))

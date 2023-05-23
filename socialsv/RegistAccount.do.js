@@ -1,6 +1,8 @@
 // Require FS
 const fs = require("fs");
 
+const tools = require("../tools/jsonTools")
+
 function RegistAccount(req, res) {
     var makeId = function (numChars) {
         let ID = "";
@@ -12,42 +14,23 @@ function RegistAccount(req, res) {
       }
 
     var accid = makeId(12);
-    var transid = makeId(10);
-    //var uuid = makeId(32);
-    var fid = makeId(8);
-
-    uuid = "0";
-
-
-    //var data = fs.readFileSync("./json/RegistAccount.json");
+//    var transid = makeId(10);
+var transid = accid
+//    var uuid = makeId(32);
+var uuid = accid
+//    var fid = makeId(8);
+var fid = accid
 
     const dir = `./data/players/${uuid}/`;
     fs.mkdirSync(dir, { recursive: true });
 
-    const files = ['./json/base/basedata_version.json', './json/base/igt_list.json', './json/base/rand_names.json', "./json/RegistAccount.json"];
-    let jsonData = [];
+    tools.move("./json/base/igt_list.json", dir + "igtlist.json")
+    tools.move("./json/base/setting_data.json", dir + "setting_data.json")
+    tools.move("./json/base/new_player.json", dir + "main.json")
+    tools.addTo(dir + "main.json", "friend_id", fid)
+    tools.addTo(dir + "main.json", "ek", accid)
+    tools.addTo(dir + "main.json", "usr_id", fid)
     
-    files.forEach(file => {
-        const data = fs.readFileSync(file, 'utf8');
-        jsonData.push(JSON.parse(data));
-    });
-
-    jsonData.push({friend_id:fid,ek:accid,usr_id:fid});
-
-    const transformedData = jsonData.reduce((acc, curr) => {
-        return { ...acc, ...curr };
-      }, {});
-    
-    const combinedData = JSON.stringify(transformedData, null, 4);
-
-fs.writeFile("data/players/" + uuid + "/player.json", combinedData, err => {
-  if (err) {
-    throw err
-  }
-  console.log('JSON data is saved.')
-})
-
-
     res.status(200).json(
         {
             account_id: accid,

@@ -16,8 +16,6 @@ function GetUrl(req, res) {
   const transformedData = jsonData.reduce((acc, curr) => {
       return { ...acc, ...curr };
     }, {});
-  
-  const combinedData = JSON.stringify(transformedData, null, 4);
 
   res.json(transformedData);
 }
