@@ -12,13 +12,12 @@ function Login(req, res) {
         "./json/base/rand_names.json"
     ];
     let data = tools.combine(files);
-    let jsonData = JSON.parse(data);
 
-    jsonData["client_wait"] = 0;
-    jsonData["res_code"] = 0;
-    jsonData["latest_version"] = check_code;
+    data["client_wait"] = 0;
+    data["res_code"] = 0;
+    data["latest_version"] = check_code;
 
-    res.status(200).json(jsonData);
+    res.status(200).json(data);
     
 }
 

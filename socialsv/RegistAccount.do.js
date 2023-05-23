@@ -15,9 +15,9 @@ function RegistAccount(req, res) {
 
     var accid = makeId(8);
     var transid = accid
-    var uuid = accid
     var fid = accid
     var uid = accid
+    var uuid = 0
 
     const dir = `./data/players/${uuid}/`;
     fs.mkdirSync(dir, { recursive: true });
@@ -25,6 +25,7 @@ function RegistAccount(req, res) {
     tools.move("./json/base/igt_list.json", dir + "igt_list.json")
     tools.move("./json/base/setting_data.json", dir + "setting_data.json")
     tools.move("./json/base/new_player.json", dir + "main.json")
+    tools.move("./json/base/devils.json", dir + "devils.json")
     tools.addTo(dir + "main.json", "friend_id", fid)
     tools.addTo(dir + "main.json", "ek", accid)
     tools.addTo(dir + "main.json", "usr_id", uid)

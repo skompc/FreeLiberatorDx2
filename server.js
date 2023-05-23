@@ -13,6 +13,11 @@ const { GetBaseData } = require("./socialsv/GetBaseData.do");
 const { Login } = require("./socialsv/Login.do");
 const { Drama } = require("./socialsv/Drama.do");
 const { blank } = require("./tools/returnBlank");
+const { TutorialUserCreate } = require("./socialsv/TutorialUserCreate.do");
+const { TutorialBattleEntry } = require("./socialsv/TutorialBattleEntry.do");
+const { TutorialBattleNext } = require("./socialsv/TutorialBattleNext.do");
+const { TutorialBattleResult } = require("./socialsv/TutorialBattleResult.do");
+const { TutorialMap } = require("./socialsv/TutorialMap.do");
 
 // Asset Server
 const server = http.createServer((req, res) => {
@@ -54,3 +59,9 @@ app.get("/socialsv/GetBaseData.do", (req, res) => GetBaseData(req, res));
 app.get("/socialsv/Login.do", (req, res) => Login(req, res))
 app.get("/socialsv/Drama.do", (req, res) => Drama(req, res))
 app.get("/socialsv/iap/CpProductList.do", (req, res) => blank(req, res))
+app.get("/socialsv/TutorialUserCreate.do", (req, res) => TutorialUserCreate(req, res))
+app.get("/socialsv/TutorialBattleEntry.do", (req, res) => TutorialBattleEntry(req, res))
+app.get("/socialsv/DramaEnd.do", (req, res) => blank(req, res))
+app.get("/socialsv/TutorialBattleNext.do", (req, res) => TutorialBattleNext(req, res))
+app.post("/socialsv/TutorialBattleResult.do", (req, res) => TutorialBattleResult(req, res))
+app.get("/socialsv/TutorialMap.do", (req, res) => TutorialMap(req, res))

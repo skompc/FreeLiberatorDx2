@@ -8,11 +8,9 @@ function combine (files){
         jsonData.push(JSON.parse(data));
     });
 
-    const transformedData = jsonData.reduce((acc, curr) => {
+    const combinedData = jsonData.reduce((acc, curr) => {
         return { ...acc, ...curr };
       }, {});
-    
-    const combinedData = JSON.stringify(transformedData, null, 4);
 
     return combinedData
 }
