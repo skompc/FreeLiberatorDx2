@@ -1,6 +1,6 @@
 // Require FS
 const fs = require("fs");
-const bundle = "6.1.0.eCicDWAd8mc6"
+const bundle = "custom"
 
 function GetUrl(req, res) {
   const files = ['./json/GetUrl.json'];

@@ -25,13 +25,13 @@ function addTo (filepath, param, value){
 
     let string2Write = JSON.stringify(data, null, 4)
 
-    fs.writeFileSync(string2Write, filepath)
+    fs.writeFileSync(filepath, string2Write)
 }
 
-function move (oldfile, newfile){
-    let file = fs.readfileSync(oldfile, "utf8")
-    let data = JSON.parse(file)
-    fs.writeFileSync(JSON.stringify(data, null, 4))
+function move (source, dest){
+    
+    fs.copyFileSync(source, dest)
+    
 }
 
 module.exports = { combine, addTo, move };

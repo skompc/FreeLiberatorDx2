@@ -19,6 +19,10 @@ Run <code>npm install</code> to install dependencies.
 
 Run <code>npm run scraper</code> to fetch assets.
 
+copy everything from <code>./contents/Android/(asset_bundle_version)</code> to a new folder called <code>./contents/Android/custom</code>
+
+edit the first line of <code>./contents/Android/custom/ab_list.txt</code> from whatever it is to <code>custom</code>
+
 Run <code>npm run server</code> to run the server.
 
 Run <code>npm run proxy</code> to run the proxy. Please note that for some reason it tends to ignore the port and use it's own. So make sure to run it AFTER starting the server to make sure that the game server's port isnt used. The port it uses will be displayed in the terminal window.

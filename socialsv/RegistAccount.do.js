@@ -13,23 +13,21 @@ function RegistAccount(req, res) {
         return ID;
       }
 
-    var accid = makeId(12);
-//    var transid = makeId(10);
-var transid = accid
-//    var uuid = makeId(32);
-var uuid = accid
-//    var fid = makeId(8);
-var fid = accid
+    var accid = makeId(8);
+    var transid = accid
+    var uuid = accid
+    var fid = accid
+    var uid = accid
 
     const dir = `./data/players/${uuid}/`;
     fs.mkdirSync(dir, { recursive: true });
 
-    tools.move("./json/base/igt_list.json", dir + "igtlist.json")
+    tools.move("./json/base/igt_list.json", dir + "igt_list.json")
     tools.move("./json/base/setting_data.json", dir + "setting_data.json")
     tools.move("./json/base/new_player.json", dir + "main.json")
     tools.addTo(dir + "main.json", "friend_id", fid)
     tools.addTo(dir + "main.json", "ek", accid)
-    tools.addTo(dir + "main.json", "usr_id", fid)
+    tools.addTo(dir + "main.json", "usr_id", uid)
     
     res.status(200).json(
         {
