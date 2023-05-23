@@ -1,0 +1,287 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Rika",
+            "id": 120
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "You can see the barrier, right? That's a Decoherence field."
+        },
+        {
+            "id": 1,
+            "text": "I call it the Deco Effect. We can fight freely in here."
+        },
+        {
+            "id": 2,
+            "text": "Once you're ready, we'll start. But first,"
+        },
+        {
+            "id": 3,
+            "text": "I'll teach you about [cus color=emphasis]TALK[cus color=end] before we get into it."
+        },
+        {
+            "id": 4,
+            "text": "Talk to a demon and if they like you, they'll become an [cus color=emphasis]Ally[cus color=end]."
+        },
+        {
+            "id": 5,
+            "text": "This is just one of the amazing things that Dx2s can do."
+        },
+        {
+            "id": 6,
+            "text": "An icon will appear above a demon who wants to TALK."
+        },
+        {
+            "id": 7,
+            "text": "See?! See how it says [cus color=emphasis]TALK[cus color=end]?"
+        },
+        {
+            "id": 8,
+            "text": "Terrific timing. Please TALK to the demon."
+        },
+        {
+            "id": 9,
+            "text": "I called it here myself, but you may keep it as an ally."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_talk_01_001_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003704,
+            "effect": "",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003705,
+            "effect": "",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003706,
+            "effect": "",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003707,
+            "effect": "",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_004",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003708,
+            "effect": "",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_005",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003709,
+            "effect": "",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_006",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003710,
+            "effect": "",
+            "param0": "6",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_007",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003711,
+            "effect": "",
+            "param0": "7",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003712,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003713,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003714,
+            "effect": "",
+            "param0": "400",
+            "place": 0,
+            "param3": "",
+            "command": 23,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003715,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_008",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003716,
+            "effect": "",
+            "param0": "8",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_001_009",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003717,
+            "effect": "",
+            "param0": "9",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003718,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003719,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "",
+            "param2": "0"
+        }
+    ],
+    "charas": [
+        {
+            "img": "rika",
+            "id": 120,
+            "name_id": 120
+        }
+    ]
+}

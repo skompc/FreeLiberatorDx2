@@ -1,0 +1,187 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Looks like you're enjoying this.<BR>But we're only just beginning."
+        },
+        {
+            "id": 1,
+            "text": "The key to demon battles is making use of [cus color=emphasis]ELEMENTAL AFFINITIES[cus color=end]."
+        },
+        {
+            "id": 2,
+            "text": "Attack skills have one of [cus color=emphasis]EIGHT ELEMENTAL ATTRIBUTES[cus color=end]."
+        },
+        {
+            "id": 3,
+            "text": "Hit enemies with elemental attributes they're weak against."
+        },
+        {
+            "id": 4,
+            "text": "This is a [cus color=emphasis]FORCE attribute[cus color=end] skill. The enemy is weak against it."
+        },
+        {
+            "id": 5,
+            "text": "Let's try it out."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_newgame_01_005_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002995,
+            "effect": "talking",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_005_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002996,
+            "effect": "talking",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002997,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002998,
+            "effect": "",
+            "param0": "tgt_node_2",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "1",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002999,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003000,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003001,
+            "effect": "",
+            "param0": "4",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003002,
+            "effect": "",
+            "param0": "5",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003003,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003004,
+            "effect": "",
+            "param0": "tgt_node_2",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "1",
+            "param2": "0"
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

@@ -1,0 +1,516 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 202
+        },
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "A new war is brewing. Against a previously unknown life form."
+        },
+        {
+            "id": 1,
+            "text": "While we do not yet know whether its intentions are evil,"
+        },
+        {
+            "id": 2,
+            "text": "you must do battle against its followers."
+        },
+        {
+            "id": 3,
+            "text": "That life form is called VANITAS.<BR>\"God's tool for testing humanity\"."
+        },
+        {
+            "id": 4,
+            "text": "There exists a group of those that follow Vanitas..."
+        },
+        {
+            "id": 5,
+            "text": "known as the ACOLYTES."
+        },
+        {
+            "id": 6,
+            "text": "Opposing the Acolytes are the LIBERATORS... that would be you."
+        },
+        {
+            "id": 7,
+            "text": "Oppose?"
+        },
+        {
+            "id": 8,
+            "text": "This is all too sudden..."
+        },
+        {
+            "id": 9,
+            "text": "Your fellow Liberators will fill you in on the details."
+        },
+        {
+            "id": 10,
+            "text": "They're Devil Downloaders, [cus color=emphasis]Dx2[cus color=end] for short."
+        },
+        {
+            "id": 11,
+            "text": "Like you, they also possess the ability to summon demons."
+        },
+        {
+            "id": 12,
+            "text": "Their location is marked on your phone's map app."
+        },
+        {
+            "id": 13,
+            "text": "It's a building in Akihabara.<BR>Head over there."
+        },
+        {
+            "id": 14,
+            "text": "Head to the [cus color=emphasis]HIDEOUT[cus color=end] building in Akihabara."
+        },
+        {
+            "id": 15,
+            "text": "You can travel to the Hideout via the [cus color=emphasis]MAIN MENU[cus color=end]."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_newgame_01_011_000",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003025,
+            "effect": "",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "202",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_001",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003026,
+            "effect": "",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "202",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_002",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003027,
+            "effect": "",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "202",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003028,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003029,
+            "effect": "",
+            "param0": "bout",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "40",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003030,
+            "effect": "",
+            "param0": "society_bg.png",
+            "place": 0,
+            "param3": "",
+            "command": 1,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003031,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 27,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003032,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 22,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003033,
+            "effect": "",
+            "param0": "bin",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "40",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003034,
+            "effect": "talking",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_004",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003035,
+            "effect": "talking",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_005",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003036,
+            "effect": "talking",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_006",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003037,
+            "effect": "talking",
+            "param0": "6",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003038,
+            "effect": "",
+            "param0": "7",
+            "place": 0,
+            "param3": "",
+            "command": 6,
+            "param1": "110",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003039,
+            "effect": "",
+            "param0": "8",
+            "place": 0,
+            "param3": "",
+            "command": 6,
+            "param1": "120",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003040,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 7,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_007",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003041,
+            "effect": "talking",
+            "param0": "9",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_008",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003042,
+            "effect": "talking",
+            "param0": "10",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_009",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003043,
+            "effect": "talking",
+            "param0": "11",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_010",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003044,
+            "effect": "talking",
+            "param0": "12",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_011_011",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003045,
+            "effect": "talking",
+            "param0": "13",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003046,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003047,
+            "effect": "",
+            "param0": "bout",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "40",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003048,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 27,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003049,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 1,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003050,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 22,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003051,
+            "effect": "",
+            "param0": "bin",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "40",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003052,
+            "effect": "",
+            "param0": "14",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003053,
+            "effect": "",
+            "param0": "15",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003054,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "",
+            "param2": "0"
+        }
+    ],
+    "charas": [
+        {
+            "img": "",
+            "id": 202,
+            "name_id": 202
+        },
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

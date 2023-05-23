@@ -1,0 +1,77 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Well done. I knew there was a reason you were chosen."
+        },
+        {
+            "id": 1,
+            "text": "This concludes the combat tutorial."
+        },
+        {
+            "id": 2,
+            "text": "But please indulge me for just a little longer."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_newgame_01_009_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003021,
+            "effect": "talking",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_009_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003022,
+            "effect": "talking",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_009_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003023,
+            "effect": "talking",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

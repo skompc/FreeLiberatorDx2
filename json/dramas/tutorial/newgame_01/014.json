@@ -1,0 +1,96 @@
+{
+    "transaction_id": "-5-075-2F617F",
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "It appears you made it to the Tokyo Branch in one piece."
+        },
+        {
+            "id": 1,
+            "text": "Allow me to express again our warmest welcome, [sys user_name]."
+        },
+        {
+            "id": 2,
+            "text": "Welcome to the Liberators."
+        },
+        {
+            "id": 3,
+            "text": "To begin, I have several directives for you to carry out."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_newgame_01_014_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003097,
+            "effect": "talking",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_014_001",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003098,
+            "effect": "talking",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_014_002",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003099,
+            "effect": "talking",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_014_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003100,
+            "effect": "talking",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

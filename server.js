@@ -11,6 +11,8 @@ const { Title } = require("./socialsv/Title.do");
 const { RegistAccount } = require("./socialsv/RegistAccount.do");
 const { GetBaseData } = require("./socialsv/GetBaseData.do");
 const { Login } = require("./socialsv/Login.do");
+const { Drama } = require("./socialsv/Drama.do");
+const { blank } = require("./tools/returnBlank");
 
 // Asset Server
 const server = http.createServer((req, res) => {
@@ -50,3 +52,5 @@ app.get("/socialsv/Title.do", (req, res) => Title(req, res));
 app.get("/socialsv/RegistAccount.do", (req, res) => RegistAccount(req, res));
 app.get("/socialsv/GetBaseData.do", (req, res) => GetBaseData(req, res));
 app.get("/socialsv/Login.do", (req, res) => Login(req, res))
+app.get("/socialsv/Drama.do", (req, res) => Drama(req, res))
+app.get("/socialsv/iap/CpProductList.do", (req, res) => blank(req, res))

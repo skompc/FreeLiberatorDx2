@@ -1,0 +1,243 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Rika",
+            "id": 120
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "It looks like you were successful. Good job."
+        },
+        {
+            "id": 1,
+            "text": "TALK will [cus color=emphasis]not[cus color=end] always be an option."
+        },
+        {
+            "id": 2,
+            "text": "Demons are moody creatures that don't always want to TALK."
+        },
+        {
+            "id": 3,
+            "text": "You may get to TALK to rare demons if you're lucky."
+        },
+        {
+            "id": 4,
+            "text": "Don't pass up a chance to TALK to a demon."
+        },
+        {
+            "id": 5,
+            "text": "They can be handy to have around."
+        },
+        {
+            "id": 6,
+            "text": "Well then, time to see what you're made of."
+        },
+        {
+            "id": 7,
+            "text": "Note that [cus color=emphasis]if you lose, you'll die[cus color=end]."
+        },
+        {
+            "id": 8,
+            "text": "TALK"
+        },
+        {
+            "id": 9,
+            "text": "TALK to demons to make them your allies!"
+        },
+        {
+            "id": 10,
+            "text": "Tap the randomly appearing TALK icon to start negotiations!"
+        },
+        {
+            "id": 11,
+            "text": "Try to choose the answers they wanna hear."
+        },
+        {
+            "id": 12,
+            "text": "Do your best! [cus color=emphasis]Demon TALK is a great way to acquire demons.[cus color=end]"
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_talk_01_004_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003727,
+            "effect": "",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_004_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003728,
+            "effect": "",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_004_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003729,
+            "effect": "",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_004_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003730,
+            "effect": "",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_004_004",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003731,
+            "effect": "",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_004_005",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003732,
+            "effect": "",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003733,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003734,
+            "effect": "",
+            "param0": "tutorial_battle_talk_01",
+            "place": 0,
+            "param3": "9",
+            "command": 21,
+            "param1": "8",
+            "param2": "10"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003735,
+            "effect": "",
+            "param0": "tutorial_battle_talk_02",
+            "place": 0,
+            "param3": "9",
+            "command": 21,
+            "param1": "8",
+            "param2": "11"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003736,
+            "effect": "",
+            "param0": "tutorial_battle_talk_03",
+            "place": 0,
+            "param3": "9",
+            "command": 21,
+            "param1": "8",
+            "param2": "12"
+        },
+        {
+            "voice": "tutorial_talk_01_004_006",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003737,
+            "effect": "",
+            "param0": "6",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_talk_01_004_007",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003738,
+            "effect": "",
+            "param0": "7",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "rika",
+            "id": 120,
+            "name_id": 120
+        }
+    ]
+}

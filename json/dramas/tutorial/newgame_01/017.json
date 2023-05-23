@@ -1,0 +1,293 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Have you confirmed your Order Missions?"
+        },
+        {
+            "id": 1,
+            "text": "Completing them will [cus color=emphasis]unlock various functions[cus color=end]."
+        },
+        {
+            "id": 2,
+            "text": "Demon Fusion, Summons, Enhancements and more..."
+        },
+        {
+            "id": 3,
+            "text": "It's almost like a game, no?<BR>That's because this is a game."
+        },
+        {
+            "id": 4,
+            "text": "Just like I said."
+        },
+        {
+            "id": 5,
+            "text": "And according to this game's rules, you'll need some funds to get started."
+        },
+        {
+            "id": 6,
+            "text": "This will help in your fight against the Acolytes. Take it."
+        },
+        {
+            "id": 7,
+            "text": "You have received a [cus color=emphasis]Reward[cus color=end]."
+        },
+        {
+            "id": 8,
+            "text": "Rewards can be collected from the [cus color=emphasis]HOME SCREEN[cus color=end]."
+        },
+        {
+            "id": 9,
+            "text": "I wish you the best of luck, [sys user_name]."
+        },
+        {
+            "id": 10,
+            "text": "And hope that you can put an end to the Acolytes' evil designs."
+        },
+        {
+            "id": 11,
+            "text": "Tutorial Cleared!"
+        },
+        {
+            "id": 12,
+            "text": "Successfully cleared this Tutorial!"
+        },
+        {
+            "id": 13,
+            "text": "A reward has been sent to your Gift Box."
+        },
+        {
+            "id": 14,
+            "text": "Exp gained after battle by Dx2s and demons will increase by 25% until Player Lv.80 is reached."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_mainmenu_01_003_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003110,
+            "effect": "talking",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003111,
+            "effect": "talking",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003112,
+            "effect": "talking",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003113,
+            "effect": "talking",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_004",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003114,
+            "effect": "talking",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_005",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003115,
+            "effect": "talking",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_006",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003116,
+            "effect": "talking",
+            "param0": "6",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003117,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003118,
+            "effect": "",
+            "param0": "tutorial_newgame_01",
+            "place": 0,
+            "param3": "12",
+            "command": 21,
+            "param1": "11",
+            "param2": "13"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003119,
+            "effect": "",
+            "param0": "tutorial_newgame_02",
+            "place": 0,
+            "param3": "12",
+            "command": 21,
+            "param1": "11",
+            "param2": "14"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003120,
+            "effect": "",
+            "param0": "7",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003121,
+            "effect": "",
+            "param0": "8",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003122,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 8,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_007",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003123,
+            "effect": "talking",
+            "param0": "9",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_mainmenu_01_003_008",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003124,
+            "effect": "talking",
+            "param0": "10",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

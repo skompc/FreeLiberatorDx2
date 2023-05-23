@@ -1,0 +1,735 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Megakin",
+            "id": 111
+        },
+        {
+            "name": "Girl",
+            "id": 122
+        },
+        {
+            "name": "Rika",
+            "id": 120
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Heyo, MegaTube.<BR>This is Megakin comin' atcha."
+        },
+        {
+            "id": 1,
+            "text": "Broadcastin' from an undisclosed location in Tokyo."
+        },
+        {
+            "id": 2,
+            "text": "Aight, today's show is gonna be a little different."
+        },
+        {
+            "id": 3,
+            "text": "Remember when I mentioned that weird game doin' the rounds?"
+        },
+        {
+            "id": 4,
+            "text": "It ain't that hard to figure out."
+        },
+        {
+            "id": 5,
+            "text": "Not for you guys."
+        },
+        {
+            "id": 6,
+            "text": "There's a battle goin' on, between THEIR game and OURS."
+        },
+        {
+            "id": 7,
+            "text": "Don't let THEM make the rules."
+        },
+        {
+            "id": 8,
+            "text": "That's all I gotta say about that."
+        },
+        {
+            "id": 9,
+            "text": "Wassup!"
+        },
+        {
+            "id": 10,
+            "text": "So, you're the new Dx2, huh?"
+        },
+        {
+            "id": 11,
+            "text": "You one of those quiet types that's actually a total psycho?"
+        },
+        {
+            "id": 12,
+            "text": "Hah! I'm just messin' with ya."
+        },
+        {
+            "id": 13,
+            "text": "What's with that reaction?<BR>Some people got no sense of humor."
+        },
+        {
+            "id": 14,
+            "text": "Wait. You're THE Megakin?"
+        },
+        {
+            "id": 15,
+            "text": "Someone thinks they're funny."
+        },
+        {
+            "id": 16,
+            "text": "The Liberators and the Acolytes are at war, yo."
+        },
+        {
+            "id": 17,
+            "text": "And we be the Liberators.<BR>You already know this, yeah?"
+        },
+        {
+            "id": 18,
+            "text": "And this place, this is the Liberators' Tokyo Branch."
+        },
+        {
+            "id": 19,
+            "text": "I'm in charge around here.<BR>Aight?"
+        },
+        {
+            "id": 20,
+            "text": "Your face, it's perfect for some target practice."
+        },
+        {
+            "id": 21,
+            "text": "Please, don't misunderstand.<BR>I mean it as a compliment."
+        },
+        {
+            "id": 22,
+            "text": "This is Rika Ryuzouji.<BR>One of the Liberators."
+        },
+        {
+            "id": 23,
+            "text": "Her codename is \"Templar Dragon\"."
+        },
+        {
+            "id": 24,
+            "text": "One day, I'll build a cabin out in the great outdoors,"
+        },
+        {
+            "id": 25,
+            "text": "so I can shoot my guns off while getting wasted."
+        },
+        {
+            "id": 26,
+            "text": "She's kinda weird, but that's her way of saying hello."
+        },
+        {
+            "id": 27,
+            "text": "Anyways, welcome to the Tokyo Branch!"
+        },
+        {
+            "id": 28,
+            "text": "You should check in with the boss, Einherjar."
+        },
+        {
+            "id": 29,
+            "text": "You can get in touch with him via that computer over there."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003056,
+            "effect": "",
+            "param0": "fac_bg.png",
+            "place": 0,
+            "param3": "",
+            "command": 1,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003057,
+            "effect": "",
+            "param0": "bgm_facility",
+            "place": 0,
+            "param3": "",
+            "command": 12,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003058,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 27,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003059,
+            "effect": "",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003060,
+            "effect": "",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003061,
+            "effect": "",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003062,
+            "effect": "",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_004",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003063,
+            "effect": "",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_005",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003064,
+            "effect": "",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_006",
+            "face": "face_03",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003065,
+            "effect": "",
+            "param0": "6",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_007",
+            "face": "face_03",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003066,
+            "effect": "",
+            "param0": "7",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_008",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003067,
+            "effect": "",
+            "param0": "8",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003068,
+            "effect": "",
+            "param0": "all",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003069,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 27,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003070,
+            "effect": "",
+            "param0": "bout",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "20",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003071,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 22,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003072,
+            "effect": "",
+            "param0": "bin",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "20",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_009",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003073,
+            "effect": "",
+            "param0": "9",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_010",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003074,
+            "effect": "",
+            "param0": "10",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_011",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003075,
+            "effect": "",
+            "param0": "11",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_012",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003076,
+            "effect": "",
+            "param0": "12",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_013",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003077,
+            "effect": "",
+            "param0": "13",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003078,
+            "effect": "",
+            "param0": "14",
+            "place": 0,
+            "param3": "",
+            "command": 6,
+            "param1": "110",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003079,
+            "effect": "",
+            "param0": "15",
+            "place": 0,
+            "param3": "",
+            "command": 6,
+            "param1": "120",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003080,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 7,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_014",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003081,
+            "effect": "",
+            "param0": "16",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_015",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003082,
+            "effect": "",
+            "param0": "17",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_016",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003083,
+            "effect": "",
+            "param0": "18",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_017",
+            "face": "face_02",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003084,
+            "effect": "",
+            "param0": "19",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_018",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003085,
+            "effect": "",
+            "param0": "20",
+            "place": 1,
+            "param3": "",
+            "command": 2,
+            "param1": "122",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_019",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003086,
+            "effect": "",
+            "param0": "21",
+            "place": 1,
+            "param3": "",
+            "command": 2,
+            "param1": "122",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_020",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003087,
+            "effect": "",
+            "param0": "22",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_021",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003088,
+            "effect": "",
+            "param0": "23",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_022",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003089,
+            "effect": "",
+            "param0": "24",
+            "place": 1,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_023",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003090,
+            "effect": "",
+            "param0": "25",
+            "place": 1,
+            "param3": "",
+            "command": 2,
+            "param1": "120",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_024",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003091,
+            "effect": "",
+            "param0": "26",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_025",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003092,
+            "effect": "",
+            "param0": "27",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_026",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003093,
+            "effect": "",
+            "param0": "28",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_013_027",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003094,
+            "effect": "",
+            "param0": "29",
+            "place": 0,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003095,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 1,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003096,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "",
+            "param2": "0"
+        }
+    ],
+    "charas": [
+        {
+            "img": "taro",
+            "id": 111,
+            "name_id": 111
+        },
+        {
+            "img": "rika",
+            "id": 122,
+            "name_id": 122
+        },
+        {
+            "img": "rika",
+            "id": 120,
+            "name_id": 120
+        }
+    ]
+}

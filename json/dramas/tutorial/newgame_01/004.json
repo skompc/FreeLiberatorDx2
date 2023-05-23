@@ -1,0 +1,105 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "You gave a demon a command, which used 1 icon."
+        },
+        {
+            "id": 1,
+            "text": "When you've used all your icons, [cus color=emphasis]it's the enemy's turn to attack.[cus color=end]"
+        },
+        {
+            "id": 2,
+            "text": "Simple, isn't it?<BR>Now, finish off the enemy."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002990,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "",
+            "param2": "1"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002991,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002992,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002993,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_004_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002994,
+            "effect": "talking",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

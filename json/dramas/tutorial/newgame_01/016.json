@@ -1,0 +1,108 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Here, you can view currently active [cus color=emphasis]Order Missions[cus color=end]."
+        },
+        {
+            "id": 1,
+            "text": "This Order Mission requires you to [cus color=emphasis]clear Story Quests[cus color=end]."
+        },
+        {
+            "id": 2,
+            "text": "Let's give it a shot."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003104,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003105,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "tgt_wipe_0",
+            "param2": "3"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003106,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003107,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003108,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003109,
+            "effect": "",
+            "param0": "tgt_node_1",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "0",
+            "param2": "0"
+        }
+    ],
+    "charas": []
+}

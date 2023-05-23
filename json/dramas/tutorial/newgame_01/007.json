@@ -1,0 +1,177 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "See how you've only used up half of your Press Turn Icon?"
+        },
+        {
+            "id": 1,
+            "text": "This means you can act again."
+        },
+        {
+            "id": 2,
+            "text": "[cus color=emphasis]Attacking enemies' weak points allows you to act more times.[cus color=end]"
+        },
+        {
+            "id": 3,
+            "text": "Continuously attacking enemies' weak points gives you an edge."
+        },
+        {
+            "id": 4,
+            "text": "Knowing about the elemental affinities of your enemy is key."
+        },
+        {
+            "id": 5,
+            "text": "Alright. With this in mind, defeat the enemy in front of you."
+        },
+        {
+            "id": 6,
+            "text": "This enemy is weak against [cus color=emphasis]FIRE and FORCE[cus color=end]."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003009,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003010,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003011,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003012,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003013,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003014,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_007_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003015,
+            "effect": "talking",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_007_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003016,
+            "effect": "talking",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003017,
+            "effect": "",
+            "param0": "6",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

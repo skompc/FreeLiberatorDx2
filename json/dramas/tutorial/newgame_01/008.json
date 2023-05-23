@@ -1,0 +1,77 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Time to put everything together.<BR>The next enemy will be tough."
+        },
+        {
+            "id": 1,
+            "text": "It will try to kill you.<BR>If you lose, you'll die."
+        },
+        {
+            "id": 2,
+            "text": "Now, show me your inner demon."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "tutorial_newgame_01_008_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003018,
+            "effect": "talking",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_008_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003019,
+            "effect": "talking",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_008_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3003020,
+            "effect": "talking",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}

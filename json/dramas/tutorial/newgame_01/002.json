@@ -1,0 +1,452 @@
+{
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "???",
+            "id": 201
+        },
+        {
+            "name": "Einherjar",
+            "id": 200
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "All people keep demons. Some within. Others, on their sleeve."
+        },
+        {
+            "id": 1,
+            "text": "Show me yours."
+        },
+        {
+            "id": 2,
+            "text": "In this game, players summon demons to fight."
+        },
+        {
+            "id": 3,
+            "text": "That's right. Demons."
+        },
+        {
+            "id": 4,
+            "text": "In other words..."
+        },
+        {
+            "id": 5,
+            "text": "You'll be a \"Devil Downloader\"."
+        },
+        {
+            "id": 6,
+            "text": "What's your name?"
+        },
+        {
+            "id": 7,
+            "text": "Who the hell are you?"
+        },
+        {
+            "id": 8,
+            "text": "Now that you mention it..."
+        },
+        {
+            "id": 9,
+            "text": "not having some sort of name does make things inconvenient."
+        },
+        {
+            "id": 10,
+            "text": "For now, you may call me \"Einherjar\"."
+        },
+        {
+            "id": 11,
+            "text": "Let's see how you do in a little sparring match against my demon."
+        },
+        {
+            "id": 12,
+            "text": "No need to fear. This is only the Tutorial, after all."
+        },
+        {
+            "id": 13,
+            "text": "Use the demon summoning (Dx2) app to try summoning a demon."
+        }
+    ],
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002948,
+            "effect": "",
+            "param0": "society_bg.png",
+            "place": 0,
+            "param3": "",
+            "command": 1,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002949,
+            "effect": "",
+            "param0": "bgm_drama_unquiet",
+            "place": 0,
+            "param3": "",
+            "command": 12,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002950,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 27,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002951,
+            "effect": "talking",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002952,
+            "effect": "talking",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002953,
+            "effect": "talking",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_003",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002954,
+            "effect": "talking",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_004",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002955,
+            "effect": "talking",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_005",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002956,
+            "effect": "talking",
+            "param0": "5",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002957,
+            "effect": "",
+            "param0": "6",
+            "place": 0,
+            "param3": "",
+            "command": 6,
+            "param1": "110",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002958,
+            "effect": "",
+            "param0": "7",
+            "place": 0,
+            "param3": "",
+            "command": 6,
+            "param1": "120",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002959,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 7,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_006",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002960,
+            "effect": "talking",
+            "param0": "8",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_007",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002961,
+            "effect": "talking",
+            "param0": "9",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_008",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002962,
+            "effect": "talking",
+            "param0": "10",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002963,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_009",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002964,
+            "effect": "talking",
+            "param0": "11",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_010",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002965,
+            "effect": "talking",
+            "param0": "12",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_newgame_01_002_011",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002966,
+            "effect": "talking",
+            "param0": "13",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "200",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002967,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002968,
+            "effect": "",
+            "param0": "opening_phone_vfx02",
+            "place": 0,
+            "param3": "",
+            "command": 13,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002969,
+            "effect": "",
+            "param0": "wout",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "50",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002970,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 27,
+            "param1": "201",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002971,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 1,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002972,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 22,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002973,
+            "effect": "",
+            "param0": "win",
+            "place": 0,
+            "param3": "",
+            "command": 10,
+            "param1": "50",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "einherjar",
+            "id": 201,
+            "name_id": 201
+        },
+        {
+            "img": "einherjar",
+            "id": 200,
+            "name_id": 200
+        }
+    ]
+}
