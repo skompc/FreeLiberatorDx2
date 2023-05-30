@@ -26,9 +26,12 @@ function RegistAccount(req, res) {
     tools.move("./json/base/setting_data.json", dir + "setting_data.json")
     tools.move("./json/base/new_player.json", dir + "main.json")
     tools.move("./json/base/devils.json", dir + "devils.json")
+    tools.move("./json/base/usr.json", dir + "usr.json")
     tools.addTo(dir + "main.json", "friend_id", fid)
     tools.addTo(dir + "main.json", "ek", accid)
     tools.addTo(dir + "main.json", "usr_id", uid)
+
+    tools.addTo(dir + "usr.json", "usr_id", uid)
     
     res.status(200).json(
         {

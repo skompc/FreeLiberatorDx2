@@ -5,7 +5,7 @@ const devilTools = require("../tools/devilTools")
 
 function TutorialUserCreate(req, res) {
     let input = JSON.stringify(req.query);
-    let params = JSON.parse(paramTools.clean(input));
+    let params = JSON.parse(paramTools.clean(input,0,0));
 
     let files = [
         "./data/players/0/main.json"
@@ -20,6 +20,9 @@ function TutorialUserCreate(req, res) {
     tools.addTo("./data/players/0/main.json", "tutorial_step", 2)
     tools.addTo("./data/players/0/main.json", "tutorial_quest_id", 1)
     tools.addTo("./data/players/0/main.json", "tutorial_quest_name", "First Battle")
+
+    let usr = tools.combine(["./data/players/0/usr.json"])
+    usr["name"] = params.name
 
     let update_devils = [
         {

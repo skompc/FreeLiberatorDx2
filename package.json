@@ -4,9 +4,10 @@
   "description": "A SMT:Dx2 private server project",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js",
-    "scraper": "node tools/scraper.js",
-    "proxy": "nodemon tools/proxy.js"
+    "test":   "node main/test.js",
+    "server": "nodemon main/server.js",
+    "scraper": "node main/scraper.js",
+    "proxy": "nodemon main/proxy.js"
   },
   "keywords": [
     "android",

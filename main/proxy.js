@@ -1,5 +1,3 @@
-
-
 (async () => {
     const mockttp = require('mockttp');
     const fs = require('fs');
@@ -9,9 +7,9 @@
         cert: fs.readFileSync('./certs/cert.pem')
     };
       
-    const serverPort = 8080;
+    const proxyPort = 8080;
       
-    const server = mockttp.getLocal({ https: options, port: 8080 });
+    const server = mockttp.getLocal({ https: options, port: proxyPort });
 
 
     await server.forAnyRequest()

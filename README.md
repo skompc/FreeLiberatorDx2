@@ -21,7 +21,7 @@ Run <code>npm run scraper</code> to fetch assets.
 
 copy everything from <code>./contents/Android/(asset_bundle_version)</code> to a new folder called <code>./contents/Android/custom</code>
 
-edit the first line of <code>./contents/Android/custom/ab_list.txt</code> from whatever it is to <code>custom</code>
+edit the first line of <code>./contents/Android/custom/en/ab_list.txt</code> from whatever it is to <code>custom</code>
 
 Run <code>npm run server</code> to run the server.
 
