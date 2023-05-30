@@ -1,35 +1,35 @@
 {
     "enemy_src": [
         {
-            "devil_id": 11530,
+            "devil_id": 11910,
             "skill_id": [
-                1105,
-                24,
+                1119,
+                1011,
+                0,
+                0,
+                0
+            ],
+            "enemy_type": 0
+        },
+        {
+            "devil_id": 12010,
+            "skill_id": [
                 1110,
+                1146,
+                0,
                 0,
                 0
             ],
             "enemy_type": 0
         },
         {
-            "devil_id": 12520,
+            "devil_id": 11730,
             "skill_id": [
-                1002,
-                24,
-                103023,
+                2016,
+                1132,
+                0,
                 0,
                 0
-            ],
-            "enemy_type": 0
-        },
-        {
-            "devil_id": 11320,
-            "skill_id": [
-                1150,
-                1175,
-                1105,
-                101602,
-                101605
             ],
             "enemy_type": 1
         },
@@ -46,7 +46,7 @@
             "enemy_type": 0
         }
     ],
-    "advice": "Can't find an enemy's weak point?\nTry fusing and befriending demons to strengthen your party.",
+    "advice": "Custom server brought to you by: SquirrelDev",
     "bgm": "bgm_btl_normal",
     "wave": 1,
     "client_wait": 0,
@@ -364,122 +364,6 @@
                 "id": 90001,
                 "learnable_devil_id": 0,
                 "desc": "Heals HP of a single party member by 25%.ã",
-                "rarity": 3
-            },
-            {
-                "img": "fire",
-                "max_level": 5,
-                "learnable_race": 0,
-                "name": "Maragi",
-                "active": {
-                    "damage": {
-                        "pnt_hp_shield": false,
-                        "pnt_reduce": 0,
-                        "atk_s_coef": 0,
-                        "per_type": 0,
-                        "multi": 0,
-                        "atk_coef": 1,
-                        "hit": 0,
-                        "fix": 0,
-                        "is_multi_effect": false,
-                        "per_limit": 0,
-                        "pnt": false,
-                        "status_val": 0,
-                        "per_value": 0,
-                        "power": 0.8,
-                        "cri": 0,
-                        "status": 0,
-                        "atk_s_st": 0
-                    },
-                    "world_effect": "",
-                    "hit_min": 1,
-                    "skl_levels": [
-                        {
-                            "level": 2,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 4,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 1,
-                            "armament_skill_lvup_pt": 1,
-                            "param1": 4,
-                            "param2": 0
-                        },
-                        {
-                            "level": 3,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 6,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 1,
-                            "armament_skill_lvup_pt": 1,
-                            "param1": 6,
-                            "param2": 0
-                        },
-                        {
-                            "level": 4,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 8,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 1,
-                            "armament_skill_lvup_pt": 1,
-                            "param1": 8,
-                            "param2": 0
-                        },
-                        {
-                            "level": 5,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 10,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 1,
-                            "armament_skill_lvup_pt": 1,
-                            "param1": 10,
-                            "param2": 0
-                        }
-                    ],
-                    "cost": 5,
-                    "invoke_effect": "eff_skill_agi_activate.prefab",
-                    "use_limit_count": 0,
-                    "cost_type": 1,
-                    "guild_battle_disabled": false,
-                    "anim_type": 2,
-                    "type": 1,
-                    "target": 1,
-                    "se_invoke": "agi_invoke",
-                    "hit_interval": 0,
-                    "hit_effect_type": 0,
-                    "d2mode_disabled": false,
-                    "hit_effect": "eff_skill_agi_hit.prefab",
-                    "category": 2,
-                    "attr": 2,
-                    "hit_max": 1,
-                    "pvp_disabled": false,
-                    "se_hit": "agi_hit",
-                    "se_world": ""
-                },
-                "name_kana": "",
-                "cap_pt": 2,
-                "id": 1105,
-                "learnable_devil_id": 0,
-                "desc": "Inflicts Fire (Magic) damage on all enemies.\nPower: 80ã",
                 "rarity": 3
             },
             {
@@ -1141,145 +1025,6 @@
                 "rarity": 3
             },
             {
-                "img": "almighty",
-                "max_level": 6,
-                "learnable_race": 0,
-                "name": "Life Drain",
-                "active": {
-                    "damage": {
-                        "pnt_hp_shield": false,
-                        "pnt_reduce": 0,
-                        "atk_s_coef": 0,
-                        "per_type": 0,
-                        "multi": 0,
-                        "atk_coef": 1,
-                        "hit": 0,
-                        "fix": 0,
-                        "is_multi_effect": false,
-                        "per_limit": 0,
-                        "pnt": false,
-                        "status_val": 0,
-                        "per_value": 0,
-                        "power": 1.2,
-                        "cri": 0,
-                        "status": 0,
-                        "atk_s_st": 0
-                    },
-                    "drain_effect": "",
-                    "world_effect": "eff_skill_lifedrain_hit_caster.prefab",
-                    "other": [
-                        {
-                            "type": 1,
-                            "value": 0.25
-                        }
-                    ],
-                    "se_drain": "",
-                    "cost_type": 1,
-                    "guild_battle_disabled": false,
-                    "type": 1,
-                    "hit_interval": 0,
-                    "hit_effect_type": 0,
-                    "attr": 128,
-                    "se_hit": "lifedrain_hit",
-                    "hit_min": 1,
-                    "skl_levels": [
-                        {
-                            "level": 2,
-                            "aff_list": [
-                                {
-                                    "affect_type": 2,
-                                    "param1": 5,
-                                    "param2": 1
-                                }
-                            ],
-                            "affect_type": 2,
-                            "need_point": 2,
-                            "armament_skill_lvup_pt": 2,
-                            "param1": 5,
-                            "param2": 1
-                        },
-                        {
-                            "level": 3,
-                            "aff_list": [
-                                {
-                                    "affect_type": 2,
-                                    "param1": 9,
-                                    "param2": 1
-                                }
-                            ],
-                            "affect_type": 2,
-                            "need_point": 2,
-                            "armament_skill_lvup_pt": 2,
-                            "param1": 9,
-                            "param2": 1
-                        },
-                        {
-                            "level": 4,
-                            "aff_list": [
-                                {
-                                    "affect_type": 2,
-                                    "param1": 13,
-                                    "param2": 1
-                                }
-                            ],
-                            "affect_type": 2,
-                            "need_point": 2,
-                            "armament_skill_lvup_pt": 2,
-                            "param1": 13,
-                            "param2": 1
-                        },
-                        {
-                            "level": 5,
-                            "aff_list": [
-                                {
-                                    "affect_type": 2,
-                                    "param1": 17,
-                                    "param2": 1
-                                }
-                            ],
-                            "affect_type": 2,
-                            "need_point": 2,
-                            "armament_skill_lvup_pt": 2,
-                            "param1": 17,
-                            "param2": 1
-                        },
-                        {
-                            "level": 6,
-                            "aff_list": [
-                                {
-                                    "affect_type": 2,
-                                    "param1": 25,
-                                    "param2": 1
-                                }
-                            ],
-                            "affect_type": 2,
-                            "need_point": 2,
-                            "armament_skill_lvup_pt": 2,
-                            "param1": 25,
-                            "param2": 1
-                        }
-                    ],
-                    "cost": 5,
-                    "invoke_effect": "eff_skill_lifedrain_activate.prefab",
-                    "use_limit_count": 0,
-                    "anim_type": 2,
-                    "target": 0,
-                    "se_invoke": "megidoraon_invoke",
-                    "d2mode_disabled": false,
-                    "hit_effect": "eff_skill_lifedrain_hit.prefab",
-                    "category": 2,
-                    "hit_max": 1,
-                    "pvp_disabled": false,
-                    "se_world": "lifedrain_hit_caster"
-                },
-                "name_kana": "",
-                "cap_pt": 3,
-                "id": 1175,
-                "learnable_devil_id": 0,
-                "desc": "Inflicts Almighty (Magic) damage on a single enemy, while healing caster 25% of damage dealt.\nPower: 120ã",
-                "rarity": 3
-            },
-            {
                 "img": "heal",
                 "max_level": 1,
                 "learnable_race": 0,
@@ -1330,41 +1075,6 @@
                 "id": 90009,
                 "learnable_devil_id": 0,
                 "desc": "Cures a single party member of Bind. Reduces the chance of being Poisoned during this wave by 30%.ã",
-                "rarity": 3
-            },
-            {
-                "img": "almighty",
-                "max_level": 1,
-                "learnable_race": 0,
-                "name": "Dazed",
-                "active": {
-                    "world_effect": "",
-                    "hit_min": 0,
-                    "cost": 0,
-                    "invoke_effect": "",
-                    "use_limit_count": 0,
-                    "cost_type": 1,
-                    "guild_battle_disabled": false,
-                    "anim_type": 2,
-                    "type": 7,
-                    "target": 6,
-                    "se_invoke": "",
-                    "hit_interval": 0,
-                    "hit_effect_type": 0,
-                    "d2mode_disabled": false,
-                    "hit_effect": "",
-                    "category": 0,
-                    "attr": 0,
-                    "hit_max": 0,
-                    "pvp_disabled": false,
-                    "se_hit": "",
-                    "se_world": ""
-                },
-                "name_kana": "",
-                "cap_pt": 1,
-                "id": 24,
-                "learnable_devil_id": 0,
-                "desc": "Enemy is Dazed and cannot move.ã",
                 "rarity": 3
             },
             {
@@ -1694,44 +1404,188 @@
                 "rarity": 3
             },
             {
-                "img": "psv",
-                "max_level": 1,
+                "img": "elec",
+                "max_level": 6,
                 "learnable_race": 0,
-                "name": "Fire Defect",
-                "name_kana": "",
-                "cap_pt": 4,
-                "id": 101602,
-                "learnable_devil_id": 0,
-                "passive": {
-                    "resist": [
+                "name": "Zio",
+                "active": {
+                    "damage": {
+                        "pnt_hp_shield": false,
+                        "pnt_reduce": 0,
+                        "atk_s_coef": 0,
+                        "per_type": 0,
+                        "multi": 0,
+                        "atk_coef": 1,
+                        "hit": 0,
+                        "fix": 0,
+                        "is_multi_effect": false,
+                        "per_limit": 0,
+                        "pnt": false,
+                        "status_val": 0,
+                        "per_value": 0,
+                        "power": 1.2,
+                        "cri": 0,
+                        "status": 0,
+                        "atk_s_st": 0
+                    },
+                    "world_effect": "",
+                    "hit_min": 1,
+                    "skl_levels": [
                         {
-                            "attr": 2,
-                            "type": 1
+                            "level": 2,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 4,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 4,
+                            "param2": 0
+                        },
+                        {
+                            "level": 3,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 6,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 6,
+                            "param2": 0
+                        },
+                        {
+                            "level": 4,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 8,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 8,
+                            "param2": 0
+                        },
+                        {
+                            "level": 5,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 10,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 10,
+                            "param2": 0
+                        },
+                        {
+                            "level": 6,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 12,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 12,
+                            "param2": 0
                         }
-                    ]
+                    ],
+                    "cost": 4,
+                    "invoke_effect": "eff_skill_ziodyne_activate.prefab",
+                    "use_limit_count": 0,
+                    "cost_type": 1,
+                    "guild_battle_disabled": false,
+                    "anim_type": 2,
+                    "type": 1,
+                    "target": 0,
+                    "se_invoke": "ziodyne_invoke",
+                    "hit_interval": 0,
+                    "hit_effect_type": 0,
+                    "d2mode_disabled": false,
+                    "hit_effect": "eff_skill_zio_hit.prefab",
+                    "category": 2,
+                    "attr": 8,
+                    "hit_max": 1,
+                    "pvp_disabled": false,
+                    "se_hit": "zio_hit",
+                    "se_world": ""
                 },
-                "desc": "Adds Fire Weak Point.ã",
-                "rarity": 4
+                "name_kana": "",
+                "cap_pt": 1,
+                "id": 1119,
+                "learnable_devil_id": 0,
+                "desc": "Inflicts Elec (Magic) damage on a single enemy.\nPower: 120ã",
+                "rarity": 2
             },
             {
-                "img": "psv",
+                "img": "heal",
                 "max_level": 1,
                 "learnable_race": 0,
-                "name": "Force Defect",
-                "name_kana": "",
-                "cap_pt": 4,
-                "id": 101605,
-                "learnable_devil_id": 0,
-                "passive": {
-                    "resist": [
-                        {
-                            "attr": 5,
-                            "type": 1
-                        }
-                    ]
+                "name": "Charmdi",
+                "active": {
+                    "world_effect": "",
+                    "hit_min": 1,
+                    "cost": 3,
+                    "invoke_effect": "eff_skill_posumudi_activate.prefab",
+                    "use_limit_count": 0,
+                    "cost_type": 1,
+                    "guild_battle_disabled": false,
+                    "anim_type": 2,
+                    "type": 2,
+                    "target": 3,
+                    "se_invoke": "diarahan_invoke",
+                    "hit_interval": 0,
+                    "hit_effect_type": 0,
+                    "d2mode_disabled": false,
+                    "heal": {
+                        "mp": 0,
+                        "poison": false,
+                        "fixed_val": 0,
+                        "ressurect": 0,
+                        "rate_val": 0,
+                        "bind": false,
+                        "charm": true,
+                        "curse": false,
+                        "status_val": 0,
+                        "power": 0,
+                        "close": false,
+                        "status": 0,
+                        "infirmity": false
+                    },
+                    "bad_resist": {
+                        "charm": 30
+                    },
+                    "hit_effect": "eff_skill_charmdi_hit.prefab",
+                    "category": 2,
+                    "attr": 0,
+                    "hit_max": 1,
+                    "pvp_disabled": false,
+                    "se_hit": "charmdi_hit",
+                    "se_world": ""
                 },
-                "desc": "Adds Force Weak Point.ã",
-                "rarity": 4
+                "name_kana": "",
+                "cap_pt": 1,
+                "id": 2016,
+                "learnable_devil_id": 0,
+                "desc": "Cures a single party member of Charm. Reduces the chance of being Charmed during this wave by 30%.ã",
+                "rarity": 1
             },
             {
                 "img": "force",
@@ -1996,158 +1850,10 @@
                 "rarity": 1
             },
             {
-                "img": "phy",
-                "max_level": 6,
-                "learnable_race": 0,
-                "name": "Fatal Sword",
-                "active": {
-                    "damage": {
-                        "pnt_hp_shield": false,
-                        "pnt_reduce": 0,
-                        "atk_s_coef": 0,
-                        "per_type": 0,
-                        "multi": 0,
-                        "atk_coef": 1,
-                        "hit": 1,
-                        "fix": 0,
-                        "is_multi_effect": false,
-                        "per_limit": 0,
-                        "pnt": false,
-                        "status_val": 0,
-                        "per_value": 0,
-                        "power": 1.4,
-                        "cri": 10,
-                        "status": 0,
-                        "atk_s_st": 0
-                    },
-                    "world_effect": "",
-                    "hit_min": 1,
-                    "skl_levels": [
-                        {
-                            "level": 2,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 5,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 3,
-                            "armament_skill_lvup_pt": 3,
-                            "param1": 5,
-                            "param2": 0
-                        },
-                        {
-                            "level": 3,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 8,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 3,
-                            "armament_skill_lvup_pt": 3,
-                            "param1": 8,
-                            "param2": 0
-                        },
-                        {
-                            "level": 4,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 11,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 3,
-                            "armament_skill_lvup_pt": 3,
-                            "param1": 11,
-                            "param2": 0
-                        },
-                        {
-                            "level": 5,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 14,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 3,
-                            "armament_skill_lvup_pt": 3,
-                            "param1": 14,
-                            "param2": 0
-                        },
-                        {
-                            "level": 6,
-                            "aff_list": [
-                                {
-                                    "affect_type": 1,
-                                    "param1": 17,
-                                    "param2": 0
-                                }
-                            ],
-                            "affect_type": 1,
-                            "need_point": 3,
-                            "armament_skill_lvup_pt": 3,
-                            "param1": 17,
-                            "param2": 0
-                        }
-                    ],
-                    "cost": 5,
-                    "invoke_effect": "eff_skill_slash_activate.prefab",
-                    "use_limit_count": 0,
-                    "cost_type": 1,
-                    "guild_battle_disabled": false,
-                    "anim_type": 1,
-                    "type": 1,
-                    "target": 0,
-                    "se_invoke": "slash_invoke",
-                    "hit_interval": 0,
-                    "hit_effect_type": 0,
-                    "d2mode_disabled": false,
-                    "hit_effect": "eff_skill_fatalsword_hit.prefab",
-                    "category": 1,
-                    "attr": 1,
-                    "hit_max": 1,
-                    "pvp_disabled": false,
-                    "se_hit": "fatalsword_hit",
-                    "se_world": ""
-                },
-                "name_kana": "",
-                "cap_pt": 6,
-                "id": 1002,
-                "learnable_devil_id": 0,
-                "desc": "Inflicts Phys (Physical) damage on a single enemy.\nPower: 140ã",
-                "rarity": 2
-            },
-            {
-                "img": "psv",
-                "max_level": 1,
-                "learnable_race": 0,
-                "name": "Good Aim",
-                "name_kana": "",
-                "cap_pt": 4,
-                "id": 103023,
-                "learnable_devil_id": 0,
-                "passive": {
-                    "rate_up": {
-                        "hit": 10
-                    }
-                },
-                "desc": "+10% to Phys hit rate.ã",
-                "rarity": 3
-            },
-            {
-                "img": "dark",
+                "img": "force",
                 "max_level": 5,
                 "learnable_race": 0,
-                "name": "Mamudo",
+                "name": "Mazan",
                 "active": {
                     "damage": {
                         "pnt_hp_shield": false,
@@ -2233,13 +1939,275 @@
                         }
                     ],
                     "cost": 5,
-                    "invoke_effect": "eff_skill_mudoon_activate.prefab",
+                    "invoke_effect": "eff_skill_zandyne_activate.prefab",
                     "use_limit_count": 0,
                     "cost_type": 1,
                     "guild_battle_disabled": false,
                     "anim_type": 2,
                     "type": 1,
                     "target": 1,
+                    "se_invoke": "zandyne_invoke",
+                    "hit_interval": 0,
+                    "hit_effect_type": 0,
+                    "d2mode_disabled": false,
+                    "hit_effect": "eff_skill_zan_hit.prefab",
+                    "category": 2,
+                    "attr": 16,
+                    "hit_max": 1,
+                    "pvp_disabled": false,
+                    "se_hit": "zan_hit",
+                    "se_world": ""
+                },
+                "name_kana": "",
+                "cap_pt": 2,
+                "id": 1132,
+                "learnable_devil_id": 0,
+                "desc": "Inflicts Force (Magic) damage on all enemies.\nPower: 80ã",
+                "rarity": 3
+            },
+            {
+                "img": "phy",
+                "max_level": 6,
+                "learnable_race": 0,
+                "name": "Lunge",
+                "active": {
+                    "damage": {
+                        "pnt_hp_shield": false,
+                        "pnt_reduce": 0,
+                        "atk_s_coef": 0,
+                        "per_type": 0,
+                        "multi": 0,
+                        "atk_coef": 1,
+                        "hit": 0.95,
+                        "fix": 0,
+                        "is_multi_effect": false,
+                        "per_limit": 0,
+                        "pnt": false,
+                        "status_val": 0,
+                        "per_value": 0,
+                        "power": 1.15,
+                        "cri": 30,
+                        "status": 0,
+                        "atk_s_st": 0
+                    },
+                    "world_effect": "",
+                    "hit_min": 1,
+                    "skl_levels": [
+                        {
+                            "level": 2,
+                            "aff_list": [
+                                {
+                                    "affect_type": 5,
+                                    "param1": 4,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 5,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 4,
+                            "param2": 0
+                        },
+                        {
+                            "level": 3,
+                            "aff_list": [
+                                {
+                                    "affect_type": 5,
+                                    "param1": 7,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 5,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 7,
+                            "param2": 0
+                        },
+                        {
+                            "level": 4,
+                            "aff_list": [
+                                {
+                                    "affect_type": 5,
+                                    "param1": 10,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 5,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 10,
+                            "param2": 0
+                        },
+                        {
+                            "level": 5,
+                            "aff_list": [
+                                {
+                                    "affect_type": 5,
+                                    "param1": 13,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 5,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 13,
+                            "param2": 0
+                        },
+                        {
+                            "level": 6,
+                            "aff_list": [
+                                {
+                                    "affect_type": 5,
+                                    "param1": 16,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 5,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 16,
+                            "param2": 0
+                        }
+                    ],
+                    "cost": 4,
+                    "invoke_effect": "eff_skill_lunge_activate.prefab",
+                    "use_limit_count": 0,
+                    "cost_type": 1,
+                    "guild_battle_disabled": false,
+                    "anim_type": 1,
+                    "type": 1,
+                    "target": 0,
+                    "se_invoke": "slash_invoke",
+                    "hit_interval": 0,
+                    "hit_effect_type": 0,
+                    "d2mode_disabled": false,
+                    "hit_effect": "eff_skill_lunge_hit.prefab",
+                    "category": 1,
+                    "attr": 1,
+                    "hit_max": 1,
+                    "pvp_disabled": false,
+                    "se_hit": "lunge_hit",
+                    "se_world": ""
+                },
+                "name_kana": "",
+                "cap_pt": 2,
+                "id": 1011,
+                "learnable_devil_id": 0,
+                "desc": "Inflicts Phys (Physical) damage with 30% crit rate on a single enemy.\nPower: 115ã",
+                "rarity": 2
+            },
+            {
+                "img": "dark",
+                "max_level": 6,
+                "learnable_race": 0,
+                "name": "Mudo",
+                "active": {
+                    "damage": {
+                        "pnt_hp_shield": false,
+                        "pnt_reduce": 0,
+                        "atk_s_coef": 0,
+                        "per_type": 0,
+                        "multi": 0,
+                        "atk_coef": 1,
+                        "hit": 0,
+                        "fix": 0,
+                        "is_multi_effect": false,
+                        "per_limit": 0,
+                        "pnt": false,
+                        "status_val": 0,
+                        "per_value": 0,
+                        "power": 1.2,
+                        "cri": 0,
+                        "status": 0,
+                        "atk_s_st": 0
+                    },
+                    "world_effect": "",
+                    "hit_min": 1,
+                    "skl_levels": [
+                        {
+                            "level": 2,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 4,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 4,
+                            "param2": 0
+                        },
+                        {
+                            "level": 3,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 6,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 6,
+                            "param2": 0
+                        },
+                        {
+                            "level": 4,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 8,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 8,
+                            "param2": 0
+                        },
+                        {
+                            "level": 5,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 10,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 10,
+                            "param2": 0
+                        },
+                        {
+                            "level": 6,
+                            "aff_list": [
+                                {
+                                    "affect_type": 1,
+                                    "param1": 12,
+                                    "param2": 0
+                                }
+                            ],
+                            "affect_type": 1,
+                            "need_point": 1,
+                            "armament_skill_lvup_pt": 1,
+                            "param1": 12,
+                            "param2": 0
+                        }
+                    ],
+                    "cost": 4,
+                    "invoke_effect": "eff_skill_mudoon_activate.prefab",
+                    "use_limit_count": 0,
+                    "cost_type": 1,
+                    "guild_battle_disabled": false,
+                    "anim_type": 2,
+                    "type": 1,
+                    "target": 0,
                     "se_invoke": "mudoon_invoke",
                     "hit_interval": 0,
                     "hit_effect_type": 0,
@@ -2253,11 +2221,11 @@
                     "se_world": ""
                 },
                 "name_kana": "",
-                "cap_pt": 2,
-                "id": 1150,
+                "cap_pt": 1,
+                "id": 1146,
                 "learnable_devil_id": 0,
-                "desc": "Inflicts Dark (Magic) damage on all enemies.\nPower: 80ã",
-                "rarity": 3
+                "desc": "Inflicts Dark (Magic) damage on a single enemy.\nPower: 120ã",
+                "rarity": 2
             }
         ],
         "mgtm_srs": [
@@ -2823,6 +2791,10 @@
         }
     },
     "stage_name": "btl_stg_akiba_00",
+    "talk": {
+        "talk_start_type": 1,
+        "talk_tgt": 4
+    },
     "is_change": false,
     "assist_queue": [],
     "wave_max": 3,
@@ -2839,14 +2811,14 @@
                 0,
                 0
             ],
-            "agi": 9,
-            "hpmx": 29,
-            "luk": 10,
-            "hp": 29,
+            "agi": 11,
+            "hpmx": 32,
+            "luk": 11,
+            "hp": 32,
             "atk_exp": 0,
             "lv": 1,
             "additional_skl": [],
-            "mdef": 74,
+            "mdef": 67,
             "is_rare": false,
             "limitbreak": {
                 "effect": [],
@@ -2855,9 +2827,9 @@
             "is_awk": false,
             "dr": 0,
             "ai_auto_type": 0,
-            "mag": 13,
+            "mag": 9,
             "limitbreak_skl": [],
-            "atk_pr": 0,
+            "atk_pr": 2,
             "skl_exp": [
                 0,
                 0,
@@ -2866,24 +2838,24 @@
                 0,
                 0
             ],
-            "wk": 32,
+            "wk": 16,
             "pressturn": 1,
             "skl": [
                 {
                     "lv": 1,
-                    "id": 1105
+                    "id": 1119
                 },
                 {
                     "lv": 1,
-                    "id": 24
+                    "id": 1011
                 },
                 {
                     "lv": 1,
-                    "id": 1110
+                    "id": 1017
                 },
                 {
                     "lv": 1,
-                    "id": 1165
+                    "id": 0
                 },
                 {
                     "lv": 1,
@@ -2896,40 +2868,53 @@
             ],
             "tgt_type": 0,
             "anlz": 0,
-            "id": 11530,
-            "patk": 70,
+            "id": 11910,
+            "patk": 74,
             "skl_pr": [
-                0,
-                6,
-                0,
+                3,
+                3,
+                3,
                 2,
                 3,
                 3
             ],
-            "vit": 11,
-            "st": 64,
-            "pdef": 71,
+            "vit": 7,
+            "st": 8,
+            "pdef": 67,
             "mp": 999,
             "mgtm_effs": [],
             "atk_exp_pr": 0,
             "ai_type": 2,
             "mgtms": [],
-            "str": 7,
+            "str": 9,
             "av": 0,
-            "uniq": 1,
-            "matk": 82,
+            "uniq": 4,
+            "matk": 74,
             "enemy_type": 0,
             "mpmx": 999,
             "rp": 0,
-            "rarity": 2
+            "rarity": 1
+        }
+    ],
+    "igts": [
+        {
+            "prfx": "tutorial/talk_01/",
+            "is_skip": false,
+            "id": 403
         }
     ],
     "res_code": 0,
     "mission": [],
     "spn_sub": "",
-    "smn_skl_support_list": [],
+    "smn_skl_support_list": [
+        {
+            "uniq": 10204465622,
+            "id": 1,
+            "skl_support": []
+        }
+    ],
     "battle_type": 0,
     "bgm_boss": "bgm_btl_boss",
-    "is_talk": false,
-    "is_continue": false
+    "is_talk": true,
+    "is_continue": true
 }

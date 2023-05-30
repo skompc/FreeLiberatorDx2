@@ -1,5 +1,4 @@
 function clean(input, type, weird_lvl) {
-    console.log("test")
 // takes a stringified JSON object as input and returns a modified (cleaned) version as output, still stringified
 //weird_lvl 0 means nothing else needs fixing
 //weird_lvl 1 means the the input has more '&' than needed, since some '=' got changed 
