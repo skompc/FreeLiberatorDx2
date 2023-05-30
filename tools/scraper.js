@@ -2,7 +2,7 @@ const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
 
-const initialUrl = 'https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=6.1.01.TLP3AAGyyAGF&platform=2&lang=1&bundle_id=com.sega.d2megaten.en&_tm_=1';
+const initialUrl = 'https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=6.1.02.NJRpmhR4E5M4&platform=2&lang=1&bundle_id=com.sega.d2megaten.en&_tm_=1';
 
 async function downloadFiles() {
   try {

@@ -4,7 +4,6 @@
   "description": "A SMT:Dx2 private server project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
     "scraper": "node tools/scraper.js",
     "proxy": "nodemon tools/proxy.js"

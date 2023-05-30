@@ -1,10 +1,10 @@
 const fs = require("fs");
+const paramTools = require("../tools/paramTools");
 
 function GetBaseData(req, res) {
-    var X = JSON.stringify(req.query);
-    var Y = 'type=data';
-    var Z = X.slice(X.indexOf(Y) + Y.length);
-    var data2Get = parseInt(Z.substring(0));
+    var param = JSON.stringify(req.query);
+    var query = paramTools.clean(param);
+    var data2Get = query.type;
 
     let file = fs.readFileSync("./json/base/basedata/" + data2Get +".json", "utf8");
     let data = JSON.parse(file);
