@@ -1,0 +1,197 @@
+{
+    "is_scr": false,
+    "facs": [
+        {
+            "info_msg": "You can summon demons\nat the Summoning Portal by using the necessary items.\nIt is also possible to get demons\nby trading fragments obtainable in\n\nWANTED Quests\nor by other means.",
+            "img": "summon",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 1,
+            "name": "Summoning Portal",
+            "id": 1,
+            "type": 1,
+            "desc": "A place to Summon demons or trade fragments in for them."
+        },
+        {
+            "info_msg": "Demons can be enhanced\nin many ways at\nPandemonium.",
+            "img": "goma",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 7,
+            "name": "Pandemonium",
+            "id": 2,
+            "type": 2,
+            "desc": "A facility to make\nyour demons stronger."
+        },
+        {
+            "info_msg": "At the Church of False Idols,\nDemons, materials and \nMagnetite can be used to\ncreate new Demons.\n\nPlease note that Support \nDemons cannot be used \nin this process.",
+            "img": "fusion",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 7,
+            "name": "Church of False Gods",
+            "id": 3,
+            "type": 3,
+            "desc": "A place to Fuse demons that you own to create new ones."
+        },
+        {
+            "info_msg": "Liberators HQ. From here\nyou can confirm missions,\nlevel up Dx2s and \nexchange Fame for items.",
+            "img": "assoc",
+            "is_add": false,
+            "upgrade": [
+                {
+                    "require_type": 0,
+                    "require_text": "",
+                    "level": 1,
+                    "effect": [],
+                    "can_upgrade": false,
+                    "require_num": 0
+                }
+            ],
+            "level": 1,
+            "is_open": true,
+            "lv_max": 1,
+            "name": "Liberators HQ",
+            "id": 4,
+            "type": 4,
+            "desc": "The HQ where the Liberators\nhang out."
+        },
+        {
+            "info_msg": "Demonic Compendium Information Panel.",
+            "img": "book",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 1,
+            "name": "Compendium",
+            "id": 5,
+            "type": 5,
+            "desc": "This is the DEMONIC COMPENDIUM."
+        },
+        {
+            "info_msg": "Purchase items with Gems,\nMagnetite and Macca\nearned from quests.",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 1,
+            "name": "Store",
+            "id": 6,
+            "type": 6,
+            "desc": "Sells items that\nare useful to Dx2s."
+        },
+        {
+            "info_msg": "Operating funds from Liberators \nHQ are sent periodically to the \nSafe (Macca).\nUpgrade various facilities to \nreceive greater operating funds.",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 5,
+            "name": "Safe (Macca)",
+            "id": 7,
+            "type": 7,
+            "desc": "Dispenses Macca periodically."
+        },
+        {
+            "info_msg": "Liberators HQ periodically sends \nshipments of Magnetite to the \nSafe (Magnetite).\nUpgrade various facilities to \nreceive greater amounts of \nMagnetite.",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 5,
+            "name": "Safe (Magnetite)",
+            "id": 8,
+            "type": 7,
+            "desc": "Dispenses Magnetite\nat regular intervals."
+        },
+        {
+            "info_msg": "Aether Conversion Information",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 1,
+            "name": "Aether Conv.",
+            "id": 9,
+            "type": 8,
+            "desc": "Aether Conversion explanation."
+        },
+        {
+            "info_msg": "Gem generating facility",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 3,
+            "name": "Safe (Gems)",
+            "id": 10,
+            "type": 7,
+            "desc": "A safe that generates Gems."
+        },
+        {
+            "info_msg": "Demon Dispatch Information",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 9,
+            "name": "Dispatch",
+            "id": 11,
+            "type": 9,
+            "desc": "Demon Dispatch explanation."
+        },
+        {
+            "info_msg": "Black Market Information",
+            "img": "shop",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 5,
+            "name": "Black Mkt.",
+            "id": 12,
+            "type": 10,
+            "desc": "Black Market explanation."
+        },
+        {
+            "info_msg": "DEVICON Info",
+            "img": "devicon",
+            "is_add": false,
+            "level": 1,
+            "is_open": false,
+            "lv_max": 1,
+            "name": "DEVICON",
+            "id": 13,
+            "type": 11,
+            "desc": "DEVICON Details"
+        }
+    ],
+    "resource": {
+        "gb_exchange_ticket": 0,
+        "qst_skp_ticket": 0,
+        "dp_itm": 0,
+        "mc": 50,
+        "pp_itm": 0,
+        "mg": 0,
+        "fame": 0,
+        "cp": 0,
+        "ap_itm": 0,
+        "pvppt": 0
+    },
+    "lock_flag": "011111111111111111111111111111111111111111111111111111111111111111111",
+    "res_code": 0,
+    "background_type": 1,
+    "client_wait": 0,
+    "devicon": {
+        "is_open": true,
+        "enable_devicon_badge": true
+    },
+    "short_cut": {
+        "is_daily_badge": false,
+        "is_daily": false,
+        "is_mission_badge": false
+    },
+    "charas": []
+}

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test":   "node main/test.js",
-    "server": "nodemon main/server.js",
+    "server": "nodemon server.js",
     "scraper": "node main/scraper.js",
     "proxy": "nodemon main/proxy.js"
   },

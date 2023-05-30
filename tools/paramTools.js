@@ -1,4 +1,5 @@
 function clean(input, type, weird_lvl) {
+    console.log("test")
 // takes a stringified JSON object as input and returns a modified (cleaned) version as output, still stringified
 //weird_lvl 0 means nothing else needs fixing
 //weird_lvl 1 means the the input has more '&' than needed, since some '=' got changed 
@@ -15,7 +16,7 @@ function clean(input, type, weird_lvl) {
             string = paramShift(string)
         }
     }
-    if (type = 0){
+    if (type == 0){
         const startIndex = string.indexOf('"param"');
         const endIndex = string.indexOf(':', startIndex) + 1;
         const output = string.slice(0, startIndex) + string.slice(endIndex);
@@ -24,7 +25,7 @@ function clean(input, type, weird_lvl) {
         return finalOutput;
     }
 
-    if (type = 1){
+    if (type == 1){
         let newString = string.replace("param=", "");
         let output = newString.replace("&", "=");
         return output;
