@@ -6,8 +6,8 @@
   "scripts": {
     "test":   "node main/test.js",
     "scraper": "node main/scraper.js",
-    "gameServer": "nodemon main/server.js",
-    "assetServer":  "node main/assetServer.js",
+    "game": "nodemon main/gameServer.js",
+    "asset":  "node main/assetServer.js",
     "proxy": "node main/proxyServer.js",
     "all":  "nodemon index.js"
   },
