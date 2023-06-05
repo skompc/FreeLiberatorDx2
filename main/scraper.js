@@ -55,6 +55,12 @@ async function downloadFile(dir, baseUrl, filename) {
         fs.writeFileSync(filePath, fileContents);
         console.log(`Downloaded ${url} to ${filePath}`);
       } else {
+        const filePath2 = path.join(dir, `assets/ab.txt`);
+        const url = baseUrl + "assets/ab.txt";
+        const response = await axios.get(url, { responseType: 'arraybuffer' });
+        const fileContents = response.data;
+        fs.writeFileSync(filePath2, fileContents);
+        console.log(`Downloaded ${url} to ${filePath2}`);
         console.log("Done downloading all files!")
       }
     }
