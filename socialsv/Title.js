@@ -2,7 +2,7 @@
 const fs = require("fs");
 
 function Title(req, res) {
-    fs.readFile('json/Title.json', function (err, data) {
+    fs.readFile('json/common/Title.json', function (err, data) {
         res.status(200).write(data);
         res.end();
         if (err) throw err;

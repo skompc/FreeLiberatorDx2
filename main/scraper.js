@@ -2,16 +2,20 @@ const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
 
-const initialUrl = 'https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=6.1.02.NJRpmhR4E5M4&platform=2&lang=1&bundle_id=com.sega.d2megaten.en&_tm_=1';
+const check_code = "6.1.03.MeJm447RGRTM" //obtained from legit app request
+const lang_code = "en" //language to download
+const platform = "Android" // Android for now... I don't know the correct url for apple devices.
+
+const initialUrl = `https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=${check_code}&platform=2&lang=1&bundle_id=com.sega.d2megaten.en&_tm_=1`;
 
 async function downloadFiles() {
   try {
     const initialResponse = await axios.get(initialUrl);
     const { asset_bundle_url, asset_bundle_version } = initialResponse.data;
-    const baseUrl = `${asset_bundle_url}Android/${asset_bundle_version}/en/`;
+    const baseUrl = `${asset_bundle_url}${platform}/${asset_bundle_version}/${lang_code}/`;
     const filename = 'ab_list.txt';
 
-    const dir = `./contents/Android/${asset_bundle_version}/en/`;
+    const dir = `./contents/${platform}/${asset_bundle_version}/${lang_code}/`;
     fs.mkdir(dir+"assets/", { recursive: true }, (err) => {
       if (err) {
         console.error(`Error creating directory: ${err.message}`);
@@ -26,10 +30,11 @@ async function downloadFiles() {
 }
 
 async function downloadFile(dir, baseUrl, filename) {
+  const newFileName = filename.replace(/ /g, "%20");
   const fileUrl = baseUrl + filename;
   const fileResponse = await axios.get(fileUrl);
   const data = fileResponse.data;
-  const filePath0 = path.join(dir, `${filename}`);
+  const filePath0 = path.join(dir, `${newFileName}`);
   fs.writeFileSync(filePath0, data);
   console.log(`Downloaded ${filename} to ${filePath0}`);
 

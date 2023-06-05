@@ -129,15 +129,6 @@ function summonerDevilSearch(id){
   }
 }
 
-function smn_skillSearch(smn_obj, skill_id){
-  let data = smn_obj.lineup
-  for (const subObj of data) {
-    if (subObj.id == skill_id) {
-      return JSON.stringify(subObj);
-    }
-  }
-}
-
 function learnSkill(uniq, skillId) {
   const jsonData = JSON.parse(fs.readFileSync("./data/players/0/party.json"));
   const summoners = jsonData.summoners;

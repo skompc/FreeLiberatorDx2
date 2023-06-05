@@ -3,7 +3,7 @@ const fs = require("fs");
 const bundle = "custom"
 
 function GetUrl(req, res) {
-  const files = ['./json/GetUrl.json'];
+  const files = ['./json/common/GetUrl.json'];
   let jsonData = [];
   
   files.forEach(file => {

@@ -30,14 +30,13 @@ function BattleEntry(req, res) {
       ];
     
     
-      const party = tools.combine(files2)
-      var smn_party = devilTools.summonerDevilSearch(2)
-      console.log(smn_party)
+    const party = tools.combine(files2)
+    var main_party = devilTools.summonerDevilSearch(2)
 
-    var uniq0 = smn_party.data[main_idx - 1].devils[0];
-    var uniq1 = smn_party.data[main_idx - 1].devils[1];
-    var uniq2 = smn_party.data[main_idx - 1].devils[2];
-    var uniq3 = smn_party.data[main_idx - 1].devils[3];
+    var uniq0 = main_party.data[main_idx - 1].devils[0];
+    var uniq1 = main_party.data[main_idx - 1].devils[1];
+    var uniq2 = main_party.data[main_idx - 1].devils[2];
+    var uniq3 = main_party.data[main_idx - 1].devils[3];
 
     var devil0 = devilTools.devilSearch(uniq0);
     var devil1 = devilTools.devilSearch(uniq1);
