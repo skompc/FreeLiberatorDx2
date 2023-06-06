@@ -4,11 +4,12 @@
   "description": "A SMT:Dx2 private server project",
   "main": "index.js",
   "scripts": {
-    "test":   "node main/test.js",
+    "test":   "nodemon main/test.js",
     "scraper": "node main/scraper.js",
     "game": "nodemon main/gameServer.js",
     "asset":  "node main/assetServer.js",
     "proxy": "node main/proxyServer.js",
+    "servers": "start npm run game & start npm run asset",
     "all":  "start npm run game & start npm run asset & start npm run proxy"
   },
   "keywords": [

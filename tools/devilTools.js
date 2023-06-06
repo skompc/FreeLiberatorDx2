@@ -150,7 +150,7 @@ function devilSearch(uniq){
           return subObj;
       }
   }
-  const removeMeObject = { remove_me: true };
+  const removeMeObject = { remove_me: true, id: 0 };
   return removeMeObject;
 }
 
@@ -247,6 +247,20 @@ function summonerLevel(id, exp){
   }
 }
 
+function findSummoner(summoner_id){
+  const files = [
+    "./data/players/0/party.json"
+  ];
+
+  const playerData = tools.combine(files)
+
+  for (const subObj of playerData.summoners) {
+    if (subObj.id == summoner_id) {
+      return subObj;
+    }
+  }
+}
+
 function usrLevel(exp){
   const files = [
     "./data/players/0/usr.json"
@@ -264,4 +278,4 @@ function usrLevel(exp){
 }
 
 
-module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel, partySearch};
+module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel, partySearch, findSummoner};

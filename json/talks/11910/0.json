@@ -1,7 +1,7 @@
 {
     "talk_list": [
         {
-            "msg": "Do you want to recruit me? It'll cost 10 Health.",
+            "msg": "Do you want to recruit me?",
             "is_character_talk": true,
             "select_list": [],
             "name": "Mokoi"
@@ -11,7 +11,7 @@
             "is_character_talk": false,
             "select_list": [
                 {
-                    "select_id": 12,
+                    "select_id": 1,
                     "text": "Yes"
                 },
                 {

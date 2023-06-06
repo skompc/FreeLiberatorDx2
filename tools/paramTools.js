@@ -15,7 +15,7 @@ function clean(input, type, weird_lvl) {
             string = paramShift(string)
         }
     }
-    if (type == 0){ //get
+    if (type == 0){ //JSON format
         const startIndex = string.indexOf('"param"');
         const endIndex = string.indexOf(':', startIndex) + 1;
         const output = string.slice(0, startIndex) + string.slice(endIndex);
@@ -24,7 +24,7 @@ function clean(input, type, weird_lvl) {
         return finalOutput;
     }
 
-    if (type == 1){ //post
+    if (type == 1){ //Standard format
         let newString = string.replace("param=", "");
         let output = newString.replace("&", "=");
         return output;
@@ -55,4 +55,30 @@ function decodeUriMultipleTimes(uri, times) {
     const output = firstThreeElementsString + "&" + combinedArray.join('&');
     return output
   }
-module.exports = { clean };
+
+function uriFormatter(inputObj){
+    const uriArray = [];
+    for (let key in inputObj) {
+        const value = encodeURIComponent(inputObj[key]);
+        const encodedKey = encodeURIComponent(key);
+        uriArray.push(`${encodedKey}=${value}`);
+    }
+
+    const uriObject = uriArray.join('&');
+    return uriObject;
+}
+
+function toJSON(input){
+    const uriArray = input.split('&');
+    const bodyObject = {};
+
+    for (let pair of uriArray) {
+        const [encodedKey, encodedValue] = pair.split('=');
+        const key = decodeURIComponent(encodedKey);
+        const value = decodeURIComponent(encodedValue);
+    bodyObject[key] = value;
+    }
+
+    return bodyObject;
+}
+module.exports = { clean, uriFormatter, toJSON };

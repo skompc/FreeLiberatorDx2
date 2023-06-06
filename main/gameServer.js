@@ -32,6 +32,7 @@ function gameServer(gamePort){
     const { TutorialFinish } = require("../socialsv/TutorialFinish");
     const { Home } = require("../socialsv/Home");
     const { Party } = require("../socialsv/Party");
+    const { PartySet } = require("../socialsv/PartySet");
     const { DramaQuest } = require("../socialsv/DramaQuest");
     const { DramaEnd } = require("../socialsv/DramaEnd");
     const { BattleEntry } = require("../socialsv/BattleEntry");
@@ -85,8 +86,9 @@ function gameServer(gamePort){
     app.get("/socialsv/SummonerSkillLearn.do", (req, res) => SummonerSkillLearn(req, res));
     app.get("/socialsv/BattleTalk.do", (req, res) => BattleTalk(req, res));
     app.get("/socialsv/BattleNext.do", (req, res) => BattleNext(req, res));
-    app.get("/socialsv/BattleResult.do", (req, res) => BattleResult(req, res))
+    app.post("/socialsv/BattleResult.do", (req, res) => BattleResult(req, res))
     app.get("/socialsv/IngameTutorialEnd.do", (req, res) => IngameTutorialEnd(req, res));
+    app.get("/socialsv/PartySet.do", (req, res) => PartySet(req, res));
 
 }
 
