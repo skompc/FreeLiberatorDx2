@@ -20,61 +20,52 @@ function update(input) {
   fs.writeFileSync("./data/players/0/devils.json", file2Write);
 }
 
-function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr, wk, av, spt, rp, ct){
-  var makeuniq = function (numChars) {
-    let ID = "";
-    let characters = "123456789";
-    for ( var i = 0; i < numChars; i++ ) {
-      ID += characters.charAt(Math.floor(Math.random() * 9));
-    }
-    return ID;
-  }
-var devil = {
-  skl: skills,
-  id: id,
-  lv: lvl,
-  str: str,
-  vit: vit,
-  mag: mag,
-  mp: mag,
-  mpmx: mag,
-  ai_auto_type: ai_type,
-  agi: agi,
-  luk: luk,
-  arc: arc,
-  uniq: parseInt(makeuniq(11)),
-  patk: Math.floor(str * 2.1 + lvl * 5.6 + 50),
-  pdef: Math.floor(str * 0.5 + vit * 1.1 + lvl * 5.6 + 50),
-  matk: Math.floor(mag * 2.1 + lvl * 5.6 + 50),
-  mdef: Math.floor(mag * 0.5 + vit * 1.1 + lvl * 5.6 + 50),
-  hp: Math.floor(vit * 2.1 + lvl * 5.6 + 50),
-  hpmx: Math.floor(vit * 2.1 + lvl * 5.6 + 50),
-  exceed_info: {
+function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr, wk, av, spt, rp, ct, uniq){
+  var devil = {
+    skl: skills,
+    id: id,
+    lv: lvl,
+    str: str,
+    vit: vit,
+    mag: mag,
+    mp: mag,
+    mpmx: mag,
+    ai_auto_type: ai_type,
+    agi: agi,
+    luk: luk,
+    arc: arc,
+    uniq: parseInt(uniq),
+    patk: Math.floor(str * 2.1 + lvl * 5.6 + 50),
+    pdef: Math.floor(str * 0.5 + vit * 1.1 + lvl * 5.6 + 50),
+    matk: Math.floor(mag * 2.1 + lvl * 5.6 + 50),
+    mdef: Math.floor(mag * 0.5 + vit * 1.1 + lvl * 5.6 + 50),
+    hp: Math.floor(vit * 2.1 + lvl * 5.6 + 50),
+    hpmx: Math.floor(vit * 2.1 + lvl * 5.6 + 50),
+    exceed_info: {
     opened_num: 0
-  },
-  recommend_type: 0,
-  additional_skl: [],
-  limitbreak: {
+    },
+    recommend_type: 0,
+    additional_skl: [],
+    limitbreak: {
       effect: [],
       num: 60,
       open: []
-  },
-  is_awk: false,
-  dr: 0,
-  limitbreak_skl: [],
-  exp: 0,
-  "is_new": true,
-  "mgtms": [],
-  dr: dr,
-  wk: wk,
-  av: av,
-  spt: spt,
-  rp: rp,
-  contents_type: ct,
-  rarity: rarity
-}
-return devil;
-
+    },
+    is_awk: false,
+    dr: 0,
+    limitbreak_skl: [],
+    exp: 0,
+    is_new: true,
+    mgtms: [],
+    dr: dr,
+    wk: wk,
+    av: av,
+    spt: spt,
+    rp: rp,
+    contents_type: ct,
+    rarity: rarity
+  }
+  return devil;
 }
 
 function add2Party(summoner, party, pos, uniq){
@@ -105,6 +96,35 @@ function devilSearch(uniq){
   }
   const removeMeObject = { remove_me: true };
   return removeMeObject;
+}
+
+function devilLevel(uniq, exp){
+  const searchUniq = uniq;
+
+  const files = [
+    "./data/players/0/devils.json"
+  ];
+
+  const playerData = tools.combine(files)
+
+  for (const subObj of playerData.devils) {
+      if (subObj.uniq == searchUniq) {
+        subObj.exp = subObj.exp + exp;
+        while (subObj.exp >= 100){
+          subObj.exp = subObj.exp - 100;
+          subObj.lv = subObj.lv + 1;
+          subObj.str = subObj.str + 1;
+          subObj.vit = subObj.vit + 1;
+          subObj.mag = subObj.mag + 1;
+          subObj.agi = subObj.agi + 1;
+          subObj.arc = subObj.arc + 1;
+        }
+        console.log(subobj.lv);
+        new_devil = make(subObj.id, subObj.rarity, subObj.lv, subObj.str, subObj.vit, subObj.mag, subObj.agi, subObj.luk, subObj.arc, subObj.skills, subObj.ai_auto_type, subObj.dr, subObj.wk, subObj.av, subObj.spt, subObj.rp, subObj.ct, subObj.uniq);
+        const devils2Return = [new_devil]
+        update(devils2Return);
+      }
+  }
 }
 
 function updateHomeParty(id, slot){
@@ -138,7 +158,6 @@ function learnSkill(uniq, skillId) {
     const skill = lineup.find((s) => s.id == parseInt(skillId));
     if (skill) {
       skill.is_learned = true;
-      console.log(typeof(skillId))
       summoner.skl.push(+skillId);
       summoner.skl_p = parseInt(parseInt(summoner.skl_p) - 1)
       const updatedJsonData = JSON.stringify(jsonData, null, 4);
@@ -149,5 +168,44 @@ function learnSkill(uniq, skillId) {
   return false;
 }
 
+function summonerLevel(id, exp){
+  const searchId = id;
 
-module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch};
+  const files = [
+    "./data/players/0/party.json"
+  ];
+
+  const playerData = tools.combine(files)
+
+  for (const subObj of playerData.summoners) {
+    if (subObj.id == searchId) {
+      subObj.exp = subObj.exp + exp;
+      while (subObj.exp >= 100){
+        subObj.exp = subObj.exp - 100;
+        subObj.level = subObj.level + 1;
+        subObj.skl_p = subObj.skl_p + 1;
+      }
+      console.log(subObj.level);
+      tools.addTo("./data/players/0/party.json", "summoners", playerData.summoners);
+    }
+  }
+}
+
+function usrLevel(exp){
+  const files = [
+    "./data/players/0/usr.json"
+  ];
+
+  const data = tools.combine(files);
+  data.usr["exp"] = data.usr["exp"] + 100;
+  while (data.usr["exp"] >= 100){
+    data.usr["exp"] = data.usr["exp"] - 100;
+    data.usr["lv"] = data.usr["lv"] + 1;
+  }
+  console.log(data.usr["lv"]);
+  tools.addTo("./data/players/0/usr.json", "usr", data.usr);
+
+}
+
+
+module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel};
