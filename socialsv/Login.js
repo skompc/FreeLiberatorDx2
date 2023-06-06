@@ -9,7 +9,7 @@ function Login(req, res) {
         "./data/players/" + uuid + "/igt_list.json",
         "./data/players/" + uuid + "/setting_data.json",
         "./data/players/" + uuid + "/usr.json",
-        "./json/common/basedata_version.json",
+        "./json/common/basedata/basedata_version.json",
         "./json/common/rand_names.json"
     ];
     let data = tools.combine(files);

@@ -13,15 +13,24 @@ function TutorialBattleEntry(req, res) {
     const files2 = [
         "./data/players/0/party.json"
       ];
+
+      const files3 = [
+        "./data/players/0/usr.json"
+      ]
     
     
       const party = tools.combine(files2)
+      const usr = tools.combine(files3)
 
-    var uniq0 = party.parties[0].data[0].devils[0];
-    var uniq1 = party.parties[0].data[0].devils[1];
+      let gender = usr.usr["smn_id"]
 
-    var devil0 = JSON.parse(devilTools.devilSearch(uniq0));
-    var devil1 = JSON.parse(devilTools.devilSearch(uniq1));
+    var uniq0 = parseInt(devilTools.partySearch(gender, 1, 0))
+    var uniq1 = parseInt(devilTools.partySearch(gender, 1, 1))
+
+    console.log(uniq0)
+
+    var devil0 = devilTools.devilSearch(uniq0);
+    var devil1 = devilTools.devilSearch(uniq1);
 
     const devils = [
         devil0,

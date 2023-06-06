@@ -9,7 +9,7 @@
     "game": "nodemon main/gameServer.js",
     "asset":  "node main/assetServer.js",
     "proxy": "node main/proxyServer.js",
-    "all":  "nodemon index.js"
+    "all":  "start npm run game & start npm run asset & start npm run proxy"
   },
   "keywords": [
     "android",

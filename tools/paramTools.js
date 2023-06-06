@@ -15,7 +15,7 @@ function clean(input, type, weird_lvl) {
             string = paramShift(string)
         }
     }
-    if (type == 0){
+    if (type == 0){ //get
         const startIndex = string.indexOf('"param"');
         const endIndex = string.indexOf(':', startIndex) + 1;
         const output = string.slice(0, startIndex) + string.slice(endIndex);
@@ -24,7 +24,7 @@ function clean(input, type, weird_lvl) {
         return finalOutput;
     }
 
-    if (type == 1){
+    if (type == 1){ //post
         let newString = string.replace("param=", "");
         let output = newString.replace("&", "=");
         return output;

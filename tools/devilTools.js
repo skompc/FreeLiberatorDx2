@@ -69,9 +69,65 @@ function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr
 }
 
 function add2Party(summoner, party, pos, uniq){
-  const data = JSON.parse(fs.readFileSync("./data/players/0/party.json"))
-  data.parties[summoner-1].data[party-1].devils[pos] = parseInt(uniq)
-  fs.writeFileSync('./data/players/0/party.json', JSON.stringify(data, null, 2));
+  console.log("test")
+  const files = [
+    "./data/players/0/party.json"
+  ];
+
+  let playerData = tools.combine(files)
+
+  let updated = false; // Flag to track if the object was updated
+  
+  for (const subObj of playerData.parties) {
+    if (subObj.summoner == summoner) {
+      console.log("summoner found: " + subObj.summoner)
+      for (let i = 0; i < subObj.data.length; i++) {
+        const subObj2 = subObj.data[i];
+        if (subObj2.idx == party) {
+          console.log("party found: " + subObj2.idx)
+          subObj2.devils[pos] = parseInt(uniq);
+          subObj.data.splice(i, 1); // Delete the original subObj2
+          subObj.data.push(subObj2); // Push the updated subObj2
+          console.log("subObj round 1")
+          console.log()
+          console.log(subObj)
+          updated = true; // Set the flag to true to indicate the object was updated
+          break; // Break out of the loop since the object was updated
+        }
+      }
+      if (updated) {
+        console.log("subObj round 2")
+        console.log()
+        console.log(subObj)
+        playerData.parties.splice(playerData.parties.indexOf(subObj), 1); // Delete the original subObj
+        playerData.parties.push(subObj); // Push the updated subObj
+        fs.writeFileSync("./data/players/0/party.json", JSON.stringify(playerData, null, 4))
+        break; // Break out of the loop since the object was updated
+      }
+    }
+  }
+}
+
+function partySearch(summoner, idx, pos){
+  const files = [
+    "./data/players/0/party.json"
+  ];
+
+  let playerData = tools.combine(files)
+
+  for (const subObj of playerData.parties) {
+    if (subObj.summoner == summoner) {
+      console.log("summoner found: " + subObj.summoner)
+      for (let i = 0; i < subObj.data.length; i++) {
+        const subObj2 = subObj.data[i];
+        if (subObj2.idx == idx) {
+          console.log("party found: " + subObj2.idx)
+          return subObj2.devils[pos];
+        }
+      }
+    }
+  }
+
 }
 
 function devilSearch(uniq){
@@ -208,4 +264,4 @@ function usrLevel(exp){
 }
 
 
-module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel};
+module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel, partySearch};

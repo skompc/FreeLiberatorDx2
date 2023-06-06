@@ -40,6 +40,8 @@ function gameServer(gamePort){
     const { SummonerSkillLearn } = require("../socialsv/SummonerSkillLearn");
     const { BattleTalk } = require("../socialsv/BattleTalk");
     const { BattleNext } = require("../socialsv/BattleNext");
+    const { BattleResult } = require("../socialsv/BattleResult");
+    const { IngameTutorialEnd } = require("../socialsv/IngameTutorialEnd");
 
     // Game Server
     const app = express();
@@ -83,7 +85,9 @@ function gameServer(gamePort){
     app.get("/socialsv/SummonerSkillLearn.do", (req, res) => SummonerSkillLearn(req, res));
     app.get("/socialsv/BattleTalk.do", (req, res) => BattleTalk(req, res));
     app.get("/socialsv/BattleNext.do", (req, res) => BattleNext(req, res));
-    app.get("/socialsv/IngameTutorialEnd.do", (req, res) => blank(req, res));
+    app.get("/socialsv/BattleResult.do", (req, res) => BattleResult(req, res))
+    app.get("/socialsv/IngameTutorialEnd.do", (req, res) => IngameTutorialEnd(req, res));
+
 }
 
 gameServer(gamePort)
