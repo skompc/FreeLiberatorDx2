@@ -37,9 +37,11 @@ Run <code>npm run asset</code> to run the asset server. This hosts the static as
 
 Run <code>npm run proxy</code> to run the proxy. This will allow the app to connect with this server.
 
-Run <code>npm run all</code> to run all three servers.
+Run <code>npm run servers</code> to run only the game and asset servers. This is useful if you are using a different proxy (e.g. mitmProxy) for development. Note that both servers will open in their own window.
 
-By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, proxyServer.js, and index.js for the game, asset, proxy, and all commands respectively.
+Run <code>npm run all</code> to run all three servers. Note that all three servers will open in their own window.
+
+By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively.
 
 # If You Use An Android Phone:
 Install the modded APK onto your phone (available in the releases zip).
