@@ -33,15 +33,17 @@ edit the first line of <code>./contents/Android/custom/en/ab_list.txt</code> fro
 
 Run <code>npm run game</code> to run the main server. This has the main game logic.
 
-Run <code>npm run asset</code> to run the asset server. This hosts the static assets for the game, as well as the certificate page. Can also be used with the official version of the app in the event of a slow internet connection.
+Run <code>npm run asset</code> to run the asset server. This hosts the static assets for the game, as well as the certificate page.
 
 Run <code>npm run proxy</code> to run the proxy. This will allow the app to connect with this server.
 
-Run <code>npm run servers</code> to run only the game and asset servers. This is useful if you are using a different proxy (e.g. mitmProxy) for development. Note that both servers will open in their own window.
+Run <code>npm run mod-servers</code> to run only the game and asset servers. This is useful if you are using a different proxy (e.g. mitmProxy) for development. Note that both servers will open in their own window.
+
+Run <code>npm run mitm-servers</code> to run only the asset and proxy servers. This is useful if you want to play the "official (read mitm)" version of the game but have a slow internet connection. Note that you need to have the correct assets scraped for the version of the app you are using! 
 
 Run <code>npm run all</code> to run all three servers. Note that all three servers will open in their own window.
 
-By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively.
+By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively. Make sure that the game and asset ports are the same in both their respective files AND proxyServer.js if you plan on using the proxy command!
 
 # If You Use An Android Phone:
 Install the modded APK onto your phone (available in the releases zip).
