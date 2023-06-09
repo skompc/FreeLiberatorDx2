@@ -77,7 +77,7 @@ function BattleEntry(req, res) {
     ];
 
     var allDevils = [devils, sub_devils]
-    console.log(allDevils)
+    tools.addTo("./data/players/0/temp1.json", "dvl_before", allDevils)
 
     quest.parties = parties;
 

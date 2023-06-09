@@ -166,8 +166,7 @@ function devilLevel(uniq, exp){
   for (const subObj of playerData.devils) {
       if (subObj.uniq == searchUniq) {
         subObj.exp = subObj.exp + exp;
-        while (subObj.exp >= 100){
-          subObj.exp = subObj.exp - 100;
+        while (subObj.exp >= (100 * subObj.lv)){
           subObj.lv = subObj.lv + 1;
           subObj.str = subObj.str + 1;
           subObj.vit = subObj.vit + 1;

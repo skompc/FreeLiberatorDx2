@@ -22,7 +22,7 @@ function BattleResult(req, res) {
         // Return failure
     }
 
-    let file = fs.readFileSync("./json/battles/tutorial/result.json", "utf8");
+    let file = fs.readFileSync(`./json/battles/story/${params["stage"]}/result.json`, "utf8");
     let data = JSON.parse(file);
     res.status(200).json(data);
 }
