@@ -20,7 +20,8 @@ function RegistAccount(req, res) {
     var uuid = 0
 
     const dir = `./data/players/${uuid}/`;
-    fs.mkdirSync(dir, { recursive: true });
+    const temp_dir = "./data/players/0/temp/"
+    fs.mkdirSync(temp_dir, { recursive: true });
 
     tools.move("./json/base/igt_list.json", dir + "igt_list.json")
     tools.move("./json/base/setting_data.json", dir + "setting_data.json")

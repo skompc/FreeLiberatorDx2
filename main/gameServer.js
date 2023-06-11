@@ -42,6 +42,7 @@ function gameServer(gamePort){
     const { BattleTalk } = require("../socialsv/BattleTalk");
     const { BattleNext } = require("../socialsv/BattleNext");
     const { BattleResult } = require("../socialsv/BattleResult");
+    const { IngameTutorialCheck } = require("../socialsv/IngameTutorialCheck");
     const { IngameTutorialEnd } = require("../socialsv/IngameTutorialEnd");
 
     // Game Server
@@ -79,7 +80,7 @@ function gameServer(gamePort){
     app.get("/socialsv/DramaQuest.do", (req, res) => DramaQuest(req, res));
     app.get("/socialsv/Party.do", (req, res) => Party(req, res));
     app.get("/socialsv/BattleEntry.do", (req, res) => BattleEntry(req, res));
-    app.get("/socialsv/IngameTutorialCheck.do", (req, res) => blank(req, res));
+    app.get("/socialsv/IngameTutorialCheck.do", (req, res) => IngameTutorialCheck(req, res));
     app.get("/socialsv/Helper.do", (req, res) => Helper(req, res));
     app.get("/socialsv/DevilList.do", (req, res) => DevilList(req, res));
     app.post("/socialsv/DevilWatch.do", (req, res) => blank(req, res));

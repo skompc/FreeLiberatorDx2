@@ -20,7 +20,7 @@ function update(input) {
   fs.writeFileSync("./data/players/0/devils.json", file2Write);
 }
 
-function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr, wk, av, spt, rp, ct, uniq){
+function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr, wk, av, spt, rp, ct, uniq, exp){
   var devil = {
     skl: skills,
     id: id,
@@ -54,7 +54,7 @@ function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr
     is_awk: false,
     dr: 0,
     limitbreak_skl: [],
-    exp: 0,
+    exp: exp,
     is_new: true,
     mgtms: [],
     dr: dr,
@@ -155,6 +155,7 @@ function devilSearch(uniq){
 }
 
 function devilLevel(uniq, exp){
+  const expArray = JSON.parse(fs.readFileSync("./json/common/exp_next.json", "utf8")).exp_next;
   const searchUniq = uniq;
 
   const files = [
@@ -162,20 +163,40 @@ function devilLevel(uniq, exp){
   ];
 
   const playerData = tools.combine(files)
+  let lv
+  let str
+  let vit
+  let mag
+  let agi
+  let arc
+  let luk
+  let exp1
 
   for (const subObj of playerData.devils) {
       if (subObj.uniq == searchUniq) {
-        subObj.exp = subObj.exp + exp;
-        while (subObj.exp >= (100 * subObj.lv)){
-          subObj.lv = subObj.lv + 1;
-          subObj.str = subObj.str + 1;
-          subObj.vit = subObj.vit + 1;
-          subObj.mag = subObj.mag + 1;
-          subObj.agi = subObj.agi + 1;
-          subObj.arc = subObj.arc + 1;
+        exp1 = subObj.exp + exp;
+        let totalExp = subObj.exp
+        let expRequirement = expArray[subObj.lv];
+        lv = subObj.lv;
+        str = subObj.str;
+        vit = subObj.vit;
+        mag = subObj.mag;
+        agi = subObj.agi;
+        arc = subObj.arc;
+        luk = subObj.luk
+        while (totalExp >= expRequirement){
+          totalExp = totalExp - expRequirement
+          lv = lv + 1;
+          str = str + 1;
+          vit = vit + 1;
+          mag = mag + 1;
+          agi = agi + 1;
+          arc = arc + 1;
+          luk = luk + 1;
+          expRequirement = expArray[subObj.lv];
         }
-        console.log(subobj.lv);
-        new_devil = make(subObj.id, subObj.rarity, subObj.lv, subObj.str, subObj.vit, subObj.mag, subObj.agi, subObj.luk, subObj.arc, subObj.skills, subObj.ai_auto_type, subObj.dr, subObj.wk, subObj.av, subObj.spt, subObj.rp, subObj.ct, subObj.uniq);
+        console.log("skills: " + subObj.skl)
+        new_devil = make(subObj.id, subObj.rarity, lv, str, vit, mag, agi, luk, arc, subObj.skl, subObj.ai_auto_type, subObj.dr, subObj.wk, subObj.av, subObj.spt, subObj.rp, subObj.ct, subObj.uniq, exp1);
         const devils2Return = [new_devil]
         update(devils2Return);
       }
@@ -232,16 +253,40 @@ function summonerLevel(id, exp){
 
   const playerData = tools.combine(files)
 
+  let exp1
+  let totalExp
+  let now_lv_exp
+  let level
+  let skl_p
+  let next_lv_exp
+
+
   for (const subObj of playerData.summoners) {
     if (subObj.id == searchId) {
-      subObj.exp = subObj.exp + exp;
-      while (subObj.exp >= 100){
-        subObj.exp = subObj.exp - 100;
-        subObj.level = subObj.level + 1;
-        subObj.skl_p = subObj.skl_p + 1;
+      exp1 = subObj.exp + exp;
+      totalExp = subObj.exp
+      let expRequirement = 100 * subObj.lv;
+      while (totalExp >= expRequirement){
+        totalExp = totalExp - expRequirement;
+        now_lv_exp = expRequirement;
+        expRequirement = expRequirement + 100;
+        level = level + 1;
+        skl_p = skl_p + 1;
+        next_lv_exp = expRequirement;
+        subObj.exp = exp1
+        subObj.now_lv_exp = now_lv_exp
+        subObj.level = level
+        subObj.skl_p = skl_p
+        subObj.next_lv_exp = next_lv_exp
+        console.log("summoner: " + JSON.stringify(subObj))
       }
-      console.log(subObj.level);
-      tools.addTo("./data/players/0/party.json", "summoners", playerData.summoners);
+      //subObj.exp = exp1
+      //subObj.now_lv_exp = now_lv_exp
+      //subObj.level = level
+      //subObj.skl_p = skl_p
+      //subObj.next_lv_exp = next_lv_exp
+      //console.log("summoner: " + JSON.stringify(subObj))
+      //tools.addTo("./data/players/0/party.json", "summoners", playerData.summoners);
     }
   }
 }
@@ -266,9 +311,11 @@ function usrLevel(exp){
   ];
 
   const data = tools.combine(files);
-  data.usr["exp"] = data.usr["exp"] + 100;
-  while (data.usr["exp"] >= 100){
-    data.usr["exp"] = data.usr["exp"] - 100;
+  let totalExp = data.usr["exp"]
+  let expRequirement = 100 * data.usr["lv"];
+  while (totalExp >= expRequirement){
+    totalExp = totalExp - expRequirement;
+    expRequirement = expRequirement + 100;
     data.usr["lv"] = data.usr["lv"] + 1;
   }
   console.log(data.usr["lv"]);
@@ -276,5 +323,26 @@ function usrLevel(exp){
 
 }
 
+function talkFind(tgt){
+  const searchUniq = tgt;
 
-module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel, partySearch, findSummoner};
+  const files = [
+    "./data/players/0/temp/battle.json"
+  ];
+
+
+  const devilData = tools.combine(files)
+
+
+  // Loop through the sub-objects in the JSON array
+  for (const subObj of devilData.enemies) {
+      // Check if the current sub-object has the desired unique identifier
+      if (subObj.uniq == searchUniq) {
+          // If the unique identifier is found, return the sub-object
+          return subObj;
+      }
+  }
+}
+
+
+module.exports = { update, make, add2Party, devilSearch, updateHomeParty, learnSkill, summonerDevilSearch, devilLevel, summonerLevel, usrLevel, partySearch, findSummoner, talkFind};

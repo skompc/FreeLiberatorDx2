@@ -76,8 +76,21 @@ function BattleEntry(req, res) {
         }
     ];
 
-    var allDevils = [devils, sub_devils]
-    tools.addTo("./data/players/0/temp1.json", "dvl_before", allDevils)
+    fs.writeFileSync("./data/players/0/temp/battle.json", "{}")
+    tools.addTo("./data/players/0/temp/battle.json", "enemies", data["enemies"])
+
+    var allDevils = [...devils, ...sub_devils]
+    fs.writeFileSync("./data/players/0/temp/dvl_before.json", "{}")
+    tools.addTo("./data/players/0/temp/dvl_before.json", "dvl_before", allDevils)
+
+    var allSmn = [summoner, sub_summoner];
+    console.log("summoners: " + allSmn)
+    allSmn = allSmn.filter(Boolean);
+    fs.writeFileSync("./data/players/0/temp/smn_before.json", "{}")
+    tools.addTo("./data/players/0/temp/smn_before.json", "smn_before", allSmn)
+
+    fs.writeFileSync("./data/players/0/temp/devil_add.json", "{}")
+    fs.writeFileSync("./data/players/0/temp/item.json", "{}")
 
     quest.parties = parties;
 
