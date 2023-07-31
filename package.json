@@ -4,10 +4,10 @@
   "description": "A SMT:Dx2 private server project",
   "main": "index.js",
   "scripts": {
-    "test":   "nodemon main/test.js",
+    "test":   "node main/test.js",
     "help": "node index.js",
     "scraper": "node main/scraper.js",
-    "game": "nodemon main/gameServer.js",
+    "game": "node main/gameServer.js",
     "asset":  "node main/assetServer.js",
     "proxy": "node main/proxyServer.js",
     "mod-servers": "start npm run game & start npm run asset",

@@ -8,8 +8,7 @@ function gameServer(gamePort){
     const http = require("http");
     const path = require("path");
     const fs = require("fs");
-    const tools = require("../tools/otherTools")
-    const { blank } = tools.blank();
+    const { blank } = require("../tools/blank")
 
     // Require endpoint files
     const { GetUrl } = require("../socialsv/common/GetUrl");

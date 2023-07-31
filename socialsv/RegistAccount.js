@@ -4,16 +4,7 @@ const fs = require("fs");
 const tools = require("../tools/jsonTools")
 
 function RegistAccount(req, res) {
-    var makeId = function (numChars) {
-        let ID = "";
-        let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        for ( var i = 0; i < numChars; i++ ) {
-          ID += characters.charAt(Math.floor(Math.random() * 36));
-        }
-        return ID;
-      }
-
-    var accid = makeId(8);
+    var accid = 12345678;
     var transid = accid
     var fid = accid
     var uid = accid

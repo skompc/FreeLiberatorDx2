@@ -46,7 +46,7 @@ Run <code>npm run all</code> to run all three servers. Note that all three serve
 By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively. Make sure that the game and asset ports are the same in both their respective files AND proxyServer.js if you plan on using the proxy command!
 
 # If You Use An Android Phone:
-Install the modded APK onto your phone (Check the FAQ a video on YouTube on how to mod it, as copywrite prevents me from posting an APK whether it's modded or not.).
+Install the modded APK onto your phone (Check the FAQ for a video on YouTube on how to mod it).
 
 Make sure your phone is on the same network as your pc (or whatever is hosting the proxy and servers).
 

@@ -1,7 +1,3 @@
-function blank(req, res) {
-    res.status(200).json({res_code:0, client_wait:0})
-}
-
 function makeuniq (numChars) {
     let ID = "";
     let characters = "123456789";
@@ -10,4 +6,4 @@ function makeuniq (numChars) {
     }
     return ID;
   }
-module.exports = { blank, makeuniq };
+module.exports = { makeuniq };
