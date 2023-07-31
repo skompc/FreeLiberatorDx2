@@ -3,11 +3,13 @@ const gamePort = 8000;
 
 function gameServer(gamePort){
 
-    // Require express, http, path, and fs
+    // Require express, http, path, and fs, and others
     const express = require("express");
     const http = require("http");
     const path = require("path");
     const fs = require("fs");
+    const tools = require("../tools/otherTools")
+    const { blank } = tools.blank();
 
     // Require endpoint files
     const { GetUrl } = require("../socialsv/common/GetUrl");
@@ -17,7 +19,6 @@ function gameServer(gamePort){
     const { GetBaseData } = require("../socialsv/GetBaseData");
     const { Login } = require("../socialsv/Login");
     const { Drama } = require("../socialsv/Drama");
-    const { blank } = require("../tools/returnBlank");
     const { TutorialUserCreate } = require("../socialsv/TutorialUserCreate");
     const { TutorialBattleEntry } = require("../socialsv/TutorialBattleEntry");
     const { TutorialBattleNext } = require("../socialsv/TutorialBattleNext");
