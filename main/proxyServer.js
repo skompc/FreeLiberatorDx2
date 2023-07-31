@@ -36,7 +36,7 @@ async function proxyServer (gamePort, assetPort, proxyPort) {
 
     // Certificate Install Page
     await server.forAnyRequest()
-    .forHostname("cert.pem").always()
+    .forHostname("dx.2").always()
     .thenForwardTo(`http://localhost:${assetPort}`);
 
     await server.forAnyRequest().thenPassThrough();

@@ -17,7 +17,7 @@ async function downloadFiles() {
     const baseUrl = `${asset_bundle_url}${platform}/${asset_bundle_version}/${lang_code}/`;
     const filename = 'ab_list.txt';
 
-    const dir = `./contents/${platform}/${asset_bundle_version}/${lang_code}/`;
+    const dir = `./static/contents/${platform}/${asset_bundle_version}/${lang_code}/`;
     fs.mkdir(dir+"assets/", { recursive: true }, (err) => {
       if (err) {
         console.error(`Error creating directory: ${err.message}`);

@@ -8,7 +8,7 @@ const fs = require("fs");
 
 function assetServer(assetPort){
     const server = http.createServer((req, res) => {
-        const filePath = path.join(__dirname + "/../", req.url);
+        const filePath = path.join(__dirname + "/../static/", req.url);
         console.log(filePath)
         const stream = fs.createReadStream(filePath);
   
