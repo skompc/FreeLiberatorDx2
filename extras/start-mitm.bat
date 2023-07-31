@@ -1,6 +1,6 @@
 @echo off
 
-set MITMPROXY_SSLKEYLOGFILE="C:/Path/to/keylog.txt"
+set MITMPROXY_SSLKEYLOGFILE=C:/Path/to/keylog.txt
 set pcapin=input.pcap
 set filter=example.com
 set jsonout=output.json
@@ -8,7 +8,3 @@ set jsonout=output.json
 echo launching mitmweb...
 mitmweb --set scripts="C:\Path\to\redirect.py" --set save_stream_file=+"C:\Path\to\%pcapin%"
 pause
-
-echo filtering dump for json...
-tshark -r %pcapin% -Y "http.host contains \"%filter%\"" -T json > %jsonout%
-

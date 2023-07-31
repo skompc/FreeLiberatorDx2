@@ -2,7 +2,7 @@ const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
 
-const check_code = "6.1.03.MeJm447RGRTM" //obtained from legit app request
+const check_code = "6.2.10.dMCnif3QPwuS" //obtained from legit app request
 const lang_code = "en" //language to download
 const platform = "Android" // Android for now... I don't know the correct url for apple devices.
 

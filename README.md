@@ -46,7 +46,7 @@ Run <code>npm run all</code> to run all three servers. Note that all three serve
 By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively. Make sure that the game and asset ports are the same in both their respective files AND proxyServer.js if you plan on using the proxy command!
 
 # If You Use An Android Phone:
-Install the modded APK onto your phone (available in the releases zip).
+Install the modded APK onto your phone (Check the FAQ a video on YouTube on how to mod it, as copywrite prevents me from posting an APK whether it's modded or not.).
 
 Make sure your phone is on the same network as your pc (or whatever is hosting the proxy and servers).
 
@@ -88,7 +88,7 @@ Run the game!
 2. The results of a battle will ALWAYS softlock the game! Simply restart the app to get around this... this does NOT apply to the tutorial battle thankfully.
 3. Any unimplemented endpoints will softlock the game. Again simply restart the app.
 
-# Troubleshooting
+# FAQ
 
 Q: My android emulator isn't showing up in adb!
 
@@ -102,7 +102,7 @@ A: Make sure to do all the steps in Scrape The Assets
 
 -----------------------------
 
-Q: The official version of the app isn't fetching the assets I downloaded
+Q: The official (read mitm) version of the app isn't fetching the assets I downloaded
 
 A: Rerun the scraper with an after following the instructions in Update The Scraper (Todo)
 
@@ -114,7 +114,7 @@ A: While this isn't officially supported yet, it is on the list of things to aco
 
 ---------------------------
 
-Q: I want to patch the game myself!
+Q: How do I patch the game!
 
 A: There is a video on my YouTube channel on how to do this here: https://youtu.be/U4BZSEMW9XM
 
