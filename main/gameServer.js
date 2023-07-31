@@ -54,7 +54,7 @@ function gameServer(gamePort){
         console.log(`Game Server running on port ${gamePort}`);
     });
 
-    //endpoints
+    // Endpoints
     app.get("/socialsv/common/GetUrl.do", (req, res) => GetUrl(req, res));
     app.get("/socialsv/LoadInfo.do", (req, res) => LoadInfo(req, res));
     app.get("/socialsv/Title.do", (req, res) => Title(req, res));

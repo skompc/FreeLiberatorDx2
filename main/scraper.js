@@ -2,11 +2,13 @@ const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
 
-const check_code = "6.2.10.dMCnif3QPwuS" //obtained from legit app request
-const lang_code = "en" //language to download
+const check_code = "6.2.10.dMCnif3QPwuS" // Obtained from legit app request
+const lang_code = "en" // Language to download
+const lang_num = 1 // I don't know if this matters or not, but it's 1 for English
 const platform = "Android" // Android for now... I don't know the correct url for apple devices.
+const platform_num = 2 // 2 for Android, idk what it would be for iOS
 
-const initialUrl = `https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=${check_code}&platform=2&lang=1&bundle_id=com.sega.d2megaten.en&_tm_=1`;
+const initialUrl = `https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=${check_code}&platform=${platform_num}&lang=${lang_num}&bundle_id=com.sega.d2megaten.en&_tm_=1`;
 
 async function downloadFiles() {
   try {
