@@ -8,8 +8,8 @@ async function proxyServer (gamePort, assetPort, proxyPort) {
     const fs = require('fs');
 
     const options = {
-        key: fs.readFileSync('./certs/key.pem'),
-        cert: fs.readFileSync('./certs/cert.pem')
+        key: fs.readFileSync('./static/cert/key.pem'),
+        cert: fs.readFileSync('./static/cert/cert.pem')
     };
       
     const server = mockttp.getLocal({ https: options });
@@ -36,7 +36,7 @@ async function proxyServer (gamePort, assetPort, proxyPort) {
 
     // Certificate Install Page
     await server.forAnyRequest()
-    .forHostname("dx.2").always()
+    .forHostname("dx2.local").always()
     .thenForwardTo(`http://localhost:${assetPort}`);
 
     await server.forAnyRequest().thenPassThrough();
