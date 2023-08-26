@@ -206,7 +206,7 @@ function makeCSFiles(dir){
   
       if (fs.lstatSync(filePath).isDirectory()) {
         // If this is a folder, then go inside it
-        makeJsonFiles(filePath);
+        makeCSFiles(filePath);
       } else {
         const contents = fs.readFileSync(filePath, "utf8");
   
@@ -214,8 +214,7 @@ function makeCSFiles(dir){
         if (!filePath.includes("cs")){
           // Only include .scan files
           if (filePath.includes("scan")) {
-            //const input = contents;
-
+            // Do the thing.
             const input = contents.replace(/this\./g, '');
             
             const template = `[JsonProperty("REPLACE_ME")]\npublic TYPE REPLACE_ME { get; set; }`;
@@ -233,10 +232,7 @@ function makeCSFiles(dir){
               } else {
                 return line;
               }
-            }).join('\n\n');
-            
-            console.log(output);
-            
+            }).join('\n\n');            
 
             // Write the modified data back to the file
             fs.writeFileSync(savePath,output)
@@ -255,9 +251,9 @@ function moveCS(folderPath) {
     const isDirectory = fs.statSync(itemPath).isDirectory();
     if (isDirectory) {
       // If the item is a directory, recursively scan it
-      moveJson(itemPath);
+      moveCS(itemPath);
     } else {
-      // If the item is a file, check if it's a JSON file
+      // If the item is a file, check if it's a CS file
       if (path.extname(item) === '.cs') {
         // Get the relative path of the source file
         const relativeFilePath = path.relative(inputFolderPath, itemPath);
@@ -271,7 +267,7 @@ function moveCS(folderPath) {
           fs.mkdirSync(destinationFolder, { recursive: true });
         }
 
-        // Copy the JSON file to the destination folder
+        // Copy the CS file to the destination folder
         fs.copyFileSync(itemPath, destinationFilePath);
         console.log(`Copied ${item} to ${destinationFilePath}`);
       }
@@ -297,7 +293,7 @@ if (!fs.existsSync("cs")) {
 
 // Clean the input directory before doing anything
 console.log("Pre-Cleaning input directory")
-const extensionsToDelete = ['.scan', '.json', 'cs'];
+const extensionsToDelete = ['.scan', '.json', '.cs'];
 deleteFilesWithExtensions(inputFolderPath, extensionsToDelete);
 console.log("Done cleaning input directory")
 
@@ -312,15 +308,15 @@ moveScans(inputFolderPath)
 console.log("Done moving scan files")
 console.log()
 
-console.log("Creating JSON files...")
-makeJsonFiles(inputFolderPath);
-console.log("Done Creating JSON files")
-console.log()
+//console.log("Creating JSON files...")
+//makeJsonFiles(inputFolderPath);
+//console.log("Done Creating JSON files")
+//console.log()
 
-console.log("Moving JSON files...")
-moveJson(inputFolderPath);
-console.log("Done moving JSON files")
-console.log()
+//console.log("Moving JSON files...")
+//moveJson(inputFolderPath);
+//console.log("Done moving JSON files")
+//console.log()
 
 console.log("Creating CS files...")
 makeCSFiles(inputFolderPath);
