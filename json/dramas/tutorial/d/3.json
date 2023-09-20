@@ -1,0 +1,276 @@
+{
+    "transaction_id": "18-0A5-0C5508",
+    "server_time": 1693041378949,
+    "beginner_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "main_mission": {
+        "currents": [
+            "Clear Story Ch. 1"
+        ],
+        "is_display": true
+    },
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Megakin",
+            "id": 111
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "This is the DEMON INFORMATION screen."
+        },
+        {
+            "id": 1,
+            "text": "[cus color=emphasis]Tap on a demon's stats to view details[cus color=end]."
+        },
+        {
+            "id": 2,
+            "text": "Check this box to [cus color=emphasis]prevent demons from being used in FUSION, etc[cus color=end]."
+        },
+        {
+            "id": 3,
+            "text": "Be sure to lock your favorite demons to avoid losing them."
+        },
+        {
+            "id": 4,
+            "text": "Tap the [cus color=emphasis]RATING[cus color=end] button to view other players' favorites."
+        },
+        {
+            "id": 5,
+            "text": "They might have some handy info you can use!"
+        },
+        {
+            "id": 6,
+            "text": "You can tap on other tabs to access various other info too."
+        },
+        {
+            "id": 7,
+            "text": "It's probably too much to take in all at once,"
+        },
+        {
+            "id": 8,
+            "text": "but you'll get the hang of it in time. It's all good."
+        },
+        {
+            "id": 9,
+            "text": "Anyway, be sure to take time to check out your demons."
+        }
+    ],
+    "tm": "71",
+    "comeback_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001451,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001452,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001453,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001454,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001455,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001456,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001457,
+            "effect": "",
+            "param0": "tgt_node_1",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001458,
+            "effect": "",
+            "param0": "4",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001459,
+            "effect": "",
+            "param0": "5",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001460,
+            "effect": "",
+            "param0": "6",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001461,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_devil_01_003_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001462,
+            "effect": "",
+            "param0": "7",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_devil_01_003_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001463,
+            "effect": "",
+            "param0": "8",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_devil_01_003_002",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001464,
+            "effect": "",
+            "param0": "9",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "taro",
+            "id": 111,
+            "name_id": 111
+        }
+    ]
+}

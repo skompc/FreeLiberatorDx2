@@ -308,15 +308,25 @@ moveScans(inputFolderPath)
 console.log("Done moving scan files")
 console.log()
 
-//console.log("Creating JSON files...")
-//makeJsonFiles(inputFolderPath);
-//console.log("Done Creating JSON files")
-//console.log()
+console.log("Creating JSON files...")
+makeJsonFiles(inputFolderPath);
+console.log("Done Creating JSON files")
+console.log()
 
-//console.log("Moving JSON files...")
-//moveJson(inputFolderPath);
-//console.log("Done moving JSON files")
-//console.log()
+console.log("Moving JSON files...")
+moveJson(inputFolderPath);
+console.log("Done moving JSON files")
+console.log()
+
+console.log("Cleaning input directory (again)...")
+deleteFilesWithExtensions(inputFolderPath, extensionsToDelete);
+console.log("Done cleaning input directoy (again)")
+console.log()
+
+console.log("Creating scan files (again)...")
+scanFiles(inputFolderPath);
+console.log("Done creating scan files (again)")
+console.log()
 
 console.log("Creating CS files...")
 makeCSFiles(inputFolderPath);

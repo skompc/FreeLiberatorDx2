@@ -1,5 +1,7 @@
 This is my WIP private server for Shin Megami Tensei:Dx2
 
+Broken as of now... working on implementing decryption fully!
+
 Follow along on my dev journey at https://www.youtube.com/watch?v=yyznmOjwHMI&list=PLV4ay6xrx8nRm06QnXDBUYqTn3Xk_-wdr
 
 The completed server will aim to have the game fully operational, including multiplayer components
@@ -46,7 +48,7 @@ Run <code>npm run all</code> to run all three servers. Note that all three serve
 By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively. Make sure that the game and asset ports are the same in both their respective files AND proxyServer.js if you plan on using the proxy command!
 
 # If You Use An Android Phone:
-Install the modded APK onto your phone (Check the FAQ for a video on YouTube on how to mod it).
+~~Install the modded APK onto your phone~~ The Server now supports the original APK with mitm patches. Install that instead! (Check the FAQ for a video on YouTube on how to mod it).
 
 Make sure your phone is on the same network as your pc (or whatever is hosting the proxy and servers).
 
@@ -59,7 +61,7 @@ Install the certificate through your phone's settings as a CA certificate (googl
 Run the game!
 
 # If You Use An Android Emulator:
-Install the modded apk onto the emulator (methods vary)
+~~Install the modded apk onto the emulator~~ The Server now supports the original APK with mitm patches. Install that instead! (methods vary)
     
 Run "adb devices"
 
@@ -116,7 +118,7 @@ A: While this isn't officially supported yet, it is on the list of things to aco
 
 Q: How do I patch the game!
 
-A: There is a video on my YouTube channel on how to do this here: https://youtu.be/U4BZSEMW9XM
+A: There is a video on my YouTube channel on how to do this here: https://youtu.be/U4BZSEMW9XM The Server now supports the original APK with mitm patches. You no longer have to do that pesky .so patching!
 
 ----------------------
 
@@ -134,3 +136,6 @@ A: While I don't have an iOS device to test with, if I do get one and time allow
 
 Youtube - https://www.youtube.com/@SquirrelDevDiaries
 Github - https://github.com/skompc
+
+# Extra Thanks!
+Extra credit to @lukefz on Discord for helping me finally crack the decryption function! Their github is https://github.com/LukeFZ

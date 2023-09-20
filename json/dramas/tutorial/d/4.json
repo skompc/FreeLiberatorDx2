@@ -1,0 +1,186 @@
+{
+    "transaction_id": "18-0A5-0C5662",
+    "server_time": 1693041423349,
+    "beginner_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "main_mission": {
+        "currents": [
+            "Clear Story Ch. 1"
+        ],
+        "is_display": true
+    },
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Megakin",
+            "id": 111
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Oh hey, yeah! I forgot<BR>to mention something."
+        },
+        {
+            "id": 1,
+            "text": "It's about [cus color=emphasis]LEADERS[cus color=end]."
+        },
+        {
+            "id": 2,
+            "text": "One of your Dx2 members is<BR>to be designated as the LEADER."
+        },
+        {
+            "id": 3,
+            "text": "This is the current Leader Dx2."
+        },
+        {
+            "id": 4,
+            "text": "Let's try swapping them out."
+        }
+    ],
+    "tm": "76",
+    "comeback_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "commands": [
+        {
+            "voice": "tutorial_leader_edit_01_001_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002593,
+            "effect": "",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_leader_edit_01_001_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002594,
+            "effect": "",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002595,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002596,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "0",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002597,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002598,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002599,
+            "effect": "",
+            "param0": "4",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002600,
+            "effect": "",
+            "param0": "",
+            "place": 0,
+            "param3": "",
+            "command": 18,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002601,
+            "effect": "",
+            "param0": "tgt_node_1",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "0",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "taro",
+            "id": 111,
+            "name_id": 111
+        }
+    ]
+}

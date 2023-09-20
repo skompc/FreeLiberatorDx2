@@ -1,0 +1,122 @@
+{
+    "transaction_id": "18-0A5-0C4C3A",
+    "server_time": 1693041084749,
+    "beginner_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "main_mission": {
+        "currents": [
+            "Clear Story Ch. 1"
+        ],
+        "is_display": true
+    },
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Megakin",
+            "id": 111
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Hey, newbie."
+        },
+        {
+            "id": 1,
+            "text": "Are you checking the stats of new Allies you've recruited?"
+        },
+        {
+            "id": 2,
+            "text": "The [cus color=emphasis]DEMON INFORMATION[cus color=end] function is an absolute must for us Dx2s."
+        }
+    ],
+    "tm": "37",
+    "comeback_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "commands": [
+        {
+            "voice": "tutorial_devil_01_001_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001435,
+            "effect": "",
+            "param0": "0",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_devil_01_001_001",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001436,
+            "effect": "",
+            "param0": "1",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_devil_01_001_002",
+            "face": "face_02",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001437,
+            "effect": "",
+            "param0": "2",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001438,
+            "effect": "",
+            "param0": "center",
+            "place": 0,
+            "param3": "",
+            "command": 3,
+            "param1": "",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3001439,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 19,
+            "param1": "",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "taro",
+            "id": 111,
+            "name_id": 111
+        }
+    ]
+}

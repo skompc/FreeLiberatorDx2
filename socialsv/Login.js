@@ -1,9 +1,12 @@
 const fs = require("fs")
 const tools = require("../tools/jsonTools");
+const decrypt = require("../tools/decrypt")
 
 function Login(req, res) {
-    let uuid = req.query.uuid;
-    let check_code = req.query.check_code;
+    let dec_param = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
+
+    let uuid = dec_param.uuid;
+    let check_code = dec_param.check_code;
     let files = [
         "./data/players/" + uuid + "/main.json",
         "./data/players/" + uuid + "/igt_list.json",

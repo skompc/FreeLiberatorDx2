@@ -1,0 +1,133 @@
+{
+    "transaction_id": "18-0A5-0C5950",
+    "server_time": 1693041522349,
+    "beginner_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "main_mission": {
+        "currents": [
+            "Clear Story Ch. 1"
+        ],
+        "is_display": true
+    },
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [],
+    "texts": [
+        {
+            "id": 0,
+            "text": "This is the [cus color=emphasis]Support Demon Settings[cus color=end]."
+        },
+        {
+            "id": 1,
+            "text": "Here, you can designate which demons you'll lend to other players."
+        },
+        {
+            "id": 2,
+            "text": "[cus color=emphasis]Your designated Support Demon[cus color=end] is shown here."
+        },
+        {
+            "id": 3,
+            "text": "When your Support Demon is used, you will receive [cus icon=item_ic_fame][cus color=emphasis]FAME[cus color=end]."
+        },
+        {
+            "id": 4,
+            "text": "There's no downside, so assign a strong demon to this role."
+        }
+    ],
+    "tm": "101",
+    "comeback_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3000489,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3000490,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3000491,
+            "effect": "",
+            "param0": "tgt_node_0",
+            "place": 0,
+            "param3": "",
+            "command": 17,
+            "param1": "",
+            "param2": "0"
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3000492,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3000493,
+            "effect": "",
+            "param0": "3",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3000494,
+            "effect": "",
+            "param0": "4",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        }
+    ],
+    "charas": []
+}

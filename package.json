@@ -4,15 +4,15 @@
   "description": "A SMT:Dx2 private server project",
   "main": "index.js",
   "scripts": {
-    "test":   "node main/test.js",
+    "test": "node main/test.js",
     "help": "node index.js",
     "scraper": "node main/scraper.js",
     "game": "node main/gameServer.js",
-    "asset":  "node main/assetServer.js",
+    "asset": "node main/assetServer.js",
     "proxy": "node main/proxyServer.js",
     "mod-servers": "start npm run game & start npm run asset",
     "mitm-servers": "start npm run asset & start npm run proxy",
-    "all":  "start npm run game & start npm run asset & start npm run proxy"
+    "all": "start npm run game & start npm run asset & start npm run proxy"
   },
   "keywords": [
     "android",
@@ -24,6 +24,7 @@
   "license": "GPLV3",
   "dependencies": {
     "axios": "^1.4.0",
+    "crypto": "^1.0.1",
     "express": "^4.18.2",
     "mockttp": "^3.7.4",
     "nodemon": "^2.0.22"

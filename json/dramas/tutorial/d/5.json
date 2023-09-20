@@ -1,0 +1,130 @@
+{
+    "transaction_id": "18-0A5-0C574F",
+    "server_time": 1693041454149,
+    "beginner_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "main_mission": {
+        "currents": [
+            "Clear Story Ch. 1"
+        ],
+        "is_display": true
+    },
+    "select_history": [],
+    "res_code": 0,
+    "client_wait": 0,
+    "selects": [],
+    "names": [
+        {
+            "name": "Megakin",
+            "id": 111
+        }
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "text": "Leader changed."
+        },
+        {
+            "id": 1,
+            "text": "Put simply, the LEADER<BR>acts as [cus color=emphasis]your avatar[cus color=end]."
+        },
+        {
+            "id": 2,
+            "text": "They have no effect on<BR>your combat ability."
+        },
+        {
+            "id": 3,
+            "text": "So basically, just choose<BR>whoever looks coolest."
+        },
+        {
+            "id": 4,
+            "text": "No need to think about it too<BR>much. Switch \u2018em up anytime."
+        }
+    ],
+    "tm": "84",
+    "comeback_mission": {
+        "is_badge": false,
+        "is_display": false
+    },
+    "commands": [
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002602,
+            "effect": "",
+            "param0": "0",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002603,
+            "effect": "",
+            "param0": "1",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "",
+            "face": "",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002604,
+            "effect": "",
+            "param0": "2",
+            "place": 0,
+            "param3": "",
+            "command": 20,
+            "param1": "1",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_leader_edit_01_002_000",
+            "face": "idle",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002605,
+            "effect": "",
+            "param0": "3",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        },
+        {
+            "voice": "tutorial_leader_edit_01_002_001",
+            "face": "face_01",
+            "select": 0,
+            "flag": "",
+            "uniq": 3002606,
+            "effect": "",
+            "param0": "4",
+            "place": 2,
+            "param3": "",
+            "command": 2,
+            "param1": "111",
+            "param2": ""
+        }
+    ],
+    "charas": [
+        {
+            "img": "taro",
+            "id": 111,
+            "name_id": 111
+        }
+    ]
+}
