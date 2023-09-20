@@ -1,20 +1,19 @@
 const fs = require("fs");
 const tools = require("../tools/jsonTools")
 const devilTools = require("../tools/devilTools")
-const paramTools = require("../tools/paramTools")
+const decrypt = require("../tools/decrypt")
 
 function BattleEntry(req, res) {
-    var input = JSON.stringify(req.query);
-    var params = JSON.parse(paramTools.clean(input,0,0));
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
 
-    let stage = params["stage"]
-    let main_smn = params["main_smn"]
-    let sub_smn = params["sub_smn"]
-    let main_idx = params["main_idx"]
-    let sub_idx = params["sub_idx"]
-    let smn_id = params["smn_id"]
-    let helper = params["helper"]
-    let is_auto = params["is_auto"]
+    let stage = params.stage
+    let main_smn = params.main_smn
+    let sub_smn = params.sub_smn
+    let main_idx = params.main_idx
+    let sub_idx = params.sub_idx
+    let smn_id = params.smn_id
+    let helper = params.helper
+    let is_auto = params.is_auto
 
     console.log(main_smn)
 

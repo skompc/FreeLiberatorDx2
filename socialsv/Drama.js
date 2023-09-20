@@ -1,9 +1,11 @@
 const fs = require("fs");
+const decrypt = require("../tools/decrypt")
 
 function Drama(req, res) {
-    var data2Get = req.query.path;
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
+    var path = decodeURIComponent(params.path);
 
-    let file = fs.readFileSync("./json/dramas/" + data2Get +".json", "utf8");
+    let file = fs.readFileSync("./json/dramas/" + path +".json", "utf8");
     let data = JSON.parse(file);
     res.status(200).json(data);
 }

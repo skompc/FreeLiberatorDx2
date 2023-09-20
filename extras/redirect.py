@@ -17,7 +17,7 @@ def request(flow: http.HTTPFlow) -> None:
 
     #Game
     if flow.request.pretty_host == "d2r-sim.d2megaten.com":
-        flow.request.url = flow.request.url.replace("socialsv", "api/socialsv")
+        #flow.request.url = flow.request.url.replace("socialsv", "api/socialsv")
         flow.request.host = "localhost"
         flow.request.port = 8000
         flow.request.scheme = 'http'
@@ -27,4 +27,4 @@ def request(flow: http.HTTPFlow) -> None:
         flow.request.host = "localhost"
         flow.request.port = 8000
         flow.request.scheme = 'http'
-        flow.request.url = flow.request.url.replace("socialsv", "api/socialsv")
+        #flow.request.url = flow.request.url.replace("socialsv", "api/socialsv")

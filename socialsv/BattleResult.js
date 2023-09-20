@@ -1,21 +1,20 @@
 const fs = require("fs");
-const paramTools = require("../tools/paramTools")
+const decrypt = require("../tools/decrypt")
 const questTools = require("../tools/questTools")
 const devilTools = require("../tools/devilTools")
 const jsonTools = require("../tools/jsonTools")
 
 function BattleResult(req, res) {
-    var input = JSON.stringify(req.body);
-    var uri = paramTools.uriFormatter(JSON.parse(input))
-    var uri2 = paramTools.clean(uri, 1, 5)
-    var params = paramTools.toJSON(uri2)
+    console.log(req.body)
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.body.param));
+    console.log(params)
 
-    let resultFile = JSON.parse(fs.readFileSync(`./json/battles/story/${params["stage"]}/result.json`, "utf8"));
+    let resultFile = JSON.parse(fs.readFileSync(`./json/battles/story/${params.stage}/result.json`, "utf8"));
     let stage = resultFile.drama
 
-    let result = params["result"]
+    let result = params.result;
     if (result == 1){
-        questTools.updateQuests(parseInt(params["stage"]))
+        questTools.updateQuests(parseInt(params.stage))
     } else if (result == 0) {
         // Return failure
     } else if (result == 2){

@@ -1,18 +1,17 @@
 const fs = require("fs");
 const jsonTools = require("../tools/jsonTools");
-const paramTools = require("../tools/paramTools");
+const decrypt = require("../tools/decrypt")
 const devilTools = require("../tools/devilTools");
 
 function BattleTalk(req, res) {
-    var input = JSON.stringify(req.query);
-    var params = JSON.parse(paramTools.clean(input,0,0));
-    var tgt = params["tgt"];
-    var select = params["select"]
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
+    var tgt = params.tgt;
+    var select = params.select;
 
     let devil2TalkTo = devilTools.talkFind(tgt)
     let devilId = devil2TalkTo["id"]
 
-    if (params["select"] == 1){
+    if (params.select == 1){
         // add demon to party
         jsonTools.addTo("./data/players/0/temp/devil_add.json", "devils", devil2TalkTo)
         var devil2add = {

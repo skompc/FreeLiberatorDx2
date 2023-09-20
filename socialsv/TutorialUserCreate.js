@@ -1,11 +1,10 @@
 const fs = require("fs");
 const tools = require("../tools/jsonTools")
-const paramTools = require("../tools/paramTools")
+const decrypt = require("../tools/decrypt");
 const devilTools = require("../tools/devilTools")
 
 function TutorialUserCreate(req, res) {
-    let input = JSON.stringify(req.query);
-    let params = JSON.parse(paramTools.clean(input,0,0));
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
 
     let files = [
         "./data/players/0/main.json"

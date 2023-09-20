@@ -1,12 +1,11 @@
 const fs = require("fs");
 const tools = require("../tools/jsonTools")
-const paramTools = require("../tools/paramTools")
+const decrypt = require("../tools/decrypt");
 
 function IngameTutorialEnd(req, res) {
-    var input = JSON.stringify(req.query);
-    var params = JSON.parse(paramTools.clean(input,0,0));
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
 
-    let igt = params["tutorial_id"]
+    let igt = params.tutorial_id;
     let files = [
         `./data/players/0/igt_list.json`
     ];

@@ -1,13 +1,12 @@
 const fs = require("fs");
 const tools = require("../tools/jsonTools")
-const paramTools = require("../tools/paramTools")
+const decrypt = require("../tools/decrypt")
 
 function DramaEnd(req, res) {
   res.status(200).json({res_code:0, client_wait:0})
-    let input = JSON.stringify(req.query);
-    let params = JSON.parse(paramTools.clean(input,0,0));
-    let quest = params["quest_id"]
-    console.log(quest)
+    let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
+
+    let quest = params.quest_id;
     let qa = splitNumber(quest)
     let file = fs.readFileSync("./data/players/0/map.json", "utf8");
     let data = JSON.parse(file);

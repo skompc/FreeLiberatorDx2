@@ -24,6 +24,7 @@ function decrypt(enc) {
   } else {
     console.log("signature incorrect");
   }
+  return dec.toString()
 }
 
 function stringToJsonObject(inputString) {
