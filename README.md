@@ -60,6 +60,8 @@ Make sure to go through both the First Steps and the app installation steps.
 
 Run <code>npm run game</code>.
 
+Launch the game on your phone/emulator
+
 After the game loads there should be a line like <code>CHECK_CODE:  6.2.10.dMCnif3QPwuS</code>. Copy the line starting with the numbers.
 
 Close the app and open scraper.js inside the main directory
@@ -67,18 +69,6 @@ Close the app and open scraper.js inside the main directory
 Paste the line into the quotes after <code>const check_code = </code>
 
 Start scraping!
-
-# If You Have Previously Downloaded Assets
-
-You can stop scraping after the first couple files.
-
-Copy everything from the previous Asset folder into the new asset folder that was created
-
-Delete <code>prerequisites</code> and <code>ab.txt</code> from the <code>./en/assets</code> folder inside the new Asset folder
-
-Delete <code>ab_list.txt</code> from the <code>./en</code> folder inside the new Asset Folder
-
-Rerun the scraper.
 
 # Scrape The Assets
 
@@ -126,7 +116,7 @@ A: Make sure to do all the steps in [Scrape The Assets](#scrape-the-assets)
 
 Q: The official (read mitm) version of the app isn't fetching the assets I downloaded
 
-A: Rerun the scraper with an after following the instructions in [Update The Scraper](#update-the-scraper) and [If You Have Previously Downloaded Assets](#if-you-have-previously-downloaded-assets)
+A: Rerun the scraper with an after following the instructions in [Update The Scraper](#update-the-scraper)
 
 --------------------
 
