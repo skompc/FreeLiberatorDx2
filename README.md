@@ -1,7 +1,5 @@
 This is my WIP private server for Shin Megami Tensei:Dx2
 
-Broken as of now... working on implementing decryption fully!
-
 Follow along on my dev journey at https://www.youtube.com/watch?v=yyznmOjwHMI&list=PLV4ay6xrx8nRm06QnXDBUYqTn3Xk_-wdr
 
 The completed server will aim to have the game fully operational, including multiplayer components
@@ -19,9 +17,68 @@ Run <code>git clone https://github.com/skompc/FreeLiberatorDx2.git</code> to cop
 
 Run <code>npm install</code> to install dependencies.
 
+# If You Use An Android Phone:
+~~Install the modded APK onto your phone~~ The Server now supports the original APK with mitm patches. Install that instead! (Check the [FAQ](#faq) for a video on YouTube on how to mod it).
+
+Make sure your phone is on the same network as your pc (or whatever is hosting the proxy and servers).
+
+Set your phones proxy settings to [pc's IP]:[whatever port the proxy server is running on].
+
+Visit <code>http://dx2.local</code> and click download.
+
+Install the certificate through your phone's settings as a CA certificate (google it if you need help).
+
+Done!
+
+# If You Use An Android Emulator:
+~~Install the modded apk onto the emulator~~ The Server now supports the original APK with mitm patches. Install that instead! (methods vary)
+    
+Run "adb devices"
+
+It should return something like:
+
+    List of devices attached
+    127.0.0.1:58526 device
+
+Run the following:
+
+    adb -s [device_to_connect_to] shell settings put global http_proxy [PC_IP_on_network]:[proxy_port]"
+
+For example, if my PC is on IP 192.168.0.136 and my proxy is on port 8001, then I would run:
+
+    adb -s 127.0.0.1:58526 shell settings put global http_proxy 192.168.0.136:8001
+
+Visit <code>cert.pem/certs/index.html</code> and click download.
+
+Install the certificate through your emulator's settings as a CA certificate (google it).
+
+Done!
+
 # Update The Scraper
 
-Todo
+Make sure to go through both the First Steps and the app installation steps.
+
+Run <code>npm run game</code>.
+
+After the game loads there should be a line like <code>CHECK_CODE:  6.2.10.dMCnif3QPwuS</code>. Copy the line starting with the numbers.
+
+Close the app and open scraper.js inside the main directory
+
+Paste the line into the quotes after <code>const check_code = </code>
+
+Start scraping!
+
+# If You Have Previously Downloaded Assets
+
+You can stop scraping after the first couple files.
+
+Copy everything from the previous Asset folder into the new asset folder that was created
+
+Delete <code>prerequisites</code> and <code>ab.txt</code> from the <code>./en/assets</code> folder inside the new Asset folder
+
+Delete <code>ab_list.txt</code> from the <code>./en</code> folder inside the new Asset Folder
+
+Rerun the scraper.
 
 # Scrape The Assets
 
@@ -47,43 +104,6 @@ Run <code>npm run all</code> to run all three servers. Note that all three serve
 
 By default the Game server will run on port 8000, the Asset server will run on port 3000, and the proxy will run on port 8080. If you wish to change the ports the servers will use, the lines to do so are in the top of gameServer.js, assetServer.js, and proxyServer.js for the game, asset, and proxy commands respectively. Make sure that the game and asset ports are the same in both their respective files AND proxyServer.js if you plan on using the proxy command!
 
-# If You Use An Android Phone:
-~~Install the modded APK onto your phone~~ The Server now supports the original APK with mitm patches. Install that instead! (Check the FAQ for a video on YouTube on how to mod it).
-
-Make sure your phone is on the same network as your pc (or whatever is hosting the proxy and servers).
-
-Set your phones proxy settings to [pc's IP]:[whatever port the proxy server is running on].
-
-Visit <code>http://dx2.local</code> and click download.
-
-Install the certificate through your phone's settings as a CA certificate (google it if you need help).
-
-Run the game!
-
-# If You Use An Android Emulator:
-~~Install the modded apk onto the emulator~~ The Server now supports the original APK with mitm patches. Install that instead! (methods vary)
-    
-Run "adb devices"
-
-It should return something like:
-
-    List of devices attached
-    127.0.0.1:58526 device
-
-Run the following:
-
-    adb -s [device_to_connect_to] shell settings put global http_proxy [PC_IP_on_network]:[proxy_port]"
-
-For example, if my PC is on IP 192.168.0.136 and my proxy is on port 8001, then I would run:
-
-    adb -s 127.0.0.1:58526 shell settings put global http_proxy 192.168.0.136:8001
-
-Visit <code>cert.pem/certs/index.html</code> and click download.
-
-Install the certificate through your emulator's settings as a CA certificate (google it).
-
-Run the game!
-
 # Known bugs
 
 1. The party doesn't seem to display right unless you go to "party" then "demons" before entering a mission. You only need to do this once per app launch.
@@ -100,13 +120,13 @@ A: The solution to that one varies, but as I personally use Windows Subsystem fo
 
 Q: The modded version of the app isn't fetching the assets I downloaded
 
-A: Make sure to do all the steps in Scrape The Assets
+A: Make sure to do all the steps in [Scrape The Assets](#scrape-the-assets)
 
 -----------------------------
 
 Q: The official (read mitm) version of the app isn't fetching the assets I downloaded
 
-A: Rerun the scraper with an after following the instructions in Update The Scraper (Todo)
+A: Rerun the scraper with an after following the instructions in [Update The Scraper](#update-the-scraper) and [If You Have Previously Downloaded Assets](#if-you-have-previously-downloaded-assets)
 
 --------------------
 
@@ -118,7 +138,7 @@ A: While this isn't officially supported yet, it is on the list of things to aco
 
 Q: How do I patch the game!
 
-A: There is a video on my YouTube channel on how to do this here: https://youtu.be/U4BZSEMW9XM The Server now supports the original APK with mitm patches. You no longer have to do that pesky .so patching!
+A: There is a video on my YouTube channel on how to do this [here](https://youtu.be/U4BZSEMW9XM) The Server now supports the original APK with mitm patches. You no longer have to do that pesky .so patching!
 
 ----------------------
 

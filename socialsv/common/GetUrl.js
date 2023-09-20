@@ -3,6 +3,8 @@ const fs = require("fs");
 const bundle = "custom"
 
 function GetUrl(req, res) {
+  let check_code = req.query.check_code;
+  console.log("CHECK_CODE: ", check_code)
   const files = ['./json/common/GetUrl.json'];
   let jsonData = [];
   
