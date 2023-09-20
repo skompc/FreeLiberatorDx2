@@ -34,9 +34,9 @@ async function proxyServer (gamePort, assetPort, proxyPort) {
     .forHost("d2-megaten-l.sega.jp").always()
     .thenForwardTo(`http://localhost:${assetPort}`);
 
-    // Certificate Install Page
+    // Liberated-Dx2 Webpage
     await server.forAnyRequest()
-    .forHostname("dx2.local").always()
+    .forHost("dx2.local").always()
     .thenForwardTo(`http://localhost:${assetPort}`);
 
     await server.forAnyRequest().thenPassThrough();

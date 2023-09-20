@@ -54,7 +54,7 @@ Make sure your phone is on the same network as your pc (or whatever is hosting t
 
 Set your phones proxy settings to [pc's IP]:[whatever port the proxy server is running on].
 
-Visit <code>cert.pem/certs/index.html</code> and click download.
+Visit <code>http://dx2.local</code> and click download.
 
 Install the certificate through your phone's settings as a CA certificate (google it if you need help).
 

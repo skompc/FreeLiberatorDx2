@@ -1,15 +1,15 @@
 const assetPort = 3000;
 
 // Requirements
-const express = require("express");
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
 
 function assetServer(assetPort){
     const server = http.createServer((req, res) => {
+      if (req.url == "/"){req.url = "/index.html"}
         const filePath = path.join(__dirname + "/../static/", req.url);
-        console.log(filePath)
+        console.log("accessed: ", filePath)
         const stream = fs.createReadStream(filePath);
   
         stream.on('error', (err) => {
