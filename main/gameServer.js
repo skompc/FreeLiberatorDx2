@@ -44,6 +44,11 @@ function gameServer(gamePort){
     const { BattleResult } = require("../socialsv/BattleResult");
     const { IngameTutorialCheck } = require("../socialsv/IngameTutorialCheck");
     const { IngameTutorialEnd } = require("../socialsv/IngameTutorialEnd");
+    const { ChatEntry } = require("../socialsv/chat/ChatEntry");
+    const { ChatStart } = require("../socialsv/chat/ChatStart");
+    const { SNEntry } = require("../socialsv/SNEntry");
+    const { CpProductList } = require("../socialsv/iap/CpProductList");
+    const { Chat } = require("../socialsv/chat/Chat");
 
     // Game Server
     const app = express();
@@ -90,6 +95,11 @@ function gameServer(gamePort){
     app.post("/socialsv/BattleResult.do", (req, res) => BattleResult(req, res))
     app.get("/socialsv/IngameTutorialEnd.do", (req, res) => IngameTutorialEnd(req, res));
     app.get("/socialsv/PartySet.do", (req, res) => PartySet(req, res));
+    app.get("/socialsv/SNEntry.do", (req, res) => SNEntry(req, res));
+    app.get("/socialsv/iap/CpProductList.do", (req, res) => CpProductList(req, res));
+    app.get("/socialsv/chat/ChatStart.do", (req, res) => ChatStart(req, res));
+    app.get("/socialsv/chat/ChatEntry.do", (req, res) => ChatEntry(req, res));
+    app.get("/socialsv/chat/Chat.do", (req, res) => Chat(req, res));
 
 }
 
