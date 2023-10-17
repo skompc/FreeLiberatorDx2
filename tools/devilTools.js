@@ -68,44 +68,18 @@ function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr
   return devil;
 }
 
-function add2Party(summoner, party, pos, uniq){
-  console.log("test")
-  const files = [
-    "./data/players/0/party.json"
-  ];
+function add2Party(summoner, idx, pos, uniq){
+  const data = JSON.parse(fs.readFileSync("./data/players/0/party.json"))
 
-  let playerData = tools.combine(files)
+  var summoner_pos = data.parties.filter(function(item) {
+    return item.summoner == summoner;
+  });
 
-  let updated = false; // Flag to track if the object was updated
-  
-  for (const subObj of playerData.parties) {
-    if (subObj.summoner == summoner) {
-      console.log("summoner found: " + subObj.summoner)
-      for (let i = 0; i < subObj.data.length; i++) {
-        const subObj2 = subObj.data[i];
-        if (subObj2.idx == party) {
-          console.log("party found: " + subObj2.idx)
-          subObj2.devils[pos] = parseInt(uniq);
-          subObj.data.splice(i, 1); // Delete the original subObj2
-          subObj.data.push(subObj2); // Push the updated subObj2
-          console.log("subObj round 1")
-          console.log()
-          console.log(subObj)
-          updated = true; // Set the flag to true to indicate the object was updated
-          break; // Break out of the loop since the object was updated
-        }
-      }
-      if (updated) {
-        console.log("subObj round 2")
-        console.log()
-        console.log(subObj)
-        playerData.parties.splice(playerData.parties.indexOf(subObj), 1); // Delete the original subObj
-        playerData.parties.push(subObj); // Push the updated subObj
-        fs.writeFileSync("./data/players/0/party.json", JSON.stringify(playerData, null, 4))
-        break; // Break out of the loop since the object was updated
-      }
-    }
-  }
+  var party_pos = summoner_pos.data.filter(function(item) {
+    return item.idx == idx;
+  });
+
+  party_pos.devils[pos] = uniq;
 }
 
 function partySearch(summoner, idx, pos){
