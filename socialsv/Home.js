@@ -21,15 +21,36 @@ function Home(req, res) {
     var uniq2 = parseInt(devilTools.partySearch(summoner, 1, 2))
     var uniq3 = parseInt(devilTools.partySearch(summoner, 1, 3))
 
-    var devil0 = devilTools.devilSearch(uniq0);
-    var devil1 = devilTools.devilSearch(uniq1);
-    var devil2 = devilTools.devilSearch(uniq2);
-    var devil3 = devilTools.devilSearch(uniq3);
+    var devil0
+    var devil1
+    var devil2
+    var devil3
 
-    var devil0_id = devil0["id"]
-    var devil1_id = devil1["id"]
-    var devil2_id = devil2["id"]
-    var devil3_id = devil3["id"]
+    var devil0_id
+    var devil1_id
+    var devil2_id
+    var devil3_id
+
+    if (uniq0 != 0){
+        devil0 = devilTools.devilSearch(uniq0);
+        devil0_id = devil0["id"]
+    }else{devil0_id = 0}
+
+    if (uniq1 != 0){
+        devil1 = devilTools.devilSearch(uniq1);
+        devil1_id = devil1["id"]
+    }else{devil1_id = 0}
+
+    if (uniq2 != 0){
+        devil2 = devilTools.devilSearch(uniq2);
+        devil2_id = devil2["id"]
+    }else{devil2_id = 0}
+
+    if (uniq3 != 0){
+        devil3 = devilTools.devilSearch(uniq3);
+        devil3_id = devil3["id"]
+    }else{devil3_id = 0}
+
 
     devilTools.updateHomeParty(devil0_id, 0)
     devilTools.updateHomeParty(devil1_id, 1)

@@ -69,112 +69,78 @@ function make(id, rarity, lvl, str, vit, mag, agi, luk, arc, skills, ai_type, dr
 }
 
 function add2Party(summoner, idx, pos, uniq){
-  const data = JSON.parse(fs.readFileSync("./data/players/0/party.json"))
+  const data = JSON.parse(fs.readFileSync("./data/players/0/party.json"));
 
-  var summoner_pos = data.parties.filter(function(item) {
-    return item.summoner == summoner;
+  var summoner_pos = data.parties.find(function(e) {
+    return e.summoner == summoner;
   });
 
-  var party_pos = summoner_pos.data.filter(function(item) {
-    return item.idx == idx;
+  var party_pos = summoner_pos.data.find(function(e) {
+    return e.idx == idx;
   });
 
   party_pos.devils[pos] = uniq;
+
+  fs.writeFileSync('./data/players/0/party.json', JSON.stringify(data, null, 2));
 }
 
 function partySearch(summoner, idx, pos){
-  const files = [
-    "./data/players/0/party.json"
-  ];
+  const data = JSON.parse(fs.readFileSync("./data/players/0/party.json"));
 
-  let playerData = tools.combine(files)
+  var summoner_pos = data.parties.find(function(e) {
+    return e.summoner == summoner;
+  });
+  console.log(summoner_pos.data)
 
-  for (const subObj of playerData.parties) {
-    if (subObj.summoner == summoner) {
-      console.log("summoner found: " + subObj.summoner)
-      for (let i = 0; i < subObj.data.length; i++) {
-        const subObj2 = subObj.data[i];
-        if (subObj2.idx == idx) {
-          console.log("party found: " + subObj2.idx)
-          return subObj2.devils[pos];
-        }
-      }
-    }
-  }
+  var party_pos = summoner_pos.data.find(function(e) {
+    return e.idx == idx;
+  });
+
+  return party_pos.devils[pos];
 
 }
 
 function devilSearch(uniq){
-  const searchUniq = uniq;
+  const data = JSON.parse(fs.readFileSync("./data/players/0/devils.json"));
 
-  const files = [
-    "./data/players/0/devils.json"
-  ];
+  var devil2Return = data.devils.find(function(e) {
+    console.log(uniq);
+    return e.uniq == uniq;
+  });
 
+  devil2Return.pressturn = 1;
 
-  const playerData = tools.combine(files)
-
-
-  // Loop through the sub-objects in the JSON array
-  for (const subObj of playerData.devils) {
-      // Check if the current sub-object has the desired unique identifier
-      if (subObj.uniq == searchUniq) {
-          // If the unique identifier is found, return the sub-object
-          subObj.pressturn = 1;
-          return subObj;
-      }
-  }
-  const removeMeObject = { remove_me: true, id: 0 };
-  return removeMeObject;
+  return devil2Return;
 }
 
-function devilLevel(uniq, exp){
-  const expArray = JSON.parse(fs.readFileSync("./json/common/exp_next.json", "utf8")).exp_next;
-  const searchUniq = uniq;
+function devilLevel(uniq, expGained){
+  let expArray = JSON.parse(fs.readFileSync("./json/common/exp_next.json")).exp_next;
 
-  const files = [
-    "./data/players/0/devils.json"
-  ];
+  let devil2Return = devilSearch(uniq);
 
-  const playerData = tools.combine(files)
-  let lv
-  let str
-  let vit
-  let mag
-  let agi
-  let arc
-  let luk
-  let exp1
+  let start_exp = devil2Return.exp;
+  let start_lv = devil2Return.lv
+  let expNeed = expArray[start_lv];
+  let expNow = start_exp + expGained;
+  console.log("exp gained: " + expGained)
 
-  for (const subObj of playerData.devils) {
-      if (subObj.uniq == searchUniq) {
-        exp1 = subObj.exp + exp;
-        let totalExp = subObj.exp
-        let expRequirement = expArray[subObj.lv];
-        lv = subObj.lv;
-        str = subObj.str;
-        vit = subObj.vit;
-        mag = subObj.mag;
-        agi = subObj.agi;
-        arc = subObj.arc;
-        luk = subObj.luk
-        while (totalExp >= expRequirement){
-          totalExp = totalExp - expRequirement
-          lv = lv + 1;
-          str = str + 1;
-          vit = vit + 1;
-          mag = mag + 1;
-          agi = agi + 1;
-          arc = arc + 1;
-          luk = luk + 1;
-          expRequirement = expArray[subObj.lv];
-        }
-        console.log("skills: " + subObj.skl)
-        new_devil = make(subObj.id, subObj.rarity, lv, str, vit, mag, agi, luk, arc, subObj.skl, subObj.ai_auto_type, subObj.dr, subObj.wk, subObj.av, subObj.spt, subObj.rp, subObj.ct, subObj.uniq, exp1);
-        const devils2Return = [new_devil]
-        update(devils2Return);
-      }
+
+  while (expNow >= expNeed){  
+    devil2Return.lv = devil2Return.lv + 1;
+    devil2Return.str = devil2Return.str + 1;
+    devil2Return.vit = devil2Return.vit + 1;
+    devil2Return.mag = devil2Return.mag + 1;
+    devil2Return.agi = devil2Return.agi + 1;
+    devil2Return.arc = devil2Return.arc + 1;
+    devil2Return.luk = devil2Return.luk + 1;
+
+    expNeed = expArray[devil2Return.lv + 1];
+
+    new_devil = make(devil2Return.id, devil2Return.rarity, devil2Return.lv, devil2Return.str, devil2Return.vit, devil2Return.mag, devil2Return.agi, devil2Return.luk, devil2Return.arc, devil2Return.skl, devil2Return.ai_auto_type, devil2Return.dr, devil2Return.wk, devil2Return.av, devil2Return.spt, devil2Return.rp, devil2Return.ct, devil2Return.uniq, expNow);
+    let devil2Update = [new_devil]
+    update(devil2Update);
   }
+
 }
 
 function updateHomeParty(id, slot){

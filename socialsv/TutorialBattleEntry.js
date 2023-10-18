@@ -27,8 +27,6 @@ function TutorialBattleEntry(req, res) {
     var uniq0 = parseInt(devilTools.partySearch(gender, 1, 0))
     var uniq1 = parseInt(devilTools.partySearch(gender, 1, 1))
 
-    console.log(uniq0)
-
     var devil0 = devilTools.devilSearch(uniq0);
     var devil1 = devilTools.devilSearch(uniq1);
 

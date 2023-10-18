@@ -5,14 +5,89 @@ const devilTools = require("../tools/devilTools")
 const jsonTools = require("../tools/jsonTools")
 
 function BattleResult(req, res) {
-    console.log(req.body)
     let params = decrypt.stringToJsonObject(decrypt.decrypt(req.body.param));
-    console.log(params)
 
     let resultFile = JSON.parse(fs.readFileSync(`./json/battles/story/${params.stage}/result.json`, "utf8"));
-    let stage = resultFile.drama
+    let drama = resultFile.drama;
+    let expGained = resultFile.exp;
+    console.log(expGained)
+    let get_mag = resultFile.mag;
+    let get_money = resultFile.money;
+    let first_prize = resultFile.first_prize;
+
+    let expArray = JSON.parse(fs.readFileSync("./json/common/exp_next.json")).exp_next;
 
     let result = params.result;
+
+    let dvl_before = JSON.parse(fs.readFileSync("./data/players/0/temp/dvl_before.json")).dvl_before;
+    let smn_before = JSON.parse(fs.readFileSync("./data/players/0/temp/smn_before.json")).smn_before;
+    let items = JSON.parse(fs.readFileSync("./data/players/0/temp/item.json")).items;
+    let usr = JSON.parse(fs.readFileSync("./data/players/0/usr.json")).usr;
+
+    let smn = JSON.parse(fs.readFileSync("./data/players/0/party.json")).summoners;
+    let smn_skill_ids = smn.skl;
+    let dvl = []
+    let dvl_lv = []
+
+    for (let i = 0; i < dvl_before.length; i++) {
+        console.log("devil " + i)
+        let obj = dvl_before[i];
+        let level = obj.lv;
+        let exp_pre = obj.exp;
+        let id = obj.uniq;
+        let exp_next = [expArray[level - 1]];
+
+        dvl2Level = devilTools.devilLevel(obj.uniq, expGained);
+        dvl2Add = devilTools.devilSearch(obj.uniq);
+        dvl.push(dvl2Add);
+
+        let exp_new = dvl2Add.exp;
+        let lv_new = dvl2Add.lv;
+
+        for (let j = level; j < lv_new; j++) {
+            exp_next.push(expArray[level])
+            console.log("devil " + i + "has leveled up to lvl " + j)
+        }
+
+        let dvl_lv2Add = 
+        {
+            "exp_pre": exp_pre,
+            "level": level,
+            "exp_next": exp_next,
+            "id": id,
+            "exp_new": exp_new
+        }
+
+        dvl_lv.push(dvl_lv2Add);
+    }
+
+
+
+    let reward = RewardBuilder(get_mag, 0, get_money, usr.mc, items, dvl_before, dvl, dvl_lv, smn, smn_before, smn_skill_ids )
+
+    let response = {
+        "consume_ap": 0,
+        "bonus_evt_item": 0,
+        "is_magatama_max": false,
+        "client_wait": 0,
+        "is_read": false,
+        "drama": drama,
+        "bonus_exp": 0,
+        "bonus_player_exp": 0,
+        "is_card_max": false,
+        "is_again": false,
+        "is_advice_usable": false,
+        "is_first": true,
+        "bonus_gold": 0,
+        "res_code": 0,
+        "clear_tm": 146000,
+        "best_tm": 0,
+        "is_best_record": true,
+        "is_magatama_sell": false,
+        "first_prize": first_prize,
+        "usr": usr,
+        "reward": reward
+    }
     if (result == 1){
         questTools.updateQuests(parseInt(params.stage))
     } else if (result == 0) {
@@ -20,78 +95,28 @@ function BattleResult(req, res) {
     } else if (result == 2){
         // Return escape
     }
-    res.status(200).json(RewardBuilder(stage))
+    res.status(200).json(resultFile)
 }
 
-function RewardBuilder(stage){
-
-    let tempfiles = [
-        "./data/players/0/temp/dvl_before.json",
-        "./data/players/0/temp/item.json",
-        "./data/players/0/temp/smn_before.json",
-        "./data/players/0/usr.json"
-    ]
-
-    let dvl_before = jsonTools.combine(tempfiles).dvl_before
-    let smn_before = jsonTools.combine(tempfiles).smn_before
-    let items = jsonTools.combine(tempfiles).item
-    let usr = jsonTools.combine(tempfiles).usr
-    let usr_id = jsonTools.combine(tempfiles).usr_id
-
-    let json2Ret = {
-        "reward": {
-            "get_mag": 0,
-            "dvl_before": dvl_before,
-            "item": items,
-            "usr_lv": {
-                "exp_pre": 799,
-                "level": 5,
-                "exp_next": [
-                    717,
-                    967
-                ],
-                "id": usr_id,
-                "exp_new": 799
-            },
-            "smn_lv": [],
-            "smn_skill_ids": [
-                14010
-            ],
-            "curr_mag": 0,
-            "dbl_exp_plus": 0,
-            "usr_exp_plus": 0,
-            "magatama_rate": 1,
-            "get_money": 0,
-            "smn": smn_before,
-            "item_magatama": [],
-            "smn_exp_plus": 0,
-            "curr_money": 0,
-            "assist": [],
-            "dvl_lv": [
-            ],
-            "item_tag": [
-            ],
-            "dvl": dvl_before
-        },
-        "is_again": false,
-        "consume_ap": 0,
-        "is_magatama_max": false,
-        "is_advice_usable": false,
-        "is_first": true,
-        "res_code": 0,
-        "client_wait": 0,
-        "is_read": false,
-        "drama": stage,
-        "clear_tm": 32000,
-        "best_tm": 30000,
-        "usr": usr,
-        "is_best_record": true,
-        "bonus_exp": 35,
-        "is_magatama_sell": false,
-        "is_card_max": false
+function RewardBuilder(get_mag, curr_mag, get_money, curr_money, item, dvl_before, dvl, dvl_lv, smn, smn_before, smn_skill_ids){
+    let json2Return = {
+        "get_mag": get_mag,
+        "curr_mag": curr_mag,
+        "magatama_rate": 1,
+        "get_money": get_money,
+        "curr_money": curr_money,
+        "item": item,
+        "item_tag": [],
+        "dvl_before": dvl_before,
+        "dvl": dvl,
+        "dvl_lv": dvl_lv,
+        "smn": smn,
+        "smn_before": smn_before,
+        "smn_lv": [],
+        "smn_skill_ids": smn_skill_ids
     }
 
-    return json2Ret
+return json2Return;
 
 }
 

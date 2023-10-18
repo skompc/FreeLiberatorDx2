@@ -24,25 +24,73 @@ function BattleEntry(req, res) {
 
     var quest = data
 
+
     var uniq0 = parseInt(devilTools.partySearch(main_smn, main_idx, 0))
     var uniq1 = parseInt(devilTools.partySearch(main_smn, main_idx, 1))
     var uniq2 = parseInt(devilTools.partySearch(main_smn, main_idx, 2))
     var uniq3 = parseInt(devilTools.partySearch(main_smn, main_idx, 3))
+  
+    var sub_uniq0
+    var sub_uniq1
+    var sub_uniq2
+    var sub_uniq3
 
-    var sub_uniq0 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 0))
-    var sub_uniq1 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 1))
-    var sub_uniq2 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 2))
-    var sub_uniq3 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 3))
+    var devil0 = {}
+    var devil1 = {}
+    var devil2 = {}
+    var devil3 = {}
 
-    var devil0 = devilTools.devilSearch(uniq0);
-    var devil1 = devilTools.devilSearch(uniq1);
-    var devil2 = devilTools.devilSearch(uniq2);
-    var devil3 = devilTools.devilSearch(uniq3);
+    var sub_devil0 = {}
+    var sub_devil1 = {}
+    var sub_devil2 = {}
+    var sub_devil3 = {}
 
-    var sub_devil0 = devilTools.devilSearch(sub_uniq0);
-    var sub_devil1 = devilTools.devilSearch(sub_uniq1);
-    var sub_devil2 = devilTools.devilSearch(sub_uniq2);
-    var sub_devil3 = devilTools.devilSearch(sub_uniq3);
+    if(sub_smn != 0 ){
+        sub_uniq0 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 0))
+        sub_uniq1 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 1))
+        sub_uniq2 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 2))
+        sub_uniq3 = parseInt(devilTools.partySearch(sub_smn, sub_idx, 3))
+    }else{
+        sub_uniq0 = 0
+        sub_uniq1 = 0
+        sub_uniq2 = 0
+        sub_uniq3 = 0
+    }
+
+    if (uniq0 != 0){
+        devil0 = devilTools.devilSearch(uniq0);
+    }else{devil0 ={"remove_me":true};}
+
+    if (uniq1 != 0){
+        devil1 = devilTools.devilSearch(uniq1);
+    }else{devil1 ={"remove_me":true}}
+
+    if (uniq2 != 0){
+        devil2 = devilTools.devilSearch(uniq2);
+    }else{devil2 ={"remove_me":true}}
+
+    if (uniq3 != 0){
+        devil3 = devilTools.devilSearch(uniq3);
+    }else{devil3 ={"remove_me":true}}
+
+
+    if (sub_uniq0 != 0){
+        sub_devil0 = devilTools.devilSearch(sub_uniq0);
+    }else{sub_devil0 ={"remove_me":true}}
+
+    if (sub_uniq1 != 0){
+        sub_devil1 = devilTools.devilSearch(sub_uniq1);
+    }else{sub_devil1 ={"remove_me":true}}
+
+    if (sub_uniq2 != 0){
+        sub_devil2 = devilTools.devilSearch(sub_uniq2);
+    }else{sub_devil2 ={"remove_me":true}}
+
+    if (sub_uniq3 != 0){
+        sub_devil3 = devilTools.devilSearch(sub_uniq3);
+    }else{sub_devil3 ={"remove_me":true}}
+
+
 
     const array2filter = [
         devil0,

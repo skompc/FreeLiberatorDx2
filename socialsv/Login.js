@@ -5,7 +5,8 @@ const decrypt = require("../tools/decrypt");
 function Login(req, res) {
     let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
 
-    let uuid = params.uuid;
+    //let uuid = params.uuid;
+    let uuid = 0;
     let check_code = params.check_code;
     let files = [
         "./data/players/" + uuid + "/main.json",

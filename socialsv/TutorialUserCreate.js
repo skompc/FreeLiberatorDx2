@@ -102,8 +102,8 @@ function TutorialUserCreate(req, res) {
         }
     ]
 
-    let uniq1 = tools.makeuniq(11);
-    let uniq2 = tools.makeuniq(11);
+    let uniq1 = 33333333333;
+    let uniq2 = 22222222222;
 
     let update_devils = [
         devilTools.make(11710, 1, 1, 14, 10, 10, 13, 10, 0, skills1, 2, 0, 0, 32, 0, 0, 0, uniq1, 0),
