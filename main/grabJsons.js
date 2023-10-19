@@ -1,3 +1,8 @@
+// TODO: Grab Dramas that come after battles
+// TODO: Grab Tutorial Dramas
+// TODO: Alterworld Stuffs
+// TODO: Everything else...
+
 const fs = require('fs');
 const path = require('path');
 const encrypt = require("../tools/decrypt").encrypt;
@@ -1266,6 +1271,9 @@ for (let i = 0; i < questArray.length; i++) {
       console.error('Error:', error);
     });
 }
+
+
+// TODO: Grab Dramas that come after battles
 
 
 // just for my personal use here...
