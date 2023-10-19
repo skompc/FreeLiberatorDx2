@@ -23,9 +23,9 @@ function wait(ms) {
 }
 
 // GET THIS FROM A BROWSER WINDOW WITH THE LOGIN JSON OPEN (It's in the cookies of that[press F12 and refresh])
-let sid = "960D2DF605FBCC1BD38BC802E1825785-n1"
+let sid = ""
 // GET THIS FROM THE SAME BROWSER WINDOW! (It's in the page itself)
-let ek = "B7CEB2TECFDC"
+let ek = ""
 
 const cookieValue = `JSESSIONID=${sid}`;
 
@@ -1113,7 +1113,7 @@ for (let i = 0; i < dramaArray.length; i++) {
   client.get(url)
     .then(response => {
       const jsonData = response.data;
-      const fileName = `../json/dramas/${dramaArray[i]}`;
+      const fileName = `../json/dramas/${dramaArray[i]}.json`;
 
       fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), (err) => {
         if (err) throw err;
