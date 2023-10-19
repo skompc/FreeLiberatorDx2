@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const encrypt = require("../tools/decrypt").encrypt;
+const decrypt = require("../tools/decrypt").decrypt;
 const axios = require('axios');
 const wrapper = require('axios-cookiejar-support').wrapper;
 const CookieJar = require('tough-cookie').CookieJar;
@@ -1081,6 +1082,7 @@ let urlArray_Drama = []
 
 let urlArray_Battle = []
 
+// Make Drama urls
 for (const drama of dramaArray) {
   const dramaToGet = encodeURIComponent(drama);
   const encodedUrl = dramaToGet.replace(/\//g, '%2f');
@@ -1090,15 +1092,16 @@ for (const drama of dramaArray) {
   urlArray_Drama.push(url);
 }
 
+// Fetch Drama urls
 for (let i = 0; i < dramaArray.length; i++) {
   wait(5000)
   let url = urlArray_Drama[i]
 
   fs.mkdir(`../json/dramas/${dramaArray[i]}/..`, { recursive: true }, (err) => {
     if (err) {
-      console.error(`Error creating directory: ${err.message}`);
+      //console.error(`Error creating directory: ${err.message}`);
     } else {
-      console.log(`Created directory: ${dramaArray[i]}`);
+      //console.log(`Created directory: ${dramaArray[i]}`);
     }
   });
 
@@ -1116,3 +1119,158 @@ for (let i = 0; i < dramaArray.length; i++) {
       console.error('Error:', error);
     });
 }
+
+// Make BattleEntry urls
+for (const quest of questArray) {
+  const dec0 = `stage=${quest}&main_smn=1&sub_smn=0&main_idx=1&sub_idx=0&helper=0&smn_id=0&is_auto=0&_tm_=108`;
+  const enc0 = encrypt(dec0, ek);
+  const url0 = `https://d2r-sim.d2megaten.com/socialsv/BattleEntry.do?param=${enc0}`;
+  urlArray_Battle.push(url0);
+}
+
+// Fetch BattleEntry urls
+for (let i = 0; i < questArray.length; i++) {
+  wait(5000)
+  let url = urlArray_Battle[i]
+
+  fs.mkdir(`../json/battles/story/${questArray[i]}`, { recursive: true }, (err) => {
+    if (err) {
+      //console.error(`Error creating directory: ${err.message}`);
+    } else {
+      //console.log(`Created directory: ${dramaArray[i]}`);
+    }
+  });
+
+  client.get(url)
+    .then(response => {
+      const jsonData = response.data;
+      const fileName = `../json/battles/story/${questArray[i]}/0.json`;
+
+      fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), (err) => {
+        if (err) throw err;
+        console.log(`JSON data saved to ${fileName}`);
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+}
+
+urlArray_Battle = []
+// Make BattleNext urls (wave 1)
+for (const quest of questArray) {
+  const dec1 = `stage=${quest}&wave=1&an_info=%5b%7b%22id%22%3a+11910%2c%22attr%22%3a+127%7d%5d&item_use=&df_info=%5b%7b%22uniq%22%3a+4%2c%22type%22%3a+2%7d%5d&turn=1&p_act=0&e_act=0&_tm_=136`;
+  const enc1 = encrypt(dec1, ek);
+  const url1 = `https://d2r-sim.d2megaten.com/socialsv/BattleNext.do?param=${enc1}`;
+  urlArray_Battle.push(url1);
+}
+
+// Fetch BattleEntry urls (wave 1)
+for (let i = 0; i < questArray.length; i++) {
+  wait(5000)
+  let url = urlArray_Battle[i]
+
+  fs.mkdir(`../json/battles/story/${questArray[i]}`, { recursive: true }, (err) => {
+    if (err) {
+      //console.error(`Error creating directory: ${err.message}`);
+    } else {
+      //console.log(`Created directory: ${dramaArray[i]}`);
+    }
+  });
+
+  client.get(url)
+    .then(response => {
+      const jsonData = response.data;
+      const fileName = `../json/battles/story/${questArray[i]}/1.json`;
+
+      fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), (err) => {
+        if (err) throw err;
+        console.log(`JSON data saved to ${fileName}`);
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+}
+
+urlArray_Battle = []
+// Make BattleNext urls (wave 2)
+for (const quest of questArray) {
+  const dec2 = `stage=${quest}&wave=2&an_info=%5b%7b%22id%22%3a+11910%2c%22attr%22%3a+127%7d%5d&item_use=&df_info=%5b%7b%22uniq%22%3a+4%2c%22type%22%3a+2%7d%5d&turn=1&p_act=0&e_act=0&_tm_=136`;
+  const enc2 = encrypt(dec2, ek);
+  const url2 = `https://d2r-sim.d2megaten.com/socialsv/BattleNext.do?param=${enc2}`;
+  urlArray_Battle.push(url2);
+}
+
+// Fetch BattleNext urls (wave 2)
+for (let i = 0; i < questArray.length; i++) {
+  wait(5000)
+  let url = urlArray_Battle[i]
+
+  fs.mkdir(`../json/battles/story/${questArray[i]}`, { recursive: true }, (err) => {
+    if (err) {
+      //console.error(`Error creating directory: ${err.message}`);
+    } else {
+      //console.log(`Created directory: ${dramaArray[i]}`);
+    }
+  });
+
+  client.get(url)
+    .then(response => {
+      const jsonData = response.data;
+      const fileName = `../json/battles/story/${questArray[i]}/2.json`;
+
+      fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), (err) => {
+        if (err) throw err;
+        console.log(`JSON data saved to ${fileName}`);
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+}
+
+urlArray_Battle = []
+// Make BattleResult urls
+for (const quest of questArray) {
+  const dec3 = `stage=${quest}&result=1&an_info=%5b%7b%22id%22%3a+11730%2c%22attr%22%3a+1%7d%5d&item_use=&df_info=%5b%7b%22uniq%22%3a+6%2c%22type%22%3a+1%7d%5d&mission_result=0&defeat_count=3&smn_change=1&max_damage=36&turn=1&p_act=2&e_act=0&mem_cnt=0&dtcr_err=0&mem_log=&clear_tm=146830&info=%7b%22is_not_using_command%22%3a0%2c%22devil_info%22%3a%5b%22%7b%5c%22uniq_id%5c%22%3a40429823204%2c%5c%22defeat_num%5c%22%3a0%2c%5c%22hp%5c%22%3a40%2c%5c%22total_damage%5c%22%3a53%2c%5c%22cond_add_type%5c%22%3a%5b%5d%2c%5c%22cond_add_count%5c%22%3a%5b%5d%2c%5c%22action_result_type%5c%22%3a%5b3%5d%2c%5c%22action_result_count%5c%22%3a%5b1%5d%7d%22%2c%22%7b%5c%22uniq_id%5c%22%3a40429823205%2c%5c%22defeat_num%5c%22%3a2%2c%5c%22hp%5c%22%3a41%2c%5c%22total_damage%5c%22%3a59%2c%5c%22cond_add_type%5c%22%3a%5b%5d%2c%5c%22cond_add_count%5c%22%3a%5b%5d%2c%5c%22action_result_type%5c%22%3a%5b3%5d%2c%5c%22action_result_count%5c%22%3a%5b1%5d%7d%22%5d%2c%22enemy_devil_info%22%3a%5b%22%7b%5c%22uniq_id%5c%22%3a4%2c%5c%22defeat_num%5c%22%3a0%2c%5c%22hp%5c%22%3a0%2c%5c%22total_damage%5c%22%3a0%2c%5c%22cond_add_type%5c%22%3a%5b%5d%2c%5c%22cond_add_count%5c%22%3a%5b%5d%2c%5c%22action_result_type%5c%22%3a%5b%5d%2c%5c%22action_result_count%5c%22%3a%5b%5d%7d%22%2c%22%7b%5c%22uniq_id%5c%22%3a5%2c%5c%22defeat_num%5c%22%3a0%2c%5c%22hp%5c%22%3a0%2c%5c%22total_damage%5c%22%3a47%2c%5c%22cond_add_type%5c%22%3a%5b%5d%2c%5c%22cond_add_count%5c%22%3a%5b%5d%2c%5c%22action_result_type%5c%22%3a%5b3%5d%2c%5c%22action_result_count%5c%22%3a%5b1%5d%7d%22%2c%22%7b%5c%22uniq_id%5c%22%3a6%2c%5c%22defeat_num%5c%22%3a0%2c%5c%22hp%5c%22%3a0%2c%5c%22total_damage%5c%22%3a0%2c%5c%22cond_add_type%5c%22%3a%5b%5d%2c%5c%22cond_add_count%5c%22%3a%5b%5d%2c%5c%22action_result_type%5c%22%3a%5b%5d%2c%5c%22action_result_count%5c%22%3a%5b%5d%7d%22%5d%2c%22result_drama_cutin%22%3a%5b%5d%7d&_tm_=155`;
+  const enc3 = encrypt(dec3, ek);
+  const url3 = enc3;
+  urlArray_Battle.push(url3);
+}
+
+// Fetch BattleResult urls
+for (let i = 0; i < questArray.length; i++) {
+  wait(5000)
+  let url = "https://d2r-sim.d2megaten.com/socialsv/BattleResult.do"
+
+  fs.mkdir(`../json/battles/story/${questArray[i]}`, { recursive: true }, (err) => {
+    if (err) {
+      //console.error(`Error creating directory: ${err.message}`);
+    } else {
+      //console.log(`Created directory: ${dramaArray[i]}`);
+    }
+  });
+
+  client.post(url, urlArray_Battle[i])
+    .then(response => {
+      const jsonData = response.data;
+      const fileName = `../json/battles/story/${questArray[i]}/result.json`;
+
+      fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), (err) => {
+        if (err) throw err;
+        console.log(`JSON data saved to ${fileName}`);
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+}
+
+
+// just for my personal use here...
+//decrypt("02762b9668f049100b39d719b8c077233dd858e077f0154648658876e19f206a72981ef73eb34a525c368f4dadc374207cdc00a42ab31b474b36850cbac327713bcf0ea729a11b164535c31eecd4736169d45ff076db5d040b39c04deeae2f6b29d216b02ee60d400c21d41bfd9f2f746a8f19b028e503414b36850cbac3327c3fd80ea729a11b164535c31eecd4736169d042e668ed47193176835afd9d32387f9b4ff07de149033167895ce6857b3669ce46fb44e7401600638314b9d72b6437e24ff476e54f125337d00ffc84346b728c0de544e54b035336c04cd7902571728d0df87ee977140070db19ae9532663de24ee769b9185103618b76e49e213869de47f07af677030339d71dbec9753569d445f374b90d400c21d41be182196b20c974e068ed461031678944e59028616a8f19b028e518525c67c31bba95237326d174fc75e247525c36c31ae9d473676a8f19b02ce60d420d21d41bfd9f2f7410d44fb02ee70d455c21d548bcc17237768519a629b41c525c67c31cebd474372bd84df07af077191b69c31cebd474376a8e4aa53eb64b525b67c31bba9936207ade0ea729a11b165a34c31bebd473666a8f19e174f0491b31608744e99623207ade0ea729a11b165b37c31bebd473666a8f19f674ea4c280f608276fc8836606a8848b029b60d440f21d34badc422207dde0ea078a11a450d6b884dd790226110de44e075f00d420d21d41badc227207adf0ea07fa11a144b31850cbac327663bd444fb44f64d041b689276fc8836606a8848b029b60d440f21d34bbbd473616a8f48b02ee70d455c65855de19e285a3dd858e077f077140171885dadc425207d8f0ea67aa11d155f21d34dadc622207d8f0ea778a11a454b33840cbd9263377dc845fc6adb41134b31850cbac363362e891ba129bd10455d36d61cadc325207ade0ea729e04d110b659276e6842b207ade0ea729a11b165c21d44aadc425207d8f43e53eb14b525c36c31ae9c577207dde0ea078a11a451a6b9248e4ae226422dc4cf03eb14b525c36c31ae9c47f207dde0ea078a11a450d6b884dd790226110c952e57ea11d144b36d40cbb9063302d981ef13eb64b525b67c31bba92296b2be24af17fdb4b181b6a920cbd9263377d9818f43eb14a525b60c31bebd473666a8f19f478f04118005b944cfb842a7110c952e57ea11d144b36d40cbb9063302d8e0ea07fa11a144b31850cbac327663bd444fb44f64d041b689276eb9e336b3b981ef63eb61a525d65c31ceac063302b981cf13eb61a525b60c31bebd474372ad34ef862db4c12186d8a76e19f206a6a8f19b028e50d420c21d41badc624207ade0ea729f1461e1f5b8f4dadc425207d8f0ea67ab00d450d21d34aadc374612adb4ef46fdb46020321d34aadc374207cdc1bb029e70d420d21d41be08163302c9819a73eb749474b36850cbd9263377dc944e17ae877130f69874eedd473666a8f19b028e518525c67c31cebd474372cd245f144e54c1331709f59edd473666a8f19b028e50d420c21d34dadc325207ade0ea729e747190a5b874decae256a3ad35fb02ee70d455c21d548adc424207ad90ea778a11d144b36d448eb852f6a21e259f068f1440331709f59edd473666a8f19b028e50d420c21d34dadc325207ade0ea729e54b03076b8876fa94357023c974f674f146034b31850cbac363362e981ef73eb14c525960c31bbad474666a8f19b02ce60d420d21d41bfd9f2f7410d44fb02ee70d455c21d548bdd474666a8848b029b64c120861875dd79f33686a8848b029b60d440f34c31bebd473666a8f19fd6ba11d144b36d40cbb9076207dde0ea078a11a451a6b9248e4ae226422dc4cf03eb14b525c36c31ae9c571207dde0ea078a11a450d6b884dd790226110c952e57ea11d144b36d40cbb9063302d981ef13eb64b525b67c31bba92296b2be24af17fdb4b181b6a920cbd9263377d9818f43eb14a525b60c31bebd473666a8f19f478f04118005b944cfb842a7110c952e57ea11d144b36d40cbb9063302d8e0ea07fa11a144b31850cbac327663bd444fb44f64d041b689276eb9e336b3b981ef63eb61a525d65c31ceac063302b981cf13eb61a525c67c31bbad471676a8848b029b65d190775b940ecd473666a8f19b028e51e525c67c31cebd474372bd84df07af077191b69c31cebd474376a8e4aa53eb64b525b67c31bba9936207ade0ea729a11b165e21d44aadc425207d8f5ffa6fe544280a658b48ef9463302c9819a73eb749474b36850cbd9263377dde44fb7fdb49130a5b9250f89463302c9819a73eb749525b66c31cecd474666a8848b029b64b180060b948ec95196620c845e13eb14b525c36c31ae9d473676a884fb029e70d420d21d41be992326c20d374e77ef75d1b1a5b9250f89463302c9819a73eb749525b66c31cecd474666a8848b029b649141a6d8947d78323763ad15fca78eb5d191a21d34aadc374207cdc0ea079a11d134b33820cbac363302b9819f63eb61a050b779345fcae22772ed04aca78f15c1e0021d41badc227207adf0ea07fa11f13485b9244d7cc77307acc1801cea0a20a5dffc8cc1e194f3564")
+
+//stage=10011&main_smn=1&sub_smn=0&main_idx=1&sub_idx=0&helper=0&smn_id=0&is_auto=0&_tm_=108
+
+//stage=10011&wave=1&an_info=%5b%7b%22id%22%3a+11910%2c%22attr%22%3a+127%7d%5d&item_use=&df_info=%5b%7b%22uniq%22%3a+4%2c%22type%22%3a+2%7d%5d&turn=1&p_act=0&e_act=0&_tm_=136

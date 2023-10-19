@@ -34,6 +34,7 @@ function decrypt(enc, KEY) {
     if (key_correct && sig_correct) {
         console.log(`decrypted: ${dec.toString('utf-8')}`);
     } else if (key_correct) {
+        console.log(`decrypted: ${dec.toString('utf-8')}`);
         console.log("Signature invalid");
     } else {
         console.log("Key invalid");
