@@ -1,0 +1,583 @@
+{
+  "transaction_id": "71-065-1A18EC",
+  "server_time": 1697836895007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Period",
+      "id": 750
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Kokoro",
+      "id": 690
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "That means this place is being closely watched."
+    },
+    {
+      "id": 1,
+      "text": "But this is a bit ironic. I mean, Kokoro, the supposed Priestess of Vanitas"
+    },
+    {
+      "id": 2,
+      "text": "is here fighting the Acolytes."
+    },
+    {
+      "id": 3,
+      "text": "Priestess of Vanitas?"
+    },
+    {
+      "id": 4,
+      "text": "Wait, somethin' like that came up when we fought against Organ..."
+    },
+    {
+      "id": 5,
+      "text": "Vanitas can access the Dragon Stream,"
+    },
+    {
+      "id": 6,
+      "text": "and sense how malice is flowing throughout the world."
+    },
+    {
+      "id": 7,
+      "text": "And I am a being with that same access."
+    },
+    {
+      "id": 8,
+      "text": "This ability allows me to sense the presence of Vanitas."
+    },
+    {
+      "id": 9,
+      "text": "Which is why some also call me the \"Priestess of Vanitas\"."
+    },
+    {
+      "id": 10,
+      "text": "You've garnered the attention of some powerful beings on the other side too."
+    },
+    {
+      "id": 11,
+      "text": "They wonder if you'll join Vanitas in destroying the world,"
+    },
+    {
+      "id": 12,
+      "text": "or align yourself with humanity to save them..."
+    },
+    {
+      "id": 13,
+      "text": "YOU are the key factor in all of these events dealing with Vanitas."
+    },
+    {
+      "id": 14,
+      "text": "And you chose the Liberators it seems?"
+    },
+    {
+      "id": 15,
+      "text": "Yes!"
+    },
+    {
+      "id": 16,
+      "text": "Which is sad. If only you'd joined the Elements..."
+    },
+    {
+      "id": 17,
+      "text": "We would have been able to fully save humanity from its own malice."
+    },
+    {
+      "id": 18,
+      "text": "I believe humans must find a way to save themselves and this world."
+    },
+    {
+      "id": 19,
+      "text": "That is why I am partial to their \"Fellowship\"."
+    },
+    {
+      "id": 20,
+      "text": "Human interactions, which you've labeled as evil,"
+    },
+    {
+      "id": 21,
+      "text": "is central to their beliefs."
+    },
+    {
+      "id": 22,
+      "text": "Humans are social creatures. They cannot live without interaction."
+    },
+    {
+      "id": 23,
+      "text": "I want to believe in this method."
+    },
+    {
+      "id": 24,
+      "text": "I want to believe in the Liberators!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 12279,
+      "effect": "",
+      "param0": "fac_bg.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 12280,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12281,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12282,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12283,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_07",
+      "select": 0,
+      "flag": "",
+      "uniq": 12284,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_07",
+      "select": 0,
+      "flag": "",
+      "uniq": 12285,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 12286,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12287,
+      "effect": "talking",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12288,
+      "effect": "talking",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12289,
+      "effect": "talking",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12290,
+      "effect": "talking",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12291,
+      "effect": "talking",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12292,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12293,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12294,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12295,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12296,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 12297,
+      "effect": "talking",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 12298,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 12299,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 12300,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "750",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12301,
+      "effect": "talking",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 12302,
+      "effect": "",
+      "param0": "bgm_facility",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12303,
+      "effect": "talking",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12304,
+      "effect": "talking",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12305,
+      "effect": "talking",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12306,
+      "effect": "talking",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 12307,
+      "effect": "talking",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 12308,
+      "effect": "talking",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "690",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "period",
+      "id": 750,
+      "name_id": 750
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "kokoro",
+      "id": 690,
+      "name_id": 690
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "transaction_id": "02-047-197D03",
+  "server_time": 1697837861507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Hollow Priest",
+      "id": 11200
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    },
+    {
+      "name": "Angel",
+      "id": 7602
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Welcome to our church. This is a place of prayer where the faithful can gather."
+    },
+    {
+      "id": 1,
+      "text": "It is safe inside, although there are demons roaming outside its walls."
+    },
+    {
+      "id": 2,
+      "text": "A church?<BR>So this is where you pray to \"God\"?"
+    },
+    {
+      "id": 3,
+      "text": "I don't understand this \"prayer\" thing."
+    },
+    {
+      "id": 4,
+      "text": "Apparently humans do it all the time too. What is it for?"
+    },
+    {
+      "id": 5,
+      "text": "I mean, if you have time to pray, wouldn't that time be better spent doing something more useful?"
+    },
+    {
+      "id": 6,
+      "text": "Maybe I don't understand it because I'm not human..."
+    },
+    {
+      "id": 7,
+      "text": "Heretics. I sense the presence of heretics."
+    },
+    {
+      "id": 8,
+      "text": "Oh, angel of God! Do you believe there are heretics in this house of worship?"
+    },
+    {
+      "id": 9,
+      "text": "Correct. Abhorrent heretics that comitted the unforgivable crime of murdering an angel!"
+    },
+    {
+      "id": 10,
+      "text": "Oh. Now that you mention it, we did kill an angel on the last level, didn't we?"
+    },
+    {
+      "id": 11,
+      "text": "So that means we're the \"heretics\"?<BR>Looks like this isn't something we can talk our way out of."
+    },
+    {
+      "id": 12,
+      "text": "How dare you attack a servant of God. You shall atone for your actions with your lives!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000090,
+      "effect": "",
+      "param0": "drama_bg_047.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000091,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000092,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11200",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000093,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11200",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000094,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_003",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000095,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_004",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000096,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_005",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000097,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000098,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000099,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000100,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "7602",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000101,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "11200",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000102,
+      "effect": "",
+      "param0": "bgm_btl_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000103,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "7602",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000104,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000105,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000106,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_012_002_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000107,
+      "effect": "",
+      "param0": "12",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "7602",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_priest_utsuro",
+      "id": 11200,
+      "name_id": 11200
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    },
+    {
+      "img": "mob_archangel",
+      "id": 7602,
+      "name_id": 7602
+    }
+  ]
+}

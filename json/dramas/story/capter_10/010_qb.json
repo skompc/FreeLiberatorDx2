@@ -1,0 +1,503 @@
+{
+  "transaction_id": "88-052-1897D6",
+  "server_time": 1697836644707,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Lindsay",
+      "id": 680
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "You know, we talked to one of your civilian members back there."
+    },
+    {
+      "id": 1,
+      "text": "Yeah I get that the Brotherhood of Harmony genuinely wants to save humanity."
+    },
+    {
+      "id": 2,
+      "text": "What I don't get is why you're involved in all this."
+    },
+    {
+      "id": 3,
+      "text": "Weren't you a terrorist?"
+    },
+    {
+      "id": 4,
+      "text": "I found the one I was meant to serve, nothing more."
+    },
+    {
+      "id": 5,
+      "text": "The Enlightened one... My angel."
+    },
+    {
+      "id": 6,
+      "text": "The Enlightened one showed me the way when I was in despair of this world."
+    },
+    {
+      "id": 7,
+      "text": "The Enlightened one...<BR>You mean the head of this Brotherhood?"
+    },
+    {
+      "id": 8,
+      "text": "The Enlightened one will wipe the world clean of all malice."
+    },
+    {
+      "id": 9,
+      "text": "This garbage dump of a world will be cleansed!"
+    },
+    {
+      "id": 10,
+      "text": "That is my wish. That is my hope."
+    },
+    {
+      "id": 11,
+      "text": "I will see it realized, even if it costs me my life."
+    },
+    {
+      "id": 12,
+      "text": "The new world brought about by Unity is all that matters."
+    },
+    {
+      "id": 13,
+      "text": "Whether I exist in that world or not is of no importance."
+    },
+    {
+      "id": 14,
+      "text": "You're a zealot."
+    },
+    {
+      "id": 15,
+      "text": "Guilty as charged."
+    },
+    {
+      "id": 16,
+      "text": "I will do anything, kill anyone, to realize the Enlightened One's Dogma."
+    },
+    {
+      "id": 17,
+      "text": "That's one scary lady. I'm inclined to turn tail and run."
+    },
+    {
+      "id": 18,
+      "text": "Give it up. I'm going to kill you all!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9709,
+      "effect": "",
+      "param0": "drama_bg_087.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9710,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9711,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9712,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9713,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9714,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9715,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9716,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9717,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9718,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9719,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_009",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9720,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_010",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9721,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_011",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9722,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9723,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9724,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_014",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9725,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9726,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9727,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9728,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9729,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_017",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9730,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_010_qb_018",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 9731,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9732,
+      "effect": "",
+      "param0": "prebtl_vfx",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9733,
+      "effect": "",
+      "param0": "eff_drama_encount_harmony",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9734,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "linse",
+      "id": 680,
+      "name_id": 680
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    }
+  ]
+}

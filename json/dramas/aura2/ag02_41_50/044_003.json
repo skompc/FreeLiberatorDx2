@@ -1,0 +1,222 @@
+{
+  "transaction_id": "02-047-198D0B",
+  "server_time": 1697838212107,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Xana",
+      "id": 610
+    },
+    {
+      "name": "Ixaya",
+      "id": 600
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "So you're saying this world and all the other Hollows were created for you?"
+    },
+    {
+      "id": 1,
+      "text": "That was the form of miracle bestowed upon me by this place, the Incubator..."
+    },
+    {
+      "id": 2,
+      "text": "Or as the humans like to call it, the Aura Gate."
+    },
+    {
+      "id": 3,
+      "text": "But I have no complaints. Because of this, I never felt lonely."
+    },
+    {
+      "id": 4,
+      "text": "I was with my fellow Hollows whom I am to one day become one with."
+    },
+    {
+      "id": 5,
+      "text": "Unlike you, who have been alone since the moment you were born..."
+    },
+    {
+      "id": 6,
+      "text": ">Ixaya's voice fades away."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002394,
+      "effect": "",
+      "param0": "drama_bg_051.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002395,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_003_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002396,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002397,
+      "effect": "talking",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002398,
+      "effect": "talking",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_003_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002399,
+      "effect": "talking",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_003_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002400,
+      "effect": "talking",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_003_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002401,
+      "effect": "talking",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002402,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002403,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    },
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    }
+  ]
+}

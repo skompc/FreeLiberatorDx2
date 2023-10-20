@@ -1,0 +1,627 @@
+{
+  "transaction_id": "15-07A-1A0557",
+  "server_time": 1697838447708,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Unicorn",
+      "id": 17200
+    },
+    {
+      "name": "",
+      "id": 701
+    },
+    {
+      "name": "",
+      "id": 711
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You can feel your sword find its mark through the hilt,"
+    },
+    {
+      "id": 1,
+      "text": "...<BR>*Snort*"
+    },
+    {
+      "id": 2,
+      "text": ">but the Unicorn shows no signs of weakening."
+    },
+    {
+      "id": 3,
+      "text": ">It charges you without a moment's pause."
+    },
+    {
+      "id": 4,
+      "text": "......!!"
+    },
+    {
+      "id": 5,
+      "text": "*Grunt*"
+    },
+    {
+      "id": 6,
+      "text": ">You lock swords with the Unicorn's horn."
+    },
+    {
+      "id": 7,
+      "text": "This is bad..."
+    },
+    {
+      "id": 8,
+      "text": "It's too strong..."
+    },
+    {
+      "id": 9,
+      "text": "!!"
+    },
+    {
+      "id": 10,
+      "text": ">The unicorn rears its head and deflects your sword, putting you off balance."
+    },
+    {
+      "id": 11,
+      "text": ">Your guard is wide open as the Unicorn charges you again."
+    },
+    {
+      "id": 12,
+      "text": "My shield...!!"
+    },
+    {
+      "id": 13,
+      "text": "I hope this works!!"
+    },
+    {
+      "id": 14,
+      "text": "......"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25454,
+      "effect": "",
+      "param0": "drama_bg_045.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25455,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25456,
+      "effect": "",
+      "param0": "slash",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25457,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 25458,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "17200",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25459,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25460,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25461,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 25462,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "17200",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25463,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 25464,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "701",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 25465,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "711",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25466,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25467,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25468,
+      "effect": "",
+      "param0": "7",
+      "place": 2,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25469,
+      "effect": "",
+      "param0": "8",
+      "place": 2,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25470,
+      "effect": "",
+      "param0": "male_branch",
+      "place": 0,
+      "param3": "face_03",
+      "command": 36,
+      "param1": "face_03",
+      "param2": "female_branch"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25471,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25472,
+      "effect": "",
+      "param0": "hit",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25473,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_03",
+      "select": 1,
+      "flag": "",
+      "uniq": 25474,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "701",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_03",
+      "select": 2,
+      "flag": "",
+      "uniq": 25475,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "711",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25476,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25477,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25478,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25479,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25480,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25481,
+      "effect": "",
+      "param0": "male_branch",
+      "place": 0,
+      "param3": "face_03",
+      "command": 36,
+      "param1": "face_03",
+      "param2": "female_branch"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25482,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "2",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25483,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25484,
+      "effect": "",
+      "param0": "metal_door_break",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25485,
+      "effect": "",
+      "param0": "wout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "10",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25486,
+      "effect": "",
+      "param0": "win",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "10",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 25487,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_04",
+      "select": 1,
+      "flag": "",
+      "uniq": 25488,
+      "effect": "",
+      "param0": "14",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "701",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_04",
+      "select": 2,
+      "flag": "",
+      "uniq": 25489,
+      "effect": "",
+      "param0": "14",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "711",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_unicorn",
+      "id": 17200,
+      "name_id": 17200
+    },
+    {
+      "img": "male_branch",
+      "id": 701,
+      "name_id": 701
+    },
+    {
+      "img": "female_branch",
+      "id": 711,
+      "name_id": 711
+    }
+  ]
+}

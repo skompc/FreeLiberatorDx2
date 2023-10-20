@@ -1,0 +1,518 @@
+{
+  "transaction_id": "02-047-1AB1B8",
+  "server_time": 1697843665607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Pele",
+      "id": 33400
+    },
+    {
+      "name": "Tiamat",
+      "id": 44000
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Vince",
+      "id": 660
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "...Not bad. But I'm not beaten yet!"
+    },
+    {
+      "id": 1,
+      "text": "Do not misunderstand. I've been going easy on you so far."
+    },
+    {
+      "id": 2,
+      "text": "I could win singlehandedly,"
+    },
+    {
+      "id": 3,
+      "text": "but a goddess like you is a perfect test for these humans."
+    },
+    {
+      "id": 4,
+      "text": "What?!"
+    },
+    {
+      "id": 5,
+      "text": "What?!"
+    },
+    {
+      "id": 6,
+      "text": "For now, I shall stand back and observe."
+    },
+    {
+      "id": 7,
+      "text": ">Tiamat disappears without a trace."
+    },
+    {
+      "id": 8,
+      "text": "S-She ditched us."
+    },
+    {
+      "id": 9,
+      "text": "Chick's got a screw loose..."
+    },
+    {
+      "id": 10,
+      "text": "Trustin' a god was our first mistake."
+    },
+    {
+      "id": 11,
+      "text": "Truer words..."
+    },
+    {
+      "id": 12,
+      "text": "What's your plan now, mortals?"
+    },
+    {
+      "id": 13,
+      "text": "I'm going after the old hag. Scram and I'll let you go. Deal?"
+    },
+    {
+      "id": 14,
+      "text": "Fat chance! She's still our ally—for now, anyway."
+    },
+    {
+      "id": 15,
+      "text": "Very well! Then my flames will burn you to cinders!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005705,
+      "effect": "",
+      "param0": "drama_bg_036.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005706,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005707,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005708,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005709,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005710,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005711,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005712,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_07",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005713,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005714,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005715,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005716,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_07",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005717,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005718,
+      "effect": "",
+      "param0": "gakuto_08",
+      "place": 0,
+      "param3": "",
+      "command": 40,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005719,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005720,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005721,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005722,
+      "effect": "",
+      "param0": "ririn_16",
+      "place": 0,
+      "param3": "",
+      "command": 40,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005723,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005724,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005725,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005726,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005727,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005728,
+      "effect": "",
+      "param0": "parallelize",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005729,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005730,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_pele",
+      "id": 33400,
+      "name_id": 33400
+    },
+    {
+      "img": "mob_tiamat",
+      "id": 44000,
+      "name_id": 44000
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "vince",
+      "id": 660,
+      "name_id": 660
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    }
+  ]
+}

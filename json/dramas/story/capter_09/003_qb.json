@@ -1,0 +1,531 @@
+{
+  "transaction_id": "76-073-19B068",
+  "server_time": 1697836464507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Kazufumi",
+      "id": 230
+    },
+    {
+      "name": "Arisa",
+      "id": 240
+    },
+    {
+      "name": "Vagit",
+      "id": 210
+    },
+    {
+      "name": "Himika",
+      "id": 220
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    },
+    {
+      "name": "Soldier",
+      "id": 42000
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Now I'm starting to get the picture."
+    },
+    {
+      "id": 1,
+      "text": "The Brotherhood of Harmony...<BR>Sounds like quite a formidable opponent."
+    },
+    {
+      "id": 2,
+      "text": "Their dogma, Unity..."
+    },
+    {
+      "id": 3,
+      "text": "They want to unite the human race with it... That is one grandiose dream.<BR>"
+    },
+    {
+      "id": 4,
+      "text": "But we shouldn't write that off as just talk because they've more than backed it up with their actions."
+    },
+    {
+      "id": 5,
+      "text": "So I think it would be wise to assume that they possess the power to make that dream a reality."
+    },
+    {
+      "id": 6,
+      "text": "Yes, and that would explain how they were able to crush the Acolytes."
+    },
+    {
+      "id": 7,
+      "text": "Guys, theorizing is good 'n all, "
+    },
+    {
+      "id": 8,
+      "text": "but we really need to get a move on. More of them are probably on their way."
+    },
+    {
+      "id": 9,
+      "text": "So we're running?"
+    },
+    {
+      "id": 10,
+      "text": "Yep. I hate to say it but it's the only way."
+    },
+    {
+      "id": 11,
+      "text": "But losing the Hideout and its facilities will be devastating to us."
+    },
+    {
+      "id": 12,
+      "text": "She's right. All the demon related things we do depend on the facilities here."
+    },
+    {
+      "id": 13,
+      "text": "Oh, about that..."
+    },
+    {
+      "id": 14,
+      "text": "There they are! Move in!"
+    },
+    {
+      "id": 15,
+      "text": "First cops, now soldiers?! Gimme a break!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8185,
+      "effect": "",
+      "param0": "fac_bg.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8186,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8187,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8188,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8189,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8190,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8191,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8192,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8193,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8194,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8195,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8196,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_010",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8197,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8198,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8199,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8200,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8201,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8202,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8203,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "42000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8204,
+      "effect": "",
+      "param0": "step_run",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8205,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_003_qb_015",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8206,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8207,
+      "effect": "",
+      "param0": "prebtl_vfx",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8208,
+      "effect": "",
+      "param0": "eff_drama_encount_harmony",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8209,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "fukumoto",
+      "id": 230,
+      "name_id": 230
+    },
+    {
+      "img": "arisa",
+      "id": 240,
+      "name_id": 240
+    },
+    {
+      "img": "vagit",
+      "id": 210,
+      "name_id": 210
+    },
+    {
+      "img": "himika",
+      "id": 220,
+      "name_id": 220
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    },
+    {
+      "img": "mob_harmony_soldier",
+      "id": 42000,
+      "name_id": 42000
+    }
+  ]
+}

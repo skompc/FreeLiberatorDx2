@@ -1,0 +1,474 @@
+{
+  "transaction_id": "70-06D-19EA65",
+  "server_time": 1697837791307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Xibuki",
+      "id": 620
+    },
+    {
+      "name": "Ixaya",
+      "id": 600
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Whew... thanks.<BR>Humans sure are strong."
+    },
+    {
+      "id": 1,
+      "text": "You used demons to fight for you.<BR>That was... so cool."
+    },
+    {
+      "id": 2,
+      "text": "I'm glad you're alright."
+    },
+    {
+      "id": 3,
+      "text": "Yeah. I can't go about getting myself killed before becoming human, so."
+    },
+    {
+      "id": 4,
+      "text": "By the way... Who are you?"
+    },
+    {
+      "id": 5,
+      "text": "I'm Ixaya. I'm travelling with the Savior. "
+    },
+    {
+      "id": 6,
+      "text": "Huh. You're a Hollow, right?"
+    },
+    {
+      "id": 7,
+      "text": "For a Hollow, you seem very... human."
+    },
+    {
+      "id": 8,
+      "text": "D-Do you think so?"
+    },
+    {
+      "id": 9,
+      "text": "Yeah.  "
+    },
+    {
+      "id": 10,
+      "text": "It's like, you know how we laugh differently from humans, right?"
+    },
+    {
+      "id": 11,
+      "text": "First we need to think about how a human would react, and then laugh."
+    },
+    {
+      "id": 12,
+      "text": "So we always take too long to actually laugh."
+    },
+    {
+      "id": 13,
+      "text": "But your smile, it looks natural. Like a humans."
+    },
+    {
+      "id": 14,
+      "text": "...I'm just another Hollow trying to be more human."
+    },
+    {
+      "id": 15,
+      "text": "The real human is this one here."
+    },
+    {
+      "id": 16,
+      "text": "But, you know..."
+    },
+    {
+      "id": 17,
+      "text": "I've heard that we Hollows each have one human-like trait."
+    },
+    {
+      "id": 18,
+      "text": "In my case, I wonder if that trait is my smile?"
+    },
+    {
+      "id": 19,
+      "text": "Hmmm...<BR>Then what's mine?"
+    },
+    {
+      "id": 20,
+      "text": "I wonder what my human trait could be?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000852,
+      "effect": "",
+      "param0": "drama_bg_046.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000853,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000854,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000855,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000856,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000857,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000858,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_005",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000859,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000860,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000861,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000862,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000863,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000864,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000865,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000866,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000867,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000868,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000869,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000870,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000871,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_018",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000872,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000873,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_003_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000874,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000875,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "xibuki",
+      "id": 620,
+      "name_id": 620
+    },
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    }
+  ]
+}

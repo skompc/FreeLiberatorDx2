@@ -1,0 +1,392 @@
+{
+  "transaction_id": "87-047-18B8E3",
+  "server_time": 1697835497807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Acolytes",
+      "id": 1602
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "...And that's how it goes.<BR>Will this be good enough?"
+    },
+    {
+      "id": 1,
+      "text": "Thanks!<BR>We'll take it from here."
+    },
+    {
+      "id": 2,
+      "text": "No problem."
+    },
+    {
+      "id": 3,
+      "text": "Call me for anything fengshui<BR>and Dragon Stream-related."
+    },
+    {
+      "id": 4,
+      "text": ">Seiran Saikawa leaves."
+    },
+    {
+      "id": 5,
+      "text": "Traces of the enemy indicate<BR>they passed through this town."
+    },
+    {
+      "id": 6,
+      "text": "Ikebukuro..."
+    },
+    {
+      "id": 7,
+      "text": "Looks like the fengshui tracking<BR>worked, because..."
+    },
+    {
+      "id": 8,
+      "text": "....."
+    },
+    {
+      "id": 9,
+      "text": "They're swarming toward us.<BR>Let's hurry!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4069,
+      "effect": "",
+      "param0": "drama_bg_021.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4070,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4071,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4072,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4073,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_003",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4074,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4075,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4076,
+      "effect": "",
+      "param0": "step_walk",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4077,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4078,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4079,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4080,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4081,
+      "effect": "",
+      "param0": "eff_drama_dfield_blue",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4082,
+      "effect": "",
+      "param0": "parallelize",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4083,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4084,
+      "effect": "",
+      "param0": "5000",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4085,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1602",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_05_007_qb_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4086,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4087,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4088,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "mob_assassin",
+      "id": 1602,
+      "name_id": 1602
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "transaction_id": "37-055-196878",
+  "server_time": 1697837771307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Demon",
+      "id": 9701
+    },
+    {
+      "name": "Shaken Hollow",
+      "id": 9205
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "What's wrong with you?<BR>Why won't you fight?"
+    },
+    {
+      "id": 1,
+      "text": "W-we-we-well... a-as humans often say..."
+    },
+    {
+      "id": 2,
+      "text": "...violence only leads to hate... yes. Yes, that's what they say."
+    },
+    {
+      "id": 3,
+      "text": "Is that right? Then die already."
+    },
+    {
+      "id": 4,
+      "text": "B-But I don't want to d-die either..."
+    },
+    {
+      "id": 5,
+      "text": "Hmph, you things are nothing compared to humans. You can't even defend yourselves."
+    },
+    {
+      "id": 6,
+      "text": "If you won't fight, then die!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000813,
+      "effect": "",
+      "param0": "drama_bg_046.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000814,
+      "effect": "",
+      "param0": "bgm_btl_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000815,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9701",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000816,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9205",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000817,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9205",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000818,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9701",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000819,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9205",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000820,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9701",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_004_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000821,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9701",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_ares",
+      "id": 9701,
+      "name_id": 9701
+    },
+    {
+      "img": "mob_man_uturo",
+      "id": 9205,
+      "name_id": 9205
+    }
+  ]
+}

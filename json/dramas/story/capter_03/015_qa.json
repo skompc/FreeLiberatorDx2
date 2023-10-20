@@ -1,0 +1,345 @@
+{
+  "transaction_id": "18-061-18A61A",
+  "server_time": 1697835267507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Film studies club member",
+      "id": 1703
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Are you okay?!"
+    },
+    {
+      "id": 1,
+      "text": "Oh! Everyone's here!<BR>That was... so scary!"
+    },
+    {
+      "id": 2,
+      "text": "You'll be fine! We're here now!"
+    },
+    {
+      "id": 3,
+      "text": "Phew! That was a close call."
+    },
+    {
+      "id": 4,
+      "text": "What do we do now? We can't just leave her alone..."
+    },
+    {
+      "id": 5,
+      "text": "Heyo, MegaTube!<BR>It's ya boy Megakin!"
+    },
+    {
+      "id": 6,
+      "text": "That's your phone greeting too?"
+    },
+    {
+      "id": 7,
+      "text": "Yep! Consistency is key!<BR>So, what's the situation?"
+    },
+    {
+      "id": 8,
+      "text": "There's someone we need to<BR>secure. Can you help?"
+    },
+    {
+      "id": 9,
+      "text": "Done! Bring 'em to the followin' address..."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2401,
+      "effect": "",
+      "param0": "drama_bg_011.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2402,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2403,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2404,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2405,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1703",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_002",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2406,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2407,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2408,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2409,
+      "effect": "",
+      "param0": "call_phone",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2410,
+      "effect": "",
+      "param0": "900",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2411,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2412,
+      "effect": "talking",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2413,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2414,
+      "effect": "talking",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2415,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_014_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2416,
+      "effect": "talking",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "mob_girl_school",
+      "id": 1703,
+      "name_id": 1703
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

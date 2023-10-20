@@ -1,0 +1,567 @@
+{
+  "transaction_id": "19-081-18B483",
+  "server_time": 1697837576307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Man",
+      "id": 1003
+    },
+    {
+      "name": "Girl",
+      "id": 1500
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "There they are! Both of them!"
+    },
+    {
+      "id": 1,
+      "text": "Oh, you guys again."
+    },
+    {
+      "id": 2,
+      "text": "Are you here to stop me again?"
+    },
+    {
+      "id": 3,
+      "text": "Of course!"
+    },
+    {
+      "id": 4,
+      "text": "Then let me ask. What's<BR>wrong with us choosing to die?"
+    },
+    {
+      "id": 5,
+      "text": "I mean, who cares? It makes no<BR>difference to you if I die."
+    },
+    {
+      "id": 6,
+      "text": "You should live."
+    },
+    {
+      "id": 7,
+      "text": "Do what you want."
+    },
+    {
+      "id": 8,
+      "text": "Ugh. What a hypocrite."
+    },
+    {
+      "id": 9,
+      "text": "Right. I plan on it."
+    },
+    {
+      "id": 10,
+      "text": "At the very end, at least, we<BR>wanna be able to do as we like."
+    },
+    {
+      "id": 11,
+      "text": "The voice sounds really close<BR>now, so I'm going."
+    },
+    {
+      "id": 12,
+      "text": "Bye."
+    },
+    {
+      "id": 13,
+      "text": ">They leave..."
+    },
+    {
+      "id": 14,
+      "text": "It's no good. They won't listen."
+    },
+    {
+      "id": 15,
+      "text": "No wonder it's the #1 cause of<BR>death among young people. "
+    },
+    {
+      "id": 16,
+      "text": "They all want to die! When you're<BR>feeling down, try to tidy up..."
+    },
+    {
+      "id": 17,
+      "text": "Or get some fresh air. Fengshui<BR>helps us keep our spirits up."
+    },
+    {
+      "id": 18,
+      "text": "Everyone should learn more<BR>fengshui."
+    },
+    {
+      "id": 19,
+      "text": "...Oh well. At this point, all we<BR>can do is stop that voice!"
+    },
+    {
+      "id": 20,
+      "text": "Let's move on!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000363,
+      "effect": "",
+      "param0": "drama_bg_030.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000364,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000365,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000366,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000367,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000368,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000369,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000370,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000371,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000372,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000373,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000374,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "-1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000375,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_006",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 5000376,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_007",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 5000377,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000378,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000379,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000380,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000381,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000382,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000383,
+      "effect": "",
+      "param0": "step_walk",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000384,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000385,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000386,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_012",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000387,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000388,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000389,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000390,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000391,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_020_001_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000392,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "mob_man",
+      "id": 1003,
+      "name_id": 1003
+    },
+    {
+      "img": "mob_girl",
+      "id": 1500,
+      "name_id": 1500
+    }
+  ]
+}

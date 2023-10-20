@@ -1,0 +1,426 @@
+{
+  "transaction_id": "71-065-1A42E7",
+  "server_time": 1697837876507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Xana",
+      "id": 610
+    },
+    {
+      "name": "Hollow Inquisitor",
+      "id": 11203
+    },
+    {
+      "name": "Angel",
+      "id": 11401
+    },
+    {
+      "name": "Axihira",
+      "id": 630
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">Up ahead you see a huge pile of... something."
+    },
+    {
+      "id": 1,
+      "text": "I wonder what that could be?"
+    },
+    {
+      "id": 2,
+      "text": ">As you draw near, you realize it's a mountain of dead Hollows."
+    },
+    {
+      "id": 3,
+      "text": "Burn, burn, let all heretics burn."
+    },
+    {
+      "id": 4,
+      "text": "Those who refuse to see God's light have no place in this world."
+    },
+    {
+      "id": 5,
+      "text": "Hallelujah!"
+    },
+    {
+      "id": 6,
+      "text": "Oh... A massacre.<BR>So they're burning the so-called heretics alive."
+    },
+    {
+      "id": 7,
+      "text": "Ah, a heretic.<BR>We have a heretic here as well!"
+    },
+    {
+      "id": 8,
+      "text": "All heretics must die!"
+    },
+    {
+      "id": 9,
+      "text": "...You know, I just said I was going to try apologizing to the next angel we met,"
+    },
+    {
+      "id": 10,
+      "text": "but I take that back. I can't be a part of this."
+    },
+    {
+      "id": 11,
+      "text": "Well said, young lady."
+    },
+    {
+      "id": 12,
+      "text": "Axihira?"
+    },
+    {
+      "id": 13,
+      "text": "This is the way of their God, and it's wrong!"
+    },
+    {
+      "id": 14,
+      "text": "Come on, take a stand! Do not bow down to false gods!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000131,
+      "effect": "",
+      "param0": "drama_bg_047.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000132,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000133,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000134,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000135,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000136,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000137,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000138,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11203",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000139,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11203",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000140,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "11401",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_004",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000141,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000142,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "11401",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000143,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11203",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000144,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_007",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000145,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_008",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000146,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000147,
+      "effect": "",
+      "param0": "bgm_btl_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000148,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_010",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000149,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000150,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_002_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000151,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    },
+    {
+      "img": "mob_priest_utsuro",
+      "id": 11203,
+      "name_id": 11203
+    },
+    {
+      "img": "mob_principality",
+      "id": 11401,
+      "name_id": 11401
+    },
+    {
+      "img": "mob_ashihira",
+      "id": 630,
+      "name_id": 630
+    }
+  ]
+}

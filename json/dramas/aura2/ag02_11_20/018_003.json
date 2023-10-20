@@ -1,0 +1,594 @@
+{
+  "transaction_id": "10-014-1A74EA",
+  "server_time": 1697837921807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Axihira",
+      "id": 630
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "We won! We beat them again!"
+    },
+    {
+      "id": 1,
+      "text": "Now we'll all attack at once! It's all out war!"
+    },
+    {
+      "id": 2,
+      "text": "Kill the false god! Kill the believers!"
+    },
+    {
+      "id": 3,
+      "text": "Axihira!"
+    },
+    {
+      "id": 4,
+      "text": "Ah, it's the human and his companions!<BR>Thank you for all the help!"
+    },
+    {
+      "id": 5,
+      "text": "We weren't trying to help."
+    },
+    {
+      "id": 6,
+      "text": "Anyway, what do you plan to do now?"
+    },
+    {
+      "id": 7,
+      "text": "You said some pretty scary things just now..."
+    },
+    {
+      "id": 8,
+      "text": "Of course we're going to wipe out all those who believe in the false god, what else?"
+    },
+    {
+      "id": 9,
+      "text": "B-But that'll be a massacre!"
+    },
+    {
+      "id": 10,
+      "text": "I don't want to do it either, but..."
+    },
+    {
+      "id": 11,
+      "text": "It's kill or be killed."
+    },
+    {
+      "id": 12,
+      "text": "We have to. It's the only way."
+    },
+    {
+      "id": 13,
+      "text": "....."
+    },
+    {
+      "id": 14,
+      "text": "Stop him."
+    },
+    {
+      "id": 15,
+      "text": "It can't be helped."
+    },
+    {
+      "id": 16,
+      "text": "You want to stop us from fighting?<BR>This war cannot be stopped."
+    },
+    {
+      "id": 17,
+      "text": "Even if I fall, there's no stopping it now."
+    },
+    {
+      "id": 18,
+      "text": "It's like a current that washes away everything in it's path, and it will not stop until it has covered the entire Luminous Realm."
+    },
+    {
+      "id": 19,
+      "text": "Are you for real? I'll puke, you know?"
+    },
+    {
+      "id": 20,
+      "text": "Farewell, human!"
+    },
+    {
+      "id": 21,
+      "text": "When we meet again, it will be in a realm washed clean of this evil faith!"
+    },
+    {
+      "id": 22,
+      "text": ">Axihira and the heretics leave."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000348,
+      "effect": "",
+      "param0": "drama_bg_047.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000349,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000350,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000351,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000352,
+      "effect": "",
+      "param0": "2",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000353,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000354,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000355,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000356,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000357,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000358,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000359,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000360,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_009",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000361,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000362,
+      "effect": "",
+      "param0": "bgm_drama_serious",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000363,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000364,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000365,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_013",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000366,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000367,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000368,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000369,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_014",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8000370,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_015",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8000371,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_016",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8000372,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_017",
+      "face": "face_04",
+      "select": 120,
+      "flag": "",
+      "uniq": 8000373,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000374,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_018_003_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000375,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000376,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000377,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000378,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000379,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_ashihira",
+      "id": 630,
+      "name_id": 630
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

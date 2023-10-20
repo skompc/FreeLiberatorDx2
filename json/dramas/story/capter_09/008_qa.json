@@ -1,0 +1,461 @@
+{
+  "transaction_id": "06-065-18D762",
+  "server_time": 1697836519407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Lindsay",
+      "id": 680
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Hmmm. Hard to keep down, you say? Impressive. I see you're not to be trifled with."
+    },
+    {
+      "id": 1,
+      "text": "But I still don't understand what do you hope to accomplish by getting back up?"
+    },
+    {
+      "id": 2,
+      "text": "The purpose of you Liberators was to bring down the Acolytes, correct?"
+    },
+    {
+      "id": 3,
+      "text": "That goal's been achieved. Then what are you still doing this for? There's nothing left for you to do."
+    },
+    {
+      "id": 4,
+      "text": "We..."
+    },
+    {
+      "id": 5,
+      "text": "Let me tell you why you're doing all this."
+    },
+    {
+      "id": 6,
+      "text": "You lot just want to continue playing the hero."
+    },
+    {
+      "id": 7,
+      "text": "You can't let it go, can you? "
+    },
+    {
+      "id": 8,
+      "text": "You're addicted to the rush you get from being \"the good guys\"."
+    },
+    {
+      "id": 9,
+      "text": "No!"
+    },
+    {
+      "id": 10,
+      "text": "No? Then tell me what YOUR dogma is."
+    },
+    {
+      "id": 11,
+      "text": "Do you have a higher purpose like we do? A dogma like our Unity?"
+    },
+    {
+      "id": 12,
+      "text": "A higher purpose? You're so called Unity? Don't be stupid."
+    },
+    {
+      "id": 13,
+      "text": "Unifying the world under one central Dogma? That's delusional."
+    },
+    {
+      "id": 14,
+      "text": "Delusional? Oh right. I almost forgot."
+    },
+    {
+      "id": 15,
+      "text": "Come to think of it, I never got around to explaining our cause to you,"
+    },
+    {
+      "id": 16,
+      "text": "so I guess it's only natural that you don't understand."
+    },
+    {
+      "id": 17,
+      "text": "Very well. Since you're about to die, I'm going to tell you."
+    },
+    {
+      "id": 18,
+      "text": "Our goal is to save humanity from destruction."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8519,
+      "effect": "",
+      "param0": "drama_bg_076.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8520,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8521,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8522,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8523,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8524,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_004",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8525,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8526,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8527,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8528,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8529,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_009",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8530,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8531,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8532,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_011",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8533,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_012",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8534,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_013",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8535,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8536,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8537,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8538,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8539,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8540,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_008_qa_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8541,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "linse",
+      "id": 680,
+      "name_id": 680
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "transaction_id": "76-073-19B0AD",
+  "server_time": 1697836474307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Woman",
+      "id": 1102
+    },
+    {
+      "name": "Man",
+      "id": 1003
+    },
+    {
+      "name": "Policeman",
+      "id": 1800
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Well we got away from the hideout, but..."
+    },
+    {
+      "id": 1,
+      "text": "Where's this safe house you were talking about?"
+    },
+    {
+      "id": 2,
+      "text": "You know where Oshiage is?"
+    },
+    {
+      "id": 3,
+      "text": "You mean the district where the Heaven Tree is at?"
+    },
+    {
+      "id": 4,
+      "text": "Yeah. The safe house is there."
+    },
+    {
+      "id": 5,
+      "text": "A secret base of operations there? Who woulda thought."
+    },
+    {
+      "id": 6,
+      "text": "It's not that far away, but it's a pretty long walk on foot."
+    },
+    {
+      "id": 7,
+      "text": "That's right. So everybody make for Gakuto's car okay?"
+    },
+    {
+      "id": 8,
+      "text": "Mister butler here knows the way."
+    },
+    {
+      "id": 9,
+      "text": "You're not coming with us?"
+    },
+    {
+      "id": 10,
+      "text": "We don't want 'em followin' us and findin' the location of the safe house, right?"
+    },
+    {
+      "id": 11,
+      "text": "So I'm gonna mess some shit up big time to draw their attention while you guys escape."
+    },
+    {
+      "id": 12,
+      "text": "In that case, I'm going with you. I'm not letting you do this alone."
+    },
+    {
+      "id": 13,
+      "text": "I'll go too. We can't afford to have something go wrong with our leader, can we?"
+    },
+    {
+      "id": 14,
+      "text": "I'll go with you."
+    },
+    {
+      "id": 15,
+      "text": "I wanna mess some shit up too."
+    },
+    {
+      "id": 16,
+      "text": "Aight. I'll take all the help I can get."
+    },
+    {
+      "id": 17,
+      "text": "Yeah. I don't feel like stayin' on the defensive either. Let's get some payback."
+    },
+    {
+      "id": 18,
+      "text": "Gakuto, the rest of the team is in your hands. Make sure you're not followed, okay?"
+    },
+    {
+      "id": 19,
+      "text": "Of course. You don't have to worry about us. Be careful yourself, okay?"
+    },
+    {
+      "id": 20,
+      "text": "Aight! Let's do this then!"
+    },
+    {
+      "id": 21,
+      "text": "Let's get right to it man. Give 'em hell guys!"
+    },
+    {
+      "id": 22,
+      "text": "Hey you pedestrians! Here comes the terrorists!"
+    },
+    {
+      "id": 23,
+      "text": "How about some public nudity?!"
+    },
+    {
+      "id": 24,
+      "text": "Wait, I don't think we need to go THAT far..."
+    },
+    {
+      "id": 25,
+      "text": "O-Over there! It's the people they were showing on the news!"
+    },
+    {
+      "id": 26,
+      "text": "S-Somebody call the cops!"
+    },
+    {
+      "id": 27,
+      "text": "There you are, Liberators!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8228,
+      "effect": "",
+      "param0": "drama_bg_007.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8229,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8230,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8231,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8232,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8233,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8234,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8235,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8236,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8237,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8238,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8239,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8240,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8241,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8242,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8243,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8244,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8245,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8246,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8247,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_014",
+      "face": "face_01",
+      "select": 110,
+      "flag": "",
+      "uniq": 8248,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_015",
+      "face": "face_01",
+      "select": 120,
+      "flag": "",
+      "uniq": 8249,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8250,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8251,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8252,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8253,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8254,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8255,
+      "effect": "",
+      "param0": "bout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8256,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8257,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8258,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8259,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_020",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8260,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_021",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8261,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_022",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8262,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8263,
+      "effect": "",
+      "param0": "25",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1102",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8264,
+      "effect": "",
+      "param0": "26",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_004_qb_025",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8265,
+      "effect": "",
+      "param0": "27",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8266,
+      "effect": "",
+      "param0": "prebtl_vfx",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8267,
+      "effect": "",
+      "param0": "eff_drama_encount_harmony",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8268,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    },
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "mob_woman",
+      "id": 1102,
+      "name_id": 1102
+    },
+    {
+      "img": "mob_man",
+      "id": 1003,
+      "name_id": 1003
+    },
+    {
+      "img": "mob_police",
+      "id": 1800,
+      "name_id": 1800
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "transaction_id": "22-04A-192872",
+  "server_time": 1697835342507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "That's our starting point.<BR>The guard was a Homunculus."
+    },
+    {
+      "id": 1,
+      "text": "Your methods are a bit pushy,<BR>Ririn..."
+    },
+    {
+      "id": 2,
+      "text": "Even though her novel<BR>seems so boring..."
+    },
+    {
+      "id": 3,
+      "text": "What!? It's about a reincarnated<BR>transdimensional badass!"
+    },
+    {
+      "id": 4,
+      "text": ">Megakin pulls out a pamphlet from the guard's pocket."
+    },
+    {
+      "id": 5,
+      "text": "Yo, forget all that.<BR>We've definitely got our lead."
+    },
+    {
+      "id": 6,
+      "text": "You're... smiling<BR>kind of evilly."
+    },
+    {
+      "id": 7,
+      "text": "Cause I got a plan."
+    },
+    {
+      "id": 8,
+      "text": "Listen up, everyone.<BR>This is the plan."
+    },
+    {
+      "id": 9,
+      "text": "We're gonna totally destroy<BR>this underground arena!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3106,
+      "effect": "",
+      "param0": "drama_bg_020.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3107,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3108,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3109,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_002",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 3110,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 3111,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3112,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3113,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_004",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3114,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3115,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3116,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3117,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3118,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_005_qa_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3119,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

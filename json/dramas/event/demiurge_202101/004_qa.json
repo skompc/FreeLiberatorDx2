@@ -1,0 +1,735 @@
+{
+  "transaction_id": "08-06D-19F26A",
+  "server_time": 1697840490607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Faceless Monster",
+      "id": 37002
+    },
+    {
+      "name": "Sota",
+      "id": 1910
+    },
+    {
+      "name": "Akane",
+      "id": 1111
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    },
+    {
+      "name": "Natsuki",
+      "id": 1016
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Is that all of them?"
+    },
+    {
+      "id": 1,
+      "text": "Yeah. I think that faceless thing got caught in the line of fire."
+    },
+    {
+      "id": 2,
+      "text": "Unlike demons, it doesn't seem to dissipate..."
+    },
+    {
+      "id": 3,
+      "text": "......"
+    },
+    {
+      "id": 4,
+      "text": "Oh, you can't really kill these things. It'll get up after a while."
+    },
+    {
+      "id": 5,
+      "text": "So not even demons can kill it. I guess it's got nothing to do with the method then..."
+    },
+    {
+      "id": 6,
+      "text": "Damn, you kids aren't even fazed..."
+    },
+    {
+      "id": 7,
+      "text": "You've fought these things many times before, I assume?"
+    },
+    {
+      "id": 8,
+      "text": "Hmm, they do move at a slow and regular pace. I bet that people trained in hand to hand combat"
+    },
+    {
+      "id": 9,
+      "text": "like me and Jeng Yun should be able to take them down just fine. But..."
+    },
+    {
+      "id": 10,
+      "text": "Even so, a normal person would be too terrified to even think of fighting them..."
+    },
+    {
+      "id": 11,
+      "text": "Natsuki, what was it that you said about these things again? About them never coming here?"
+    },
+    {
+      "id": 12,
+      "text": "You can say your excuses now, I'm all ears."
+    },
+    {
+      "id": 13,
+      "text": "That's so odd..."
+    },
+    {
+      "id": 14,
+      "text": "Yeah, it is odd. I mean for real. Isn't that right, Akane?"
+    },
+    {
+      "id": 15,
+      "text": "Yes... This is the farthest they've been from the dome."
+    },
+    {
+      "id": 16,
+      "text": "This has never happened before..."
+    },
+    {
+      "id": 17,
+      "text": "Really?"
+    },
+    {
+      "id": 18,
+      "text": "So far, the faceless monsters never went beyond a certain distance from the dome."
+    },
+    {
+      "id": 19,
+      "text": "We've been monitoring them ever since we started the investigation, so there's no doubt about that."
+    },
+    {
+      "id": 20,
+      "text": "But now we find one that has crossed that threshold, "
+    },
+    {
+      "id": 21,
+      "text": "that would mean that..."
+    },
+    {
+      "id": 22,
+      "text": "There was a change in their habitat."
+    },
+    {
+      "id": 23,
+      "text": "Maybe it's a scout?"
+    },
+    {
+      "id": 24,
+      "text": "The environment around the wall has changed somehow, forcing them out..."
+    },
+    {
+      "id": 25,
+      "text": "Maybe they lost their territory to the increasing demons or somethin'?"
+    },
+    {
+      "id": 26,
+      "text": "But those monsters have no sense of territory at all."
+    },
+    {
+      "id": 27,
+      "text": "A scout..."
+    },
+    {
+      "id": 28,
+      "text": "They do move very systematically. Maybe someone's controlling them..."
+    },
+    {
+      "id": 29,
+      "text": "There's also one other possibility...!"
+    },
+    {
+      "id": 30,
+      "text": "...The wall itself is expanding, and the monsters are expanding their range with it."
+    },
+    {
+      "id": 31,
+      "text": "......!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022041,
+      "effect": "",
+      "param0": "drama_bg_007.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022042,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022043,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022044,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022045,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022046,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "37002",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022047,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1910",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022048,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022049,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022050,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022051,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022052,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022053,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022054,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022055,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022056,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1016",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022057,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1910",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022058,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022059,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022060,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022061,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022062,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022063,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022064,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022065,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022066,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022067,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 6022068,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 6022069,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 6022070,
+      "effect": "",
+      "param0": "26",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 6022071,
+      "effect": "",
+      "param0": "27",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 6022072,
+      "effect": "",
+      "param0": "28",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022073,
+      "effect": "",
+      "param0": "29",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022074,
+      "effect": "",
+      "param0": "30",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 6022075,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "mob_homunculus",
+      "id": 37002,
+      "name_id": 37002
+    },
+    {
+      "img": "mob_badboy",
+      "id": 1910,
+      "name_id": 1910
+    },
+    {
+      "img": "mob_woman",
+      "id": 1111,
+      "name_id": 1111
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    },
+    {
+      "img": "mob_man",
+      "id": 1016,
+      "name_id": 1016
+    }
+  ]
+}

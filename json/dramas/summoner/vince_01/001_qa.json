@@ -1,0 +1,569 @@
+{
+  "transaction_id": "-7-05F-193F8C",
+  "server_time": 1697839093307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Vince",
+      "id": 660
+    },
+    {
+      "name": "???",
+      "id": 22102
+    },
+    {
+      "name": "Yan",
+      "id": 22101
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Summoning like an Acolyte... Who is this guy?"
+    },
+    {
+      "id": 1,
+      "text": "I guess I can just interrogate him when he wakes up."
+    },
+    {
+      "id": 2,
+      "text": "No need, Vince."
+    },
+    {
+      "id": 3,
+      "text": "You're..."
+    },
+    {
+      "id": 4,
+      "text": "It's been a while. You've still got it too huh, Carbon Black."
+    },
+    {
+      "id": 5,
+      "text": "Yan."
+    },
+    {
+      "id": 6,
+      "text": "Yep. And he's a mercenary working for me."
+    },
+    {
+      "id": 7,
+      "text": "I didn't think you were still alive, Yan."
+    },
+    {
+      "id": 8,
+      "text": "I figured you died like the rest of the Acolytes."
+    },
+    {
+      "id": 9,
+      "text": "So, what does a former Acolyte scientist want with me?"
+    },
+    {
+      "id": 10,
+      "text": "I don't see why you'd be the one to come after me."
+    },
+    {
+      "id": 11,
+      "text": "Right. You and I weren't exactly the most loyal believers or anything."
+    },
+    {
+      "id": 12,
+      "text": "And I don't care that you've been working with any ex-Liberators."
+    },
+    {
+      "id": 13,
+      "text": "I just hoped to deal with you by catching you by surprise."
+    },
+    {
+      "id": 14,
+      "text": "I'm keeping you from something?"
+    },
+    {
+      "id": 15,
+      "text": "Yes."
+    },
+    {
+      "id": 16,
+      "text": "But since that failed, I'll try another way."
+    },
+    {
+      "id": 17,
+      "text": "I'd like to make a deal."
+    },
+    {
+      "id": 18,
+      "text": "Oh. What kind of deal?"
+    },
+    {
+      "id": 19,
+      "text": "To start, how has HS1 been? She's still with you, right?"
+    },
+    {
+      "id": 20,
+      "text": "...!"
+    },
+    {
+      "id": 21,
+      "text": "Let me just get right to it."
+    },
+    {
+      "id": 22,
+      "text": "I want you to give my HS1 back to me."
+    },
+    {
+      "id": 23,
+      "text": "She's too valuable a specimen."
+    },
+    {
+      "id": 24,
+      "text": "Oh, you've been calling her Honey Sweet I believe?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004319,
+      "effect": "",
+      "param0": "drama_bg_005.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004320,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004321,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004322,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004323,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22102",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004324,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004325,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004326,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22102",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_005",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004327,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004328,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004329,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004330,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004331,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004332,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004333,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004334,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004335,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004336,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004337,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004338,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004339,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_018",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004340,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004341,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_020",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004342,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004343,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004344,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004345,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004346,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_001_qa_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004347,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "vince",
+      "id": 660,
+      "name_id": 660
+    },
+    {
+      "img": "mob_labcoat_man",
+      "id": 22102,
+      "name_id": 22102
+    },
+    {
+      "img": "mob_labcoat_man",
+      "id": 22101,
+      "name_id": 22101
+    }
+  ]
+}

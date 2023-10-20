@@ -1,0 +1,352 @@
+{
+  "transaction_id": "05-086-1B50AE",
+  "server_time": 1697843650607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Tiamat",
+      "id": 44000
+    },
+    {
+      "name": "Pele",
+      "id": 33400
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "\"Pele\" or whatever your name is. I have no idea who you are."
+    },
+    {
+      "id": 1,
+      "text": "Alas, that's no surprise. After all, I'm a volcano goddess"
+    },
+    {
+      "id": 2,
+      "text": "of a tiny island nation."
+    },
+    {
+      "id": 3,
+      "text": "You're not a creation goddess?"
+    },
+    {
+      "id": 4,
+      "text": "No, but I hold the same power as a chief god."
+    },
+    {
+      "id": 5,
+      "text": "...At any rate, how pathetic."
+    },
+    {
+      "id": 6,
+      "text": "Jilted by her dear husband, the Mesopotamian creation goddess"
+    },
+    {
+      "id": 7,
+      "text": "has now turned to humans. A true \"riches-to-rags\" tale."
+    },
+    {
+      "id": 8,
+      "text": "...Such pettiness."
+    },
+    {
+      "id": 9,
+      "text": "From where I stand, the words of a minuscule goddess like you"
+    },
+    {
+      "id": 10,
+      "text": "sound like mere jealousy."
+    },
+    {
+      "id": 11,
+      "text": "What? Me, jealous? Spare me your sick jokes."
+    },
+    {
+      "id": 12,
+      "text": "Let's see you talk like that as you witness my current power."
+    },
+    {
+      "id": 13,
+      "text": "What?"
+    },
+    {
+      "id": 14,
+      "text": "I'm new and improved! Don't underestimate me!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005621,
+      "effect": "",
+      "param0": "drama_bg_036.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005622,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005623,
+      "effect": "",
+      "param0": "0",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005624,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005625,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005626,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005627,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005628,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005629,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005630,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005631,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005632,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005633,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005634,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005635,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005636,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "44000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6005637,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "33400",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_tiamat",
+      "id": 44000,
+      "name_id": 44000
+    },
+    {
+      "img": "mob_pele",
+      "id": 33400,
+      "name_id": 33400
+    }
+  ]
+}

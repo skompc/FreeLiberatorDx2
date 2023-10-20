@@ -1,0 +1,172 @@
+{
+  "transaction_id": "23-04B-197702",
+  "server_time": 1697835592907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Vagit",
+      "id": 210
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Harasho.<BR>You have won great victory."
+    },
+    {
+      "id": 1,
+      "text": "Please procure some guns before my next battle."
+    },
+    {
+      "id": 2,
+      "text": "There is no need. Demons truly befit you."
+    },
+    {
+      "id": 3,
+      "text": "You must be joking."
+    },
+    {
+      "id": 4,
+      "text": "Guns are all I need."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4833,
+      "effect": "",
+      "param0": "drama_bg_014.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4834,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_003_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4835,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_003_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4836,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_003_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4837,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_003_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4838,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_003_qa_004",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4839,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "vagit",
+      "id": 210,
+      "name_id": 210
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    }
+  ]
+}

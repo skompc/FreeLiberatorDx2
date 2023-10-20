@@ -1,0 +1,276 @@
+{
+  "transaction_id": "19-081-188176",
+  "server_time": 1697836218908,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Soldier",
+      "id": 42000
+    },
+    {
+      "name": "???",
+      "id": 681
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Failed to apprehend the target. She has an escort."
+    },
+    {
+      "id": 1,
+      "text": "So, the Liberators."
+    },
+    {
+      "id": 2,
+      "text": "Their involvement was anticipated. Get a hold of yourself."
+    },
+    {
+      "id": 3,
+      "text": "Go according to plan. Continue on with the mission. This is truly a rare subject, do not let her get away."
+    },
+    {
+      "id": 4,
+      "text": "So we take the human host alive, right?"
+    },
+    {
+      "id": 5,
+      "text": "Of course. It's no coincidence that she is the host."
+    },
+    {
+      "id": 6,
+      "text": "That shrine maiden is the only person in the world who can be the host to that spirit."
+    },
+    {
+      "id": 7,
+      "text": "We need both of them for our research."
+    },
+    {
+      "id": 8,
+      "text": "Roger that."
+    },
+    {
+      "id": 9,
+      "text": "Well Liberators...<BR>Let's see what you got."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31537,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31538,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31539,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "42000",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31540,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31541,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31542,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31543,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31544,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "42000",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31545,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31546,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31547,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31548,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "42000",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_002_qa_009",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31549,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "681",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_harmony_soldier",
+      "id": 42000,
+      "name_id": 42000
+    },
+    {
+      "img": "linse",
+      "id": 681,
+      "name_id": 681
+    }
+  ]
+}

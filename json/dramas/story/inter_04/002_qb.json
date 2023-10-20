@@ -1,0 +1,413 @@
+{
+  "transaction_id": "06-065-18C793",
+  "server_time": 1697836143808,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Kazufumi",
+      "id": 230
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "So the next item on the list is snake venom, right? How do we collect the venom?"
+    },
+    {
+      "id": 1,
+      "text": "Here's a magic bottle. We'll seal the venom inside."
+    },
+    {
+      "id": 2,
+      "text": "Of course, we'll have to extract it from a demon."
+    },
+    {
+      "id": 3,
+      "text": "So a snake demon...<BR>There're all sorts of demons that look like snakes."
+    },
+    {
+      "id": 4,
+      "text": "Yes. Serpents are considered to be special by most cultures."
+    },
+    {
+      "id": 5,
+      "text": "Be it the eternal Ouroboros, or the seducer in the garden of Eden."
+    },
+    {
+      "id": 6,
+      "text": "It is a symbol of death and rebirth, the cycle of life and of course fertility. It is both sacred and profane, holy and unholy."
+    },
+    {
+      "id": 7,
+      "text": "They truly are interesting creatures."
+    },
+    {
+      "id": 8,
+      "text": "I don't know why people like them so much even though they're pretty disgusting."
+    },
+    {
+      "id": 9,
+      "text": "Exotic things catches the eye."
+    },
+    {
+      "id": 10,
+      "text": "In other words, they have very distinct characteristics that make them stand out."
+    },
+    {
+      "id": 11,
+      "text": "Oh, okay. Now I get it."
+    },
+    {
+      "id": 12,
+      "text": "Alright then. Time for our serpents to take center stage."
+    },
+    {
+      "id": 13,
+      "text": "Be careful, everyone."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31040,
+      "effect": "",
+      "param0": "drama_bg_039.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31041,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31042,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31043,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31044,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31045,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31046,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31047,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31048,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31049,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31050,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31051,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31052,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31053,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31054,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31055,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_002_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31056,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31057,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31058,
+      "effect": "",
+      "param0": "dvl_call_bell",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31059,
+      "effect": "",
+      "param0": "wout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "50",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31060,
+      "effect": "",
+      "param0": "win",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "40",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "fukumoto",
+      "id": 230,
+      "name_id": 230
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    }
+  ]
+}

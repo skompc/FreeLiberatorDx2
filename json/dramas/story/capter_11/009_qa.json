@@ -1,0 +1,172 @@
+{
+  "transaction_id": "53-057-18C6CA",
+  "server_time": 1697836765207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Organ",
+      "id": 740
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "S-She's good...!"
+    },
+    {
+      "id": 1,
+      "text": "Whee! What a party!"
+    },
+    {
+      "id": 2,
+      "text": "I'm having so much fun that I almost forgot what I came here to do."
+    },
+    {
+      "id": 3,
+      "text": "Anyways, gotta reign it in for now. Something much better awaits."
+    },
+    {
+      "id": 4,
+      "text": "Teehee."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 10936,
+      "effect": "",
+      "param0": "drama_bg_066.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 10937,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_11_009_qa_000",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 10938,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_11_009_qa_001",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 10939,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "740",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_11_009_qa_002",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 10940,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "740",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_11_009_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 10941,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "740",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_11_009_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 10942,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "740",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "organ",
+      "id": 740,
+      "name_id": 740
+    }
+  ]
+}

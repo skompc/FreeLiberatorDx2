@@ -1,0 +1,399 @@
+{
+  "transaction_id": "76-073-19F1A0",
+  "server_time": 1697838126907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Woman",
+      "id": 1306
+    },
+    {
+      "name": "Xibuki",
+      "id": 620
+    },
+    {
+      "name": "Demon",
+      "id": 3501
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Oh my, if it isn't Xibuki."
+    },
+    {
+      "id": 1,
+      "text": "And you captured a human. What a good boy. That certainly deserves some praise."
+    },
+    {
+      "id": 2,
+      "text": "Well, you told me you could make me a winner, so..."
+    },
+    {
+      "id": 3,
+      "text": "I went all out and tricked a human into coming here."
+    },
+    {
+      "id": 4,
+      "text": "Aww, I just love obedient boys like you. I'll make you a winner, just like I promised."
+    },
+    {
+      "id": 5,
+      "text": "Yay!"
+    },
+    {
+      "id": 6,
+      "text": "Just as I thought."
+    },
+    {
+      "id": 7,
+      "text": "You're dead meat."
+    },
+    {
+      "id": 8,
+      "text": "C'mon, I just didn't want to become another drone or a slave to the system, you know?"
+    },
+    {
+      "id": 9,
+      "text": "I mean, you're a loser if you lose."
+    },
+    {
+      "id": 10,
+      "text": "That's right. Well then, time to chow down on some..."
+    },
+    {
+      "id": 11,
+      "text": ">The woman changes into a demon!"
+    },
+    {
+      "id": 12,
+      "text": "Human flesh! With a side of Hollow!"
+    },
+    {
+      "id": 13,
+      "text": "...Wha?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001940,
+      "effect": "",
+      "param0": "drama_bg_049.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001941,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001942,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1306",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001943,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1306",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001944,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001945,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001946,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1306",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001947,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001948,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001949,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "-1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001950,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001951,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001952,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001953,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1306",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001954,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001955,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001956,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001957,
+      "effect": "",
+      "param0": "bgm_btl_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001958,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "3501",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_31_40_038_002_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001959,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_woman_suit",
+      "id": 1306,
+      "name_id": 1306
+    },
+    {
+      "img": "xibuki",
+      "id": 620,
+      "name_id": 620
+    },
+    {
+      "img": "mob_sucubus",
+      "id": 3501,
+      "name_id": 3501
+    }
+  ]
+}

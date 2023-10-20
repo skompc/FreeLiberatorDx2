@@ -1,0 +1,483 @@
+{
+  "transaction_id": "87-047-1A4948",
+  "server_time": 1697843850907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "???",
+      "id": 221
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Himika",
+      "id": 220
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You walk out onto the roof of the Hideout..."
+    },
+    {
+      "id": 1,
+      "text": "Oh..."
+    },
+    {
+      "id": 2,
+      "text": "Welcome, Newcomer. I've heard all about you."
+    },
+    {
+      "id": 3,
+      "text": "You've become a Dx2, yes? Heh, I'm so sorry to hear that."
+    },
+    {
+      "id": 4,
+      "text": "Yo, little Miss Shrine Maiden. Good work today."
+    },
+    {
+      "id": 5,
+      "text": "Guess I'd better introduce you. This is [cus color=emphasis]Pandemonium's[cus color=end] shrine maiden."
+    },
+    {
+      "id": 6,
+      "text": "I'm Himika Hyuga, at your service."
+    },
+    {
+      "id": 7,
+      "text": "I may be a shrine maiden, but I'm also a pretty big otaku."
+    },
+    {
+      "id": 8,
+      "text": "Recently I've been really into that ice skating anime..."
+    },
+    {
+      "id": 9,
+      "text": "Nice to meet you."
+    },
+    {
+      "id": 10,
+      "text": "Here at Pandemonium, we train demons. Crazy, right?"
+    },
+    {
+      "id": 11,
+      "text": "You might be thinkin' that using demons makes 'em stronger, right?"
+    },
+    {
+      "id": 12,
+      "text": "Sorry but that'll only get you so far. Demons are deep, bro."
+    },
+    {
+      "id": 13,
+      "text": "[cus color=emphasis]Enhance, Evolve, Awaken,Transfer, Brands[cus color=end]."
+    },
+    {
+      "id": 14,
+      "text": "The ways you can improve your demons are many."
+    },
+    {
+      "id": 15,
+      "text": "Black and White magic, Shamanism, Sorcery, Necromancy, Alchemy..."
+    },
+    {
+      "id": 16,
+      "text": "I assist by making use of a variety of such techniques. "
+    },
+    {
+      "id": 17,
+      "text": "Straight talk here. She's an expert in training demons."
+    },
+    {
+      "id": 18,
+      "text": "HQ sent her, same as the priest over at the Church of False Gods."
+    },
+    {
+      "id": 19,
+      "text": "Well then, Newcomer.<BR>Shall we begin?"
+    },
+    {
+      "id": 20,
+      "text": "Don't worry.<BR>I'll be gentle."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000001,
+      "effect": "",
+      "param0": "drama_bg_015.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000002,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000003,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000004,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "221",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000005,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "221",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000006,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "221",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000007,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000008,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000009,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000010,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000011,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000012,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000013,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000014,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000015,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000016,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000017,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000018,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000019,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000020,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000021,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000022,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000023,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_buildup_01_001_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000024,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "himika",
+      "id": 221,
+      "name_id": 221
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "himika",
+      "id": 220,
+      "name_id": 220
+    }
+  ]
+}

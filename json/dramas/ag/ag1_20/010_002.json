@@ -1,0 +1,535 @@
+{
+  "transaction_id": "-7-05F-18FC1A",
+  "server_time": 1697837526007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Fujita",
+      "id": 2400
+    },
+    {
+      "name": "Dantalian",
+      "id": 2500
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You enter the room and come face to face with Fujita."
+    },
+    {
+      "id": 1,
+      "text": "...There he is!"
+    },
+    {
+      "id": 2,
+      "text": "Sorry, Fujita, but this is it!<BR>Quick, restrain him!"
+    },
+    {
+      "id": 3,
+      "text": "Wow, you're persistent."
+    },
+    {
+      "id": 4,
+      "text": "I'm onto you, Master Saikawa.<BR>You want to steal my research."
+    },
+    {
+      "id": 5,
+      "text": "You're a scholar too. You're<BR>after my knowledge, aren't you?"
+    },
+    {
+      "id": 6,
+      "text": "Sorry, but that just won't do."
+    },
+    {
+      "id": 7,
+      "text": "I have power now.<BR>The power to know everything."
+    },
+    {
+      "id": 8,
+      "text": "To unlock every secret, and learn<BR>everything that exists."
+    },
+    {
+      "id": 9,
+      "text": "What are you talking--"
+    },
+    {
+      "id": 10,
+      "text": "See? Just watch, as my<BR>intelligence overflows!"
+    },
+    {
+      "id": 11,
+      "text": ">Fujita's features blur,<BR>and he begins to change shape..."
+    },
+    {
+      "id": 12,
+      "text": ">before too long, he has turned into a demon."
+    },
+    {
+      "id": 13,
+      "text": "It can't be!!"
+    },
+    {
+      "id": 14,
+      "text": "I am Dantalian, Archduke of hell.<BR>I know and reveal all."
+    },
+    {
+      "id": 15,
+      "text": "What do you think?<BR>This is the power I gained."
+    },
+    {
+      "id": 16,
+      "text": "My wish has been granted."
+    },
+    {
+      "id": 17,
+      "text": "My thirst for knowledge<BR>granted me this shape."
+    },
+    {
+      "id": 18,
+      "text": "Now you would stop my pursuit of<BR>knowledge?! Give me all you know!"
+    },
+    {
+      "id": 19,
+      "text": "And if you won't, I'll suck it<BR>straight out of your brains!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000160,
+      "effect": "",
+      "param0": "drama_bg_017.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000161,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000162,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000163,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000164,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000165,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000166,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000167,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000168,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000169,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000170,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000171,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000172,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000173,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000174,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000175,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000176,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000177,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000178,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_010",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000179,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000180,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000181,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2500",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000182,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000183,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2500",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000184,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000185,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000186,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_010_002_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000187,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2500",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "mob_kajita",
+      "id": 2400,
+      "name_id": 2400
+    },
+    {
+      "img": "mob_dantalion",
+      "id": 2500,
+      "name_id": 2500
+    }
+  ]
+}

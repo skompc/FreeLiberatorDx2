@@ -1,0 +1,191 @@
+{
+  "transaction_id": "06-065-189F38",
+  "server_time": 1697835157308,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Man",
+      "id": 1202
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "We've backed him into a corner.<BR>Don't let him get away!"
+    },
+    {
+      "id": 1,
+      "text": "He said he was upstairs, right?"
+    },
+    {
+      "id": 2,
+      "text": "..."
+    },
+    {
+      "id": 3,
+      "text": "Homunculi! They're comin' outta<BR>the woodwork."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1297,
+      "effect": "",
+      "param0": "drama_bg_010.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1298,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qb_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 1299,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qb_001",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 1300,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1301,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1202",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qb_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 1302,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1303,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1304,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "mob_man_suit",
+      "id": 1202,
+      "name_id": 1202
+    }
+  ]
+}

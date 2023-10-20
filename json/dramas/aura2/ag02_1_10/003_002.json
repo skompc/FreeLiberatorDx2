@@ -1,0 +1,327 @@
+{
+  "transaction_id": "88-052-18CEC3",
+  "server_time": 1697837756308,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Praying Hollow",
+      "id": 9204
+    },
+    {
+      "name": "Demon",
+      "id": 9601
+    },
+    {
+      "name": "Ixaya",
+      "id": 600
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "W-Won't someone save us?<BR>I wonder if someone will come along and take care of the d-demons."
+    },
+    {
+      "id": 1,
+      "text": "Pfft. What an idiot."
+    },
+    {
+      "id": 2,
+      "text": "You really are just like humans.<BR>Like peas in a damn pod."
+    },
+    {
+      "id": 3,
+      "text": "Always whining to their \"gods\". Never trying to solve their own problems."
+    },
+    {
+      "id": 4,
+      "text": "If you ain't even gonna put up a fight then just hurry up and die already."
+    },
+    {
+      "id": 5,
+      "text": ">The demons continue to slaughter the Hollows, unchallenged."
+    },
+    {
+      "id": 6,
+      "text": "How could you?!"
+    },
+    {
+      "id": 7,
+      "text": "Savior! Please get rid of those demons!"
+    },
+    {
+      "id": 8,
+      "text": "I can't stand to see any more of us killed like this!"
+    },
+    {
+      "id": 9,
+      "text": "Oh look, there's another one over 'ere. Let's get him!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000770,
+      "effect": "",
+      "param0": "drama_bg_046.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000771,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000772,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9204",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000773,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9601",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000774,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9601",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000775,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9601",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000776,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000777,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000778,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000779,
+      "effect": "",
+      "param0": "slash",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000780,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000781,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_005",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000782,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000783,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000784,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_003_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000785,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9601",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_man_uturo",
+      "id": 9204,
+      "name_id": 9204
+    },
+    {
+      "img": "mob_eligor",
+      "id": 9601,
+      "name_id": 9601
+    },
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    }
+  ]
+}

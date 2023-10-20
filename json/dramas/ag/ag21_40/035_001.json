@@ -1,0 +1,526 @@
+{
+  "transaction_id": "10-014-1A67BF",
+  "server_time": 1697837641107,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "???",
+      "id": 2406
+    },
+    {
+      "name": "Senoo",
+      "id": 2403
+    },
+    {
+      "name": "Slime",
+      "id": 2800
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">Someone approaches."
+    },
+    {
+      "id": 1,
+      "text": "Who are you?"
+    },
+    {
+      "id": 2,
+      "text": "Is that Saikawa?<BR>You came all the way here?"
+    },
+    {
+      "id": 3,
+      "text": "Aren't you Seno? Oh, thank<BR>goodness you're all right."
+    },
+    {
+      "id": 4,
+      "text": "If you can call this all right."
+    },
+    {
+      "id": 5,
+      "text": "I mean, just look at what I've<BR>become..."
+    },
+    {
+      "id": 6,
+      "text": ">Seno's form fades away into a<BR>demon's form."
+    },
+    {
+      "id": 7,
+      "text": "You were demonized too...<BR>Wait... What?"
+    },
+    {
+      "id": 8,
+      "text": "Yes... This is my form right<BR>now. Surprised?"
+    },
+    {
+      "id": 9,
+      "text": "O-Of all the forms you couldhave taken..."
+    },
+    {
+      "id": 10,
+      "text": "Is that your desire, then?"
+    },
+    {
+      "id": 11,
+      "text": "Desire?"
+    },
+    {
+      "id": 12,
+      "text": "I have no idea... I don't quite<BR>understand this myself."
+    },
+    {
+      "id": 13,
+      "text": "Anyway, I don't intend to harm<BR>you or anything."
+    },
+    {
+      "id": 14,
+      "text": "So just do whatever you want."
+    },
+    {
+      "id": 15,
+      "text": ">The Slime crawls away."
+    },
+    {
+      "id": 16,
+      "text": "...I'm dumbstruck."
+    },
+    {
+      "id": 17,
+      "text": "If he became a demon as a result<BR>of having his wish granted..."
+    },
+    {
+      "id": 18,
+      "text": "What sort of wish turns you<BR>into a slime monster?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000699,
+      "effect": "",
+      "param0": "drama_bg_032.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000700,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000701,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000702,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000703,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000704,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2406",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000705,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000706,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2403",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000707,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2403",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000708,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000709,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000710,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000711,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000712,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000713,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000714,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000715,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000716,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000717,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000718,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000719,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000720,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000721,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000722,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_014",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000723,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_035_001_015",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000724,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000725,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "mob_senoo",
+      "id": 2406,
+      "name_id": 2406
+    },
+    {
+      "img": "mob_senoo",
+      "id": 2403,
+      "name_id": 2403
+    },
+    {
+      "img": "mob_slime",
+      "id": 2800,
+      "name_id": 2800
+    }
+  ]
+}

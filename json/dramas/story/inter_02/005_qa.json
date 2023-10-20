@@ -1,0 +1,505 @@
+{
+  "transaction_id": "96-061-19625A",
+  "server_time": 1697836048607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Ame-P",
+      "id": 31000
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Ame no Uzume",
+      "id": 36000
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "*Pant*<BR>I thought I was gonna die for sure."
+    },
+    {
+      "id": 1,
+      "text": "Well done, everyone. We were able to get some great footage."
+    },
+    {
+      "id": 2,
+      "text": "Hey, Miss Producer......<BR>Don't you think that was overdoing it a bit?"
+    },
+    {
+      "id": 3,
+      "text": "We could've died."
+    },
+    {
+      "id": 4,
+      "text": "*Elegant laugh*<BR>That should've been a walk in the park for you!"
+    },
+    {
+      "id": 5,
+      "text": "You are, after all, the Liberators."
+    },
+    {
+      "id": 6,
+      "text": "Yo, producer lady."
+    },
+    {
+      "id": 7,
+      "text": "You ain't just a producer are ya? You're too strange for that."
+    },
+    {
+      "id": 8,
+      "text": "You have dealings with Liberators, Acolytes and even demons."
+    },
+    {
+      "id": 9,
+      "text": "Time to spill the beans, yo. Who are ya?"
+    },
+    {
+      "id": 10,
+      "text": "If you're an Acolyte..."
+    },
+    {
+      "id": 11,
+      "text": "Acolyte? I'm nothing of the sort."
+    },
+    {
+      "id": 12,
+      "text": "Alright I might as well tell you."
+    },
+    {
+      "id": 13,
+      "text": "I am what you would call a demon."
+    },
+    {
+      "id": 14,
+      "text": "I am Ame no Uzume. One of the Amatsu gods."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30175,
+      "effect": "",
+      "param0": "drama_bg_063.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30176,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_000",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 30177,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30178,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "31000",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30179,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30180,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30181,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "31000",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30182,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "31000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30183,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30184,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30185,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30186,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30187,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_009",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30188,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_010",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30189,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30190,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "31000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30191,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30192,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "31000",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30193,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "31000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30194,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30195,
+      "effect": "",
+      "param0": "opening_phone_vfx02",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30196,
+      "effect": "",
+      "param0": "wout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "50",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30197,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30198,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30199,
+      "effect": "",
+      "param0": "win",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "50",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_02_005_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30200,
+      "effect": "",
+      "param0": "14",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "36000",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "mob_amep",
+      "id": 31000,
+      "name_id": 31000
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "mob_amenouzume",
+      "id": 36000,
+      "name_id": 36000
+    }
+  ]
+}

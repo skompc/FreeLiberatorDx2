@@ -1,0 +1,561 @@
+{
+  "transaction_id": "06-065-189E83",
+  "server_time": 1697835137707,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "He's selling dupes of his own paintings at jacked-up prices?"
+    },
+    {
+      "id": 1,
+      "text": "That's why the shop's still<BR>open despite selling copies."
+    },
+    {
+      "id": 2,
+      "text": "Because those paintings are more<BR>or less official."
+    },
+    {
+      "id": 3,
+      "text": "That Masahiro Sawada guy's<BR>surrounded by bad rumors."
+    },
+    {
+      "id": 4,
+      "text": "He always talks shit about things like religion and anime..."
+    },
+    {
+      "id": 5,
+      "text": "Yet his art seems to steal from<BR>the very sources he rejects."
+    },
+    {
+      "id": 6,
+      "text": "It's like movies. The more a<BR>film director tries to discredit"
+    },
+    {
+      "id": 7,
+      "text": "something, the more likely it is<BR>they were influenced by it."
+    },
+    {
+      "id": 8,
+      "text": "When someone notices, he'll say<BR>it came from somewhere else."
+    },
+    {
+      "id": 9,
+      "text": "What a scumbag."
+    },
+    {
+      "id": 10,
+      "text": "I know what you mean."
+    },
+    {
+      "id": 11,
+      "text": "He's earning money though, so he<BR>does have some business acumen."
+    },
+    {
+      "id": 12,
+      "text": "Earnin' money while also gettin'<BR>to  express yourself..."
+    },
+    {
+      "id": 13,
+      "text": "The man is livin' the dream.<BR>Just achievin' one takes skills."
+    },
+    {
+      "id": 14,
+      "text": "But I can't stand an artist that gets greedy."
+    },
+    {
+      "id": 15,
+      "text": "I guess he probably has a<BR>reason for doing all this."
+    },
+    {
+      "id": 16,
+      "text": "This is all just whack, man.<BR>Where is he now, anyway?"
+    },
+    {
+      "id": 17,
+      "text": "I just checked. Seems like he's<BR>been holding a solo exhibition"
+    },
+    {
+      "id": 18,
+      "text": "in a Shinjuku art gallery<BR>this past month."
+    },
+    {
+      "id": 19,
+      "text": "Apparently he hovers around the exhibit, so we might find him there."
+    },
+    {
+      "id": 20,
+      "text": "That's our next destination<BR>then. But before we set off,"
+    },
+    {
+      "id": 21,
+      "text": "we should really deal with these<BR>guests of ours first."
+    },
+    {
+      "id": 22,
+      "text": "Acolytes' demons!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1193,
+      "effect": "",
+      "param0": "drama_bg_007.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1194,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1195,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1196,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1197,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1198,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1199,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1200,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1201,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1202,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1203,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1204,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1205,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "-1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1206,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_009",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 1207,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_010",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 1208,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_011",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 1209,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_012",
+      "face": "face_03",
+      "select": 110,
+      "flag": "",
+      "uniq": 1210,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_013",
+      "face": "face_02",
+      "select": 120,
+      "flag": "",
+      "uniq": 1211,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1212,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1213,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1214,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1215,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1216,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1217,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1218,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_011_qb_020",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 1219,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1220,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1221,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    }
+  ]
+}

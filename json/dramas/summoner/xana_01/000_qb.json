@@ -1,0 +1,865 @@
+{
+  "transaction_id": "19-081-18F664",
+  "server_time": 1697839043507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Yo Newbie, can I talk to you for a minute? It's about Xana..."
+    },
+    {
+      "id": 1,
+      "text": "We have a problem..."
+    },
+    {
+      "id": 2,
+      "text": "It's bad... Maybe even hopeless."
+    },
+    {
+      "id": 3,
+      "text": "What happened?"
+    },
+    {
+      "id": 4,
+      "text": "Is she hurt?"
+    },
+    {
+      "id": 5,
+      "text": "Well... You should come take a look for yourself."
+    },
+    {
+      "id": 6,
+      "text": "We're going to Xana's room. But be prepared, cuz what you're about to see ain't gonna be pretty."
+    },
+    {
+      "id": 7,
+      "text": "......"
+    },
+    {
+      "id": 8,
+      "text": "You gotta be kidding me. Using Scission on crabs? That's unheard of."
+    },
+    {
+      "id": 9,
+      "text": "My anger is about to reach its peak here."
+    },
+    {
+      "id": 10,
+      "text": "This is an MMO. It's not a game goddammit."
+    },
+    {
+      "id": 11,
+      "text": "...Hey, Poko's back."
+    },
+    {
+      "id": 12,
+      "text": "See... She's been like this for some time now."
+    },
+    {
+      "id": 13,
+      "text": "Ever since she started living here."
+    },
+    {
+      "id": 14,
+      "text": "She's a shut-in who plays online games all day..."
+    },
+    {
+      "id": 15,
+      "text": "She's an addict... No, a game junkie."
+    },
+    {
+      "id": 16,
+      "text": "It's hard to watch, I know."
+    },
+    {
+      "id": 17,
+      "text": "Shit..."
+    },
+    {
+      "id": 18,
+      "text": "How did this happen?"
+    },
+    {
+      "id": 19,
+      "text": "That's what I wanna know..."
+    },
+    {
+      "id": 20,
+      "text": "Hey, I play shooters online every day,"
+    },
+    {
+      "id": 21,
+      "text": "but even I cringe at a sight like this."
+    },
+    {
+      "id": 22,
+      "text": "Excuse me, can you guys keep it down over there?"
+    },
+    {
+      "id": 23,
+      "text": "I'm in the middle of a King Behemoth fight here."
+    },
+    {
+      "id": 24,
+      "text": "What kind of retro MMO are you playing there anyway...?"
+    },
+    {
+      "id": 25,
+      "text": "Yo Xana, how about comin' out once in a while?"
+    },
+    {
+      "id": 26,
+      "text": "That's a negative. I'm going to become the bottle pisser of legend."
+    },
+    {
+      "id": 27,
+      "text": "No, anything but that!"
+    },
+    {
+      "id": 28,
+      "text": "As you can see Newbie, I called you here for a reason."
+    },
+    {
+      "id": 29,
+      "text": "I want you to get Xana to leave her room, by force if you have to."
+    },
+    {
+      "id": 30,
+      "text": "And there's a mission we can look into while we're outside."
+    },
+    {
+      "id": 31,
+      "text": "Wha...?! A mission?"
+    },
+    {
+      "id": 32,
+      "text": "You want me to WORK? This is outrageous! I won't stand for it!"
+    },
+    {
+      "id": 33,
+      "text": "Or rather, I'm gonna puke!"
+    },
+    {
+      "id": 34,
+      "text": "You don't work, you don't eat. Out you come missy!"
+    },
+    {
+      "id": 35,
+      "text": "Noooo! Stoppppppppp!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004593,
+      "effect": "",
+      "param0": "fac_bg.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004594,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004595,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004596,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004597,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004598,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004599,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004600,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004601,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_004",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004602,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004603,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004604,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004605,
+      "effect": "",
+      "param0": "boat",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004606,
+      "effect": "",
+      "param0": "drama_bg_083.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004607,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_005",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004608,
+      "effect": "",
+      "param0": "7",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004609,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_006",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004610,
+      "effect": "",
+      "param0": "8",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_007",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004611,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004612,
+      "effect": "",
+      "param0": "10",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_009",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004613,
+      "effect": "",
+      "param0": "11",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004614,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004615,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004616,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004617,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_013",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004618,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_014",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004619,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004620,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004621,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004622,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "2",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_015",
+      "face": "idle",
+      "select": 220,
+      "flag": "",
+      "uniq": 2004623,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004624,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_017",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004625,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_018",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004626,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_019",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004627,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_020",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004628,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004629,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004630,
+      "effect": "",
+      "param0": "26",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_023",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004631,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004632,
+      "effect": "",
+      "param0": "28",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_025",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004633,
+      "effect": "",
+      "param0": "29",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_026",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004634,
+      "effect": "",
+      "param0": "30",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_027",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004635,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_028",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004636,
+      "effect": "",
+      "param0": "32",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_029",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004637,
+      "effect": "",
+      "param0": "33",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_030",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004638,
+      "effect": "",
+      "param0": "34",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_xana_01_000_qb_031",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004639,
+      "effect": "",
+      "param0": "35",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

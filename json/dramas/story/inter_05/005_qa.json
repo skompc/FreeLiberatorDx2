@@ -1,0 +1,630 @@
+{
+  "transaction_id": "-7-05F-18CD86",
+  "server_time": 1697836249007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Wrathful God",
+      "id": 43001
+    },
+    {
+      "name": "Queen",
+      "id": 430
+    },
+    {
+      "name": "Himika",
+      "id": 220
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Soldier",
+      "id": 42000
+    },
+    {
+      "name": "Soldier",
+      "id": 42001
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "You did well, queen of Yamatai..."
+    },
+    {
+      "id": 1,
+      "text": "Thank you for appeasing my soul..."
+    },
+    {
+      "id": 2,
+      "text": ">The wrathful god fades away."
+    },
+    {
+      "id": 3,
+      "text": "..."
+    },
+    {
+      "id": 4,
+      "text": "When the harmony of the world is in disarray, the gods will lose their balance too..."
+    },
+    {
+      "id": 5,
+      "text": "Wrathful gods were originally gods themselves,"
+    },
+    {
+      "id": 6,
+      "text": "but sometimes their souls become violent."
+    },
+    {
+      "id": 7,
+      "text": "It is one of my many duties as a shamaness to pacify them."
+    },
+    {
+      "id": 8,
+      "text": "Is it... over?"
+    },
+    {
+      "id": 9,
+      "text": "Yes. I have done my duty. You all have my thanks for the help you provided."
+    },
+    {
+      "id": 10,
+      "text": "It is time for me to take my leave."
+    },
+    {
+      "id": 11,
+      "text": "Already?"
+    },
+    {
+      "id": 12,
+      "text": "It feels kind of sad to say goodbye..."
+    },
+    {
+      "id": 13,
+      "text": "Sending my spirit here is actually very taxing, I cannot stay long."
+    },
+    {
+      "id": 14,
+      "text": "I kinda remember you taking your time seeing the sights just a moment ago..."
+    },
+    {
+      "id": 15,
+      "text": "That is a different matter entirely. I will not stand for this sort of insolence from a lowly servant such as you!"
+    },
+    {
+      "id": 16,
+      "text": "I-I beg your pardon, Your Majesty!"
+    },
+    {
+      "id": 17,
+      "text": "Kak Kak Kak."
+    },
+    {
+      "id": 18,
+      "text": "Well then. Fare thee well."
+    },
+    {
+      "id": 19,
+      "text": "Target acquired, engage!"
+    },
+    {
+      "id": 20,
+      "text": "Surround them!"
+    },
+    {
+      "id": 21,
+      "text": "These guys again?!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31672,
+      "effect": "",
+      "param0": "drama_bg_039.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31673,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31674,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "43001",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31675,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "43001",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31676,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31677,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31678,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31679,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31680,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31681,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31682,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31683,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31684,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31685,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31686,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31687,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31688,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31689,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31690,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 31691,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31692,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_013",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 31693,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31694,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_015",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 31695,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31696,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31697,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31698,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31699,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "42000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31700,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31701,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "42001",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qa_020",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31702,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_gongen",
+      "id": 43001,
+      "name_id": 43001
+    },
+    {
+      "img": "mob_himiko",
+      "id": 430,
+      "name_id": 430
+    },
+    {
+      "img": "himika",
+      "id": 220,
+      "name_id": 220
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "mob_harmony_soldier",
+      "id": 42000,
+      "name_id": 42000
+    },
+    {
+      "img": "mob_harmony_soldier",
+      "id": 42001,
+      "name_id": 42001
+    }
+  ]
+}

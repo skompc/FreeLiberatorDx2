@@ -1,0 +1,195 @@
+{
+  "transaction_id": "37-055-197EAE",
+  "server_time": 1697838232407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ixaya",
+      "id": 600
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Uggh! Why?!<BR>Why won't you be mine?!"
+    },
+    {
+      "id": 1,
+      "text": "This is so aggravating! I'm so on edge! I envy! I hate!"
+    },
+    {
+      "id": 2,
+      "text": "Oh but these are human emotions..."
+    },
+    {
+      "id": 3,
+      "text": "These feelings are proof that I am drawing close to my goal..."
+    },
+    {
+      "id": 4,
+      "text": "I'm so excited... I can't wait..."
+    },
+    {
+      "id": 5,
+      "text": ">Ixaya's voice fades away."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002436,
+      "effect": "",
+      "param0": "drama_bg_051.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002437,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_046_003_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002438,
+      "effect": "talking",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_046_003_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002439,
+      "effect": "talking",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_046_003_002",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002440,
+      "effect": "talking",
+      "param0": "2",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_046_003_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002441,
+      "effect": "talking",
+      "param0": "3",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_046_003_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002442,
+      "effect": "talking",
+      "param0": "4",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002443,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002444,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    }
+  ]
+}

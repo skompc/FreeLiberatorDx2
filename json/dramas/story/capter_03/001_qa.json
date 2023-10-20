@@ -1,0 +1,226 @@
+{
+  "transaction_id": "49-04A-1952B9",
+  "server_time": 1697835192307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Much better! I bet now you<BR>could take on a murderer."
+    },
+    {
+      "id": 1,
+      "text": "Okay.<BR>You've really improved."
+    },
+    {
+      "id": 2,
+      "text": "Right! Rika, Shiang, and the newbie,<BR>get over to Kudanshita!"
+    },
+    {
+      "id": 3,
+      "text": "What about you, Ririn?"
+    },
+    {
+      "id": 4,
+      "text": "I've got work at the<BR>swimsuit cafe after this."
+    },
+    {
+      "id": 5,
+      "text": "Ah, I see. Then just<BR>the three of us will go."
+    },
+    {
+      "id": 6,
+      "text": "Yes. Let's be off."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1580,
+      "effect": "",
+      "param0": "fac_bg.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1581,
+      "effect": "",
+      "param0": "bgm_facility",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_000",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 1582,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1583,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1584,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1585,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1586,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1587,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_001_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1588,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    }
+  ]
+}

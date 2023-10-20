@@ -1,0 +1,427 @@
+{
+  "transaction_id": "70-06D-1980AC",
+  "server_time": 1697835162207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Now then, we're getting close to<BR>finishing this, right?"
+    },
+    {
+      "id": 1,
+      "text": "...Hmm?<BR>Something wrong, Rika?"
+    },
+    {
+      "id": 2,
+      "text": "No, I was just thinking how this<BR>painting looks pretty nice."
+    },
+    {
+      "id": 3,
+      "text": "Sawada's self-portrait? Whoa,<BR>and it's full-size..."
+    },
+    {
+      "id": 4,
+      "text": "Yeah, I get it."
+    },
+    {
+      "id": 5,
+      "text": "I don't get it."
+    },
+    {
+      "id": 6,
+      "text": "You get it?<BR>I knew you would."
+    },
+    {
+      "id": 7,
+      "text": "It'd be just perfect for 50-meter target practice."
+    },
+    {
+      "id": 8,
+      "text": "That face is so punchable,<BR>I'm sure my accuracy will go up."
+    },
+    {
+      "id": 9,
+      "text": "You don't get it?"
+    },
+    {
+      "id": 10,
+      "text": "Look closely... don't you feel<BR>like shooting it in the head?"
+    },
+    {
+      "id": 11,
+      "text": "Oh, as an air gun target?"
+    },
+    {
+      "id": 12,
+      "text": "Don't worry, though."
+    },
+    {
+      "id": 13,
+      "text": "My ideal target is still you."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1305,
+      "effect": "",
+      "param0": "drama_bg_010.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1306,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1307,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1308,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1309,
+      "effect": "",
+      "param0": "009",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1310,
+      "effect": "",
+      "param0": "1000",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1311,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1312,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1313,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1314,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1315,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1316,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1317,
+      "effect": "",
+      "param0": "009",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_005",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 1318,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_006",
+      "face": "face_01",
+      "select": 110,
+      "flag": "",
+      "uniq": 1319,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_007",
+      "face": "face_01",
+      "select": 110,
+      "flag": "",
+      "uniq": 1320,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_008",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 1321,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_009",
+      "face": "face_01",
+      "select": 120,
+      "flag": "",
+      "uniq": 1322,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_010",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 1323,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1324,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1325,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_013_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1326,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

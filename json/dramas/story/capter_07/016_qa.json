@@ -1,0 +1,598 @@
+{
+  "transaction_id": "10-014-1A180E",
+  "server_time": 1697835798207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Malice Monster",
+      "id": 350
+    },
+    {
+      "name": "[sys user_name]",
+      "id": 102
+    },
+    {
+      "name": "[sys user_name]",
+      "id": 103
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "*.....!*"
+    },
+    {
+      "id": 1,
+      "text": ">You finally reach the monster!"
+    },
+    {
+      "id": 2,
+      "text": ">Standing in front of it, you summon your demons with everything you've got!"
+    },
+    {
+      "id": 3,
+      "text": "Devil Download!"
+    },
+    {
+      "id": 4,
+      "text": "Devil Download!"
+    },
+    {
+      "id": 5,
+      "text": "You got this, Newbie!"
+    },
+    {
+      "id": 6,
+      "text": "*AaarRRrrghh!*<BR>*To hell with this world!*"
+    },
+    {
+      "id": 7,
+      "text": ">With an ear piercing shriek..."
+    },
+    {
+      "id": 8,
+      "text": ">The malice monster disintegrates. "
+    },
+    {
+      "id": 9,
+      "text": "It looks like we..."
+    },
+    {
+      "id": 10,
+      "text": "...finally won..."
+    },
+    {
+      "id": 11,
+      "text": "N-Now what?"
+    },
+    {
+      "id": 12,
+      "text": "Is it just me, or does it feel like we're sinking?"
+    },
+    {
+      "id": 13,
+      "text": "Oh. Well it wouldn't surprise me. We did kinda go all out..."
+    },
+    {
+      "id": 14,
+      "text": "This is no time to be sittin' on ya butts! We're leavin'!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6402,
+      "effect": "",
+      "param0": "drama_bg_043.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6403,
+      "effect": "",
+      "param0": "bgm_title",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6404,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "350",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6405,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6406,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6407,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6408,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_001",
+      "face": "face_01",
+      "select": 1,
+      "flag": "",
+      "uniq": 6409,
+      "effect": "",
+      "param0": "3",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "102",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_002",
+      "face": "face_01",
+      "select": 2,
+      "flag": "",
+      "uniq": 6410,
+      "effect": "",
+      "param0": "4",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "103",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6411,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 6412,
+      "effect": "",
+      "param0": "5",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6413,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6414,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6415,
+      "effect": "",
+      "param0": "6",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "350",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6416,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6417,
+      "effect": "",
+      "param0": "wout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "100",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6418,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6419,
+      "effect": "",
+      "param0": "drama_bg_042.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6420,
+      "effect": "",
+      "param0": "malice_cry",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6421,
+      "effect": "",
+      "param0": "3500",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6422,
+      "effect": "",
+      "param0": "win",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6423,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6424,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 6425,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_006",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6426,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6427,
+      "effect": "",
+      "param0": "cruier_sink",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6428,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 11,
+      "param1": "50",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6429,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6430,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6431,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6432,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_016_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6433,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "malicecluster",
+      "id": 350,
+      "name_id": 350
+    },
+    {
+      "img": "male",
+      "id": 102,
+      "name_id": 102
+    },
+    {
+      "img": "female",
+      "id": 103,
+      "name_id": 103
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    }
+  ]
+}

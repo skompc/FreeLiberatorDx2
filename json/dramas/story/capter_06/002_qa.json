@@ -1,0 +1,496 @@
+{
+  "transaction_id": "49-04A-1963B5",
+  "server_time": 1697835582907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Phew. Thanks for the help."
+    },
+    {
+      "id": 1,
+      "text": "Ain't nuthin'.<BR>Friends gotta watch each other's backs."
+    },
+    {
+      "id": 2,
+      "text": "That's true. Your words have reassured this fragile maiden."
+    },
+    {
+      "id": 3,
+      "text": "Fragile my ass.<BR>You're a skilled Dx2."
+    },
+    {
+      "id": 4,
+      "text": "Ohohohoho, am I now?"
+    },
+    {
+      "id": 5,
+      "text": "Anyways, looks like we're good here."
+    },
+    {
+      "id": 6,
+      "text": "Yes. I can take appropriate measures if enemies get close."
+    },
+    {
+      "id": 7,
+      "text": "No need to worry about me."
+    },
+    {
+      "id": 8,
+      "text": "...gotcha.<BR>How's the Dragon Stream doing?"
+    },
+    {
+      "id": 9,
+      "text": "It doesn't look good. In some places it's stagnating. In others, overflowing."
+    },
+    {
+      "id": 10,
+      "text": "In yet other places, it's energy is depleted and it's balance is deteriorating."
+    },
+    {
+      "id": 11,
+      "text": "It's a mess. There's no precedent for it in any documented records. "
+    },
+    {
+      "id": 12,
+      "text": "What I said back at the Hideout was no joke."
+    },
+    {
+      "id": 13,
+      "text": "The destruction of Tokyo, and eventually all of Japan..."
+    },
+    {
+      "id": 14,
+      "text": "You have to stop it."
+    },
+    {
+      "id": 15,
+      "text": "If you don't, I'm off to start a new life in China."
+    },
+    {
+      "id": 16,
+      "text": "You just can't seem to get enough of that place."
+    },
+    {
+      "id": 17,
+      "text": "Yes, it's fascinating. But I'll remain here as long as there's work to be done."
+    },
+    {
+      "id": 18,
+      "text": "In that case, your exotic new life will have to wait. Sorry, Seiran"
+    },
+    {
+      "id": 19,
+      "text": "Heh, I guess you're right.<BR>It's a shame tho, Taro."
+    },
+    {
+      "id": 20,
+      "text": "I told you not to call me that."
+    },
+    {
+      "id": 21,
+      "text": "I'm the MegaTuber in the know that's always on the go..."
+    },
+    {
+      "id": 22,
+      "text": "I'm Megakin, yo!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4760,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4761,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4762,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4763,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4764,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4765,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_004",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4766,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4767,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4768,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4769,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4770,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_009",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4771,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_010",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4772,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4773,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_012",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4774,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_013",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 4775,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4776,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4777,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4778,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4779,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4780,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4781,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4782,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4783,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_002_qa_022",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4784,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

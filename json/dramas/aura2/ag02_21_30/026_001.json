@@ -1,0 +1,413 @@
+{
+  "transaction_id": "54-074-17D6C0",
+  "server_time": 1697838006707,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "???",
+      "id": 2105
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    },
+    {
+      "name": "Xibuki",
+      "id": 620
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Hell Yeeeeeah! Hand over everything you own!"
+    },
+    {
+      "id": 1,
+      "text": "Hmm, I thought we were through with this sort of thing......"
+    },
+    {
+      "id": 2,
+      "text": "Shut up and hand it over! And the crop seeds too!"
+    },
+    {
+      "id": 3,
+      "text": "What? Wait a minute, aren't you Xibuki?"
+    },
+    {
+      "id": 4,
+      "text": "What did you say?<BR>Who the hell do you think you're talking to you......"
+    },
+    {
+      "id": 5,
+      "text": "Oh, hey! It's you, human person! And Xana too! Long time no see!"
+    },
+    {
+      "id": 6,
+      "text": "You have some explaining to do. What the hell are you doing here acting like one of them punks?"
+    },
+    {
+      "id": 7,
+      "text": "Oh, that. Well, I came to this Realm and found that everybody just does whatever they want."
+    },
+    {
+      "id": 8,
+      "text": "I thought that very human, so I followed suit."
+    },
+    {
+      "id": 9,
+      "text": "You don't have to immitate these idiots!"
+    },
+    {
+      "id": 10,
+      "text": "No, I'm gonna work hard! I'm gonna work hard at this Hell Yeeeeeah thing!"
+    },
+    {
+      "id": 11,
+      "text": "Later guys."
+    },
+    {
+      "id": 12,
+      "text": ">Xibuki Runs off."
+    },
+    {
+      "id": 13,
+      "text": "Talk about easily influenced......"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001346,
+      "effect": "",
+      "param0": "drama_bg_048.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001347,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_000",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001348,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "2105",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001349,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001350,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001351,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001352,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001353,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001354,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001355,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001356,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001357,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001358,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001359,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001360,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001361,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001362,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001363,
+      "effect": "",
+      "param0": "step_run",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001364,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_026_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001365,
+      "effect": "",
+      "param0": "13",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001366,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "",
+      "id": 2105,
+      "name_id": 2105
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    },
+    {
+      "img": "xibuki",
+      "id": 620,
+      "name_id": 620
+    }
+  ]
+}

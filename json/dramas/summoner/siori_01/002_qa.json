@@ -1,0 +1,449 @@
+{
+  "transaction_id": "53-057-192235",
+  "server_time": 1697838943207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Dominion",
+      "id": 4100
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Why did you..."
+    },
+    {
+      "id": 1,
+      "text": " Sorry, you were coming off as a little haughty. I couldn't help it."
+    },
+    {
+      "id": 2,
+      "text": "...I'm not getting involved in this."
+    },
+    {
+      "id": 3,
+      "text": "Oh, since you're here, let me ask you something."
+    },
+    {
+      "id": 4,
+      "text": "How can I increase my number of fans?"
+    },
+    {
+      "id": 5,
+      "text": "Fans? Do you mean worshippers?"
+    },
+    {
+      "id": 6,
+      "text": "In that case, you can reach out to them with love and kindness."
+    },
+    {
+      "id": 7,
+      "text": "Love and kindness..."
+    },
+    {
+      "id": 8,
+      "text": "Humans cannot be reached with discipline alone. A certain amount of leniency is necessary."
+    },
+    {
+      "id": 9,
+      "text": "Do not you human often say,"
+    },
+    {
+      "id": 10,
+      "text": "\"You need to be cute to be popular\"?<BR>It's the same type of thing."
+    },
+    {
+      "id": 11,
+      "text": "\"Cute\"..."
+    },
+    {
+      "id": 12,
+      "text": "I understand. Thank you. You may die now."
+    },
+    {
+      "id": 13,
+      "text": "She's the real demon here!"
+    },
+    {
+      "id": 14,
+      "text": ">The demon escapes..."
+    },
+    {
+      "id": 15,
+      "text": "Hmm... \"cute\", huh..."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002802,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002803,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002804,
+      "effect": "",
+      "param0": "0",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "4100",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002805,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002806,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_002",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002807,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002808,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002809,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002810,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002811,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "4100",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002812,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "4100",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002813,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002814,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "4100",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002815,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "4100",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002816,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "4100",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002817,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002818,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002819,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_013",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002820,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002821,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002822,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002823,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_siori_01_002_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002824,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_dominion",
+      "id": 4100,
+      "name_id": 4100
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    }
+  ]
+}

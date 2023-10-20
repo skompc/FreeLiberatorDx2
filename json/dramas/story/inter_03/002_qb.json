@@ -1,0 +1,687 @@
+{
+  "transaction_id": "71-065-19F989",
+  "server_time": 1697836083807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Man",
+      "id": 1202
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Life after the war, huh? Never really given much thought about that..."
+    },
+    {
+      "id": 1,
+      "text": "Fighting demons has become such a normal thing to me now."
+    },
+    {
+      "id": 2,
+      "text": "Shiang, you're in college right? What was it, a super computer project?"
+    },
+    {
+      "id": 3,
+      "text": "You're doing research on that, so is that going to be your career?"
+    },
+    {
+      "id": 4,
+      "text": "Hmmm, I guess. I've been around computers all my life, "
+    },
+    {
+      "id": 5,
+      "text": "and there're a bunch of job options in this field, like Programming and System Engineering."
+    },
+    {
+      "id": 6,
+      "text": "Finding a job would be easy."
+    },
+    {
+      "id": 7,
+      "text": "What about hacking?"
+    },
+    {
+      "id": 8,
+      "text": "Hahaha, I promise I'll try not to do anything illegal."
+    },
+    {
+      "id": 9,
+      "text": "What about you? Jeng Yun?<BR>Got any plans?"
+    },
+    {
+      "id": 10,
+      "text": "I don't know what the future holds, but I'm excited to find out."
+    },
+    {
+      "id": 11,
+      "text": "There are a lot of things I love about this world. It is full of bliss."
+    },
+    {
+      "id": 12,
+      "text": "Vagit asked me to join the Liberators, and I did."
+    },
+    {
+      "id": 13,
+      "text": "It's been a thrilling ride. But it isn't everything to me."
+    },
+    {
+      "id": 14,
+      "text": "There's no doubt in my mind that there're still a lot of new and exciting things waiting for me just around the corner."
+    },
+    {
+      "id": 15,
+      "text": "That's so you, Jeng Yun."
+    },
+    {
+      "id": 16,
+      "text": "Don't know what the future holds, huh?"
+    },
+    {
+      "id": 17,
+      "text": "I guess it'd be boring if we DID know."
+    },
+    {
+      "id": 18,
+      "text": "But at the same time... I'm kinda scared."
+    },
+    {
+      "id": 19,
+      "text": "What if this turns out to be the best time I'll have in life?"
+    },
+    {
+      "id": 20,
+      "text": "What if it's all downhill from here? That would suck."
+    },
+    {
+      "id": 21,
+      "text": "Don't worry!"
+    },
+    {
+      "id": 22,
+      "text": "As long as you never stop striving to improve yourself, you have a bright future in front of you!"
+    },
+    {
+      "id": 23,
+      "text": "I have an idea. After this battle is over, we should go to the gym together!"
+    },
+    {
+      "id": 24,
+      "text": "Or maybe a sketching session! There's so much we could do!"
+    },
+    {
+      "id": 25,
+      "text": "Hahaha, I guess so. Positivity is best, right?"
+    },
+    {
+      "id": 26,
+      "text": "......And we've arrived on site. That's the hideout from the intel we got. Let's see......"
+    },
+    {
+      "id": 27,
+      "text": "Watch out Shiang! Enemies incoming!"
+    },
+    {
+      "id": 28,
+      "text": "Intruder alert!"
+    },
+    {
+      "id": 29,
+      "text": "Homunculus......!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30473,
+      "effect": "",
+      "param0": "drama_bg_007.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30474,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_000",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30475,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_001",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30476,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30477,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30478,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30479,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30480,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30481,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30482,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30483,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30484,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30485,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30486,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30487,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30488,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_014",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30489,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30490,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30491,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30492,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_018",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30493,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_019",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30494,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_020",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30495,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_021",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30496,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_022",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30497,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_023",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30498,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_024",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 30499,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_025",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30500,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30501,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_026",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30502,
+      "effect": "",
+      "param0": "26",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_027",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30503,
+      "effect": "",
+      "param0": "27",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30504,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_028",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 30505,
+      "effect": "",
+      "param0": "28",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1202",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qb_029",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30506,
+      "effect": "",
+      "param0": "29",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30507,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30508,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "mob_man_suit",
+      "id": 1202,
+      "name_id": 1202
+    }
+  ]
+}

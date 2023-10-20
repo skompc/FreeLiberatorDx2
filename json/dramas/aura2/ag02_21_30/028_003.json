@@ -1,0 +1,218 @@
+{
+  "transaction_id": "69-0A7-195C62",
+  "server_time": 1697838026707,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Punk Hollow A",
+      "id": 13000
+    },
+    {
+      "name": "Punk Hollow B",
+      "id": 14000
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "H-He got eaten......"
+    },
+    {
+      "id": 1,
+      "text": "......."
+    },
+    {
+      "id": 2,
+      "text": "But the fight for freedom lives on!"
+    },
+    {
+      "id": 3,
+      "text": "We cannot stop now! Right?"
+    },
+    {
+      "id": 4,
+      "text": "Umm......yeah."
+    },
+    {
+      "id": 5,
+      "text": ">The punk Hollows leave."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001449,
+      "effect": "",
+      "param0": "drama_bg_048.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001450,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_028_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001451,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_028_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001452,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_028_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001453,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_028_003_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001454,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_028_003_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001455,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001456,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001457,
+      "effect": "",
+      "param0": "step_run",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001458,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_mohawk_uturo",
+      "id": 13000,
+      "name_id": 13000
+    },
+    {
+      "img": "mob_mohawk_uturo2",
+      "id": 14000,
+      "name_id": 14000
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "transaction_id": "05-086-1A4591",
+  "server_time": 1697838988207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Clayton",
+      "id": 3902
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Clayton! It's been a while."
+    },
+    {
+      "id": 1,
+      "text": "Hah! What happened to you, Gakuto?<BR>You've turned into a marshmallow."
+    },
+    {
+      "id": 2,
+      "text": "I didn't even recognize you for a second there."
+    },
+    {
+      "id": 3,
+      "text": "Shut it."
+    },
+    {
+      "id": 4,
+      "text": "The quiet life added a few pounds to me, that's all."
+    },
+    {
+      "id": 5,
+      "text": "More importantly, I've got a few questions for you, ol' buddy."
+    },
+    {
+      "id": 6,
+      "text": "No time to reminisce about the old days, I see? That's too bad."
+    },
+    {
+      "id": 7,
+      "text": "Is it true you've become an arms dealer?"
+    },
+    {
+      "id": 8,
+      "text": "......Yeah. Although it's not what I wanted."
+    },
+    {
+      "id": 9,
+      "text": "And what's your connection to the Acolytes?"
+    },
+    {
+      "id": 10,
+      "text": "I work with them. "
+    },
+    {
+      "id": 11,
+      "text": "And is that something you wanted?"
+    },
+    {
+      "id": 12,
+      "text": "I don't have to answer to you, ol' \"war buddy\"."
+    },
+    {
+      "id": 13,
+      "text": "Is that right?"
+    },
+    {
+      "id": 14,
+      "text": "If you'd just become an arms dealer, I might have turned a blind eye."
+    },
+    {
+      "id": 15,
+      "text": "But since you're selling demons and colluding with the Acolytes, I can't let this go."
+    },
+    {
+      "id": 16,
+      "text": "I'm a member of the Liberators.<BR>Meaning that you... are my enemy."
+    },
+    {
+      "id": 17,
+      "text": "....."
+    },
+    {
+      "id": 18,
+      "text": "I'm sorry to hear that, Gakuto."
+    },
+    {
+      "id": 19,
+      "text": "To think that I'd finally make it to Japan, only to have to fight you."
+    },
+    {
+      "id": 20,
+      "text": "Have you forgotten your promise?"
+    },
+    {
+      "id": 21,
+      "text": "That if you were ever in Japan I'd... show you around and stuff?"
+    },
+    {
+      "id": 22,
+      "text": "That's the one. But it looks like you won't be able to keep it."
+    },
+    {
+      "id": 23,
+      "text": "Guy's like us are always fighting against something."
+    },
+    {
+      "id": 24,
+      "text": "Even if that something is an old \"war buddy\".."
+    },
+    {
+      "id": 25,
+      "text": "Maybe that's just the fate of old soldiers."
+    },
+    {
+      "id": 26,
+      "text": "Leave me out of your twisted ideology.<BR>I'm not a part of that world anymore."
+    },
+    {
+      "id": 27,
+      "text": "Really? You may say that, but..."
+    },
+    {
+      "id": 28,
+      "text": "we still have no choice but to fight.<BR>Am I wrong?"
+    },
+    {
+      "id": 29,
+      "text": "Once a soldier, always a soldier."
+    },
+    {
+      "id": 30,
+      "text": "We can't live without the thrill of the fight."
+    },
+    {
+      "id": 31,
+      "text": "Are you finished?"
+    },
+    {
+      "id": 32,
+      "text": "There was more I wanted to say but...<BR>it seems to have slipped my mind."
+    },
+    {
+      "id": 33,
+      "text": "Give yourself up."
+    },
+    {
+      "id": 34,
+      "text": "I can't do that."
+    },
+    {
+      "id": 35,
+      "text": "Okay. Then I'll stop you any way I have to."
+    },
+    {
+      "id": 36,
+      "text": "Take your best shot, Gakuto!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000266,
+      "effect": "",
+      "param0": "drama_bg_005.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000267,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000268,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000269,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000270,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000271,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000272,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000273,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000274,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000275,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000276,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000277,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000278,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000279,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000280,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000281,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000282,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_015",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000283,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000284,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_016",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000285,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000286,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000287,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000288,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000289,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_021",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000290,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000291,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000292,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000293,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_025",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000294,
+      "effect": "",
+      "param0": "25",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_026",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000295,
+      "effect": "",
+      "param0": "26",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_027",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000296,
+      "effect": "",
+      "param0": "27",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_028",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000297,
+      "effect": "",
+      "param0": "28",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_029",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000298,
+      "effect": "",
+      "param0": "29",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_030",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000299,
+      "effect": "",
+      "param0": "30",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_031",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000300,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_032",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000301,
+      "effect": "",
+      "param0": "32",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_033",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000302,
+      "effect": "",
+      "param0": "33",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_034",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000303,
+      "effect": "",
+      "param0": "34",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000304,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_035",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000305,
+      "effect": "",
+      "param0": "35",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_gakuto_01_003_qb_036",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000306,
+      "effect": "",
+      "param0": "36",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3902",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000307,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2000308,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "mob_man_suit_blond",
+      "id": 3902,
+      "name_id": 3902
+    }
+  ]
+}

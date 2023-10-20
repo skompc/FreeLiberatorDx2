@@ -1,0 +1,788 @@
+{
+  "transaction_id": "15-086-18D9AB",
+  "server_time": 1697838773108,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "???",
+      "id": 4601
+    },
+    {
+      "name": "Injured man",
+      "id": 4600
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Damn it! That demon took out one of our tires."
+    },
+    {
+      "id": 1,
+      "text": "We aren't going anywhere anytime soon."
+    },
+    {
+      "id": 2,
+      "text": "......"
+    },
+    {
+      "id": 3,
+      "text": "I'll never forgive them."
+    },
+    {
+      "id": 4,
+      "text": "If they're going to use an Airsoft game as bait, "
+    },
+    {
+      "id": 5,
+      "text": "they should have been a lot better prepared."
+    },
+    {
+      "id": 6,
+      "text": "And we didn't even get a chance to put our gear on yet..."
+    },
+    {
+      "id": 7,
+      "text": "You two. Get changed in the car. Quickly."
+    },
+    {
+      "id": 8,
+      "text": "Say what?"
+    },
+    {
+      "id": 9,
+      "text": "Full facemasks and caps. And don't forget your scarves."
+    },
+    {
+      "id": 10,
+      "text": "I'm going to teach those Acolytes to respect the rules of Airsoft!"
+    },
+    {
+      "id": 11,
+      "text": "Wait up! That stuff will be useless against a Dx2!"
+    },
+    {
+      "id": 12,
+      "text": "Then at least take your weapons. I brought a hunting rifle. I only have one though."
+    },
+    {
+      "id": 13,
+      "text": "A-Are you serious?!"
+    },
+    {
+      "id": 14,
+      "text": "It's my father's. A Remington M1100.<BR>It's a reliable weapon."
+    },
+    {
+      "id": 15,
+      "text": "Don't bring something like that along without telling us! What if the cops had stopped the car?"
+    },
+    {
+      "id": 16,
+      "text": "Put it away for now!<BR>Geez, that's one hell of a stunt to pull."
+    },
+    {
+      "id": 17,
+      "text": "*Sigh...*"
+    },
+    {
+      "id": 18,
+      "text": "Anyway, we can't stay here. There's no knowing when they'll attack again."
+    },
+    {
+      "id": 19,
+      "text": "We need to find somewhere to hole up."
+    },
+    {
+      "id": 20,
+      "text": "...H-Hey! Don't move!"
+    },
+    {
+      "id": 21,
+      "text": ">A voice rings out from the grass.<BR>The group stands ready. "
+    },
+    {
+      "id": 22,
+      "text": "I-I'll shoo—"
+    },
+    {
+      "id": 23,
+      "text": "...! He's badly injured!"
+    },
+    {
+      "id": 24,
+      "text": "Calm down. We aren't your enemy."
+    },
+    {
+      "id": 25,
+      "text": "R-really?"
+    },
+    {
+      "id": 26,
+      "text": "Yes. If you aren't an enemy, we won't harm you.<BR>You have my word. "
+    },
+    {
+      "id": 27,
+      "text": "Tell us what happened."
+    },
+    {
+      "id": 28,
+      "text": "We came up here to play some Airsoft."
+    },
+    {
+      "id": 29,
+      "text": "But things weren't that simple."
+    },
+    {
+      "id": 30,
+      "text": "If you weren't playing Airsoft, then what happened?"
+    },
+    {
+      "id": 31,
+      "text": "They're hunting people!<BR>And they're gonna kill all of us!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001290,
+      "effect": "",
+      "param0": "drama_bg_036.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001291,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001292,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001293,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001294,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001295,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_004",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001296,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_005",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001297,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_006",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001298,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001299,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001300,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001301,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001302,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001303,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001304,
+      "effect": "",
+      "param0": "016",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001305,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_013",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001306,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001307,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_015",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001308,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_016",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001309,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001310,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_017",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001311,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_018",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001312,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_019",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001313,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001314,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001315,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001316,
+      "effect": "",
+      "param0": "20",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "4601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001317,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001318,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001319,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "4600",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001320,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_022",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001321,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001322,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001323,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001324,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "4600",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_025",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001325,
+      "effect": "",
+      "param0": "26",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001326,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_026",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001327,
+      "effect": "",
+      "param0": "27",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_027",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001328,
+      "effect": "",
+      "param0": "28",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "4600",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_028",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001329,
+      "effect": "",
+      "param0": "29",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "4600",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_029",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001330,
+      "effect": "",
+      "param0": "30",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_rika_01_001_qa_030",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2001331,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "4600",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "mob_man_survival_wounded",
+      "id": 4601,
+      "name_id": 4601
+    },
+    {
+      "img": "mob_man_survival_wounded",
+      "id": 4600,
+      "name_id": 4600
+    }
+  ]
+}

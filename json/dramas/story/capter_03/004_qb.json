@@ -1,0 +1,820 @@
+{
+  "transaction_id": "70-06D-198223",
+  "server_time": 1697835207307,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Is that the last of them?"
+    },
+    {
+      "id": 1,
+      "text": "I don't see anyone<BR>who seems to be watching us."
+    },
+    {
+      "id": 2,
+      "text": "You wouldn't, if they're<BR>using security cameras."
+    },
+    {
+      "id": 3,
+      "text": "See, there are security cameras<BR>on the school grounds, too."
+    },
+    {
+      "id": 4,
+      "text": "Hacking?"
+    },
+    {
+      "id": 5,
+      "text": "A mole in the academy?"
+    },
+    {
+      "id": 6,
+      "text": "The Acolytes should definitely<BR>be able to hack cameras, but"
+    },
+    {
+      "id": 7,
+      "text": "it'd be even easier if they had<BR>someone in the school itself."
+    },
+    {
+      "id": 8,
+      "text": "That seems likely.<BR>It's simpler than hacking."
+    },
+    {
+      "id": 9,
+      "text": "Of course,<BR>we can't be sure."
+    },
+    {
+      "id": 10,
+      "text": "But to find that out, we need<BR>to investigate the school."
+    },
+    {
+      "id": 11,
+      "text": "Is there a chance they might have trapped the school?"
+    },
+    {
+      "id": 12,
+      "text": "Like they're luring us Liberators<BR>to the school to kill us all?"
+    },
+    {
+      "id": 13,
+      "text": "It could happen<BR>in a horror story."
+    },
+    {
+      "id": 14,
+      "text": "Hmm... But I think<BR>it's pretty unlikely."
+    },
+    {
+      "id": 15,
+      "text": "After all, nothing's been set off<BR>by Rika going to school."
+    },
+    {
+      "id": 16,
+      "text": "But we were just<BR>attacked by demons."
+    },
+    {
+      "id": 17,
+      "text": "If they think that's<BR>enough to defeat us, "
+    },
+    {
+      "id": 18,
+      "text": "then they're really underestimating us."
+    },
+    {
+      "id": 19,
+      "text": "I don't think this attack<BR>was meant to defeat us."
+    },
+    {
+      "id": 20,
+      "text": "Buying time?"
+    },
+    {
+      "id": 21,
+      "text": "Blocking us?"
+    },
+    {
+      "id": 22,
+      "text": "Yes, I think so."
+    },
+    {
+      "id": 23,
+      "text": "After all, serial murders should<BR>really be a job for the police."
+    },
+    {
+      "id": 24,
+      "text": "They probably didn't expect<BR>the Liberators to appear."
+    },
+    {
+      "id": 25,
+      "text": "So I think they panicked,<BR>and sent in the demons."
+    },
+    {
+      "id": 26,
+      "text": "It's true, if Megakin weren't so<BR>sure the Acolytes were involved,"
+    },
+    {
+      "id": 27,
+      "text": "we wouldn't be here."
+    },
+    {
+      "id": 28,
+      "text": "It does seem likely that someone<BR>in the school is involved."
+    },
+    {
+      "id": 29,
+      "text": "We can't avoid investigating<BR>the school now."
+    },
+    {
+      "id": 30,
+      "text": "Right. But it seems the enemy<BR>really doesn't want us to."
+    },
+    {
+      "id": 31,
+      "text": "...Demons again?"
+    },
+    {
+      "id": 32,
+      "text": "Let's show them how foolish<BR>these repeated attacks are."
+    },
+    {
+      "id": 33,
+      "text": "We'll take care of these demons<BR>and then investigate the school."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1702,
+      "effect": "",
+      "param0": "drama_bg_011.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1703,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1704,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1705,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1706,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1707,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1708,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1709,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1710,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_004",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 1711,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_005",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 1712,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_006",
+      "face": "face_02",
+      "select": 120,
+      "flag": "",
+      "uniq": 1713,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_007",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 1714,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 1715,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1716,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_010",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 1717,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 1718,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_012",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 1719,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_013",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 1720,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1721,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1722,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1723,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1724,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1725,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "210",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1726,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "220",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1727,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "2",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1728,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1729,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_020",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1730,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_021",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1731,
+      "effect": "",
+      "param0": "25",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1732,
+      "effect": "",
+      "param0": "26",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1733,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1734,
+      "effect": "",
+      "param0": "28",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_025",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 1735,
+      "effect": "",
+      "param0": "29",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1736,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_026",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 1737,
+      "effect": "",
+      "param0": "30",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1738,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1739,
+      "effect": "",
+      "param0": "eff_drama_dfield_green",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1740,
+      "effect": "",
+      "param0": "parallelize",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1741,
+      "effect": "",
+      "param0": "5000",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_027",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 1742,
+      "effect": "",
+      "param0": "31",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_028",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1743,
+      "effect": "",
+      "param0": "32",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_03_004_qb_029",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 1744,
+      "effect": "",
+      "param0": "33",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1745,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 1746,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    }
+  ]
+}

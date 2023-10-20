@@ -1,0 +1,352 @@
+{
+  "transaction_id": "89-055-1856E2",
+  "server_time": 1697836278907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Vince",
+      "id": 660
+    },
+    {
+      "name": "Honey",
+      "id": 670
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "It's begun."
+    },
+    {
+      "id": 1,
+      "text": "They fell right into our trap. We got 'em."
+    },
+    {
+      "id": 2,
+      "text": "I can't believe that was so easy. Idiots, the lot of them."
+    },
+    {
+      "id": 3,
+      "text": "And I heard the Tokyo branch was tough. What a disappointment."
+    },
+    {
+      "id": 4,
+      "text": "Disappointment? That's a new one. Doesn't sound like you at all."
+    },
+    {
+      "id": 5,
+      "text": "Ha! Ya got me there, Honey."
+    },
+    {
+      "id": 6,
+      "text": "I just wanted to say something villain-like, that's all."
+    },
+    {
+      "id": 7,
+      "text": "I ain't really disappointed. They're just making my job easier."
+    },
+    {
+      "id": 8,
+      "text": "Something villain-like? Every thing you do or say is like a villain, Vince."
+    },
+    {
+      "id": 9,
+      "text": "HaHa! Right again."
+    },
+    {
+      "id": 10,
+      "text": "Well then, time for this villain to execute his evil plan."
+    },
+    {
+      "id": 11,
+      "text": "Roger that!<BR>What background music are you going to play in your head today?"
+    },
+    {
+      "id": 12,
+      "text": "You know the answer to that. Same as usual. Ride of the Valkyries."
+    },
+    {
+      "id": 13,
+      "text": "Copy that! Starting the intro now."
+    },
+    {
+      "id": 14,
+      "text": "Let's get to work, shall we!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31944,
+      "effect": "",
+      "param0": "drama_bg_065.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31945,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31946,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_001",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 31947,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31948,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31949,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31950,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_005",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31951,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31952,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31953,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_008",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 31954,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31955,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31956,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31957,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31958,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_013",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 31959,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_001_qa_014",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31960,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "vince",
+      "id": 660,
+      "name_id": 660
+    },
+    {
+      "img": "honeysweet",
+      "id": 670,
+      "name_id": 670
+    }
+  ]
+}

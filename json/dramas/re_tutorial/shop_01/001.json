@@ -1,0 +1,483 @@
+{
+  "transaction_id": "71-065-1B8B2A",
+  "server_time": 1697843856007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "???",
+      "id": 231
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Kazufumi",
+      "id": 230
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You enter one of the rooms of the Hideout..."
+    },
+    {
+      "id": 1,
+      "text": "Oh, it's you."
+    },
+    {
+      "id": 2,
+      "text": "So you're our newest addition. Nice to meet you."
+    },
+    {
+      "id": 3,
+      "text": "Oh yeah, I haven't introduced you yet."
+    },
+    {
+      "id": 4,
+      "text": "This is one of our brothers in arms here at the Hideout."
+    },
+    {
+      "id": 5,
+      "text": "As you can see he's a butler."
+    },
+    {
+      "id": 6,
+      "text": "He and the maid take care of this place for us."
+    },
+    {
+      "id": 7,
+      "text": "My name is Kazufumi Fukumoto."
+    },
+    {
+      "id": 8,
+      "text": "I am in charge of managing this entire building."
+    },
+    {
+      "id": 9,
+      "text": "I am also the [cus color=emphasis]Store[cus color=end] manager. Pleasure meeting you."
+    },
+    {
+      "id": 10,
+      "text": "Yup, he's the butler and the Store manager."
+    },
+    {
+      "id": 11,
+      "text": "He sells some dodgy-ass stuff here."
+    },
+    {
+      "id": 12,
+      "text": "While I research folklore and history for the most part,"
+    },
+    {
+      "id": 13,
+      "text": "I also sell certain valuables that I obtain through my research."
+    },
+    {
+      "id": 14,
+      "text": "Selling peculiar items to peculiar people..."
+    },
+    {
+      "id": 15,
+      "text": "Whatever it takes to help fund my research."
+    },
+    {
+      "id": 16,
+      "text": "Your prices are too damn high!"
+    },
+    {
+      "id": 17,
+      "text": "But the merchandise ain't bad."
+    },
+    {
+      "id": 18,
+      "text": "You got some serious magic items lyin' around here."
+    },
+    {
+      "id": 19,
+      "text": "Not everything here is legal per se. "
+    },
+    {
+      "id": 20,
+      "text": "But please, peruse away."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000929,
+      "effect": "",
+      "param0": "shop_bg.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000930,
+      "effect": "",
+      "param0": "bgm_shop",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000931,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000932,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "231",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000933,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "231",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000934,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000935,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000936,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000937,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000938,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000939,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000940,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000941,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000942,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000943,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000944,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000945,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000946,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000947,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_015",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000948,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000949,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000950,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000951,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_shop_01_001_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000952,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "fukumoto",
+      "id": 231,
+      "name_id": 231
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "fukumoto",
+      "id": 230,
+      "name_id": 230
+    }
+  ]
+}

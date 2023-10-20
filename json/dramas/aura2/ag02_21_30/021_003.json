@@ -1,0 +1,250 @@
+{
+  "transaction_id": "22-04A-19A2CE",
+  "server_time": 1697837966608,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Punk Hollow A",
+      "id": 13000
+    },
+    {
+      "name": "Punk Hollow B",
+      "id": 14000
+    },
+    {
+      "name": "Punk Hollow C",
+      "id": 15000
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "The human's too strong......"
+    },
+    {
+      "id": 1,
+      "text": "Let's make a run for it. After all, we're free to fight or flee as we choose. "
+    },
+    {
+      "id": 2,
+      "text": "Vroomvroomvroomvrooooom!"
+    },
+    {
+      "id": 3,
+      "text": ">The punks flee."
+    },
+    {
+      "id": 4,
+      "text": "Are things gonna be like this all through this Realm?"
+    },
+    {
+      "id": 5,
+      "text": "It's... how should I put it? <BR>A real pain in the ass."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001192,
+      "effect": "",
+      "param0": "drama_bg_048.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001193,
+      "effect": "",
+      "param0": "bgm_drama_search",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001194,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001195,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001196,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "15000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001197,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001198,
+      "effect": "",
+      "param0": "step_run",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001199,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_003_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001200,
+      "effect": "",
+      "param0": "4",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_003_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001201,
+      "effect": "",
+      "param0": "5",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001202,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_mohawk_uturo",
+      "id": 13000,
+      "name_id": 13000
+    },
+    {
+      "img": "mob_mohawk_uturo2",
+      "id": 14000,
+      "name_id": 14000
+    },
+    {
+      "img": "mob_mohawk_uturo3",
+      "id": 15000,
+      "name_id": 15000
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

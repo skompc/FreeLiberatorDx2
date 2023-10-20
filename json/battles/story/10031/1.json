@@ -1,0 +1,253 @@
+{
+  "transaction_id": "02-047-187C9F",
+  "server_time": 1697831889108,
+  "item": [
+    {
+      "num": 3,
+      "id": 5100,
+      "is_use": true
+    },
+    {
+      "num": 1,
+      "id": 5200,
+      "is_use": true
+    },
+    {
+      "num": 1,
+      "id": 5600,
+      "is_use": true
+    },
+    {
+      "num": 1,
+      "id": 6000,
+      "is_use": true
+    },
+    {
+      "num": 1,
+      "id": 7300,
+      "is_use": false
+    },
+    {
+      "num": 2,
+      "id": 7500,
+      "is_use": false
+    }
+  ],
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "enemies": [
+    {
+      "skl_exp_pr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agi": 14,
+      "hpmx": 45,
+      "luk": 9,
+      "hp": 45,
+      "atk_exp": 0,
+      "lv": 2,
+      "additional_skl": [],
+      "mdef": 76,
+      "is_rare": false,
+      "limitbreak": {
+        "effect": [],
+        "open": []
+      },
+      "is_awk": false,
+      "dr": 0,
+      "ai_auto_type": 1,
+      "mag": 10,
+      "limitbreak_skl": [],
+      "atk_pr": 2,
+      "skl_exp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "wk": 64,
+      "pressturn": 1,
+      "skl": [
+        {
+          "lv": 1,
+          "id": 1128
+        },
+        {
+          "lv": 1,
+          "id": 2001
+        },
+        {
+          "lv": 1,
+          "id": 102117
+        },
+        {
+          "lv": 1,
+          "id": 0
+        },
+        {
+          "lv": 1,
+          "id": 0
+        },
+        {
+          "lv": 1,
+          "id": 0
+        }
+      ],
+      "tgt_type": 0,
+      "anlz": 2147483647,
+      "id": 12310,
+      "patk": 80,
+      "skl_pr": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "vit": 9,
+      "st": 8,
+      "pdef": 75,
+      "mp": 999,
+      "mgtm_effs": [],
+      "atk_exp_pr": 0,
+      "ai_type": 2,
+      "mgtms": [],
+      "str": 9,
+      "av": 0,
+      "uniq": 13,
+      "matk": 82,
+      "enemy_type": 0,
+      "mpmx": 999,
+      "rp": 0,
+      "rarity": 1
+    },
+    {
+      "skl_exp_pr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agi": 12,
+      "hpmx": 41,
+      "luk": 12,
+      "hp": 41,
+      "atk_exp": 0,
+      "lv": 2,
+      "additional_skl": [],
+      "mdef": 76,
+      "is_rare": false,
+      "limitbreak": {
+        "effect": [],
+        "open": []
+      },
+      "is_awk": false,
+      "dr": 0,
+      "ai_auto_type": 1,
+      "mag": 12,
+      "limitbreak_skl": [],
+      "atk_pr": 2,
+      "skl_exp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "wk": 8,
+      "pressturn": 1,
+      "skl": [
+        {
+          "lv": 1,
+          "id": 2014
+        },
+        {
+          "lv": 1,
+          "id": 1110
+        },
+        {
+          "lv": 1,
+          "id": 1117
+        },
+        {
+          "lv": 1,
+          "id": 0
+        },
+        {
+          "lv": 1,
+          "id": 0
+        },
+        {
+          "lv": 1,
+          "id": 0
+        }
+      ],
+      "tgt_type": 0,
+      "anlz": 3,
+      "id": 12110,
+      "patk": 82,
+      "skl_pr": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "vit": 8,
+      "st": 4,
+      "pdef": 75,
+      "mp": 999,
+      "mgtm_effs": [],
+      "atk_exp_pr": 0,
+      "ai_type": 2,
+      "mgtms": [],
+      "str": 10,
+      "av": 0,
+      "uniq": 14,
+      "matk": 86,
+      "enemy_type": 0,
+      "mpmx": 999,
+      "rp": 0,
+      "rarity": 1
+    }
+  ],
+  "wave": 2,
+  "res_code": 0,
+  "client_wait": 0,
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "tm": "136",
+  "talk": {
+    "talk_start_type": 1,
+    "talk_tgt": 14
+  },
+  "assist_queue": [],
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "wave_max": 2
+}

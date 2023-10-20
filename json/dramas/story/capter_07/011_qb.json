@@ -1,0 +1,395 @@
+{
+  "transaction_id": "69-0A7-18FA78",
+  "server_time": 1697835763207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Joshua",
+      "id": 300
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">The fierce battle rages on."
+    },
+    {
+      "id": 1,
+      "text": "Hmph. Sending wave after wave of underlings at you is beginning to wear thin."
+    },
+    {
+      "id": 2,
+      "text": "It's time to mix things up a bit."
+    },
+    {
+      "id": 3,
+      "text": ">The next enemy appears in front of you."
+    },
+    {
+      "id": 4,
+      "text": "W-What the hell is that?"
+    },
+    {
+      "id": 5,
+      "text": ">The creature is an oozing, amorphous, man-made pile of sludge. "
+    },
+    {
+      "id": 6,
+      "text": ">It's a special slime-type Homunculus."
+    },
+    {
+      "id": 7,
+      "text": "This is a \"Recycled organism\" that the Acolytes cooked up."
+    },
+    {
+      "id": 8,
+      "text": "It sucks in humans, breaks them down while still alive, and turns them into compost."
+    },
+    {
+      "id": 9,
+      "text": "Admirably environment-friendly, don't you think?"
+    },
+    {
+      "id": 10,
+      "text": "So you love the planet, hey? <BR>I reckon it's just the people you have a problem with."
+    },
+    {
+      "id": 11,
+      "text": "If there is anything else you'd like to say, say it now."
+    },
+    {
+      "id": 12,
+      "text": "Because you're about to become fertilizer."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6188,
+      "effect": "",
+      "param0": "drama_bg_044.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6189,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6190,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6191,
+      "effect": "talking",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6192,
+      "effect": "talking",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6193,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6194,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6195,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_002",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 6196,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6197,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6198,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6199,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6200,
+      "effect": "talking",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6201,
+      "effect": "talking",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_005",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6202,
+      "effect": "talking",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 6203,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 6204,
+      "effect": "talking",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_011_qb_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 6205,
+      "effect": "talking",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6206,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6207,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "joshua",
+      "id": 300,
+      "name_id": 300
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "transaction_id": "23-04B-19968D",
+  "server_time": 1697836228908,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Queen",
+      "id": 223
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "We were able to fight them off but..."
+    },
+    {
+      "id": 1,
+      "text": "They're tough. The timing of their retreat was flawless."
+    },
+    {
+      "id": 2,
+      "text": "Are they really Acolytes?"
+    },
+    {
+      "id": 3,
+      "text": "I'm starting to doubt that too. The way they move, it's totally different from the Homunculi and the low-level Dx2s of the Acolytes. "
+    },
+    {
+      "id": 4,
+      "text": "It seems we're in more trouble than we thought."
+    },
+    {
+      "id": 5,
+      "text": "Yo, yo Majesty. This ain't no time to be doin' sight-seeing like this."
+    },
+    {
+      "id": 6,
+      "text": "It would seem so."
+    },
+    {
+      "id": 7,
+      "text": "Very well. I've had enough fun in Toh-kyoh. Time to get back to work."
+    },
+    {
+      "id": 8,
+      "text": "Work, huh? Is it the mission you were talking about before?"
+    },
+    {
+      "id": 9,
+      "text": "Yes, it is."
+    },
+    {
+      "id": 10,
+      "text": "My mission is to find the wrathful god that is threatening my kingdom and...."
+    },
+    {
+      "id": 11,
+      "text": "pacify him."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31594,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31595,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31596,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31597,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_002",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 31598,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31599,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_004",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31600,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31601,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31602,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31603,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31604,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31605,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31606,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_003_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31607,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "himika",
+      "id": 223,
+      "name_id": 223
+    }
+  ]
+}

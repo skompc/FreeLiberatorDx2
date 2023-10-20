@@ -1,0 +1,163 @@
+{
+  "transaction_id": "89-055-182553",
+  "server_time": 1697835052107,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Female patient  ",
+      "id": 420
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Wh-What?<BR>What was I doing?"
+    },
+    {
+      "id": 1,
+      "text": "Ugh! My wrist is bleeding!"
+    },
+    {
+      "id": 2,
+      "text": "Looks like she's back to normal."
+    },
+    {
+      "id": 3,
+      "text": "Phew! That was a close one."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 728,
+      "effect": "",
+      "param0": "drama_bg_006.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 729,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_002_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 730,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "420",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_002_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 731,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "420",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_002_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 732,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_02_002_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 733,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_patient",
+      "id": 420,
+      "name_id": 420
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

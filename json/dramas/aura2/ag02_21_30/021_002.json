@@ -1,0 +1,474 @@
+{
+  "transaction_id": "72-0BB-1A1A9C",
+  "server_time": 1697837961908,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Punk Hollow A",
+      "id": 13000
+    },
+    {
+      "name": "Punk Hollow B",
+      "id": 14000
+    },
+    {
+      "name": "Punk Hollow C",
+      "id": 15000
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Hey look, a woman......<BR>There's a human with her too."
+    },
+    {
+      "id": 1,
+      "text": "Hell yeah! That's one sweet piece of ass!"
+    },
+    {
+      "id": 2,
+      "text": "*Gulp*"
+    },
+    {
+      "id": 3,
+      "text": "W-W-What do you want!<BR>You picking a fight?"
+    },
+    {
+      "id": 4,
+      "text": "Hehehe. You do know this is the Free Realm right?"
+    },
+    {
+      "id": 5,
+      "text": "It means we're free to do whatever we want, and that includes killin' and plunderin'."
+    },
+    {
+      "id": 6,
+      "text": "......I'm warning you, this human here is pretty good in a fight."
+    },
+    {
+      "id": 7,
+      "text": "Oh really? Who the hell are you?"
+    },
+    {
+      "id": 8,
+      "text": "The Savior."
+    },
+    {
+      "id": 9,
+      "text": "A Dx2."
+    },
+    {
+      "id": 10,
+      "text": "Okay......<BR>So you're the Savior of the post apocalyptic world?"
+    },
+    {
+      "id": 11,
+      "text": "What does post apocalyptic mean?"
+    },
+    {
+      "id": 12,
+      "text": "It's a vibe. It's just our thing."
+    },
+    {
+      "id": 13,
+      "text": "Dee......Two? You can't be......<BR>Are you......?"
+    },
+    {
+      "id": 14,
+      "text": "Do you even know what you're talking about?"
+    },
+    {
+      "id": 15,
+      "text": "Well, it doesn't matter who you are anyway."
+    },
+    {
+      "id": 16,
+      "text": "Then don't ask."
+    },
+    {
+      "id": 17,
+      "text": "You're shit outta luck runnin' into us. Now prepare to meet your fate."
+    },
+    {
+      "id": 18,
+      "text": "We don't even have to fight you ourselves. Hey! Let loose the demons we caught."
+    },
+    {
+      "id": 19,
+      "text": "It's huntin' time!<BR>Hell Yeeeeeah!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001169,
+      "effect": "",
+      "param0": "drama_bg_048.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001170,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001171,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001172,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001173,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "15000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_003",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001174,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001175,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001176,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001177,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001178,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001179,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001180,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001181,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_008",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8001182,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_009",
+      "face": "face_02",
+      "select": 110,
+      "flag": "",
+      "uniq": 8001183,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_010",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8001184,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_011",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 8001185,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_012",
+      "face": "face_02",
+      "select": 120,
+      "flag": "",
+      "uniq": 8001186,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001187,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_014",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001188,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001189,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001190,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_021_002_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001191,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_mohawk_uturo",
+      "id": 13000,
+      "name_id": 13000
+    },
+    {
+      "img": "mob_mohawk_uturo2",
+      "id": 14000,
+      "name_id": 14000
+    },
+    {
+      "img": "mob_mohawk_uturo3",
+      "id": 15000,
+      "name_id": 15000
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

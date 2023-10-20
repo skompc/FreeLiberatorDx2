@@ -1,0 +1,845 @@
+{
+  "transaction_id": "22-04A-1AF743",
+  "server_time": 1697843865807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "You're back! Let's continue our work here then."
+    },
+    {
+      "id": 1,
+      "text": "Is there anything you would like to know?"
+    },
+    {
+      "id": 2,
+      "text": "Why are there demons here?"
+    },
+    {
+      "id": 3,
+      "text": "Are the Acolytes involved?"
+    },
+    {
+      "id": 4,
+      "text": "The demons here weren't downloaded by anyone."
+    },
+    {
+      "id": 5,
+      "text": "There's no trace of Acolyte involvement either."
+    },
+    {
+      "id": 6,
+      "text": "These demons were here from the beginning."
+    },
+    {
+      "id": 7,
+      "text": "Ever since the Aura Gate was discovered..."
+    },
+    {
+      "id": 8,
+      "text": "Which is why the investigation team was made up of of our best Dx2s..."
+    },
+    {
+      "id": 9,
+      "text": "Didn't imagine we would lose contact so soon..."
+    },
+    {
+      "id": 10,
+      "text": "That's why we must hurry."
+    },
+    {
+      "id": 11,
+      "text": "This time we'll kill that Boss! Let's do this!"
+    },
+    {
+      "id": 12,
+      "text": ">You sense a powerful energy emanating from behind the gate."
+    },
+    {
+      "id": 13,
+      "text": "Finally, a Boss. Are you ready?"
+    },
+    {
+      "id": 14,
+      "text": "Let's go!"
+    },
+    {
+      "id": 15,
+      "text": "I wanna go home..."
+    },
+    {
+      "id": 16,
+      "text": "I can sense your enthusiasm! That's good!"
+    },
+    {
+      "id": 17,
+      "text": "No, not this time! Get ready!"
+    },
+    {
+      "id": 18,
+      "text": "Here we go!"
+    },
+    {
+      "id": 19,
+      "text": ">A strange vortex appeared when the Boss disappeared."
+    },
+    {
+      "id": 20,
+      "text": "We vanquished it somehow! Great job!"
+    },
+    {
+      "id": 21,
+      "text": "You see the strange vortex? That's a GATE."
+    },
+    {
+      "id": 22,
+      "text": "This gate is a portal that leads to a different floor."
+    },
+    {
+      "id": 23,
+      "text": "Jump in to go to the next level."
+    },
+    {
+      "id": 24,
+      "text": "Don't be afraid now, JUMP!"
+    },
+    {
+      "id": 25,
+      "text": "... We made it... This seems to be the 2nd floor."
+    },
+    {
+      "id": 26,
+      "text": "The Aura Gate isn't a tower, nor is it even a building!"
+    },
+    {
+      "id": 27,
+      "text": "We call these FLOORS for lack of a better term."
+    },
+    {
+      "id": 28,
+      "text": "In any case, you cleared the first floor. Congrats!"
+    },
+    {
+      "id": 29,
+      "text": "You must be exhausted. Let's call it a day."
+    },
+    {
+      "id": 30,
+      "text": "We can venture deeper next time."
+    },
+    {
+      "id": 31,
+      "text": "I'm counting on you [sys user_name]!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000711,
+      "effect": "",
+      "param0": "drama_bg_017.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000712,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000713,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000714,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000715,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000716,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000717,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000718,
+      "effect": "",
+      "param0": "4",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000719,
+      "effect": "",
+      "param0": "5",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000720,
+      "effect": "",
+      "param0": "6",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000721,
+      "effect": "",
+      "param0": "7",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_006",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000722,
+      "effect": "",
+      "param0": "8",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_007",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000723,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000724,
+      "effect": "",
+      "param0": "10",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_08_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000725,
+      "effect": "",
+      "param0": "11",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000726,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000727,
+      "effect": "",
+      "param0": "bout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000728,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000729,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000730,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_11_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000731,
+      "effect": "",
+      "param0": "13",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000732,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000733,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000734,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "2",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_11_001_001",
+      "face": "idle",
+      "select": 210,
+      "flag": "",
+      "uniq": 7000735,
+      "effect": "",
+      "param0": "16",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_11_001_002",
+      "face": "idle",
+      "select": 220,
+      "flag": "",
+      "uniq": 7000736,
+      "effect": "",
+      "param0": "17",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_11_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000737,
+      "effect": "",
+      "param0": "18",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000738,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000739,
+      "effect": "",
+      "param0": "bout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000740,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000741,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000742,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_12_001_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000743,
+      "effect": "",
+      "param0": "20",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_12_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000744,
+      "effect": "",
+      "param0": "21",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_12_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000745,
+      "effect": "",
+      "param0": "22",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_12_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000746,
+      "effect": "",
+      "param0": "23",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p1_12_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000747,
+      "effect": "",
+      "param0": "24",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000748,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000749,
+      "effect": "",
+      "param0": "bout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000750,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000751,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "30",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000752,
+      "effect": "",
+      "param0": "25",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000753,
+      "effect": "",
+      "param0": "26",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000754,
+      "effect": "",
+      "param0": "27",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000755,
+      "effect": "",
+      "param0": "28",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000756,
+      "effect": "",
+      "param0": "29",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000757,
+      "effect": "",
+      "param0": "30",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gd_p2_01_001_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000758,
+      "effect": "",
+      "param0": "31",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    }
+  ]
+}

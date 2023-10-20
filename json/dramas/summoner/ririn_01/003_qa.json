@@ -1,0 +1,597 @@
+{
+  "transaction_id": "02-047-19AD67",
+  "server_time": 1697838873007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Succubus",
+      "id": 3500
+    },
+    {
+      "name": "Ririn",
+      "id": 142
+    },
+    {
+      "name": "Leanansidhe",
+      "id": 3400
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Humans... I hate you all!"
+    },
+    {
+      "id": 1,
+      "text": "Why would you leave me...? Why do you hate me so..."
+    },
+    {
+      "id": 2,
+      "text": ">Mumbling, the Succubus disappears from sight."
+    },
+    {
+      "id": 3,
+      "text": "What was that about?!"
+    },
+    {
+      "id": 4,
+      "text": "She was probably abandoned by her human master."
+    },
+    {
+      "id": 5,
+      "text": "It's a more common ending than you might think."
+    },
+    {
+      "id": 6,
+      "text": "Even after this..."
+    },
+    {
+      "id": 7,
+      "text": "Are you still going to write about a happy ending little one?"
+    },
+    {
+      "id": 8,
+      "text": "One where a human and a demon live happily."
+    },
+    {
+      "id": 9,
+      "text": "......"
+    },
+    {
+      "id": 10,
+      "text": "Of course I still do!"
+    },
+    {
+      "id": 11,
+      "text": "I'm boiling with excitement just thinking about it!"
+    },
+    {
+      "id": 12,
+      "text": "I have to do this!"
+    },
+    {
+      "id": 13,
+      "text": "Maybe that fight woke something in you."
+    },
+    {
+      "id": 14,
+      "text": "A true creator with a strong will, very admirable."
+    },
+    {
+      "id": 15,
+      "text": "I'm sorry I'm not being completely honest..."
+    },
+    {
+      "id": 16,
+      "text": "It's just I'm sure that a happy ending for a story like this will sell better."
+    },
+    {
+      "id": 17,
+      "text": "There are enough depressing stories out there anyway."
+    },
+    {
+      "id": 18,
+      "text": "And all I want is for my novels to sell and make lots of money."
+    },
+    {
+      "id": 19,
+      "text": "Don't you agree?"
+    },
+    {
+      "id": 20,
+      "text": "......"
+    },
+    {
+      "id": 21,
+      "text": "Hahaha! You are an amusing human."
+    },
+    {
+      "id": 22,
+      "text": "I remember someone once told me, whoever can write a good story,"
+    },
+    {
+      "id": 23,
+      "text": "you can tell by just talking to them."
+    },
+    {
+      "id": 24,
+      "text": "I believe you will go far little one."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002035,
+      "effect": "",
+      "param0": "drama_bg_008.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002036,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002037,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "3500",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002038,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "3500",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002039,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002040,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002041,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002042,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002043,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002044,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002045,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002046,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002047,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002048,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002049,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002050,
+      "effect": "",
+      "param0": "bgm_facility",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_009",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002051,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002052,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_011",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002053,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002054,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002055,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_014",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002056,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_015",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002057,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_016",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002058,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002059,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_018",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002060,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "142",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002061,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002062,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002063,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002064,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_ririn_01_003_qa_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002065,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "3400",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_sucubus",
+      "id": 3500,
+      "name_id": 3500
+    },
+    {
+      "img": "ririn_swimwear",
+      "id": 142,
+      "name_id": 142
+    },
+    {
+      "img": "mob_leanansidhe",
+      "id": 3400,
+      "name_id": 3400
+    }
+  ]
+}

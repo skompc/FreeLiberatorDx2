@@ -1,0 +1,546 @@
+{
+  "transaction_id": "56-079-19DF19",
+  "server_time": 1697838407407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Man",
+      "id": 16501
+    },
+    {
+      "name": "Boy",
+      "id": 16201
+    },
+    {
+      "name": "Worker",
+      "id": 16601
+    },
+    {
+      "name": "Pixie",
+      "id": 720
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Thanks a lot man. Wasn't expecting to find a Dx2 here, but I ain't complaining."
+    },
+    {
+      "id": 1,
+      "text": "But so many lives lost..."
+    },
+    {
+      "id": 2,
+      "text": "I couldn't save them..."
+    },
+    {
+      "id": 3,
+      "text": "But we held the power plant."
+    },
+    {
+      "id": 4,
+      "text": "We could've been wiped out entirely, but we weren't..."
+    },
+    {
+      "id": 5,
+      "text": "Hey! You okay there?!"
+    },
+    {
+      "id": 6,
+      "text": "Oh, you're the guy we met earlier."
+    },
+    {
+      "id": 7,
+      "text": "Yeah. Glad to see you're still alive! Did you guys find mister Hagimoto?"
+    },
+    {
+      "id": 8,
+      "text": "Things were too chaotic."
+    },
+    {
+      "id": 9,
+      "text": "Not yet."
+    },
+    {
+      "id": 10,
+      "text": "Well, that's just how things are around here."
+    },
+    {
+      "id": 11,
+      "text": "From the look of it, you haven't found him yet."
+    },
+    {
+      "id": 12,
+      "text": "Just as I thought."
+    },
+    {
+      "id": 13,
+      "text": "You did walk right into those demons after all."
+    },
+    {
+      "id": 14,
+      "text": "Alright, come with me!"
+    },
+    {
+      "id": 15,
+      "text": "This power plant here is the most important part of the city. You helped defend it, so we owe you."
+    },
+    {
+      "id": 16,
+      "text": "I'm taking you to meet Mister Hagimoto. No interruptions this time."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26486,
+      "effect": "",
+      "param0": "drama_bg_045.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26487,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26488,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26489,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "16501",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26490,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26491,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26492,
+      "effect": "",
+      "param0": "male_branch",
+      "place": 0,
+      "param3": "face_2",
+      "command": 36,
+      "param1": "face_2",
+      "param2": "female_branch"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26493,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26494,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "16501",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26495,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16201",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26496,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26497,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26498,
+      "effect": "",
+      "param0": "step_run",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26499,
+      "effect": "",
+      "param0": "5",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26500,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26501,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26502,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "720",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26503,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26504,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26505,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26506,
+      "effect": "",
+      "param0": "male_branch",
+      "place": 0,
+      "param3": "0",
+      "command": 36,
+      "param1": "0",
+      "param2": "female_branch"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 26507,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "2",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 210,
+      "flag": "",
+      "uniq": 26508,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 210,
+      "flag": "",
+      "uniq": 26509,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 220,
+      "flag": "",
+      "uniq": 26510,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 220,
+      "flag": "",
+      "uniq": 26511,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 220,
+      "flag": "",
+      "uniq": 26512,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26513,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 26514,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "16601",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_badboy_d2",
+      "id": 16501,
+      "name_id": 16501
+    },
+    {
+      "img": "mob_boy_d2",
+      "id": 16201,
+      "name_id": 16201
+    },
+    {
+      "img": "mob_man_survival_d2",
+      "id": 16601,
+      "name_id": 16601
+    },
+    {
+      "img": "mob_pxie2",
+      "id": 720,
+      "name_id": 720
+    }
+  ]
+}

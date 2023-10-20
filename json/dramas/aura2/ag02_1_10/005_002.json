@@ -1,0 +1,177 @@
+{
+  "transaction_id": "-7-05F-1906A2",
+  "server_time": 1697837786407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Xibuki",
+      "id": 620
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You come across a group of Hollows being devoured by demons."
+    },
+    {
+      "id": 1,
+      "text": "E-Eeeek! Help!"
+    },
+    {
+      "id": 2,
+      "text": "Oh! Human person!<BR>Thank goodness!"
+    },
+    {
+      "id": 3,
+      "text": "I was about to be eaten.<BR>Quick, let's trade places!"
+    },
+    {
+      "id": 4,
+      "text": "I-I mean... please help!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000844,
+      "effect": "",
+      "param0": "drama_bg_046.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000845,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000846,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000847,
+      "effect": "",
+      "param0": "bgm_btl_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000848,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000849,
+      "effect": "",
+      "param0": "2",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000850,
+      "effect": "",
+      "param0": "3",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_005_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000851,
+      "effect": "",
+      "param0": "4",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "620",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "xibuki",
+      "id": 620,
+      "name_id": 620
+    }
+  ]
+}

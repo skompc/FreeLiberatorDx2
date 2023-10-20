@@ -1,0 +1,406 @@
+{
+  "transaction_id": "57-098-18BD84",
+  "server_time": 1697836089007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Homunculus......<BR>The artificial human."
+    },
+    {
+      "id": 1,
+      "text": "According to Vagit, their development started a long time ago."
+    },
+    {
+      "id": 2,
+      "text": "Yes, during the age of Alchemy."
+    },
+    {
+      "id": 3,
+      "text": "But of course it's impossible to synthesize humans chemically."
+    },
+    {
+      "id": 4,
+      "text": "So the normal way of doing things failed them when they were developing the technique. "
+    },
+    {
+      "id": 5,
+      "text": "And because the norm didn't work, they had to find an unconventional solution..."
+    },
+    {
+      "id": 6,
+      "text": "Yes. They used demons."
+    },
+    {
+      "id": 7,
+      "text": "I heard that the technique actually has the same basis as demon fusion."
+    },
+    {
+      "id": 8,
+      "text": "......"
+    },
+    {
+      "id": 9,
+      "text": "Shiang, can you tell me something?"
+    },
+    {
+      "id": 10,
+      "text": "If the process of making Homunculi is similar to demon fusion......"
+    },
+    {
+      "id": 11,
+      "text": "What do you think they use as materials?"
+    },
+    {
+      "id": 12,
+      "text": "I don't know."
+    },
+    {
+      "id": 13,
+      "text": "But my guess is it involves living human beings."
+    },
+    {
+      "id": 14,
+      "text": "It's the type of horror that's not funny at all."
+    },
+    {
+      "id": 15,
+      "text": "......I see."
+    },
+    {
+      "id": 16,
+      "text": "It looks like we just found one more reason to take down the Acolytes."
+    },
+    {
+      "id": 17,
+      "text": "Let's go. We'll start by destroying this hideout!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30509,
+      "effect": "",
+      "param0": "drama_bg_007.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 30510,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_000",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30511,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_001",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30512,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_002",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30513,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30514,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30515,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_005",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30516,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_006",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30517,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_007",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 30518,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_008",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30519,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_009",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30520,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_010",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30521,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_011",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30522,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_012",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30523,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_013",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30524,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_014",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30525,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_015",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30526,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_016",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30527,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_03_002_qa_017",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 30528,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    }
+  ]
+}

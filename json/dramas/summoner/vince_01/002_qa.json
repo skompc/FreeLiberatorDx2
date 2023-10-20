@@ -1,0 +1,457 @@
+{
+  "transaction_id": "53-057-192AD6",
+  "server_time": 1697839103407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Vince",
+      "id": 660
+    },
+    {
+      "name": "Yan",
+      "id": 22101
+    },
+    {
+      "name": "Dx2 Merc",
+      "id": 1616
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "I'll give you that you gathered a lot of them."
+    },
+    {
+      "id": 1,
+      "text": "Lately, mercs specializing in demons have been popping up."
+    },
+    {
+      "id": 2,
+      "text": "Anyone can gather an army with the right funding."
+    },
+    {
+      "id": 3,
+      "text": "Funding. I wonder from who."
+    },
+    {
+      "id": 4,
+      "text": "Planning on selling your Homunculus research to anyone?"
+    },
+    {
+      "id": 5,
+      "text": "No, it's way too late for that."
+    },
+    {
+      "id": 6,
+      "text": "The opposite actually."
+    },
+    {
+      "id": 7,
+      "text": "They want a way to probe and disable Homunculi."
+    },
+    {
+      "id": 8,
+      "text": "Disable...?"
+    },
+    {
+      "id": 9,
+      "text": "Yep. Like a virus that can shut down a Homunculus."
+    },
+    {
+      "id": 10,
+      "text": "...I see. I'm starting to understand, Yan."
+    },
+    {
+      "id": 11,
+      "text": "And you want Honey to be your test subject."
+    },
+    {
+      "id": 12,
+      "text": "Well done."
+    },
+    {
+      "id": 13,
+      "text": "Ha! Spoken like a true mad scientist."
+    },
+    {
+      "id": 14,
+      "text": "I guess you'll be one until the end."
+    },
+    {
+      "id": 15,
+      "text": "Oh no, you're the one that's being ended today."
+    },
+    {
+      "id": 16,
+      "text": "Ready! Preparing mass summon!"
+    },
+    {
+      "id": 17,
+      "text": "Shit...! Still this many to go...!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004441,
+      "effect": "",
+      "param0": "drama_bg_025.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004442,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004443,
+      "effect": "",
+      "param0": "0",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004444,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004445,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004446,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004447,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004448,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004449,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004450,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004451,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004452,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004453,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004454,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_010",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004455,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004456,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004457,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_013",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004458,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_014",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004459,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004460,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "22101",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004461,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004462,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1616",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_vince_01_002_qa_017",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004463,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "vince",
+      "id": 660,
+      "name_id": 660
+    },
+    {
+      "img": "mob_labcoat_man",
+      "id": 22101,
+      "name_id": 22101
+    },
+    {
+      "img": "mob_assassin",
+      "id": 1616,
+      "name_id": 1616
+    }
+  ]
+}

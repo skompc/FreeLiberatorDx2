@@ -1,0 +1,484 @@
+{
+  "transaction_id": "70-06D-199E7A",
+  "server_time": 1697835908407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Einherjar",
+      "id": 200
+    },
+    {
+      "name": "Joshua",
+      "id": 300
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "...Is that all you've got?"
+    },
+    {
+      "id": 1,
+      "text": ">Einherjar's demons block your path."
+    },
+    {
+      "id": 2,
+      "text": "It looks like you're having a hard time beating him."
+    },
+    {
+      "id": 3,
+      "text": "He must be defeated if we are to join forces."
+    },
+    {
+      "id": 4,
+      "text": "So I will lend you my strength."
+    },
+    {
+      "id": 5,
+      "text": "....."
+    },
+    {
+      "id": 6,
+      "text": "People's feelings, their love, are not the result of civilization."
+    },
+    {
+      "id": 7,
+      "text": "They are a power that originated from the birth of the planet itself."
+    },
+    {
+      "id": 8,
+      "text": "Those who can only feel these things as a part of some “civilization”"
+    },
+    {
+      "id": 9,
+      "text": "are probably unfortunate souls who have never felt the touch of true love."
+    },
+    {
+      "id": 10,
+      "text": "I will eliminate such people and build a paradise for those that know what true love is,"
+    },
+    {
+      "id": 11,
+      "text": "even if it costs me my life!"
+    },
+    {
+      "id": 12,
+      "text": "No matter how many thousands... how many millions of victims it takes?"
+    },
+    {
+      "id": 13,
+      "text": "Humanity has already overproduced. The planet is near breaking point."
+    },
+    {
+      "id": 14,
+      "text": "It must be reset!"
+    },
+    {
+      "id": 15,
+      "text": "A self-centered logic at best. Well-suited to one who is about to become a martyr."
+    },
+    {
+      "id": 16,
+      "text": "Nonsense!"
+    },
+    {
+      "id": 17,
+      "text": "[sys user_name]... we are now brothers in arms."
+    },
+    {
+      "id": 18,
+      "text": "I will deal with the old man. You dispose of his demons!"
+    },
+    {
+      "id": 19,
+      "text": "This battle marks the beginning of a brighter future! Let's go!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7353,
+      "effect": "",
+      "param0": "drama_bg_045.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7354,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_000",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 7355,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "200",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7356,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7357,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7358,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7359,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7360,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 7361,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "200",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7362,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7363,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7364,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7365,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7366,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7367,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 7368,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "200",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_012",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7369,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_013",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7370,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_014",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 7371,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "200",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_015",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7372,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_016",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7373,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_017",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7374,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07b_013_qb_018",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7375,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7376,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7377,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "einherjar",
+      "id": 200,
+      "name_id": 200
+    },
+    {
+      "img": "joshua",
+      "id": 300,
+      "name_id": 300
+    }
+  ]
+}

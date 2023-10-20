@@ -1,0 +1,327 @@
+{
+  "transaction_id": "71-065-1A3D4E",
+  "server_time": 1697837741907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Gossiping Hollow",
+      "id": 9202
+    },
+    {
+      "name": "Attentive Hollow",
+      "id": 9203
+    },
+    {
+      "name": "Demon",
+      "id": 9501
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "I heard a rumor that demons had appeared in these parts too."
+    },
+    {
+      "id": 1,
+      "text": "Let's try to get a photo of 'em. Gotta post this online."
+    },
+    {
+      "id": 2,
+      "text": "I hear that's what humans would do."
+    },
+    {
+      "id": 3,
+      "text": "What's \"online\" mean anyways?"
+    },
+    {
+      "id": 4,
+      "text": "Who knows?"
+    },
+    {
+      "id": 5,
+      "text": "This place is full of grinning simpletons, it's starting to piss me off!"
+    },
+    {
+      "id": 6,
+      "text": "You're about to DIE! Don't you get it?!"
+    },
+    {
+      "id": 7,
+      "text": "Die? What is \"Die\"?"
+    },
+    {
+      "id": 8,
+      "text": "Who knows?"
+    },
+    {
+      "id": 9,
+      "text": "You're gonna know soon enough!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000684,
+      "effect": "",
+      "param0": "drama_bg_046.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000685,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000686,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9202",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000687,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9203",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000688,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9203",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000689,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9202",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000690,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9203",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000691,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000692,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000693,
+      "effect": "",
+      "param0": "5",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "9501",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000694,
+      "effect": "",
+      "param0": "6",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "9501",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000695,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000696,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "9202",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000697,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "9203",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000698,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_002_002_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000699,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "9501",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_man_uturo",
+      "id": 9202,
+      "name_id": 9202
+    },
+    {
+      "img": "mob_man_uturo",
+      "id": 9203,
+      "name_id": 9203
+    },
+    {
+      "img": "mob_kelpie",
+      "id": 9501,
+      "name_id": 9501
+    }
+  ]
+}

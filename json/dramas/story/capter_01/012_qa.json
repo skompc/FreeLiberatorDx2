@@ -1,0 +1,286 @@
+{
+  "transaction_id": "69-0A7-18DE1C",
+  "server_time": 1697835022107,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shimono (TV show host)",
+      "id": 310
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Bastards!"
+    },
+    {
+      "id": 1,
+      "text": "We won't kill you.<BR>One of our associates will restrain you."
+    },
+    {
+      "id": 2,
+      "text": "Vanitas' algorithm is perfect.<BR>Your actions are futile."
+    },
+    {
+      "id": 3,
+      "text": "I don't know if it's perfect<BR>or not..."
+    },
+    {
+      "id": 4,
+      "text": "But one uncertainty can change<BR>an algorithm's results."
+    },
+    {
+      "id": 5,
+      "text": "And you see..."
+    },
+    {
+      "id": 6,
+      "text": "We are that uncertainty."
+    },
+    {
+      "id": 7,
+      "text": "...!"
+    },
+    {
+      "id": 8,
+      "text": "Goodbye."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 463,
+      "effect": "",
+      "param0": "drama_bg_005.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 464,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 465,
+      "effect": "",
+      "param0": "hit",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 466,
+      "effect": "",
+      "param0": "700",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 467,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "310",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 468,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 469,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "310",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 470,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 471,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 472,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 473,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_006",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 474,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 475,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "310",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_012_qa_008",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 476,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "simono",
+      "id": 310,
+      "name_id": 310
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    }
+  ]
+}

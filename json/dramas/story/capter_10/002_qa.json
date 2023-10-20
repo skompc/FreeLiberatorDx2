@@ -1,0 +1,177 @@
+{
+  "transaction_id": "05-086-19C57E",
+  "server_time": 1697836569807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Alternate Hero",
+      "id": 652
+    },
+    {
+      "name": "Alternate Hero",
+      "id": 642
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "We have to move. It's not safe to stay stationary. "
+    },
+    {
+      "id": 1,
+      "text": "Yes, we spent too much time talking. Here, this way."
+    },
+    {
+      "id": 2,
+      "text": "We have to move. It's not safe to stay stationary. "
+    },
+    {
+      "id": 3,
+      "text": "Yeah, We spent too much time talking. C'mon, this way."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9172,
+      "effect": "",
+      "param0": "drama_bg_087.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9173,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9174,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qa_000",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9175,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qa_001",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9176,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qa_000",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9177,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qa_002",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9178,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "female_another",
+      "id": 652,
+      "name_id": 652
+    },
+    {
+      "img": "male_another",
+      "id": 642,
+      "name_id": 642
+    }
+  ]
+}

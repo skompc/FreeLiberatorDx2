@@ -1,0 +1,449 @@
+{
+  "transaction_id": "71-065-1A0747",
+  "server_time": 1697836444308,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Policeman",
+      "id": 1800
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Somehow we've made it back close to where the Hideout is, but..."
+    },
+    {
+      "id": 1,
+      "text": "Having to sneak around like this..."
+    },
+    {
+      "id": 2,
+      "text": "This is so sad..."
+    },
+    {
+      "id": 3,
+      "text": "Cheer up, Ririn. Let's just concentrate on getting back to the Hideout, alright?"
+    },
+    {
+      "id": 4,
+      "text": "I'm worried about the other members at the Hideout."
+    },
+    {
+      "id": 5,
+      "text": "Yes, you're right. I hope everybody's okay..."
+    },
+    {
+      "id": 6,
+      "text": "Hey! You there! Are you..."
+    },
+    {
+      "id": 7,
+      "text": "Oh no!"
+    },
+    {
+      "id": 8,
+      "text": "S-Something wrong officer? What's with the scary look?"
+    },
+    {
+      "id": 9,
+      "text": "We're just ordinary citizens minding our own business..."
+    },
+    {
+      "id": 10,
+      "text": "You. You're the Liberators, right?"
+    },
+    {
+      "id": 11,
+      "text": "Huh? N-No, you must have mistaken us for somebody else..."
+    },
+    {
+      "id": 12,
+      "text": "You don't fool me! Give yourselves up now!"
+    },
+    {
+      "id": 13,
+      "text": "He's summoning demons?!"
+    },
+    {
+      "id": 14,
+      "text": "Bow before the light of our Harmony!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8104,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8105,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_000",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8106,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8107,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 8108,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8109,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8110,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8111,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8112,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8113,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1800",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_007",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 8114,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8115,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8116,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_009",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8117,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8118,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8119,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1800",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_011",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8120,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8121,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1800",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_013",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 8122,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_09_001_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8123,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8124,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8125,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "mob_police",
+      "id": 1800,
+      "name_id": 1800
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    }
+  ]
+}

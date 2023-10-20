@@ -1,0 +1,317 @@
+{
+  "transaction_id": "37-055-190A90",
+  "server_time": 1697835603807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Himika",
+      "id": 220
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "...Thank you.<BR>Even I was in danger this time."
+    },
+    {
+      "id": 1,
+      "text": "You probably still are in danger. Keep your guard up."
+    },
+    {
+      "id": 2,
+      "text": "Oh?"
+    },
+    {
+      "id": 3,
+      "text": "Maybe you could answer a question, since we saved you."
+    },
+    {
+      "id": 4,
+      "text": "...Yes?"
+    },
+    {
+      "id": 5,
+      "text": "I wanted to ask what you looked like under that skirt of yours..."
+    },
+    {
+      "id": 6,
+      "text": "Mind if I let my fingers do the talking?"
+    },
+    {
+      "id": 7,
+      "text": "What?!"
+    },
+    {
+      "id": 8,
+      "text": "Just a little bit. Come on, relax."
+    },
+    {
+      "id": 9,
+      "text": "Whaaaat?!"
+    },
+    {
+      "id": 10,
+      "text": "...*sigh*"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4876,
+      "effect": "",
+      "param0": "drama_bg_015.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4877,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4878,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4879,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4880,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4881,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4882,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4883,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_005",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4884,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4885,
+      "effect": "",
+      "param0": "bgm_facility",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_006",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4886,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4887,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4888,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4889,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_004_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4890,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "himika",
+      "id": 220,
+      "name_id": 220
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "transaction_id": "37-055-1922CF",
+  "server_time": 1697836208908,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Himika?",
+      "id": 222
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "???",
+      "id": 431
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Queen",
+      "id": 430
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Himika's a Dx2... I never would've guessed."
+    },
+    {
+      "id": 1,
+      "text": "Dee two? Whatever are you talking about? This is a form of sorcery called Kidou."
+    },
+    {
+      "id": 2,
+      "text": "What a surprise to find others with the ability to use it."
+    },
+    {
+      "id": 3,
+      "text": "Who are you?"
+    },
+    {
+      "id": 4,
+      "text": "Took the words right outta my mouth. Who are YOU?"
+    },
+    {
+      "id": 5,
+      "text": "You're not Himika, are you?"
+    },
+    {
+      "id": 6,
+      "text": "Ah, you saw through my guise. Well done."
+    },
+    {
+      "id": 7,
+      "text": "Yes! I am not this girl that stands before you."
+    },
+    {
+      "id": 8,
+      "text": "I am merely borrowing her body for a short while."
+    },
+    {
+      "id": 9,
+      "text": "Borrowing her body? You mean you've possessed her?"
+    },
+    {
+      "id": 10,
+      "text": "Yes. This body is actually quite comfortable."
+    },
+    {
+      "id": 11,
+      "text": "It blends with my soul quite nicely."
+    },
+    {
+      "id": 12,
+      "text": "Yo wait. That just gives me more reason to stop you."
+    },
+    {
+      "id": 13,
+      "text": "You can't just use our shrine maiden's body at will."
+    },
+    {
+      "id": 14,
+      "text": "Hmmm. That's not really the case though."
+    },
+    {
+      "id": 15,
+      "text": "Oh, very well then. I will show you my true form."
+    },
+    {
+      "id": 16,
+      "text": "You should be able to see me if you can use Kidou."
+    },
+    {
+      "id": 17,
+      "text": ">Something slowly separates itself from Himika's body."
+    },
+    {
+      "id": 18,
+      "text": "Kak Kak Kak. How about this?"
+    },
+    {
+      "id": 19,
+      "text": "Whoa! Something appeared!"
+    },
+    {
+      "id": 20,
+      "text": "A...g-ghost?"
+    },
+    {
+      "id": 21,
+      "text": "That's rude. I'm a queen."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31472,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31473,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_000",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 31474,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31475,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31476,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31477,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31478,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31479,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31480,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31481,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31482,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31483,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31484,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31485,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_012",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31486,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_013",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31487,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31488,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31489,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31490,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "222",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31491,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31492,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31493,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31494,
+      "effect": "",
+      "param0": "opening_phone_vfx02",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31495,
+      "effect": "",
+      "param0": "wout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "50",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31496,
+      "effect": "",
+      "param0": "win",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "50",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31497,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31498,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "431",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31499,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31500,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_019",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 31501,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_001_qa_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31502,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "430",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "himika",
+      "id": 222,
+      "name_id": 222
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "mob_himiko",
+      "id": 431,
+      "name_id": 431
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "mob_himiko",
+      "id": 430,
+      "name_id": 430
+    }
+  ]
+}

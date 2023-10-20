@@ -1,0 +1,321 @@
+{
+  "transaction_id": "57-098-191CB9",
+  "server_time": 1697838202008,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "The last Hollow...?"
+    },
+    {
+      "id": 1,
+      "text": "Tell me, [sys user_name]."
+    },
+    {
+      "id": 2,
+      "text": "If the human race were to go extinct and you were the only one left,"
+    },
+    {
+      "id": 3,
+      "text": "what would you do?"
+    },
+    {
+      "id": 4,
+      "text": "I will live in solitude."
+    },
+    {
+      "id": 5,
+      "text": "I will die in solitude."
+    },
+    {
+      "id": 6,
+      "text": "If you really mean that after having given it careful thought,"
+    },
+    {
+      "id": 7,
+      "text": "then you must be a strong person."
+    },
+    {
+      "id": 8,
+      "text": "I envy you."
+    },
+    {
+      "id": 9,
+      "text": "Oh, okay...<BR>That's kinda..."
+    },
+    {
+      "id": 10,
+      "text": "Sad."
+    },
+    {
+      "id": 11,
+      "text": "What about me, though?"
+    },
+    {
+      "id": 12,
+      "text": "Which path would I choose..."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002366,
+      "effect": "",
+      "param0": "drama_bg_051.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002367,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002368,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002369,
+      "effect": "",
+      "param0": "1",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002370,
+      "effect": "",
+      "param0": "2",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002371,
+      "effect": "",
+      "param0": "3",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002372,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002373,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002374,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_004",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8002375,
+      "effect": "",
+      "param0": "6",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_005",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8002376,
+      "effect": "",
+      "param0": "7",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_006",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8002377,
+      "effect": "",
+      "param0": "8",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_007",
+      "face": "face_05",
+      "select": 120,
+      "flag": "",
+      "uniq": 8002378,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_008",
+      "face": "face_05",
+      "select": 120,
+      "flag": "",
+      "uniq": 8002379,
+      "effect": "",
+      "param0": "10",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_009",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002380,
+      "effect": "",
+      "param0": "11",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_044_001_010",
+      "face": "face_05",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002381,
+      "effect": "",
+      "param0": "12",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

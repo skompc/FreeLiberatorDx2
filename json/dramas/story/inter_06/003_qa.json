@@ -1,0 +1,213 @@
+{
+  "transaction_id": "89-055-1857BD",
+  "server_time": 1697836299008,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "???",
+      "id": 661
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Vince",
+      "id": 660
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Not bad, Liberators."
+    },
+    {
+      "id": 1,
+      "text": "I see the Homunculi are pretty much useless against you."
+    },
+    {
+      "id": 2,
+      "text": "You're the one in command? Looks like we've come to the right place."
+    },
+    {
+      "id": 3,
+      "text": "Nice to meet you Megakin, and your shitty little friends too."
+    },
+    {
+      "id": 4,
+      "text": "I'm Vince, Dx2 of the Acolytes."
+    },
+    {
+      "id": 5,
+      "text": "I'm also called Carbon Black. Either name will do just fine."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 32036,
+      "effect": "",
+      "param0": "drama_bg_066.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 32037,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_003_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 32038,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "661",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_003_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 32039,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "661",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_003_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 32040,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_003_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 32041,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "661",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 32042,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_003_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 32043,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_06_003_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 32044,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "vince",
+      "id": 661,
+      "name_id": 661
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "vince",
+      "id": 660,
+      "name_id": 660
+    }
+  ]
+}

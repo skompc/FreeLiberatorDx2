@@ -1,0 +1,425 @@
+{
+  "transaction_id": "37-055-191920",
+  "server_time": 1697835973507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiori",
+      "id": 165
+    },
+    {
+      "name": "Gakuto",
+      "id": 174
+    },
+    {
+      "name": "Rika",
+      "id": 123
+    },
+    {
+      "name": "Megakin",
+      "id": 112
+    },
+    {
+      "name": "Ririn",
+      "id": 144
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 132
+    },
+    {
+      "name": "Jeng Yun",
+      "id": 153
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "The mansion is surrounded by a horde of demons......"
+    },
+    {
+      "id": 1,
+      "text": "Damnit! I get here and THIS happens! Goddamn fucking demons!"
+    },
+    {
+      "id": 2,
+      "text": "Sh-Shionyan? Idols shouldn't use language like that..."
+    },
+    {
+      "id": 3,
+      "text": "Shut up, pig!"
+    },
+    {
+      "id": 4,
+      "text": "You can say pig, but not the other stuff."
+    },
+    {
+      "id": 5,
+      "text": "Where do you draw the line..?"
+    },
+    {
+      "id": 6,
+      "text": "Yo, we need more troops on that side! Eileen?"
+    },
+    {
+      "id": 7,
+      "text": "On it!"
+    },
+    {
+      "id": 8,
+      "text": "Wow, this is just like a scene in a zombie movie, where the humans barricade themselves inside to fend off zombies! "
+    },
+    {
+      "id": 9,
+      "text": "Shiang, how do those movies usually end?"
+    },
+    {
+      "id": 10,
+      "text": "I think usually everybody dies in the end..."
+    },
+    {
+      "id": 11,
+      "text": "Yo, Templar Dragon. Some positivity please."
+    },
+    {
+      "id": 12,
+      "text": "No, you got it all wrong. There are plenty of zombie movies that end differently!"
+    },
+    {
+      "id": 13,
+      "text": "There's WWZ, Shaun of..."
+    },
+    {
+      "id": 14,
+      "text": "......! The demons got in!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29656,
+      "effect": "",
+      "param0": "drama_bg_061.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29657,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29658,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 29659,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "165",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29660,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "174",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 29661,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "165",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29662,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "174",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29663,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "123",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29664,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "112",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29665,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "144",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29666,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "132",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29667,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "153",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29668,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "123",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29669,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "112",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29670,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "132",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29671,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "132",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qb_013",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 29672,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "123",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29673,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29674,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "siori_swimsuit",
+      "id": 165,
+      "name_id": 165
+    },
+    {
+      "img": "gakuto_swimsuit",
+      "id": 174,
+      "name_id": 174
+    },
+    {
+      "img": "rika_swimsuit",
+      "id": 123,
+      "name_id": 123
+    },
+    {
+      "img": "taro_swimsuit",
+      "id": 112,
+      "name_id": 112
+    },
+    {
+      "img": "ririn_swimsuit",
+      "id": 144,
+      "name_id": 144
+    },
+    {
+      "img": "son_swimsuit",
+      "id": 132,
+      "name_id": 132
+    },
+    {
+      "img": "tsai_swimsuit",
+      "id": 153,
+      "name_id": 153
+    }
+  ]
+}

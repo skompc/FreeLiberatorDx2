@@ -1,0 +1,199 @@
+{
+  "transaction_id": "19-081-187925",
+  "server_time": 1697835978607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 112
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 132
+    },
+    {
+      "name": "Gakuto",
+      "id": 174
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "They finally managed to break in."
+    },
+    {
+      "id": 1,
+      "text": "Should we retreat to the second floor?"
+    },
+    {
+      "id": 2,
+      "text": "No wait, that's just prolonging the inevitable."
+    },
+    {
+      "id": 3,
+      "text": "You're right but......<BR>Got any ideas, ex-mercenary?"
+    },
+    {
+      "id": 4,
+      "text": "Let's see......"
+    },
+    {
+      "id": 5,
+      "text": "we're gonna have to suffer some losses, okay?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29675,
+      "effect": "",
+      "param0": "drama_bg_061.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 29676,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29677,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "112",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qa_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 29678,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "132",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29679,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "174",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29680,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "112",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29681,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "174",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_01_005_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 29682,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "174",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro_swimsuit",
+      "id": 112,
+      "name_id": 112
+    },
+    {
+      "img": "son_swimsuit",
+      "id": 132,
+      "name_id": 132
+    },
+    {
+      "img": "gakuto_swimsuit",
+      "id": 174,
+      "name_id": 174
+    }
+  ]
+}

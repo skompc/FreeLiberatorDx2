@@ -1,0 +1,642 @@
+{
+  "transaction_id": "08-06D-19715A",
+  "server_time": 1697837901907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ixaya",
+      "id": 600
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Hey there, Savior."
+    },
+    {
+      "id": 1,
+      "text": "...Ixaya?!"
+    },
+    {
+      "id": 2,
+      "text": "Why are you here? Aren't you supposed to be waiting for us on level 50?"
+    },
+    {
+      "id": 3,
+      "text": "I didn't say I'd wait there the whole time, did I?"
+    },
+    {
+      "id": 4,
+      "text": "I'm here to see how things play out."
+    },
+    {
+      "id": 5,
+      "text": "I was curious about what fate would befall this realm."
+    },
+    {
+      "id": 6,
+      "text": "...What's that supposed to mean?"
+    },
+    {
+      "id": 7,
+      "text": "Here's a fun fact."
+    },
+    {
+      "id": 8,
+      "text": "In this \"Luminous Realm\", \"heretics\" like Axihira are starting to grow in numbers."
+    },
+    {
+      "id": 9,
+      "text": "They now make up a large portion of the general population,"
+    },
+    {
+      "id": 10,
+      "text": "enough to pose a threat to the \"believers\"."
+    },
+    {
+      "id": 11,
+      "text": "In fear, the believers' oppression of the heretics escalates,"
+    },
+    {
+      "id": 12,
+      "text": "which in turn results in more people turning against them. It's a textbook vicious cycle."
+    },
+    {
+      "id": 13,
+      "text": "Say, Savior. Don't you think the whole situation is like a microcosm of human society?"
+    },
+    {
+      "id": 14,
+      "text": "This realm's Hollows really are good at imitating human behavior."
+    },
+    {
+      "id": 15,
+      "text": "...Are you really a Hollow?"
+    },
+    {
+      "id": 16,
+      "text": "I've never heard a Hollow think of things the way you do."
+    },
+    {
+      "id": 17,
+      "text": "All Hollows have something human about them."
+    },
+    {
+      "id": 18,
+      "text": "I'm aware of the ways in which I am human. And I'm aware of those in which I'm not."
+    },
+    {
+      "id": 19,
+      "text": "Now, can you say the same?<BR>How human are you?"
+    },
+    {
+      "id": 20,
+      "text": "....."
+    },
+    {
+      "id": 21,
+      "text": "Well, it doesn't matter."
+    },
+    {
+      "id": 22,
+      "text": "I predict that the destruction of this realm is coming, sooner than later."
+    },
+    {
+      "id": 23,
+      "text": "So don't miss it, Savior. Watch closely."
+    },
+    {
+      "id": 24,
+      "text": "Because it's vital to my wishes coming true."
+    },
+    {
+      "id": 25,
+      "text": ">Ixaya disappears from sight."
+    },
+    {
+      "id": 26,
+      "text": "He came, he ran his mouth off, and he left."
+    },
+    {
+      "id": 27,
+      "text": "But I wonder... What will happen from now on?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000266,
+      "effect": "",
+      "param0": "drama_bg_047.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000267,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000268,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000269,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000270,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000271,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000272,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000273,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_005",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000274,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000275,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000276,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000277,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000278,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000279,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000280,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000281,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000282,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000283,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_015",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000284,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_016",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000285,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000286,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000287,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_019",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000288,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_020",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000289,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000290,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000291,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_023",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000292,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_024",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000293,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000294,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000295,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000296,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_025",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000297,
+      "effect": "",
+      "param0": "26",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_016_001_026",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000298,
+      "effect": "",
+      "param0": "27",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000299,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

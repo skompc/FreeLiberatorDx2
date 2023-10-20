@@ -1,0 +1,326 @@
+{
+  "transaction_id": "57-098-18C45A",
+  "server_time": 1697836243907,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Queen",
+      "id": 223
+    },
+    {
+      "name": "Wrathful God",
+      "id": 43001
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "I have found you, o wrathful one."
+    },
+    {
+      "id": 1,
+      "text": "You cannot escape me, not even if you seek refuge in a place such as this."
+    },
+    {
+      "id": 2,
+      "text": "This time, I will destroy you once and for all."
+    },
+    {
+      "id": 3,
+      "text": "You're persistence is truly fearsome, to pursue me to this place and time."
+    },
+    {
+      "id": 4,
+      "text": "But such a feat of magic must surely be beyond a mortal body's capacity."
+    },
+    {
+      "id": 5,
+      "text": "Have you no fear for your own life?"
+    },
+    {
+      "id": 6,
+      "text": "Ha. For my kingdom and my people, years from my life is a small price to pay."
+    },
+    {
+      "id": 7,
+      "text": "Then I will meet your determination. See if you can quell my raging soul!"
+    },
+    {
+      "id": 8,
+      "text": "That is what I intend to do!"
+    },
+    {
+      "id": 9,
+      "text": "I have no idea what's going on, but let's help her out!"
+    },
+    {
+      "id": 10,
+      "text": "Of course!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31657,
+      "effect": "",
+      "param0": "drama_bg_039.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31658,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31659,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31660,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31661,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31662,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "43001",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31663,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "43001",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31664,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "43001",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31665,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31666,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "43001",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31667,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "223",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_009",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31668,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_05_005_qb_010",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 31669,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31670,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31671,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "himika",
+      "id": 223,
+      "name_id": 223
+    },
+    {
+      "img": "mob_gongen",
+      "id": 43001,
+      "name_id": 43001
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    }
+  ]
+}

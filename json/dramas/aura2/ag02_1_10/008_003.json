@@ -1,0 +1,434 @@
+{
+  "transaction_id": "10-014-1A7018",
+  "server_time": 1697837816407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Xana",
+      "id": 610
+    },
+    {
+      "name": "Ixaya",
+      "id": 600
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "You humans are strong"
+    },
+    {
+      "id": 1,
+      "text": "That was a bloodbath. So THAT'S what they call \"no mercy\"."
+    },
+    {
+      "id": 2,
+      "text": "We didn't go that far."
+    },
+    {
+      "id": 3,
+      "text": "It was nothing."
+    },
+    {
+      "id": 4,
+      "text": "You didn't? Well I guess I exaggerated a bit."
+    },
+    {
+      "id": 5,
+      "text": "And so modest too."
+    },
+    {
+      "id": 6,
+      "text": "What are you doing here, Xana?"
+    },
+    {
+      "id": 7,
+      "text": "As you can see, the Harmonious Realm is dying."
+    },
+    {
+      "id": 8,
+      "text": "You should probably take cover somewhere."
+    },
+    {
+      "id": 9,
+      "text": "If hiding changes anything, then I will."
+    },
+    {
+      "id": 10,
+      "text": "But if it doesn't, then what's the point?"
+    },
+    {
+      "id": 11,
+      "text": "Well, I guess you're right. But..."
+    },
+    {
+      "id": 12,
+      "text": "If this realm is going to fall, then I want to see it for myself."
+    },
+    {
+      "id": 13,
+      "text": "So I've been wandering around and checking things out."
+    },
+    {
+      "id": 14,
+      "text": "Wandering around..."
+    },
+    {
+      "id": 15,
+      "text": "Yep. Wandering around."
+    },
+    {
+      "id": 16,
+      "text": "Let's compare notes later if we survive."
+    },
+    {
+      "id": 17,
+      "text": "....."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000972,
+      "effect": "",
+      "param0": "drama_bg_046.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000973,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000974,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000975,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000976,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000977,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000978,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_002",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8000979,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_003",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 8000980,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000981,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000982,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000983,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000984,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000985,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000986,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000987,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000988,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000989,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000990,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000991,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_1_10_008_003_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000992,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000993,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    },
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "transaction_id": "02-047-190FDA",
+  "server_time": 1697835387708,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Man in a black suit",
+      "id": 2300
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Rika, come on!<BR>They'll take care of her!"
+    },
+    {
+      "id": 1,
+      "text": "Roger!"
+    },
+    {
+      "id": 2,
+      "text": "Homunculi couldn't stop you, huh?<BR>Then we'll do it ourselves."
+    },
+    {
+      "id": 3,
+      "text": "You're Acolyte Downloaders,<BR>right?"
+    },
+    {
+      "id": 4,
+      "text": "Indeed we are."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3409,
+      "effect": "",
+      "param0": "drama_bg_020.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3410,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_010_qb_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 3411,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_010_qb_001",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3412,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_010_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3413,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2300",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_010_qb_003",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3414,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_010_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3415,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2300",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3416,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3417,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "mob_man_blacksuit",
+      "id": 2300,
+      "name_id": 2300
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "transaction_id": "62-050-1953E0",
+  "server_time": 1697837847007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "???",
+      "id": 631
+    },
+    {
+      "name": "Angel",
+      "id": 11301
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Servant of the devil who would mislead us,"
+    },
+    {
+      "id": 1,
+      "text": "I believe not in your \"God\"!"
+    },
+    {
+      "id": 2,
+      "text": "Hear me, foolish Hollow."
+    },
+    {
+      "id": 3,
+      "text": "Heretic who would desecrate God's name. "
+    },
+    {
+      "id": 4,
+      "text": "Know this. Without faith in God you will never know true peace of mind!"
+    },
+    {
+      "id": 5,
+      "text": "W-Whoa. Things just got intense real quick."
+    },
+    {
+      "id": 6,
+      "text": "Wonder what's going on here."
+    },
+    {
+      "id": 7,
+      "text": "Oh, I see you are a human!"
+    },
+    {
+      "id": 8,
+      "text": "Please help me defeat this so-called \"Angel\"!"
+    },
+    {
+      "id": 9,
+      "text": "No way. What's in it for us?"
+    },
+    {
+      "id": 10,
+      "text": "Let's help."
+    },
+    {
+      "id": 11,
+      "text": "We have nothing to gain from this."
+    },
+    {
+      "id": 12,
+      "text": "Oh, so you agree to help!"
+    },
+    {
+      "id": 13,
+      "text": "Right? Totally normal reaction."
+    },
+    {
+      "id": 14,
+      "text": "Well then, do you submit to the Will of God?"
+    },
+    {
+      "id": 15,
+      "text": "\"God\"? I don't get it.<BR>What's \"God\"?"
+    },
+    {
+      "id": 16,
+      "text": "Infidels!<BR>You are no different from this heretic!"
+    },
+    {
+      "id": 17,
+      "text": "Very well. The power of God shall show you the error of your ways!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000036,
+      "effect": "",
+      "param0": "drama_bg_047.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000037,
+      "effect": "",
+      "param0": "bgm_btl_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000038,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "631",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000039,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "631",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000040,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "11301",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000041,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "11301",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000042,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "11301",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000043,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000044,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000045,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000046,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "631",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000047,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "631",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_009",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000048,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000049,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000050,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000051,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_010",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 8000052,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "631",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_011",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 8000053,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_012",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 8000054,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11301",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_013",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 8000055,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_014",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 8000056,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "11301",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000057,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_011_002_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000058,
+      "effect": "",
+      "param0": "17",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "11301",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_ashihira",
+      "id": 631,
+      "name_id": 631
+    },
+    {
+      "img": "mob_angel",
+      "id": 11301,
+      "name_id": 11301
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

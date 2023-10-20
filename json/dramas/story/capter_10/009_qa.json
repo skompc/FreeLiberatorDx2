@@ -1,0 +1,309 @@
+{
+  "transaction_id": "71-065-1A0E45",
+  "server_time": 1697836639607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Guard",
+      "id": 42002
+    },
+    {
+      "name": "Honey",
+      "id": 670
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Lindsay",
+      "id": 680
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "*Groan*"
+    },
+    {
+      "id": 1,
+      "text": "Hey, not bad at all, Liberators. You got some skills."
+    },
+    {
+      "id": 2,
+      "text": "Even though you DID lose to me the last time we fought."
+    },
+    {
+      "id": 3,
+      "text": "Ouch..."
+    },
+    {
+      "id": 4,
+      "text": "Oh bother, what a disappointment these troops are..."
+    },
+    {
+      "id": 5,
+      "text": "A lack of training? ...No, a lack of conviction."
+    },
+    {
+      "id": 6,
+      "text": "You're the only one left, Lindsay."
+    },
+    {
+      "id": 7,
+      "text": "So it would seem. But I am more than enough."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9695,
+      "effect": "",
+      "param0": "drama_bg_087.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9696,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9697,
+      "effect": "",
+      "param0": "0",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "42002",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9698,
+      "effect": "",
+      "param0": "center",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9699,
+      "effect": "",
+      "param0": "down",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9700,
+      "effect": "",
+      "param0": "200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9701,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9702,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9703,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "670",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 9704,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9705,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9706,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9707,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_009_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9708,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "680",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_harmony_soldier",
+      "id": 42002,
+      "name_id": 42002
+    },
+    {
+      "img": "honeysweet",
+      "id": 670,
+      "name_id": 670
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "linse",
+      "id": 680,
+      "name_id": 680
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

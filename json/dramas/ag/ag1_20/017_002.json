@@ -1,0 +1,190 @@
+{
+  "transaction_id": "70-06D-19E074",
+  "server_time": 1697837561007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Girl",
+      "id": 1500
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">The girl stands in front of the boss."
+    },
+    {
+      "id": 1,
+      "text": "Watch out!<BR>Get away from there!"
+    },
+    {
+      "id": 2,
+      "text": "But if it kills me, I can die,<BR>right? Then I'm fine."
+    },
+    {
+      "id": 3,
+      "text": "My boyfriend dumped me,<BR>and work is so boring."
+    },
+    {
+      "id": 4,
+      "text": "If I die, I don't have to<BR>worry about all that."
+    },
+    {
+      "id": 5,
+      "text": "Oh, come on! Well, let's take<BR>care of this boss at least!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000321,
+      "effect": "",
+      "param0": "drama_bg_030.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000322,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000323,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_017_002_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000324,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_017_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000325,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_017_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000326,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_017_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000327,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_017_002_004",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000328,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "mob_girl",
+      "id": 1500,
+      "name_id": 1500
+    }
+  ]
+}

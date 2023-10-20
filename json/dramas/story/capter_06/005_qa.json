@@ -1,0 +1,226 @@
+{
+  "transaction_id": "96-061-194BDD",
+  "server_time": 1697835613007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Kazufumi",
+      "id": 230
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "I'm trying to run a business. <BR>All proceeds fund my research"
+    },
+    {
+      "id": 1,
+      "text": "into historical and folklore studies."
+    },
+    {
+      "id": 2,
+      "text": "So even if we're in a tight spot, I can't give away freebies."
+    },
+    {
+      "id": 3,
+      "text": "...so you wouldn't help out, even when my back was to the wall."
+    },
+    {
+      "id": 4,
+      "text": "If I'd lost... you've really got your priorities backwards."
+    },
+    {
+      "id": 5,
+      "text": "An astute observation, Young Master."
+    },
+    {
+      "id": 6,
+      "text": "...No, that's..."
+    },
+    {
+      "id": 7,
+      "text": "Well then, would you like some tea? It's on the house."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4925,
+      "effect": "",
+      "param0": "shop_bg.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 4926,
+      "effect": "",
+      "param0": "bgm_shop",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4927,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4928,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4929,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4930,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4931,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_005",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 4932,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_006",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 4933,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_06_005_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 4934,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "230",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "fukumoto",
+      "id": 230,
+      "name_id": 230
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "transaction_id": "11-0A6-186ED1",
+  "server_time": 1697835362607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "That's them taken care of.<BR>After Hayate!"
+    },
+    {
+      "id": 1,
+      "text": "He must be an Acolyte, right?"
+    },
+    {
+      "id": 2,
+      "text": "Hard to say.<BR>The dude was cool as ice."
+    },
+    {
+      "id": 3,
+      "text": "Regular people have used<BR>Homunculi in the past."
+    },
+    {
+      "id": 4,
+      "text": "So he's not an Acolyte,<BR>but he has ties to them?"
+    },
+    {
+      "id": 5,
+      "text": "We gotta interrogate him.<BR>Like, why'd he want the newbie?!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3289,
+      "effect": "",
+      "param0": "drama_bg_020.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3290,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_007_qa_000",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 3291,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_007_qa_001",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3292,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_007_qa_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 3293,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_007_qa_003",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 3294,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_007_qa_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 3295,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_007_qa_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 3296,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "transaction_id": "05-086-19B219",
+  "server_time": 1697836168808,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Himika",
+      "id": 220
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Arisa",
+      "id": 240
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Aight, got what we needed."
+    },
+    {
+      "id": 1,
+      "text": "Great job as always. That was very neatly done."
+    },
+    {
+      "id": 2,
+      "text": "Massacring all those poor crows and chopping off their beaks..."
+    },
+    {
+      "id": 3,
+      "text": "Nonono, all we did was scrape some of it off!"
+    },
+    {
+      "id": 4,
+      "text": "Stop giving us a bad rep!"
+    },
+    {
+      "id": 5,
+      "text": "*Chuckle* Oh, was I?"
+    },
+    {
+      "id": 6,
+      "text": "Now what? We got all the materials. What do we do with them?"
+    },
+    {
+      "id": 7,
+      "text": "We'll start the ritual right away. Meet me at the Summoning Portal."
+    },
+    {
+      "id": 8,
+      "text": "Aight, let's get back to the hideout."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31203,
+      "effect": "",
+      "param0": "drama_bg_039.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 31204,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31205,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31206,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31207,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31208,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31209,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_005",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31210,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "220",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31211,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 31212,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "story_inter_04_004_qa_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 31213,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "himika",
+      "id": 220,
+      "name_id": 220
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "arisa",
+      "id": 240,
+      "name_id": 240
+    }
+  ]
+}

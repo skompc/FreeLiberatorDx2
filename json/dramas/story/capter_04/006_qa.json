@@ -1,0 +1,469 @@
+{
+  "transaction_id": "88-052-185FBA",
+  "server_time": 1697835352607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "I think we can assume<BR>all the guards are Homunculi."
+    },
+    {
+      "id": 1,
+      "text": "But what conditions<BR>would shut down betting?"
+    },
+    {
+      "id": 2,
+      "text": "There are two."
+    },
+    {
+      "id": 3,
+      "text": "One, winning all your bets."
+    },
+    {
+      "id": 4,
+      "text": "Two, having enough funds<BR>to gain big in just a few wins."
+    },
+    {
+      "id": 5,
+      "text": "Why in just a few wins?"
+    },
+    {
+      "id": 6,
+      "text": "Betting will be stopped midway."
+    },
+    {
+      "id": 7,
+      "text": "That's how these places work."
+    },
+    {
+      "id": 8,
+      "text": "But this isn't a situation<BR>where we can beat the bookie."
+    },
+    {
+      "id": 9,
+      "text": "Doesn't the bookie<BR>always win?"
+    },
+    {
+      "id": 10,
+      "text": "Correct. Generally the bookie<BR>get a 10% cut of the money."
+    },
+    {
+      "id": 11,
+      "text": "Or so it usually goes.<BR>But this place is different."
+    },
+    {
+      "id": 12,
+      "text": "Apparently there was a fighter"
+    },
+    {
+      "id": 13,
+      "text": "so strong, betting didn't work."
+    },
+    {
+      "id": 14,
+      "text": "That fighter was a<BR>young Hayate."
+    },
+    {
+      "id": 15,
+      "text": "On top of being the sponsor,<BR>Hayate promises one thing:"
+    },
+    {
+      "id": 16,
+      "text": "No matter the odds, he'll pay<BR>at least 10% of the wager."
+    },
+    {
+      "id": 17,
+      "text": "That's still valid now."
+    },
+    {
+      "id": 18,
+      "text": "...I see."
+    },
+    {
+      "id": 19,
+      "text": "Um...<BR>I still don't get it."
+    },
+    {
+      "id": 20,
+      "text": "Let's see how it goes."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3164,
+      "effect": "",
+      "param0": "drama_bg_020.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3165,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_000",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3166,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3167,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3168,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_003",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3169,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_004",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3170,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3171,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3172,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3173,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3174,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3175,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3176,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_011",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3177,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_012",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3178,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_013",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3179,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_014",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3180,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_015",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3181,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_016",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3182,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_017",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3183,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3184,
+      "effect": "",
+      "param0": "18",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 3185,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_006_qa_020",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 3186,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    }
+  ]
+}

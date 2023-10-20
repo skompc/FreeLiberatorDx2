@@ -1,0 +1,208 @@
+{
+  "transaction_id": "19-039-18B935",
+  "server_time": 1697834982007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Akiba girl",
+      "id": 400
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Wow..."
+    },
+    {
+      "id": 1,
+      "text": "Is this really happening?"
+    },
+    {
+      "id": 2,
+      "text": "This is the world of the Downloaders."
+    },
+    {
+      "id": 3,
+      "text": "That can't be real..."
+    },
+    {
+      "id": 4,
+      "text": "But it is real, and I'm going to need you to believe it."
+    },
+    {
+      "id": 5,
+      "text": "Our newbie here accepted<BR>it without much fuss."
+    },
+    {
+      "id": 6,
+      "text": "O-Okay, I'll try to do the same!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 260,
+      "effect": "",
+      "param0": "drama_bg_001.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 261,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 262,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "400",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 263,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "400",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 264,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 265,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "400",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 266,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 267,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_01_006_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 268,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "400",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_girl_akiba",
+      "id": 400,
+      "name_id": 400
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    }
+  ]
+}

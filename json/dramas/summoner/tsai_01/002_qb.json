@@ -1,0 +1,720 @@
+{
+  "transaction_id": "56-079-19F389",
+  "server_time": 1697838898107,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Vagit",
+      "id": 210
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Where do you think it went?"
+    },
+    {
+      "id": 1,
+      "text": "I not sure... But I feel it, very close."
+    },
+    {
+      "id": 2,
+      "text": "Are you using your psychic abilities again?"
+    },
+    {
+      "id": 3,
+      "text": "Yes, my powers allow me connect, sense demons."
+    },
+    {
+      "id": 4,
+      "text": "What is wrong? You no feel well?"
+    },
+    {
+      "id": 5,
+      "text": "You're a psychic?!"
+    },
+    {
+      "id": 6,
+      "text": "Liar..."
+    },
+    {
+      "id": 7,
+      "text": "Haha, You no believe me?"
+    },
+    {
+      "id": 8,
+      "text": "But it is truth."
+    },
+    {
+      "id": 9,
+      "text": "I was originally in Russian military."
+    },
+    {
+      "id": 10,
+      "text": "ESP Research Unit, where did top secret psychic experiments."
+    },
+    {
+      "id": 11,
+      "text": "There I became experiment. Trying to give me psychic ability."
+    },
+    {
+      "id": 12,
+      "text": "We succeeded... I can now connect, sense demons. I cannot explain well."
+    },
+    {
+      "id": 13,
+      "text": "But this allow me to do things. Fusion is one of them."
+    },
+    {
+      "id": 14,
+      "text": "Device in the Church of False Gods was made based on that research. "
+    },
+    {
+      "id": 15,
+      "text": "...But the experiments did take a toll on you, didn't they?"
+    },
+    {
+      "id": 16,
+      "text": "...Yes... the experiments, were... difficult."
+    },
+    {
+      "id": 17,
+      "text": "I was lucky to keep sanity."
+    },
+    {
+      "id": 18,
+      "text": "I remember, that trip to Taiwan..."
+    },
+    {
+      "id": 19,
+      "text": "You said that trip was to help recover from the trauma of the experiments, right?"
+    },
+    {
+      "id": 20,
+      "text": "You remember well."
+    },
+    {
+      "id": 21,
+      "text": "That drawing you did for me... you helped me find peace."
+    },
+    {
+      "id": 22,
+      "text": "Jeng is very good artist, you know? "
+    },
+    {
+      "id": 23,
+      "text": "What I really enjoy doing is drawing manga, but I like drawing other things from time to time. "
+    },
+    {
+      "id": 24,
+      "text": "You have a good profile, Vagit ."
+    },
+    {
+      "id": 25,
+      "text": "So I felt inspired to draw you, and I'm glad you liked..."
+    },
+    {
+      "id": 26,
+      "text": "Shhh... Be quiet..."
+    },
+    {
+      "id": 27,
+      "text": "Is he close?"
+    },
+    {
+      "id": 28,
+      "text": "Yes, He is close!"
+    },
+    {
+      "id": 29,
+      "text": "Let's get him this time!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004033,
+      "effect": "",
+      "param0": "drama_bg_038.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004034,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_000",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004035,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004036,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004037,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004038,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004039,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004040,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004041,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "-1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004042,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004043,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004044,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004045,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004046,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004047,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004048,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004049,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004050,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004051,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004052,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_013",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004053,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004054,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004055,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004056,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004057,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004058,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004059,
+      "effect": "",
+      "param0": "21",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004060,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004061,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004062,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004063,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004064,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004065,
+      "effect": "",
+      "param0": "26",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004066,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_025",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004067,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_026",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004068,
+      "effect": "",
+      "param0": "28",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_tsai_01_002_qb_027",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004069,
+      "effect": "",
+      "param0": "29",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004070,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2004071,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "vagit",
+      "id": 210,
+      "name_id": 210
+    }
+  ]
+}

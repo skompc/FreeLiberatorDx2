@@ -1,0 +1,381 @@
+{
+  "transaction_id": "89-055-188ED7",
+  "server_time": 1697837706207,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Woman",
+      "id": 1102
+    },
+    {
+      "name": "Man",
+      "id": 1003
+    },
+    {
+      "name": "Boy",
+      "id": 1400
+    },
+    {
+      "name": "Girl",
+      "id": 1500
+    },
+    {
+      "name": "Seiran",
+      "id": 250
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">The people go deeper inside."
+    },
+    {
+      "id": 1,
+      "text": "Any wish will be granted?"
+    },
+    {
+      "id": 2,
+      "text": "That would make me really happy."
+    },
+    {
+      "id": 3,
+      "text": "To the Promised Land..."
+    },
+    {
+      "id": 4,
+      "text": "To the Promised Land..."
+    },
+    {
+      "id": 5,
+      "text": "That's a lot of people..."
+    },
+    {
+      "id": 6,
+      "text": "I hope you're ready,[sys user_name]."
+    },
+    {
+      "id": 7,
+      "text": "This is floor 50. The deepest<BR>part of the Aura Gate."
+    },
+    {
+      "id": 8,
+      "text": "The place the demonized captain<BR>is luring people to."
+    },
+    {
+      "id": 9,
+      "text": "The supposed door to the<BR>Promised Land lies just ahead."
+    },
+    {
+      "id": 10,
+      "text": "Who will save those lost souls<BR>in the end? The captain?"
+    },
+    {
+      "id": 11,
+      "text": "Or maybe... you?"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001030,
+      "effect": "",
+      "param0": "drama_bg_033.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001031,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001032,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001033,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001034,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1102",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001035,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1003",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001036,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1400",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001037,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001038,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001039,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_004",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001040,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001041,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_005",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001042,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_006",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001043,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001044,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_008",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001045,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001046,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag41_50_050_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5001047,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_woman",
+      "id": 1102,
+      "name_id": 1102
+    },
+    {
+      "img": "mob_man",
+      "id": 1003,
+      "name_id": 1003
+    },
+    {
+      "img": "mob_boy",
+      "id": 1400,
+      "name_id": 1400
+    },
+    {
+      "img": "mob_girl",
+      "id": 1500,
+      "name_id": 1500
+    },
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    }
+  ]
+}

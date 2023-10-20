@@ -1,0 +1,688 @@
+{
+  "transaction_id": "-7-05F-19015F",
+  "server_time": 1697837661208,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Slime",
+      "id": 2800
+    },
+    {
+      "name": "Seiran",
+      "id": 250
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "...You're here."
+    },
+    {
+      "id": 1,
+      "text": "Seno, this wish of yours...<BR>Was it--"
+    },
+    {
+      "id": 2,
+      "text": "World peace?"
+    },
+    {
+      "id": 3,
+      "text": "Nothing?"
+    },
+    {
+      "id": 4,
+      "text": "You sure have high expectations<BR>for a blob of slime..."
+    },
+    {
+      "id": 5,
+      "text": "Yes, that's right."
+    },
+    {
+      "id": 6,
+      "text": "You had no wish. Nothing.<BR>No desires."
+    },
+    {
+      "id": 7,
+      "text": "That's why you turned into<BR>something so ambiguous. Right?"
+    },
+    {
+      "id": 8,
+      "text": "Yes... You're right."
+    },
+    {
+      "id": 9,
+      "text": "Everything's so dull.<BR>Even living is so dull."
+    },
+    {
+      "id": 10,
+      "text": "Thinking is dull.<BR>Breathing is dull."
+    },
+    {
+      "id": 11,
+      "text": "I've had enough of wishing for<BR>something and then failing."
+    },
+    {
+      "id": 12,
+      "text": "That's why I was the only one<BR>among the group to"
+    },
+    {
+      "id": 13,
+      "text": "not wish for anything."
+    },
+    {
+      "id": 14,
+      "text": "Ended up becoming this bouncy<BR>blob, though."
+    },
+    {
+      "id": 15,
+      "text": "...It's so tedious even being a<BR>slime, you know."
+    },
+    {
+      "id": 16,
+      "text": "Won't you relieve me from this?"
+    },
+    {
+      "id": 17,
+      "text": "Sure."
+    },
+    {
+      "id": 18,
+      "text": "Don't give up."
+    },
+    {
+      "id": 19,
+      "text": "W-Wait!"
+    },
+    {
+      "id": 20,
+      "text": "There must be a way to return<BR>you to normal!"
+    },
+    {
+      "id": 21,
+      "text": "You just don't get it..."
+    },
+    {
+      "id": 22,
+      "text": "It's not about returning me to<BR>my former self, or whatever."
+    },
+    {
+      "id": 23,
+      "text": "I became like this because I<BR>\"wished\" for no wishing."
+    },
+    {
+      "id": 24,
+      "text": "I don't want to return to my<BR>former self."
+    },
+    {
+      "id": 25,
+      "text": "Never mind... Anyway, let me<BR>make this easier for you."
+    },
+    {
+      "id": 26,
+      "text": "I find fighting dull, but it's<BR>the best way to do this."
+    },
+    {
+      "id": 27,
+      "text": "Slimes are destined to be<BR>defeated, after all..."
+    },
+    {
+      "id": 28,
+      "text": "Now, come at me with all your<BR>strength if you wanna live...!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000806,
+      "effect": "",
+      "param0": "drama_bg_032.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000807,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000808,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000809,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000810,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000811,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000812,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_002",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 5000813,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_003",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 5000814,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000815,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000816,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000817,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000818,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000819,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000820,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000821,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000822,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000823,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000824,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000825,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000826,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "210",
+      "param2": "-1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000827,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "220",
+      "param2": "0"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000828,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "2",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_015",
+      "face": "face_03",
+      "select": 210,
+      "flag": "",
+      "uniq": 5000829,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000830,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000831,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000832,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000833,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000834,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_019",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000835,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000836,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_021",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000837,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000838,
+      "effect": "",
+      "param0": "26",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000839,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000840,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000841,
+      "effect": "",
+      "param0": "bgm_btl_boss",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag21_40_040_002_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000842,
+      "effect": "",
+      "param0": "28",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "2800",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_slime",
+      "id": 2800,
+      "name_id": 2800
+    },
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    }
+  ]
+}

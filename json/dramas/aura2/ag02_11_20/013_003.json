@@ -1,0 +1,258 @@
+{
+  "transaction_id": "72-0BB-1A1756",
+  "server_time": 1697837881507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Axihira",
+      "id": 630
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "It appears that I am once again in your debt."
+    },
+    {
+      "id": 1,
+      "text": "Yes. This human is pretty decent in a fight.<BR>But now that you're here, Axihira,"
+    },
+    {
+      "id": 2,
+      "text": "there are a lot of things we would like to ask you."
+    },
+    {
+      "id": 3,
+      "text": "Very well. Go ahead."
+    },
+    {
+      "id": 4,
+      "text": "You deserve to know about the evil faith that consumes this realm."
+    },
+    {
+      "id": 5,
+      "text": "This pile of bodies is the true nature of the Luminous Realm."
+    },
+    {
+      "id": 6,
+      "text": "But before we go any further, let's go someplace else to talk."
+    },
+    {
+      "id": 7,
+      "text": "I don't have the stomach to sit and talk in front of the dead for any longer than I have to."
+    },
+    {
+      "id": 8,
+      "text": "I agree. Let's go then."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000152,
+      "effect": "",
+      "param0": "drama_bg_047.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000153,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000154,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000155,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000156,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000157,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000158,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000159,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000160,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000161,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "630",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_11_20_013_003_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000162,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8000163,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_ashihira",
+      "id": 630,
+      "name_id": 630
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

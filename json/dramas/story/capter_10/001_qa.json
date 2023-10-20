@@ -1,0 +1,736 @@
+{
+  "transaction_id": "08-06D-1930EB",
+  "server_time": 1697836559507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Alternate Hero",
+      "id": 652
+    },
+    {
+      "name": "Vince",
+      "id": 660
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Alternate Hero",
+      "id": 642
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "I see everyone's still got their touch."
+    },
+    {
+      "id": 1,
+      "text": "You can't beat experience. But why don't you join in the fight?"
+    },
+    {
+      "id": 2,
+      "text": "With you guys around, I don't need to."
+    },
+    {
+      "id": 3,
+      "text": "So you'll remain a guest character, is that it?"
+    },
+    {
+      "id": 4,
+      "text": "You call yourself a hero, but you let others do all the work."
+    },
+    {
+      "id": 5,
+      "text": "That's because I'm not the true hero. I'm just a failed specimen."
+    },
+    {
+      "id": 6,
+      "text": "Then who's the true hero?"
+    },
+    {
+      "id": 7,
+      "text": "I don't know. It hasn't been decided yet."
+    },
+    {
+      "id": 8,
+      "text": "Even though I wish I were able to say that you guys are the true heroes."
+    },
+    {
+      "id": 9,
+      "text": "You guys..."
+    },
+    {
+      "id": 10,
+      "text": "You're a Liberator, but you said \"you guys\" instead of \"we\"."
+    },
+    {
+      "id": 11,
+      "text": "......<BR>The Liberators don't exist any more, right?"
+    },
+    {
+      "id": 12,
+      "text": "......"
+    },
+    {
+      "id": 13,
+      "text": "Aight guys, chat's over. More enemies incoming'."
+    },
+    {
+      "id": 14,
+      "text": "Oh, right."
+    },
+    {
+      "id": 15,
+      "text": "I was having so much fun talking to you all that I forget myself."
+    },
+    {
+      "id": 16,
+      "text": "I see everyone's still got their touch."
+    },
+    {
+      "id": 17,
+      "text": "You can't beat experience. But why don't you join in the fight?"
+    },
+    {
+      "id": 18,
+      "text": "With you guys around, I don't need to."
+    },
+    {
+      "id": 19,
+      "text": "So you'll remain a guest character, is that it?"
+    },
+    {
+      "id": 20,
+      "text": "You call yourself a hero, but you let others do all the work."
+    },
+    {
+      "id": 21,
+      "text": "That's because I'm not the true hero. I'm just a failed specimen."
+    },
+    {
+      "id": 22,
+      "text": "Then who's the true hero?"
+    },
+    {
+      "id": 23,
+      "text": "I don't know. It hasn't been decided yet."
+    },
+    {
+      "id": 24,
+      "text": "Even though I wish I were able to say that you guys are the true heroes."
+    },
+    {
+      "id": 25,
+      "text": "You guys..."
+    },
+    {
+      "id": 26,
+      "text": "You're a Liberator, but you said \"you guys\" instead of \"we\"."
+    },
+    {
+      "id": 27,
+      "text": "......<BR>The Liberators don't exist any more, right?"
+    },
+    {
+      "id": 28,
+      "text": "......"
+    },
+    {
+      "id": 29,
+      "text": "Aight guys, chat's over. More enemies incoming'."
+    },
+    {
+      "id": 30,
+      "text": "Oh, right."
+    },
+    {
+      "id": 31,
+      "text": "I was having so much fun talking to you all that I forget myself."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9089,
+      "effect": "",
+      "param0": "drama_bg_086.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9090,
+      "effect": "",
+      "param0": "bgm_map",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9091,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_000",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9092,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_001",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9093,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_002",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9094,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_003",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9095,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_004",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9096,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_005",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9097,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_006",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9098,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_007",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9099,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_008",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9100,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_009",
+      "face": "face_02",
+      "select": 1,
+      "flag": "",
+      "uniq": 9101,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_010",
+      "face": "face_02",
+      "select": 1,
+      "flag": "",
+      "uniq": 9102,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_011",
+      "face": "face_02",
+      "select": 1,
+      "flag": "",
+      "uniq": 9103,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_012",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9104,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 1,
+      "flag": "",
+      "uniq": 9105,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_013",
+      "face": "face_03",
+      "select": 1,
+      "flag": "",
+      "uniq": 9106,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_014",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9107,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_015",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9108,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_016",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9109,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_001",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9110,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_017",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9111,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_003",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9112,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_004",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9113,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "660",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_018",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9114,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_006",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9115,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_019",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9116,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_020",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9117,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_009",
+      "face": "face_02",
+      "select": 2,
+      "flag": "",
+      "uniq": 9118,
+      "effect": "",
+      "param0": "25",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_010",
+      "face": "face_02",
+      "select": 2,
+      "flag": "",
+      "uniq": 9119,
+      "effect": "",
+      "param0": "26",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_021",
+      "face": "face_02",
+      "select": 2,
+      "flag": "",
+      "uniq": 9120,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_012",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9121,
+      "effect": "",
+      "param0": "28",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 2,
+      "flag": "",
+      "uniq": 9122,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_013",
+      "face": "face_03",
+      "select": 2,
+      "flag": "",
+      "uniq": 9123,
+      "effect": "",
+      "param0": "29",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_022",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9124,
+      "effect": "",
+      "param0": "30",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_001_qa_023",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9125,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "female_another",
+      "id": 652,
+      "name_id": 652
+    },
+    {
+      "img": "vince",
+      "id": 660,
+      "name_id": 660
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "male_another",
+      "id": 642,
+      "name_id": 642
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "transaction_id": "15-07A-19F895",
+  "server_time": 1697838177208,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Ixaya",
+      "id": 600
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">From out of nowhere, you hear Ixaya's voice."
+    },
+    {
+      "id": 1,
+      "text": "The Dragon Stream... Where the circulation of souls take place..."
+    },
+    {
+      "id": 2,
+      "text": "Souls are the substance of life. They are spiritual data."
+    },
+    {
+      "id": 3,
+      "text": "But data gets lost, so eventually a soul will become fragmented."
+    },
+    {
+      "id": 4,
+      "text": "That's why there are countless fragmented souls flowing within the Dragon Stream."
+    },
+    {
+      "id": 5,
+      "text": "One day, one of these soul fragments had a wish."
+    },
+    {
+      "id": 6,
+      "text": "It wished to become human..."
+    },
+    {
+      "id": 7,
+      "text": "And that was a long long time ago."
+    },
+    {
+      "id": 8,
+      "text": "So that was you Ixaya?"
+    },
+    {
+      "id": 9,
+      "text": "Yes. <BR>Come now, become one with me."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002305,
+      "effect": "",
+      "param0": "drama_bg_051.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002306,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002307,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002308,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002309,
+      "effect": "talking",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002310,
+      "effect": "talking",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002311,
+      "effect": "talking",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002312,
+      "effect": "talking",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002313,
+      "effect": "talking",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002314,
+      "effect": "talking",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002315,
+      "effect": "talking",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_007",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002316,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_41_50_042_002_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8002317,
+      "effect": "talking",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "600",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "ixaya",
+      "id": 600,
+      "name_id": 600
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

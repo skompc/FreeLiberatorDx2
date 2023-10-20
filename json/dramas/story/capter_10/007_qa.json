@@ -1,0 +1,208 @@
+{
+  "transaction_id": "02-047-194742",
+  "server_time": 1697836619607,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Jeng Yun",
+      "id": 150
+    },
+    {
+      "name": "Gakuto",
+      "id": 170
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "We managed to drive them back, but what should we do now?"
+    },
+    {
+      "id": 1,
+      "text": "Split up and search the compound?"
+    },
+    {
+      "id": 2,
+      "text": "No. We're in enemy territory. We should stay together."
+    },
+    {
+      "id": 3,
+      "text": "We should be able to find the exit if we go in the direction where the soldiers came from."
+    },
+    {
+      "id": 4,
+      "text": "Let's head that way."
+    },
+    {
+      "id": 5,
+      "text": "Yeah, it's too dangerous to stay in one place. Let's keep moving."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9517,
+      "effect": "",
+      "param0": "drama_bg_088.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9518,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_007_qa_000",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 9519,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_007_qa_001",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 9520,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "150",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_007_qa_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 9521,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "170",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_007_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9522,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_007_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9523,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_007_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9524,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "tsai",
+      "id": 150,
+      "name_id": 150
+    },
+    {
+      "img": "gakuto",
+      "id": 170,
+      "name_id": 170
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    }
+  ]
+}

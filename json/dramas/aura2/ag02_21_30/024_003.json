@@ -1,0 +1,336 @@
+{
+  "transaction_id": "62-050-195AD6",
+  "server_time": 1697838001707,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Punk Hollow A",
+      "id": 13000
+    },
+    {
+      "name": "Punk Hollow B",
+      "id": 14000
+    },
+    {
+      "name": "Punk Hollow C",
+      "id": 15000
+    },
+    {
+      "name": "Xana",
+      "id": 610
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Splendid work, human!"
+    },
+    {
+      "id": 1,
+      "text": "You are helping us with our struggle for freedom I see!"
+    },
+    {
+      "id": 2,
+      "text": "Thus sound the battle drums of freedom!"
+    },
+    {
+      "id": 3,
+      "text": "Wait, we're not really on your side......"
+    },
+    {
+      "id": 4,
+      "text": "And is it just me or did you guys change the way you talk?"
+    },
+    {
+      "id": 5,
+      "text": "That monstrous tyrant Mara is presumably waiting for us on the 30th floor."
+    },
+    {
+      "id": 6,
+      "text": "We shall go forth and vanquish him on that floor!"
+    },
+    {
+      "id": 7,
+      "text": "Gather all! Under freedom's flag!<BR>Vroomvroomvroom!"
+    },
+    {
+      "id": 8,
+      "text": ">The punks run off."
+    },
+    {
+      "id": 9,
+      "text": "I don't know about this......"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001330,
+      "effect": "",
+      "param0": "drama_bg_048.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001331,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001332,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001333,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001334,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "15000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_003",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001335,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_004",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001336,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001337,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "13000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001338,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "14000",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001339,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "15000",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001340,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001341,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001342,
+      "effect": "",
+      "param0": "step_run",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001343,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag02_21_30_024_003_008",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001344,
+      "effect": "",
+      "param0": "9",
+      "place": 2,
+      "param3": "",
+      "command": 2,
+      "param1": "610",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 8001345,
+      "effect": "",
+      "param0": "bgm_gd2",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_mohawk_uturo",
+      "id": 13000,
+      "name_id": 13000
+    },
+    {
+      "img": "mob_mohawk_uturo2",
+      "id": 14000,
+      "name_id": 14000
+    },
+    {
+      "img": "mob_mohawk_uturo3",
+      "id": 15000,
+      "name_id": 15000
+    },
+    {
+      "img": "xana",
+      "id": 610,
+      "name_id": 610
+    }
+  ]
+}

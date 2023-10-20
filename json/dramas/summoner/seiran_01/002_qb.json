@@ -1,0 +1,987 @@
+{
+  "transaction_id": "62-050-198AF3",
+  "server_time": 1697839018407,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    },
+    {
+      "name": "Shop staff",
+      "id": 1104
+    },
+    {
+      "name": "Suspicious man",
+      "id": 2004
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You arrive at the third date spot."
+    },
+    {
+      "id": 1,
+      "text": "Take a look over there!<BR>There's a florist!"
+    },
+    {
+      "id": 2,
+      "text": "Oh, I just love flowers!<BR>How about you, darling?"
+    },
+    {
+      "id": 3,
+      "text": "Hey, let's go take a look.<BR>Come on now."
+    },
+    {
+      "id": 4,
+      "text": "How old are you again?"
+    },
+    {
+      "id": 5,
+      "text": "......"
+    },
+    {
+      "id": 6,
+      "text": "Asshole! You don't even know my age!"
+    },
+    {
+      "id": 7,
+      "text": "Don't be like that.<BR>Play along."
+    },
+    {
+      "id": 8,
+      "text": "What's the problem? I was just trying to act cute. This is a date, after all."
+    },
+    {
+      "id": 9,
+      "text": "Come on, I can tell you're nervous but can you at least try to act normal, please?"
+    },
+    {
+      "id": 10,
+      "text": "Hahaha, you certainly look like you're having fun, Miss!"
+    },
+    {
+      "id": 11,
+      "text": "On a date with your boyfriend?"
+    },
+    {
+      "id": 12,
+      "text": "On a date with your girlfriend?"
+    },
+    {
+      "id": 13,
+      "text": "That's right. We're really getting into the mood."
+    },
+    {
+      "id": 14,
+      "text": "Hey, that's great!<BR>Yay, you!"
+    },
+    {
+      "id": 15,
+      "text": "Yay, us!"
+    },
+    {
+      "id": 16,
+      "text": ">Seiran and the shop staff hit it off."
+    },
+    {
+      "id": 17,
+      "text": "So what sort of flowers are you looking for then?"
+    },
+    {
+      "id": 18,
+      "text": "Hmm. Maybe I should get something to brighten up the Hideout."
+    },
+    {
+      "id": 19,
+      "text": "Flowers might even improve the Feng shui in that place."
+    },
+    {
+      "id": 20,
+      "text": "...Hideout?"
+    },
+    {
+      "id": 21,
+      "text": "That's right. My partner works at a secret organization."
+    },
+    {
+      "id": 22,
+      "text": "A clandestine group that fuses and fights demons and stuff like that."
+    },
+    {
+      "id": 23,
+      "text": "It really is a bother."
+    },
+    {
+      "id": 24,
+      "text": "Oh my! That's rich, Miss!<BR>You nearly had me going for a moment! Yay, you!"
+    },
+    {
+      "id": 25,
+      "text": "Yay, me!"
+    },
+    {
+      "id": 26,
+      "text": ">Seiran and the shop staff are really getting into it."
+    },
+    {
+      "id": 27,
+      "text": "Okay, they're going to deliver the flowers directly to the Hideout,"
+    },
+    {
+      "id": 28,
+      "text": "so I'll arrange them after I get back."
+    },
+    {
+      "id": 29,
+      "text": "Next up, I guess we should take care of that stalker."
+    },
+    {
+      "id": 30,
+      "text": "You over there! Show yourself!"
+    },
+    {
+      "id": 31,
+      "text": ">Seiran spins around and throws a fan behind her!"
+    },
+    {
+      "id": 32,
+      "text": "*Pfft!*<BR>Seiran Saikawa!"
+    },
+    {
+      "id": 33,
+      "text": "I don't recall giving you permission to say my name."
+    },
+    {
+      "id": 34,
+      "text": "I'll punish any man foolish enough to interfere with my date!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002295,
+      "effect": "",
+      "param0": "drama_bg_007.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002296,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002297,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002298,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002299,
+      "effect": "",
+      "param0": "018",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_000",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002300,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_001",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002301,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_002",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002302,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002303,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002304,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002305,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002306,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_003",
+      "face": "face_03",
+      "select": 110,
+      "flag": "",
+      "uniq": 2002307,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_004",
+      "face": "face_03",
+      "select": 120,
+      "flag": "",
+      "uniq": 2002308,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002309,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002310,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002311,
+      "effect": "",
+      "param0": "018",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002312,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002313,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_008",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 2002314,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_009",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 2002315,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002316,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002317,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_012",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002318,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002319,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002320,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002321,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002322,
+      "effect": "",
+      "param0": "018",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002323,
+      "effect": "",
+      "param0": "17",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002324,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002325,
+      "effect": "",
+      "param0": "19",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002326,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002327,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_018",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002328,
+      "effect": "",
+      "param0": "22",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002329,
+      "effect": "",
+      "param0": "23",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_020",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002330,
+      "effect": "",
+      "param0": "24",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1104",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_021",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002331,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002332,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002333,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002334,
+      "effect": "",
+      "param0": "26",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002335,
+      "effect": "",
+      "param0": "bout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "70",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002336,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002337,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "70",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_022",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002338,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_023",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002339,
+      "effect": "",
+      "param0": "28",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_024",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002340,
+      "effect": "",
+      "param0": "29",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002341,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_025",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002342,
+      "effect": "",
+      "param0": "30",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002343,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002344,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002345,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_026",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002346,
+      "effect": "",
+      "param0": "32",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "2004",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_027",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002347,
+      "effect": "",
+      "param0": "33",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_seiran_01_002_qb_028",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002348,
+      "effect": "",
+      "param0": "34",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002349,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2002350,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    },
+    {
+      "img": "mob_woman",
+      "id": 1104,
+      "name_id": 1104
+    },
+    {
+      "img": "mob_fengshui",
+      "id": 2004,
+      "name_id": 2004
+    }
+  ]
+}

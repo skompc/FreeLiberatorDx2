@@ -1,0 +1,303 @@
+{
+  "transaction_id": "54-074-17BF2C",
+  "server_time": 1697837481107,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Seiran",
+      "id": 250
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Welcome again to the Aura Gate,<BR>[sys user_name]."
+    },
+    {
+      "id": 1,
+      "text": "I'm about to start a proper<BR>investigation into the gate. "
+    },
+    {
+      "id": 2,
+      "text": "But first...<BR>Do you remember your mission?"
+    },
+    {
+      "id": 3,
+      "text": "To search for the research team."
+    },
+    {
+      "id": 4,
+      "text": "To slaughter."
+    },
+    {
+      "id": 5,
+      "text": "Exactly, you got it."
+    },
+    {
+      "id": 6,
+      "text": "Yeah, kill 'em all!<BR>...not. You know better than that."
+    },
+    {
+      "id": 7,
+      "text": "Remember, we're looking for a<BR>research team which lost contact."
+    },
+    {
+      "id": 8,
+      "text": "Unfortunately, we don't know<BR>where the team is now."
+    },
+    {
+      "id": 9,
+      "text": "We'll just have push through, one<BR>step at a time until we find them."
+    },
+    {
+      "id": 10,
+      "text": "You remember what to do, right?<BR>Beat the boss and use the gate."
+    },
+    {
+      "id": 11,
+      "text": "All right, starting search now!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000001,
+      "effect": "",
+      "param0": "drama_bg_017.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000002,
+      "effect": "",
+      "param0": "bgm_gd",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000003,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000004,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000005,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000006,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "110",
+      "param2": "1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000007,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 6,
+      "param1": "120",
+      "param2": "-1"
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000008,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 7,
+      "param1": "1",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_003",
+      "face": "idle",
+      "select": 110,
+      "flag": "",
+      "uniq": 5000009,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_004",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 5000010,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_005",
+      "face": "idle",
+      "select": 120,
+      "flag": "",
+      "uniq": 5000011,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000012,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000013,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000014,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    },
+    {
+      "voice": "ag_ag1_20_002_001_009",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 5000015,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "250",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "saikawa",
+      "id": 250,
+      "name_id": 250
+    }
+  ]
+}

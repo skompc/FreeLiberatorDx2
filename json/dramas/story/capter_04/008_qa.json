@@ -1,0 +1,249 @@
+{
+  "transaction_id": "54-074-176CCC",
+  "server_time": 1697835372608,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Girl",
+      "id": 1500
+    },
+    {
+      "name": "Customer",
+      "id": 1205
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "H-Help... Help me..."
+    },
+    {
+      "id": 1,
+      "text": "A dream come true!<BR>What a blast!"
+    },
+    {
+      "id": 2,
+      "text": "Here goes!"
+    },
+    {
+      "id": 3,
+      "text": "Aaaaaieeeeeeee!<BR>Ahhh!!"
+    },
+    {
+      "id": 4,
+      "text": "Is this what they're selling?!<BR>Th-This is awful!"
+    },
+    {
+      "id": 5,
+      "text": "Is this the goal of<BR>the Acolytes? No..."
+    },
+    {
+      "id": 6,
+      "text": "We need to hurry!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3336,
+      "effect": "",
+      "param0": "drama_bg_020.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3337,
+      "effect": "",
+      "param0": "bgm_drama_danger",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3338,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3339,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1205",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3340,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "1205",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 3341,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "1500",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 3342,
+      "effect": "",
+      "param0": "all",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_004",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3343,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_005",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3344,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_chapter_04_008_qa_006",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 3345,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "mob_girl",
+      "id": 1500,
+      "name_id": 1500
+    },
+    {
+      "img": "mob_man_suit",
+      "id": 1205,
+      "name_id": 1205
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    }
+  ]
+}

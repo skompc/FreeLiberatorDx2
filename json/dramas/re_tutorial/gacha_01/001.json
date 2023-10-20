@@ -1,0 +1,411 @@
+{
+  "transaction_id": "89-055-19C6E1",
+  "server_time": 1697843845807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "???",
+      "id": 241
+    },
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Arisa",
+      "id": 240
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You enter one of the rooms of the Hideout..."
+    },
+    {
+      "id": 1,
+      "text": "....."
+    },
+    {
+      "id": 2,
+      "text": "Okay, welcome to the [cus color=emphasis]SUMMONING PORTAL[cus color=end]!"
+    },
+    {
+      "id": 3,
+      "text": "Pretty impressive, yeah? Havin'<BR>a room like this in our Hideout?"
+    },
+    {
+      "id": 4,
+      "text": "This place is a magical facility<BR>we use to [cus color=emphasis]summon new demons[cus color=end]."
+    },
+    {
+      "id": 5,
+      "text": "Down here, our maid is in charge. You gonna say hello?"
+    },
+    {
+      "id": 6,
+      "text": "...Arisa Habara..."
+    },
+    {
+      "id": 7,
+      "text": "I'm a fan of the literary works of Yukio Mishima and Haruki Murakami."
+    },
+    {
+      "id": 8,
+      "text": "Your face... it looks like<BR>you've been probed by aliens."
+    },
+    {
+      "id": 9,
+      "text": "As you can see, our little<BR>maid is also a little weird."
+    },
+    {
+      "id": 10,
+      "text": "But be not deceived, newbie! She's<BR>actually a demon summoning pro, yo!"
+    },
+    {
+      "id": 11,
+      "text": "Now, there's plenty of ways to get<BR>new demons. Fusion, Demon Talk... "
+    },
+    {
+      "id": 12,
+      "text": "But the fastest way to get<BR>powerful demons is SUMMONING!"
+    },
+    {
+      "id": 13,
+      "text": "Of course, the summoning<BR>ritual ain't free."
+    },
+    {
+      "id": 14,
+      "text": "To obtain something,<BR>you must give something up."
+    },
+    {
+      "id": 15,
+      "text": "Hey, do you have any plans<BR>to kill yourself anytime soon?"
+    },
+    {
+      "id": 16,
+      "text": "I'll leave the rest to her.<BR>Have fun!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000618,
+      "effect": "",
+      "param0": "drama_bg_016.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000619,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000620,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000621,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "241",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000622,
+      "effect": "",
+      "param0": "2",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000623,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000624,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000625,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000626,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000627,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000628,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000629,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000630,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000631,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000632,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000633,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000634,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000635,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_014",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000636,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "240",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_gacha_01_001_015",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000637,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "arisa",
+      "id": 241,
+      "name_id": 241
+    },
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "arisa",
+      "id": 240,
+      "name_id": 240
+    }
+  ]
+}

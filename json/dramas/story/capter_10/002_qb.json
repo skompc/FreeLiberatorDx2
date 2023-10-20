@@ -1,0 +1,853 @@
+{
+  "transaction_id": "54-074-1796A9",
+  "server_time": 1697836564507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiori",
+      "id": 160
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Alternate Hero",
+      "id": 652
+    },
+    {
+      "name": "Guard",
+      "id": 42002
+    },
+    {
+      "name": "Alternate Hero",
+      "id": 642
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Looks like we've got through."
+    },
+    {
+      "id": 1,
+      "text": "Look at that funny looking structure. I wonder what it is?"
+    },
+    {
+      "id": 2,
+      "text": "It's the Sermon Hall."
+    },
+    {
+      "id": 3,
+      "text": "It's where the head of their congregation give sermons to all the members."
+    },
+    {
+      "id": 4,
+      "text": "So it's like a church or something?"
+    },
+    {
+      "id": 5,
+      "text": "If we're using traditional religious phrases to describe it, yes."
+    },
+    {
+      "id": 6,
+      "text": "Though they don't consider themselves to be a religion."
+    },
+    {
+      "id": 7,
+      "text": "They're not a religion...?"
+    },
+    {
+      "id": 8,
+      "text": "Oh right, the news report said it was more like a self motivation group."
+    },
+    {
+      "id": 9,
+      "text": "Yes. But they're actually much more simple than that."
+    },
+    {
+      "id": 10,
+      "text": "They're a group that is trying to realize their dogma \"Unity\". "
+    },
+    {
+      "id": 11,
+      "text": "Unity...<BR>Unifying the world under a single way of thinking."
+    },
+    {
+      "id": 12,
+      "text": "That's right. So they're not the kind of people content with praying to God, to say the least."
+    },
+    {
+      "id": 13,
+      "text": "As you all know, they have no reservations in using force to realize their goal."
+    },
+    {
+      "id": 14,
+      "text": "Like those guys right there."
+    },
+    {
+      "id": 15,
+      "text": "There they are!"
+    },
+    {
+      "id": 16,
+      "text": "It's the guards!"
+    },
+    {
+      "id": 17,
+      "text": "It's the Sermon Hall."
+    },
+    {
+      "id": 18,
+      "text": "It's where the head of their congregation give sermons to all the members."
+    },
+    {
+      "id": 19,
+      "text": "So it's like a church or something?"
+    },
+    {
+      "id": 20,
+      "text": "If we're using traditional religious phrases to describe it, yes."
+    },
+    {
+      "id": 21,
+      "text": "Though they don't consider themselves to be a religion."
+    },
+    {
+      "id": 22,
+      "text": "They're not a religion...?"
+    },
+    {
+      "id": 23,
+      "text": "Oh right, the news report said it was more like a self motivation group."
+    },
+    {
+      "id": 24,
+      "text": "Yes. But they're actually much more simple than that."
+    },
+    {
+      "id": 25,
+      "text": "They're a group that is trying to realize their dogma \"Unity\". "
+    },
+    {
+      "id": 26,
+      "text": "Unity...<BR>Unifying the world under a single way of thinking."
+    },
+    {
+      "id": 27,
+      "text": "That's right. So they're not the kind of people content with praying to God, to say the least."
+    },
+    {
+      "id": 28,
+      "text": "As you all know, they have no reservations in using force to realize their goal."
+    },
+    {
+      "id": 29,
+      "text": "Like those guys right there."
+    },
+    {
+      "id": 30,
+      "text": "There they are!"
+    },
+    {
+      "id": 31,
+      "text": "It's the guards!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9126,
+      "effect": "",
+      "param0": "drama_bg_087.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9127,
+      "effect": "",
+      "param0": "bgm_home",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9128,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 9129,
+      "effect": "",
+      "param0": "1",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9130,
+      "effect": "",
+      "param0": "035",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9131,
+      "effect": "",
+      "param0": "1700",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9132,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 28,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_002",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9133,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_003",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9134,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 1,
+      "flag": "",
+      "uniq": 9135,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_004",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9136,
+      "effect": "",
+      "param0": "4",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_005",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9137,
+      "effect": "",
+      "param0": "5",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_006",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9138,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_007",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9139,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_008",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9140,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_009",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9141,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_010",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9142,
+      "effect": "",
+      "param0": "10",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_011",
+      "face": "face_04",
+      "select": 1,
+      "flag": "",
+      "uniq": 9143,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_012",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9144,
+      "effect": "",
+      "param0": "12",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_013",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9145,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 1,
+      "flag": "",
+      "uniq": 9146,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_014",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9147,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "652",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 1,
+      "flag": "",
+      "uniq": 9148,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_015",
+      "face": "idle",
+      "select": 1,
+      "flag": "",
+      "uniq": 9149,
+      "effect": "",
+      "param0": "15",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "42002",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_016",
+      "face": "face_01",
+      "select": 1,
+      "flag": "",
+      "uniq": 9150,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_017",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9151,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_018",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9152,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 2,
+      "flag": "",
+      "uniq": 9153,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 8,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_004",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9154,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_019",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9155,
+      "effect": "",
+      "param0": "20",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_020",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9156,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_007",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9157,
+      "effect": "",
+      "param0": "22",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_008",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9158,
+      "effect": "",
+      "param0": "23",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_021",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9159,
+      "effect": "",
+      "param0": "24",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_022",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9160,
+      "effect": "",
+      "param0": "25",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_011",
+      "face": "face_04",
+      "select": 2,
+      "flag": "",
+      "uniq": 9161,
+      "effect": "",
+      "param0": "26",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_023",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9162,
+      "effect": "",
+      "param0": "27",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_024",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9163,
+      "effect": "",
+      "param0": "28",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 2,
+      "flag": "",
+      "uniq": 9164,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_025",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9165,
+      "effect": "",
+      "param0": "29",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "642",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 2,
+      "flag": "",
+      "uniq": 9166,
+      "effect": "",
+      "param0": "bgm_btl_normal",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_015",
+      "face": "idle",
+      "select": 2,
+      "flag": "",
+      "uniq": 9167,
+      "effect": "",
+      "param0": "30",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "42002",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_10_002_qb_016",
+      "face": "face_01",
+      "select": 2,
+      "flag": "",
+      "uniq": 9168,
+      "effect": "",
+      "param0": "31",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9169,
+      "effect": "",
+      "param0": "prebtl_vfx",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9170,
+      "effect": "",
+      "param0": "eff_drama_encount_harmony",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 9171,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "female_another",
+      "id": 652,
+      "name_id": 652
+    },
+    {
+      "img": "mob_harmony_soldier",
+      "id": 42002,
+      "name_id": 42002
+    },
+    {
+      "img": "male_another",
+      "id": 642,
+      "name_id": 642
+    }
+  ]
+}

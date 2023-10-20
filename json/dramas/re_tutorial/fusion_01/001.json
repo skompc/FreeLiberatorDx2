@@ -1,0 +1,478 @@
+{
+  "transaction_id": "62-050-1A8C03",
+  "server_time": 1697843840807,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Megakin",
+      "id": 111
+    },
+    {
+      "name": "Vagit",
+      "id": 210
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": ">You enter the basement<BR>of the Hideout..."
+    },
+    {
+      "id": 1,
+      "text": "Yo, newbie. You made it."
+    },
+    {
+      "id": 2,
+      "text": "We actually have a secret facility<BR>here underneath the building."
+    },
+    {
+      "id": 3,
+      "text": "You guessed it! This is the infamous [cus color=emphasis]Church of False Gods[cus color=end]."
+    },
+    {
+      "id": 4,
+      "text": "I'll let the pretty boy priest<BR>here explain everything. Enjoy!"
+    },
+    {
+      "id": 5,
+      "text": "Dobriy den', Comrade. I am Vagit Chukhov."
+    },
+    {
+      "id": 6,
+      "text": "As you may have noticed,<BR>I am from Mother Russia. Ex-military."
+    },
+    {
+      "id": 7,
+      "text": "Good to-varich you, Comrade."
+    },
+    {
+      "id": 8,
+      "text": "That was supposed to<BR>be a joke..."
+    },
+    {
+      "id": 9,
+      "text": "....."
+    },
+    {
+      "id": 10,
+      "text": "Forget it. Church of False Gods<BR>is where we do [cus color=emphasis]DEMON FUSION[cus color=end]."
+    },
+    {
+      "id": 11,
+      "text": "It is forbidden art that fuses<BR>demons to [cus color=emphasis]make new ones[cus color=end]."
+    },
+    {
+      "id": 12,
+      "text": "That is what we call<BR>DEMON FUSION."
+    },
+    {
+      "id": 13,
+      "text": "Technology with magic.<BR>A sacred ceremony of darkness."
+    },
+    {
+      "id": 14,
+      "text": "It makes you feel immortal...<BR>you should really try it."
+    },
+    {
+      "id": 15,
+      "text": "This wannabe priest is an expert<BR>in FUSION, sent by HQ."
+    },
+    {
+      "id": 16,
+      "text": "When it comes to gettin' stronger, <BR>you can't beat DEMON FUSION."
+    },
+    {
+      "id": 17,
+      "text": "You're gonna need to<BR>master it ASAP, y'hear?"
+    },
+    {
+      "id": 18,
+      "text": "Aiight then, the newbie's all yours, Vagit."
+    },
+    {
+      "id": 19,
+      "text": "Understood. This way, [sys user_name]."
+    },
+    {
+      "id": 20,
+      "text": "I try not to fuse you<BR>by mistake, yes?"
+    },
+    {
+      "id": 21,
+      "text": "I think that was one of <BR>his jokes, newbie. Maybe."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000594,
+      "effect": "",
+      "param0": "drama_bg_014.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000595,
+      "effect": "",
+      "param0": "bgm_fusion",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000596,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 4,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000597,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000598,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000599,
+      "effect": "",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000600,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000601,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000602,
+      "effect": "",
+      "param0": "6",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_006",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000603,
+      "effect": "",
+      "param0": "7",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_007",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000604,
+      "effect": "",
+      "param0": "8",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_008",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000605,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000606,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_010",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000607,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000608,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000609,
+      "effect": "",
+      "param0": "13",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000610,
+      "effect": "",
+      "param0": "14",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000611,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000612,
+      "effect": "",
+      "param0": "16",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_016",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000613,
+      "effect": "",
+      "param0": "17",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_017",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000614,
+      "effect": "",
+      "param0": "18",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_018",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000615,
+      "effect": "",
+      "param0": "19",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_019",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000616,
+      "effect": "",
+      "param0": "20",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "210",
+      "param2": ""
+    },
+    {
+      "voice": "tutorial_fusion_01_001_020",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 7000617,
+      "effect": "",
+      "param0": "21",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "111",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "taro",
+      "id": 111,
+      "name_id": 111
+    },
+    {
+      "img": "vagit",
+      "id": 210,
+      "name_id": 210
+    }
+  ]
+}

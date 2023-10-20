@@ -1,0 +1,421 @@
+{
+  "transaction_id": "89-055-184156",
+  "server_time": 1697835743507,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Joshua",
+      "id": 300
+    },
+    {
+      "name": "Rika",
+      "id": 120
+    },
+    {
+      "name": "Shiori",
+      "id": 160
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "What tenacious rodents you are."
+    },
+    {
+      "id": 1,
+      "text": "Very well. Let us continue our little talk."
+    },
+    {
+      "id": 2,
+      "text": "Vanitas feeds off the ill-will of humankind and grows."
+    },
+    {
+      "id": 3,
+      "text": "The greater the malice, the more this affects the shape that Vanitas takes on."
+    },
+    {
+      "id": 4,
+      "text": "So you could say that Vanitas is a machine that measures the worth of people's souls. "
+    },
+    {
+      "id": 5,
+      "text": "The worth of people's souls...<BR>But why? Why measure that?"
+    },
+    {
+      "id": 6,
+      "text": "Vanitas feeds upon malice, grows, and then finally..."
+    },
+    {
+      "id": 7,
+      "text": "It will destroy the world."
+    },
+    {
+      "id": 8,
+      "text": "Destroy it all. Utterly. <BR>An apocalypse. The end of days."
+    },
+    {
+      "id": 9,
+      "text": "So you're saying that Vanitas exists to destroy the world?"
+    },
+    {
+      "id": 10,
+      "text": "And that this destruction is the result of people's ill-will?"
+    },
+    {
+      "id": 11,
+      "text": "So, in other words, Vanitas has measured humanity's worth,"
+    },
+    {
+      "id": 12,
+      "text": "and judged them to be beyond saving, correct?"
+    },
+    {
+      "id": 13,
+      "text": "Precisely.<BR>A fitting end for vermin, wouldn't you say?"
+    },
+    {
+      "id": 14,
+      "text": "And it's one that is inevitable."
+    },
+    {
+      "id": 15,
+      "text": "Speaking of which, more exterminators have arrived. You'll have to defeat them if you want to hear more!"
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6087,
+      "effect": "",
+      "param0": "drama_bg_044.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6088,
+      "effect": "",
+      "param0": "bgm_drama_unquiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6089,
+      "effect": "talking",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_001",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6090,
+      "effect": "talking",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_002",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6091,
+      "effect": "talking",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6092,
+      "effect": "talking",
+      "param0": "3",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6093,
+      "effect": "talking",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_005",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6094,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6095,
+      "effect": "talking",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6096,
+      "effect": "talking",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6097,
+      "effect": "talking",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_009",
+      "face": "face_04",
+      "select": 0,
+      "flag": "",
+      "uniq": 6098,
+      "effect": "",
+      "param0": "9",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "120",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6099,
+      "effect": "",
+      "param0": "left",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_010",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6100,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_011",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6101,
+      "effect": "",
+      "param0": "11",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_012",
+      "face": "face_02",
+      "select": 0,
+      "flag": "",
+      "uniq": 6102,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "160",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6103,
+      "effect": "talking",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6104,
+      "effect": "talking",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "story_capter_07_007_qb_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 6105,
+      "effect": "talking",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "300",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6106,
+      "effect": "",
+      "param0": "eff_drama_encount",
+      "place": 0,
+      "param3": "",
+      "command": 9,
+      "param1": "0",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 6107,
+      "effect": "",
+      "param0": "1200",
+      "place": 0,
+      "param3": "",
+      "command": 23,
+      "param1": "",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "joshua",
+      "id": 300,
+      "name_id": 300
+    },
+    {
+      "img": "rika",
+      "id": 120,
+      "name_id": 120
+    },
+    {
+      "img": "siori",
+      "id": 160,
+      "name_id": 160
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "transaction_id": "02-047-19AAE8",
+  "server_time": 1697838823007,
+  "beginner_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "main_mission": {
+    "currents": [
+      "Clear Story Ch. 1"
+    ],
+    "is_display": true
+  },
+  "select_history": [],
+  "res_code": 0,
+  "client_wait": 0,
+  "selects": [],
+  "gacha_banner_info": {
+    "img": "4800000",
+    "end_ts": 1699109999000,
+    "limited_days": 14
+  },
+  "names": [
+    {
+      "name": "Shiang Sun",
+      "id": 130
+    },
+    {
+      "name": "Ririn",
+      "id": 140
+    }
+  ],
+  "texts": [
+    {
+      "id": 0,
+      "text": "Alright... now let's see how it performs."
+    },
+    {
+      "id": 1,
+      "text": "Yup, this looks good."
+    },
+    {
+      "id": 2,
+      "text": "Now then, let's see how it does in the field."
+    },
+    {
+      "id": 3,
+      "text": "What are you gonna do?"
+    },
+    {
+      "id": 4,
+      "text": "Use it for hacking of course!"
+    },
+    {
+      "id": 5,
+      "text": "Are you gonna hack the government?"
+    },
+    {
+      "id": 6,
+      "text": "That's tempting... but no. "
+    },
+    {
+      "id": 7,
+      "text": "I'll try hacking the Acolytes' servers."
+    },
+    {
+      "id": 8,
+      "text": "I already have a few ideas."
+    },
+    {
+      "id": 9,
+      "text": "If we manage to access even their personnel records, the risk would be worth it."
+    },
+    {
+      "id": 10,
+      "text": "Are you sure this will work? I thought their security was supposed to be really good."
+    },
+    {
+      "id": 11,
+      "text": "That's why I'm resorting to using demons."
+    },
+    {
+      "id": 12,
+      "text": "Okay, now I'm worried... You seem just a little too excited about this."
+    },
+    {
+      "id": 13,
+      "text": "Hey, I'm a computer science major!"
+    },
+    {
+      "id": 14,
+      "text": "Of course I'm excited!"
+    },
+    {
+      "id": 15,
+      "text": "That's just who I am."
+    },
+    {
+      "id": 16,
+      "text": "Fine. I just hope this works."
+    }
+  ],
+  "tm": "8",
+  "comeback_mission": {
+    "is_badge": false,
+    "is_display": false
+  },
+  "commands": [
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003221,
+      "effect": "",
+      "param0": "drama_bg_017.png",
+      "place": 0,
+      "param3": "",
+      "command": 1,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003222,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_000",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003223,
+      "effect": "",
+      "param0": "0",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003224,
+      "effect": "",
+      "param0": "right",
+      "place": 0,
+      "param3": "",
+      "command": 3,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003225,
+      "effect": "",
+      "param0": "typing",
+      "place": 0,
+      "param3": "",
+      "command": 13,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003226,
+      "effect": "",
+      "param0": "bout",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "70",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003227,
+      "effect": "",
+      "param0": "",
+      "place": 0,
+      "param3": "",
+      "command": 22,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003228,
+      "effect": "",
+      "param0": "bin",
+      "place": 0,
+      "param3": "",
+      "command": 10,
+      "param1": "70",
+      "param2": ""
+    },
+    {
+      "voice": "",
+      "face": "",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003229,
+      "effect": "",
+      "param0": "bgm_drama_quiet",
+      "place": 0,
+      "param3": "",
+      "command": 12,
+      "param1": "",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_001",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003230,
+      "effect": "",
+      "param0": "1",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_002",
+      "face": "face_03",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003231,
+      "effect": "",
+      "param0": "2",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_003",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003232,
+      "effect": "",
+      "param0": "3",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_004",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003233,
+      "effect": "",
+      "param0": "4",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_005",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003234,
+      "effect": "",
+      "param0": "5",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_006",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003235,
+      "effect": "",
+      "param0": "6",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_007",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003236,
+      "effect": "",
+      "param0": "7",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_008",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003237,
+      "effect": "",
+      "param0": "8",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_009",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003238,
+      "effect": "",
+      "param0": "9",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_010",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003239,
+      "effect": "",
+      "param0": "10",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_011",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003240,
+      "effect": "",
+      "param0": "11",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_012",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003241,
+      "effect": "",
+      "param0": "12",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_013",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003242,
+      "effect": "",
+      "param0": "13",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_014",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003243,
+      "effect": "",
+      "param0": "14",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_015",
+      "face": "idle",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003244,
+      "effect": "",
+      "param0": "15",
+      "place": 0,
+      "param3": "",
+      "command": 2,
+      "param1": "130",
+      "param2": ""
+    },
+    {
+      "voice": "summoner_son_01_002_qa_016",
+      "face": "face_01",
+      "select": 0,
+      "flag": "",
+      "uniq": 2003245,
+      "effect": "",
+      "param0": "16",
+      "place": 1,
+      "param3": "",
+      "command": 2,
+      "param1": "140",
+      "param2": ""
+    }
+  ],
+  "charas": [
+    {
+      "img": "son",
+      "id": 130,
+      "name_id": 130
+    },
+    {
+      "img": "ririn",
+      "id": 140,
+      "name_id": 140
+    }
+  ]
+}
