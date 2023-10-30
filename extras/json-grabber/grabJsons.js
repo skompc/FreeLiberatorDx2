@@ -14,6 +14,8 @@ const encrypt = require("../../tools/decrypt").encrypt;
 const axios = require('axios');
 const wrapper = require('axios-cookiejar-support').wrapper;
 const CookieJar = require('tough-cookie').CookieJar;
+const makeDramaList = require("./makeDramaList")
+const makeQuestList = require("./makeQuestList")
 
 // Make axios instance
 const jar = new CookieJar();
@@ -52,8 +54,28 @@ function download(url, fileName) {
     })
 }
 
+// Fetch List-Making URLs
+function getLists() {
+  return new Promise((resolve) => {
+    // For Quest List
+    let dec = `_tm_=14`;
+    let enc = encrypt(dec, ek);
+    let url = `https://d2r-sim.d2megaten.com/socialsv/Map.do?param=${enc}`;
+    download(url, "./Map.json")
+
+    // For Drama Lists
+    for (let i = 1; i < 9; i++) {
+      let dec1 = `id=${i}&_tm_=55`;
+      let enc1 = encrypt(dec1, ek);
+      let url1 = `https://d2r-sim.d2megaten.com/socialsv/ReadBack.do?param=${enc1}`;
+      download(url1, `./${i}.json`)
+    }
+  });
+}
+
 // Main function obviously
 async function main() {
+  await getLists();
 
   // Quest ids
   let questArray = JSON.parse(fs.readFileSync("./quests.json")).quests;
@@ -110,7 +132,7 @@ async function main() {
     const enc1 = encrypt(dec1, ek);
     const url1 = `https://d2r-sim.d2megaten.com/socialsv/BattleNext.do?param=${enc1}`;
     urlArray.push(url1);
-    
+
   }
 
 }
