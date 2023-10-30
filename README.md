@@ -96,10 +96,9 @@ By default the Game server will run on port 8000, the Asset server will run on p
 
 # Known bugs
 
-1. The party doesn't seem to display right unless you go to "party" then "demons" before entering a mission. You only need to do this once per app launch.
-2. The results of a battle will ALWAYS softlock the game! Simply restart the app to get around this... this does NOT apply to the tutorial battle thankfully.
-3. Any unimplemented endpoints will softlock the game. Again simply restart the app.
-4. Battles are disabled until I finish the game's campaign.
+1. The results of a battle will ALWAYS softlock the game! Simply restart the app to get around this... this does NOT apply to the tutorial battle thankfully.
+2. Any unimplemented endpoints will softlock the game. Again simply restart the app.
+3. Battles are disabled until I finish the game's campaign.
 
 # FAQ
 

@@ -1,0 +1,34 @@
+{
+    "talk_list": [
+        {
+            "msg": "Do you want to recruit me?",
+            "is_character_talk": true,
+            "select_list": [],
+            "name": "Mokoi"
+        },
+        {
+            "msg": "",
+            "is_character_talk": false,
+            "select_list": [
+                {
+                    "select_id": 1,
+                    "text": "Yes"
+                },
+                {
+                    "select_id": 2,
+                    "text": "No"
+                }
+            ],
+            "name": ""
+        }
+    ],
+    "res_code": 0,
+    "client_wait": 0,
+    "current_contract": 0,
+    "score": 0,
+    "need_contract": {
+        "num": 1,
+        "id": 8100
+    },
+    "is_card_max": false
+}

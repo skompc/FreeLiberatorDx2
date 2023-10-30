@@ -3,6 +3,9 @@ const path = require('path');
 
 let questList = []
 
+// endpoint: Map.do
+//args  _tm_=14
+
 const input = JSON.parse(fs.readFileSync("./input.json")).dngs;
 
 for (let i = 0; i < input.length; i++) {

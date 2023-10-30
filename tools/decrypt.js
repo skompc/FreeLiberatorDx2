@@ -40,11 +40,12 @@ function decrypt(enc, KEY) {
         console.log("Key invalid");
     }
 
-    return [dec, key_correct, sig_correct];
+    return dec.toString();
 }
 
-function stringToJsonObject(inputString) {
+function stringToJsonObject(input) {
     const jsonObject = {};
+    let inputString = `${input}`
   
     const pairs = inputString.split('&');
     for (const pair of pairs) {
@@ -56,3 +57,6 @@ function stringToJsonObject(inputString) {
   }
 
 module.exports = { decrypt, stringToJsonObject, encrypt };
+
+// Just a quick decrypt for when I need it...
+decrypt("1c323dd6196f3a7f49b1e6a592b96b9700ecf1d057297d7942d3befbc4e7679442efa282083e692a45e8f2a790ad69d05cbcb5855b2b7e2a4fa9e5a7c3fc2ec352bfb590597a702915a9e0f187bd3e971ef9e2d8356e287d11aab3f3fde134d718b0a280083e6c7a09bee5e0cce12b9445bfa2860b306e3d1eeff2a790fc23c112a8b5874f283a331da9e0f187bd3e9703f8f5db572a7d6873edb4e19fba7cd428ece4c1572b7d4758e188a893be6ad9ec825642e54d49b2a42e4bd0108a07",DEFAULT_KEY)

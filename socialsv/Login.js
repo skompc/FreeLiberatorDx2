@@ -5,16 +5,20 @@ const decrypt = require("../tools/decrypt");
 function Login(req, res) {
     let params = decrypt.stringToJsonObject(decrypt.decrypt(req.query.param));
 
+    console.log(params)
+
     //let uuid = params.uuid;
     let uuid = 0;
     let check_code = params.check_code;
+    console.log(check_code)
     let files = [
         "./data/players/" + uuid + "/main.json",
         "./data/players/" + uuid + "/igt_list.json",
         "./data/players/" + uuid + "/setting_data.json",
         "./data/players/" + uuid + "/usr.json",
         "./json/common/basedata/basedata_version.json",
-        "./json/common/rand_names.json"
+        "./json/common/rand_names.json",
+        "./data/players/" + uuid  + "/devils.json"
     ];
     let data = tools.combine(files);
 
