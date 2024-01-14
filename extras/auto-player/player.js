@@ -5,6 +5,8 @@ const axios = require('axios');
 const wrapper = require('axios-cookiejar-support').wrapper;
 const qs = require('querystring');
 
+const utils = require("./utils")
+
 let check_code = JSON.parse(fs.readFileSync("./config.json")).check_code;
 let account = JSON.parse(fs.readFileSync("./config.json")).account;
 let uuid = JSON.parse(fs.readFileSync("./config.json")).uuid;
@@ -12,6 +14,10 @@ let secure_id = JSON.parse(fs.readFileSync("./config.json")).secure_id;
 let ek;
 let sid;
 let _tm_ = 0;
+
+let enemies = []
+
+let enemyHP = [];
 
 let client = wrapper(axios.create({
     withCredentials: true,
@@ -28,7 +34,7 @@ async function SetCookies(sid) {
     client.defaults.headers.common['Cookie'] = cookieValue;
 }
 
-async function GetUrl(){
+async function GetUrl() {
     let options = {
         headers: {
             "user-agent": "SEGA Web Client for D2SMTL 2018",
@@ -46,7 +52,7 @@ async function GetUrl(){
     return Response;
 }
 
-async function Login(asset_bundle_version){
+async function Login(asset_bundle_version) {
 
     let options = {
         headers: {
@@ -87,7 +93,7 @@ async function BattleEntry(stage, ek) {
     return Response;
 }
 
-async function BattleNext(stage,wave,ek) {
+async function BattleNext(stage, wave, ek) {
     const enc = `stage=${stage}&wave=${wave}&an_info=&item_use=&df_info=&turn=1&p_act=1&e_act=0&_tm_=26`
     let BattleNextParam = encrypt(enc, ek);
     let url = `https://d2r-sim.d2megaten.com/socialsv/BattleNext.do?param=${BattleNextParam}`;
@@ -149,24 +155,36 @@ async function main() {
 
 }
 
-async function PlayBattles(ek){
+async function PlayBattles(ek) {
+    enemies = [];
+
+    enemyHP = 0;
+
     let stage = 10011;
 
     let Step1 = await BattleEntry(stage, ek);
 
-    //console.log(Step1)
+    let party = await utils.arrayPick(Step1.parties[0].devils, "uniq")
 
-    console.log(Step1.enemies)
+    let partyHP = await utils.arrayPick(Step1.parties[0].devils, "hp")
 
-    let Step2 = await BattleNextWrapper(stage,Step1.wave_max, ek)
+    let enemies2Add = await utils.arrayPick(Step1.enemies, "uniq");
+
+    let enemiesHp2Add = await utils.arrayPick(Step1.enemies, "hp");
+
+    enemies = enemies.concat(enemies2Add);
+
+    enemyHP = enemyHP.concat(enemiesHp2Add);
+
+    let Step2 = await BattleNextWrapper(stage, Step1.wave_max, ek)
 
     let Step3 = await BattleResult(stage, ek)
 
     return Step3
 }
 
-async function BattleNextWrapper(stage, wave_max, ek){
-    for (let wave = 1; wave < wave_max; wave++){
+async function BattleNextWrapper(stage, wave_max, ek) {
+    for (let wave = 1; wave < wave_max; wave++) {
         console.log(`wave: ${wave}`)
         let response = await BattleNext(stage, wave, ek)
         console.log(response.enemies);
