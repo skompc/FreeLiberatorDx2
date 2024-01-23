@@ -15,19 +15,22 @@ let ek;
 let sid;
 let _tm_ = 0;
 
-let enemies = []
+let enemy_array = []
 
-let enemyHP = [];
+let enemyHP_array = [];
 
 let client = wrapper(axios.create({
     withCredentials: true,
 }));
 
-function wait(ms) {
-    return new Promise((resolve) => {
-        setTimeout(resolve, ms);
-    });
-}
+function wait(milliseconds) {
+    const start = new Date().getTime();
+    let current;
+  
+    do {
+      current = new Date().getTime();
+    } while (current - start < milliseconds);
+  }
 
 async function SetCookies(sid) {
     let cookieValue = `JSESSIONID=${sid}`;
@@ -87,6 +90,7 @@ async function BattleEntry(stage, ek) {
 
     let Response = await client.get(url, options).then(response => {
         const data = response.data;
+        console.log(data)
         return data
     });
 
@@ -113,9 +117,9 @@ async function BattleNext(stage, wave, ek) {
     return Response;
 }
 
-async function BattleResult(stage, ek) {
+async function BattleResult(stage, BattleResultInput, ek) {
 
-    const enc = `stage=${stage}&result=1&an_info=&item_use=&df_info=&mission_result=0&defeat_count=3&smn_change=1&max_damage=71&turn=1&p_act=1&e_act=0&mem_cnt=0&dtcr_err=0&mem_log=&clear_tm=51536&info=%7B%22is_not_using_command%22%3A1%2C%22devil_info%22%3A%5B%22%7B%5C%22uniq_id%5C%22%3A40441720881%2C%5C%22defeat_num%5C%22%3A3%2C%5C%22hp%5C%22%3A153%2C%5C%22total_damage%5C%22%3A177%2C%5C%22cond_add_type%5C%22%3A%5B%5D%2C%5C%22cond_add_count%5C%22%3A%5B%5D%2C%5C%22action_result_type%5C%22%3A%5B3%5D%2C%5C%22action_result_count%5C%22%3A%5B2%5D%7D%22%2C%22%7B%5C%22uniq_id%5C%22%3A40441720882%2C%5C%22defeat_num%5C%22%3A0%2C%5C%22hp%5C%22%3A139%2C%5C%22total_damage%5C%22%3A0%2C%5C%22cond_add_type%5C%22%3A%5B%5D%2C%5C%22cond_add_count%5C%22%3A%5B%5D%2C%5C%22action_result_type%5C%22%3A%5B%5D%2C%5C%22action_result_count%5C%22%3A%5B%5D%7D%22%2C%22%7B%5C%22uniq_id%5C%22%3A40441720889%2C%5C%22defeat_num%5C%22%3A0%2C%5C%22hp%5C%22%3A164%2C%5C%22total_damage%5C%22%3A0%2C%5C%22cond_add_type%5C%22%3A%5B%5D%2C%5C%22cond_add_count%5C%22%3A%5B%5D%2C%5C%22action_result_type%5C%22%3A%5B%5D%2C%5C%22action_result_count%5C%22%3A%5B%5D%7D%22%5D%2C%22enemy_devil_info%22%3A%5B%22%7B%5C%22uniq_id%5C%22%3A4%2C%5C%22defeat_num%5C%22%3A0%2C%5C%22hp%5C%22%3A0%2C%5C%22total_damage%5C%22%3A0%2C%5C%22cond_add_type%5C%22%3A%5B%5D%2C%5C%22cond_add_count%5C%22%3A%5B%5D%2C%5C%22action_result_type%5C%22%3A%5B%5D%2C%5C%22action_result_count%5C%22%3A%5B%5D%7D%22%2C%22%7B%5C%22uniq_id%5C%22%3A5%2C%5C%22defeat_num%5C%22%3A0%2C%5C%22hp%5C%22%3A0%2C%5C%22total_damage%5C%22%3A0%2C%5C%22cond_add_type%5C%22%3A%5B%5D%2C%5C%22cond_add_count%5C%22%3A%5B%5D%2C%5C%22action_result_type%5C%22%3A%5B%5D%2C%5C%22action_result_count%5C%22%3A%5B%5D%7D%22%2C%22%7B%5C%22uniq_id%5C%22%3A6%2C%5C%22defeat_num%5C%22%3A0%2C%5C%22hp%5C%22%3A0%2C%5C%22total_damage%5C%22%3A0%2C%5C%22cond_add_type%5C%22%3A%5B%5D%2C%5C%22cond_add_count%5C%22%3A%5B%5D%2C%5C%22action_result_type%5C%22%3A%5B%5D%2C%5C%22action_result_count%5C%22%3A%5B%5D%7D%22%5D%2C%22result_drama_cutin%22%3A%5B%5D%7D&_tm_=65`;
+    const enc = `stage=${stage}&result=1&an_info=&item_use=&df_info=&mission_result=0&defeat_count=3&smn_change=1&max_damage=71&turn=1&p_act=1&e_act=0&mem_cnt=0&dtcr_err=0&mem_log=&clear_tm=51536&info=${BattleResultInput}&_tm_=65`;
     let BattleResultParam = encrypt(enc, ek);
     let url = `https://d2r-sim.d2megaten.com/socialsv/BattleResult.do`;
 
@@ -149,36 +153,84 @@ async function main() {
 
     await SetCookies(sid);
 
-    let aa = await PlayBattles(ek)
+    let questArray = JSON.parse(fs.readFileSync("./quests_filtered.json")).quests;
+
+    questArray.forEach(number => {
+        const thirdDigit = Number(String(number)[2]);
+        const fourthDigit = Number(String(number)[3]);
+
+        if (thirdDigit === 0 && fourthDigit === 0) {
+            // Do something for numbers with 0 in the third and fourth digits
+            console.log(`playing drama${number}`)
+            let enc = `quest_id=${number}&_tm_=18`
+
+            let BattleNextParam = encrypt(enc, ek);
+            let url = `https://d2r-sim.d2megaten.com/socialsv/BattleNext.do?param=${BattleNextParam}`;
+        
+            let options = {
+                headers: {
+                    "user-agent": "SEGA Web Client for D2SMTL 2018",
+                    "X-Unity-Version": "2021.3.23f1"
+                }
+            }
+        
+            let Response = client.get(url, options).then(response => {
+                const data = response.data;
+                return data
+            });
+
+
+
+        } else {
+            // Do something else for other numbers
+            PlayQuest(number, ek)
+            wait(5000)
+        }
+    })
+    //autoBattle(questArray, ek)
+
+    //let aa =await PlayQuest(10091,ek)
 
     //console.log(aa)
-
+/*
+    for (quest in questArray) {
+        let a = await PlayQuest(questArray[quest], ek)
+        console.log(questArray[quest])
+        console.log(a)
+    }
+    */
 }
 
-async function PlayBattles(ek) {
-    enemies = [];
+async function PlayQuest(stage, ek) {
 
-    enemyHP = 0;
+    console.log(`playing ${stage}`)
+    enemy_array = [];
 
-    let stage = 10011;
+    enemyHP_array = [];
 
     let Step1 = await BattleEntry(stage, ek);
 
-    let party = await utils.arrayPick(Step1.parties[0].devils, "uniq")
+    console.log(Step1.parties)
 
-    let partyHP = await utils.arrayPick(Step1.parties[0].devils, "hp")
+    let party_array = await utils.arrayPick(Step1.parties[0].devils, "uniq")
+
+    let partyHP_array = await utils.arrayPick(Step1.parties[0].devils, "hp")
 
     let enemies2Add = await utils.arrayPick(Step1.enemies, "uniq");
 
     let enemiesHp2Add = await utils.arrayPick(Step1.enemies, "hp");
 
-    enemies = enemies.concat(enemies2Add);
+    enemy_array = enemy_array.concat(enemies2Add);
 
-    enemyHP = enemyHP.concat(enemiesHp2Add);
+    enemyHP_array = enemyHP_array.concat(enemiesHp2Add);
 
     let Step2 = await BattleNextWrapper(stage, Step1.wave_max, ek)
 
-    let Step3 = await BattleResult(stage, ek)
+    let enemyHP = utils.sumArray(enemyHP_array);
+
+    let BattleResultInput = utils.build_devil_info(party_array, partyHP_array, enemy_array, enemyHP);
+
+    let Step3 = await BattleResult(stage, BattleResultInput, ek)
 
     return Step3
 }
@@ -187,7 +239,12 @@ async function BattleNextWrapper(stage, wave_max, ek) {
     for (let wave = 1; wave < wave_max; wave++) {
         console.log(`wave: ${wave}`)
         let response = await BattleNext(stage, wave, ek)
-        console.log(response.enemies);
+
+        let enemies2Add = await utils.arrayPick(response.enemies, "uniq")
+        let enemiesHp2Add = await utils.arrayPick(response.enemies, "hp");
+
+        enemy_array = enemy_array.concat(enemies2Add);
+        enemyHP_array = enemyHP_array.concat(enemiesHp2Add);
     }
     return 0;
 }

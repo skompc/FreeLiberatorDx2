@@ -3,31 +3,25 @@
 // TODO: Alterworld Stuffs
 // TODO: Everything else...
 
-// Needed variables:
-// Get these from a running instance of the game (DON'T CLOSE THE GAME UNTIL SCRAPING IS DONE!)
-let sid = "6B8E53CAE6BCA945542EE609C93221D5-n1";
-let ek = "3JPSL2Z5TREC";
-
 const fs = require('fs');
 const path = require('path');
 const encrypt = require("../../tools/decrypt").encrypt;
 const axios = require('axios');
 const wrapper = require('axios-cookiejar-support').wrapper;
 const CookieJar = require('tough-cookie').CookieJar;
-const makeDramaList = require("./makeDramaList")
-const makeQuestList = require("./makeQuestList")
+
+let check_code = JSON.parse(fs.readFileSync("./config.json")).check_code;
+let account = JSON.parse(fs.readFileSync("./config.json")).account;
+let uuid = JSON.parse(fs.readFileSync("./config.json")).uuid;
+let secure_id = JSON.parse(fs.readFileSync("./config.json")).secure_id;
+let ek;
+let sid;
 
 // Make axios instance
 const jar = new CookieJar();
 const client = wrapper(axios.create({
   withCredentials: true,
 }));
-
-// Make Session cookie
-const cookieValue = `JSESSIONID=${sid}`;
-
-// Set the cookie in the request headers
-client.defaults.headers.common['Cookie'] = cookieValue;
 
 // This is a function to add wait times to the scraper
 function wait(ms) {
@@ -36,9 +30,57 @@ function wait(ms) {
   });
 }
 
+// This function grabs some important value before login
+async function GetUrl() {
+  let options = {
+    headers: {
+      "user-agent": "SEGA Web Client for D2SMTL 2018",
+      "X-Unity-Version": "2021.3.23f1"
+    }
+  }
+
+  let url = `https://d2r-sim.d2megaten.com/socialsv/common/GetUrl.do?check_code=${check_code}&platform=2&lang=1&bundle_id=com.sega.d2megaten.en&_tm_=1`;
+
+  let Response = client.get(url, options).then(response => {
+    const data = response.data;
+    return data.asset_bundle_version
+  });
+
+  return Response;
+}
+
+// This function actually logs in.
+async function Login(asset_bundle_version) {
+
+  let options = {
+    headers: {
+      "user-agent": "SEGA Web Client for D2SMTL 2018",
+      "X-Unity-Version": "2021.3.23f1"
+    }
+  }
+
+  let enc = `account=${account}&uuid=${uuid}&secure_id=${secure_id}&check_code=${check_code}&lang=1&platform=2&country=US&asset_bundle_version=${asset_bundle_version}&bundle_id=com.sega.d2megaten.en&coppa=0&_tm_=5`
+  let LoginParam = encrypt(enc, "__L_TMS_2D__")
+  url = `https://d2r-sim.d2megaten.com/socialsv/Login.do?param=${LoginParam}`;
+
+  let Response = await client.get(url, options).then(response => {
+    const data = response.data;
+    return data
+  });
+
+  return Response
+}
+
 // A download function
 function download(url, fileName) {
-  client.get(url)
+  let options = {
+    headers: {
+      "user-agent": "SEGA Web Client for D2SMTL 2018",
+      "X-Unity-Version": "2021.3.23f1"
+    }
+  }
+
+  client.get(url, options)
     .then(response => {
       const jsonData = response.data;
 
@@ -55,10 +97,11 @@ function download(url, fileName) {
 }
 
 // Fetch List-Making URLs
-function getLists() {
+async function getLists(ek) {
 
   // Gotta make sure this function finishes BEFORE the caller's next line is run
   return new Promise((resolve) => {
+
     // For Quest List
     let dec = `_tm_=14`;
     let enc = encrypt(dec, ek);
@@ -74,17 +117,32 @@ function getLists() {
       download(url1, `./${i}.json`)
 
     }
+    return resolve()
   });
 }
 
 // Main function obviously
 async function main() {
 
-  // Grab the lists
-  await getLists();
+  let asset_bundle_version = await GetUrl();
 
+  let LoginResponse = await Login(asset_bundle_version);
+
+  // Make Session cookie
+  const cookieValue = `JSESSIONID=${LoginResponse.sid}`;
+
+  // Set the cookie in the request headers
+  client.defaults.headers.common['Cookie'] = cookieValue;
+
+  let ek = LoginResponse.ek;
+
+  // Grab the lists
+  getLists(ek);
   makeDramaList();
   makeQuestList();
+
+
+
 
   // Quest ids
   let questArray = JSON.parse(fs.readFileSync("./quests.json")).quests;
@@ -127,88 +185,126 @@ async function main() {
     await wait(5000);
   }
 
-  // Reinit urlArray
-  urlArray = [];
 
-  // Make BattleEntry URLs
-  for (const quest of questArray) {
 
-    const dec0 = `stage=${quest}&main_smn=1&sub_smn=0&main_idx=1&sub_idx=0&helper=0&smn_id=0&is_auto=0&_tm_=108`;
-    const enc0 = encrypt(dec0, ek);
-    const url0 = `https://d2r-sim.d2megaten.com/socialsv/BattleEntry.do?param=${enc0}`;
-    urlArray.push(url0);
+}
 
-  }
+async function makeQuestList() {
 
-  // Fetch BattleEntry URLs
-  for (let i = 0; i < questArray.length; i++) {
+  return new Promise((resolve) => {
 
-    let url = urlArray[i];
-    let fileName = `../json/battles/story/${questArray[i]}/0.json`;
+    let questList = []
 
-    fs.mkdir(`../json/dramas/${questArray[i]}/..`, { recursive: true }, (err) => {
-      if (err) {
-        console.error(`Error creating directory: ${err.message}`);
+    // endpoint: Map.do
+    //args  _tm_=14
+
+    const input = JSON.parse(fs.readFileSync("./Map.json")).dngs;
+
+    for (let i = 0; i < input.length; i++) {
+
+      if (input[i].id == 701) {
+
+        let parts = input[i].intermission_quest.parts;
+
+        for (let j = 0; j < parts.length; j++) {
+
+          let qsts = parts[j].qsts;
+          let length = qsts.length;
+
+          for (let k = 0; k < length; k++) {
+
+            questList.push(qsts[k].id)
+            console.log(`Added Intermission Quest ${qsts[k].id}`)
+
+          }
+        }
+
+      } else if (input[i].id == 901) {
+        let chara_quest = input[i].chara_quest;
+
+        for (let j = 0; j < chara_quest.length; j++) {
+
+          let qsts = chara_quest[j].qsts;
+          let length = qsts.length;
+
+          for (let k = 0; k < length; k++) {
+
+            questList.push(qsts[k].id)
+            console.log(`Added Dx2 Quest ${qsts[k].id}`)
+
+          }
+        }
       } else {
-        console.log(`Created directory for: ${questArray[i]}`);
+
+        let qsts = input[i].qsts;
+
+        for (let j = 0; j < qsts.length; j++) {
+
+          questList.push(qsts[j].id);
+          console.log(`Added Story Quest ${qsts[j].id}`)
+
+        }
+
       }
-    });
 
-    download(url, fileName);
-
-    await wait(5000);
-  }
-
-  // Reinit urlArray
-  urlArray = [];
-
-  // Make BattleNext URLs
-  for (let i = 0; i < questArray.length; i++) {
-
-    urlArray.push(questArray[i])
-    let wave_max = JSON.parse(fs.readFileSync(`../json/battles/story/${questArray[i]}/0.json`)).wave_max;
-
-    for (let wave = 1; wave < wave_max; wave++) {
-      const dec1 = `stage=${quest}&wave=${wave}&an_info=%5b%7b%22id%22%3a+11910%2c%22attr%22%3a+127%7d%5d&item_use=&df_info=%5b%7b%22uniq%22%3a+4%2c%22type%22%3a+2%7d%5d&turn=1&p_act=0&e_act=0&_tm_=136`;
-      const enc1 = encrypt(dec1, ek);
-      const url1 = `https://d2r-sim.d2megaten.com/socialsv/BattleNext.do?param=${enc1}`;
-      urlArray.push(url1);
     }
 
-    urlArray.push("SPLIT")
+    let data = { "quests": questList };
 
-  }
 
-  // Split BattleNext URLs into multiple arrays
-  let splitArrays = [];
-  let currentArray = [];
+    fs.writeFileSync('./quests.json', JSON.stringify(data, null, 2));
 
-  for (const url of urlArray) {
-    if (url === "SPLIT") {
-      // If "SPLIT" is encountered, push the currentArray to splitArrays
-      splitArrays.push(currentArray);
-      currentArray = []; // Reset the currentArray
-    } else {
-      // Otherwise, add the URL to the currentArray
-      currentArray.push(url);
+    return resolve()
+
+  });
+}
+
+async function makeDramaList() {
+
+  return new Promise((resolve) => {
+    let dramaList = []
+
+    // Endpoint: ReadBack.do
+    // Main Story 1 Args: id=1&_tm_=55
+    // Main Story Intermission Args: id=6&_tm_=55
+    // Main Story 2 Args: id=7&_tm_=55
+    // Aura Gate Args: id=2&_tm_=55
+    // Alter-World Args: id=8&_tm_=55
+    // Dx2 Args: id=3&_tm_=55
+    // Events Args: id=5&_tm_=55
+    // Tutorial Args: id=4&_tm_=55
+
+    let input = []
+
+    for (let i = 1; i < 9; i++) {
+      console.log(i)
+      input.push(fs.readFileSync(`./${i}.json`, "utf-8"))
     }
-  }
 
-  if (currentArray.length > 0) {
-    splitArrays.push(currentArray);
-  }
+    let array2Json = `{"input": [${input}]}`
 
-  // Fetch BattleNext URLs
-  for (let i = 0; i < splitArrays.length; i++) {
+    let data0 = JSON.parse(array2Json);
 
-    let newCurrentArray = splitArrays[i];
-    
 
-    download(url, fileName);
+    fs.writeFileSync('./dramaInput.json', JSON.stringify(data0, null, 2));
 
-    await wait(5000);
-  }
 
+
+    for (let i = 0; i < data0.input.length; i++) {
+      let list = data0.input[i].list;
+
+      for (let j = 0; j < list.length; j++) {
+        dramaList.push(list[j].drm);
+      }
+    }
+
+    let data = { "dramas": dramaList };
+
+
+    fs.writeFileSync('./dramas.json', JSON.stringify(data, null, 2));
+
+    return resolve();
+  });
 }
 
 

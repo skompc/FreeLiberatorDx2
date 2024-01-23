@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-function makeDramaList() {
+async function makeDramaList() {
+
+    return new Promise((resolve) => {
     let dramaList = []
 
     // Endpoint: ReadBack.do
@@ -14,15 +16,25 @@ function makeDramaList() {
     // Events Args: id=5&_tm_=55
     // Tutorial Args: id=4&_tm_=55
 
-    //const input = JSON.parse(fs.readFileSync("./input.json")).dramas;
-
     let input = []
+
     for (let i = 1; i < 9; i++) {
-        input.push(fs.readFileSync(`./${i}.json`))
+        console.log(i)
+        input.push(fs.readFileSync(`./${i}.json`, "utf-8"))
     }
 
-    for (let i = 0; i < input.length; i++) {
-        let list = input[i].list;
+    let array2Json = `{"input": [${input}]}`
+
+    let data0 = JSON.parse(array2Json);
+
+
+    fs.writeFileSync('./dramaInput.json', JSON.stringify(data0, null, 2));
+
+
+
+    for (let i = 0; i < data0.input.length; i++) {
+        let list = data0.input[i].list;
+
         for (let j = 0; j < list.length; j++) {
             dramaList.push(list[j].drm);
         }
@@ -32,6 +44,9 @@ function makeDramaList() {
 
 
     fs.writeFileSync('./dramas.json', JSON.stringify(data, null, 2));
+
+    return resolve();
+});
 }
 
 module.exports = { makeDramaList }
